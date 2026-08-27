@@ -1,0 +1,4 @@
+cell_type,weight,evidence
+B_Cell,0.332577,"unthresholded_MLE=0.331; parametric_bootstrap_95%CI=[0.306,0.359]; mixture_cosine=0.915; best_pure_cosine=0.723"
+Endothelial,0.352118,"unthresholded_MLE=0.351; parametric_bootstrap_95%CI=[0.327,0.371]; mixture_cosine=0.915; best_pure_cosine=0.723"
+Macrophage,0.315306,"unthresholded_MLE=0.314; parametric_bootstrap_95%CI=[0.284,0.336]; mixture_cosine=0.915; best_pure_cosine=0.723"
