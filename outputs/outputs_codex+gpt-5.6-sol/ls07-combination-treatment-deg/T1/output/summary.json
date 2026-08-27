@@ -1,0 +1,38 @@
+{
+  "comparison": "Cisplatin_IC50_CBD_IC50 versus DMSO",
+  "numerator": "Cisplatin_IC50_CBD_IC50",
+  "denominator": "DMSO",
+  "design": "~Group",
+  "design_terms": [
+    "Group"
+  ],
+  "control_samples": [
+    "3-1",
+    "3-2",
+    "3-3"
+  ],
+  "treatment_samples": [
+    "9-1",
+    "9-2",
+    "9-3"
+  ],
+  "sample_count": 6,
+  "input_gene_count": 63677,
+  "filter": "at least one selected sample has raw count > 10",
+  "retained_gene_count": 18029,
+  "pydeseq2_version": "0.5.0",
+  "refit_cooks": true,
+  "contrast": [
+    "Group",
+    "Cisplatin_IC50_CBD_IC50",
+    "DMSO"
+  ],
+  "threshold_rule": "padj < 0.05 and abs(log2FoldChange) > 0.5 and baseMean > 10",
+  "passing_gene_count": 555,
+  "upregulated_passing_gene_count": 356,
+  "downregulated_passing_gene_count": 199,
+  "unavailable_adjusted_pvalue_count": 4545,
+  "unavailable_adjusted_pvalues_encoded_as": null,
+  "external_biomarker_queries_used": false,
+  "external_transcript_queries_used": false
+}
