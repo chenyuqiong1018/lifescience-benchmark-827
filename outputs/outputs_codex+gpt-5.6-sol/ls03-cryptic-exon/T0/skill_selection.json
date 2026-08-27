@@ -1,0 +1,13 @@
+{
+  "mode": "T0-autonomous",
+  "whitelist_source": "生命科学模板（通用+ 生命）前183项",
+  "selected_skills": [
+    {
+      "name": "transcriptome_analysis",
+      "whitelist_index": 130,
+      "download_url": "https://github.com/InternScience/scp/blob/main/skills/transcriptome_analysis/SKILL.md",
+      "selection_reason": "The task is transcript-centric and requires reconstruction of exon chains, sequence-supported splice junctions, and annotation-version-aware transcript comparison."
+    }
+  ],
+  "isolation": "The task 8 T0 active directory was confirmed absent, recreated empty, and populated by a fresh installation. The selected SKILL.md was opened completely before analysis."
+}

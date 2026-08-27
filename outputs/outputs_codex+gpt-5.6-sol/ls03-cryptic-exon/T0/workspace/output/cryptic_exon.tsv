@@ -1,0 +1,2 @@
+gene	chrom	start	end	left_junction_reads	right_junction_reads	expression_evidence
+GNG10	chr9	111664537	111664589	45	42	77 full-read alignments overlap the 53-bp exon; 45 span the left junction, 42 span the right, and 14 span both (complete 107-bp alignment, <=3 mismatches, >=8-bp overhang)
