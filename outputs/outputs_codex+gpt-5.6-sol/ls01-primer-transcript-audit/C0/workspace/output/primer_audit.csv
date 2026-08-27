@@ -1,0 +1,4 @@
+pair_id,transcripts_matched,amplicon_length,cds_compatible,status,reason
+p01,TX_CANONICAL,102,false,fail,observed amplicon 102 bp differs from expected 108 bp; TX_CANONICAL: CDS=101-700 is outside transcript length 102
+p02,TX_ALT,99,false,fail,observed amplicon 99 bp differs from expected 104 bp; TX_ALT: CDS=101-640 is outside transcript length 102
+p03,,,NA,fail,no valid forward/reverse primer amplicon found; TX_CANONICAL: CDS=101-700 is outside transcript length 102
