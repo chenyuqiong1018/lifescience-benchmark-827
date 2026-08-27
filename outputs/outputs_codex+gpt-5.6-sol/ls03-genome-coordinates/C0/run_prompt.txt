@@ -1,0 +1,1 @@
+Analyze enhancer-promoter 3D distance and transcription dynamics across cells and time. Write output/cell_metrics.csv, output/lag_analysis.csv with lag,association,n_observations, output/analysis.py, and output/report.md. Use 260 nm as the supplied contact threshold. Separate temporal association from causation and state what the observational data cannot establish.
