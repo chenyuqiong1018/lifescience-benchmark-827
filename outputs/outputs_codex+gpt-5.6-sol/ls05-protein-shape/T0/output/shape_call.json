@@ -1,0 +1,5 @@
+{
+  "letter": "T",
+  "confidence": 0.96,
+  "orientation_notes": "Using all 2,388 C-alpha atoms from chains A-F, center the assembly and align PC1 horizontally, PC2 vertically, and view along PC3. The PC1-PC2 projection shows a broad approximately 291 A crossbar and a centered approximately 64 A downward stem; PC1 explains 92.7% of coordinate variance. The orthogonal PC1-PC3 view confirms that the apparent letter is an assembly-level projection rather than an overlap confined to one chain."
+}
