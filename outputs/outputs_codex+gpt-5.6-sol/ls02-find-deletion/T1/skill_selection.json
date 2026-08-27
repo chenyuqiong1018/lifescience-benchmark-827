@@ -1,0 +1,28 @@
+{
+  "selection_mode": "controlled_by_T1-control_all skill.md",
+  "control_entry": "ls02-find-deletion",
+  "skills": [
+    {
+      "name": "chromosome_analysis",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/chromosome_analysis"
+    },
+    {
+      "name": "ucsc_genome_exploration",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/ucsc_genome_exploration"
+    },
+    {
+      "name": "genome_annotation",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/genome_annotation"
+    },
+    {
+      "name": "code_execution_analysis",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/code_execution_analysis"
+    }
+  ],
+  "installation_root": "work/active_skills/ls02-find-deletion/T1",
+  "prior_arm_cleared": true,
+  "installed_fresh": true,
+  "opened_before_execution": true,
+  "external_service_calls": [],
+  "external_service_note": "The installed instructions were applied as workflow guidance. Credentialed SCP examples were not required because the supplied hash-verified hg38 chr22 reference directly supports the requested analysis."
+}
