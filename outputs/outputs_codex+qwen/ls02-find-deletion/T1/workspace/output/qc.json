@@ -1,0 +1,115 @@
+{
+  "input": {
+    "reference": "inputs\\reference\\GRCh38_chr22.fa.gz",
+    "chromosome": "chr22",
+    "assembly": "GRCh38",
+    "r1": "inputs\\find.deletion.r1.fq.gz",
+    "r2": "inputs\\find.deletion.r2.fq.gz",
+    "read_length": 150,
+    "total_read_pairs": 332123,
+    "total_bases": 99636900
+  },
+  "reference": {
+    "length": 50818468,
+    "mappable_non_N_length": 37071985,
+    "note": "centromere/gaps modeled as N runs; reads cannot map there"
+  },
+  "alignment": {
+    "tool": "bowtie2 2.5.5 (--very-sensitive, default -X 500)",
+    "pairs_both_mates_mapped": 332120,
+    "pairs_single_mate_mapped": 3,
+    "pairs_proper_flag_0x2": 169570,
+    "orientation_counts_same_chrom": {
+      "RF": 1147,
+      "FR": 328008,
+      "same_strand": 2965
+    },
+    "note": "FLAG 0x2 counts are capped by bowtie2 -X 500; library stats below are computed directly from mate coordinates"
+  },
+  "library": {
+    "orientation": "FR",
+    "fragments_used": 312948,
+    "insert_median": 499.0,
+    "insert_mad": 29.0,
+    "insert_p5": 417,
+    "insert_p95": 582
+  },
+  "coverage": {
+    "mean_depth_over_mappable_bp": 2.681,
+    "baseline_depth_per_bp": 2.742,
+    "depth_inside_called_deletion": 0.0458,
+    "inside_to_baseline_ratio": 0.0167,
+    "reads_touching_called_deletion": 307,
+    "note": "residual coverage inside the deletion is consistent with mismapped reads (single-chromosome reference), not with a heterozygous state"
+  },
+  "deletion_call": {
+    "chrom": "chr22",
+    "evidence_breakpoints": {
+      "last_retained_base": 20000000,
+      "first_retained_base_right": 21000001,
+      "first_deleted_base": 20000001,
+      "last_deleted_base": 21000000,
+      "exact_size_bp": 1000000,
+      "source": "junction_reads"
+    },
+    "reported_rounded": {
+      "start_100kb": 20000000,
+      "end_100kb": 21000000,
+      "size_bp": 1000000,
+      "rounding_rule": "each breakpoint rounded to nearest 100 kb"
+    },
+    "junction_reads": [
+      {
+        "name": "READ_15241/2",
+        "last_retained_left": 20000000,
+        "first_retained_right": 21000001
+      },
+      {
+        "name": "READ_152441/2",
+        "last_retained_left": 20000000,
+        "first_retained_right": 21000001
+      },
+      {
+        "name": "READ_250584/2",
+        "last_retained_left": 20000000,
+        "first_retained_right": 21000001
+      }
+    ],
+    "spanning_pairs": [
+      {
+        "read": "READ_220881",
+        "left_pos": 19999646,
+        "left_end": 19999795,
+        "right_pos": 21000059,
+        "right_end": 21000208,
+        "span": 1000563,
+        "implied_fragment": 563
+      },
+      {
+        "read": "READ_256753",
+        "left_pos": 19999672,
+        "left_end": 19999821,
+        "right_pos": 21000014,
+        "right_end": 21000163,
+        "span": 1000492,
+        "implied_fragment": 492
+      }
+    ],
+    "depth_zero_100kb_bins": [
+      20000001,
+      20100001,
+      20200001,
+      20300001,
+      20400001,
+      20500001,
+      20600001,
+      20700001,
+      20800001,
+      20900001
+    ]
+  },
+  "artifacts_reviewed": {
+    "long_span_pair_clusters": "several recurrent FR clusters with constant spans (e.g. ~6.2 Mb, ~2.4 Mb apart) show normal depth across the interval: segmental-duplication/paralogy mapping artifacts, rejected as deletions",
+    "low_depth_10_13Mb": "apparently low raw depth 10.5-13 Mb is fully explained by 50 kb N gaps in the reference (mappability-normalized depth is normal)"
+  }
+}

@@ -1,0 +1,2 @@
+chrom	start_100kb	end_100kb	size_bp	supporting_signals
+chr22	20000000	21000000	1000000	read_depth=zero_across_10x100kb_bins(baseline=2.74x,inside=0.05x);junction_reads=3(junction=20000000|21000001);discordant_spanning_pairs=2(spans=1000563,1000492;insert_median=499bp)
