@@ -1,0 +1,19 @@
+{
+  "task_id": "ls02-deleterious-mutation",
+  "condition": "T0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-27T13:34:05.347351+00:00",
+  "usage": {
+    "input_tokens": 4211039,
+    "cached_input_tokens": 3894912,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 93437,
+    "reasoning_output_tokens": 51748
+  },
+  "finished_at": "2026-08-27T16:22:30.412574+00:00",
+  "return_code": 0
+}
