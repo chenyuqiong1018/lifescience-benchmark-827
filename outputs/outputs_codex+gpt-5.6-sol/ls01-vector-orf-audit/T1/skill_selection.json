@@ -1,0 +1,7 @@
+{
+  "mode": "T1_CONTROL_ALL",
+  "control_file": "T1-control_all skill.md",
+  "clean_isolated_environment": "work/active_skills/ls01-vector-orf-audit/T1",
+  "selected_in_order": ["dna-rna-sequence-analysis", "synthetic_biology_design", "code_execution_analysis"],
+  "remote_tools_called": []
+}
