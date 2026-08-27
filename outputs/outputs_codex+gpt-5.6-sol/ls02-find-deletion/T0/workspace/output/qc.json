@@ -1,0 +1,128 @@
+{
+  "task": "ls02-find-deletion",
+  "arm": "T0",
+  "skills_used": [
+    "chromosome_analysis",
+    "genome_annotation",
+    "code_execution_analysis"
+  ],
+  "input_sha256": {
+    "r1": "ebb2325b99c28eb227d8f0c2c0db0eef808f737a6377b7956029f0d1f5f140d5",
+    "r2": "142a6502367f40fc7324cf6243ee3dbae715afd79dfa2ae3069d38a849249cae",
+    "reference": "975dfb2a410b2c271efc7d7ab321db50663132ed9521294da4690ade78f05810"
+  },
+  "reference": {
+    "name": "chr22",
+    "length_bp": 50818468,
+    "N_bases": 13746483
+  },
+  "fastq": {
+    "pairs": 332123,
+    "read_length_counts": {
+      "150": 664246
+    },
+    "quality_score_counts": {
+      "40": 99636900
+    }
+  },
+  "mapping": {
+    "anchor_bp": 31,
+    "unique_end_count": 621853,
+    "mapping_multiplicity": {
+      "0": 23172,
+      "1": 621853,
+      "2": 12128,
+      "3": 4228,
+      "4": 1112,
+      "5": 856,
+      "6": 413,
+      "7": 292,
+      "8": 138,
+      "9": 16,
+      "10": 36,
+      "11": 2
+    },
+    "pair_classes": {
+      "FR": 296763,
+      "not_both_unique": 35221,
+      "other_orientation": 139
+    },
+    "median_normal_FR_span_bp": 500,
+    "mean_unique_depth_outside_event": 2.585883477163788
+  },
+  "evidence": {
+    "zero_depth_bins": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "left_flank_mapped_bases": 256104,
+    "right_flank_mapped_bases": 261150,
+    "spanning_FR_pairs": [
+      {
+        "pair": 220881,
+        "r1_start_1based": 19999646,
+        "r1_strand": "+",
+        "r2_start_1based": 21000059,
+        "r2_strand": "-",
+        "reference_span_bp": 1000563,
+        "deletion_adjusted_span_bp": 563
+      },
+      {
+        "pair": 256753,
+        "r1_start_1based": 21000014,
+        "r1_strand": "-",
+        "r2_start_1based": 19999672,
+        "r2_strand": "+",
+        "reference_span_bp": 1000492,
+        "deletion_adjusted_span_bp": 492
+      }
+    ],
+    "junction_reads": [
+      {
+        "pair": 15241,
+        "end": "R2",
+        "strand": "+",
+        "left_aligned_bp": 98,
+        "right_aligned_bp": 52
+      },
+      {
+        "pair": 139653,
+        "end": "R1",
+        "strand": "-",
+        "left_aligned_bp": 44,
+        "right_aligned_bp": 106
+      },
+      {
+        "pair": 152441,
+        "end": "R2",
+        "strand": "+",
+        "left_aligned_bp": 99,
+        "right_aligned_bp": 51
+      },
+      {
+        "pair": 250584,
+        "end": "R2",
+        "strand": "+",
+        "left_aligned_bp": 28,
+        "right_aligned_bp": 122
+      }
+    ]
+  },
+  "precision": {
+    "rounding_bp": 100000,
+    "start_boundary": 20000000,
+    "end_boundary": 21000000,
+    "one_based_interval_interpretation": [
+      20000001,
+      21000000
+    ]
+  }
+}

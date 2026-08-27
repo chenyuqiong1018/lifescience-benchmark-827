@@ -1,0 +1,6 @@
+{"event":"run_started","task_id":"ls02-find-deletion","arm":"T0","model":"gpt-5.6-sol","reasoning_effort":"high"}
+{"event":"skill_environment_cleared","active_destination":"work/active_skills/ls02-find-deletion/T0","preexisting":false}
+{"event":"skills_installed","skills":["chromosome_analysis","genome_annotation","code_execution_analysis"],"whitelist_boundary":"first 183 skills"}
+{"event":"skills_opened","skills":["chromosome_analysis","genome_annotation","code_execution_analysis"],"complete_skill_md_reads":true}
+{"event":"analysis_completed","chrom":"chr22","start_100kb":20000000,"end_100kb":21000000,"size_bp":1000000,"zero_depth_bins":10,"spanning_FR_pairs":2,"junction_reads":4}
+{"event":"artifacts_verified","deterministic_rerun":true,"status":"success"}
