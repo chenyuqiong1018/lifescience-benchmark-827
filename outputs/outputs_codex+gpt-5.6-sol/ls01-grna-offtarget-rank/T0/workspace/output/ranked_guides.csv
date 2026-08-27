@@ -1,0 +1,7 @@
+rank,guide_id,on_target_score,risk_class,decision,rationale
+1,g02,0.67,low,recommend,"nearest annotated hit: chr5:220010-220029 (3 mismatches, intron); on-target activity 0.67 is ranked after safety clearance."
+2,g06,0.64,low,acceptable,"nearest annotated hit: chr14:660130-660149 (3 mismatches, intergenic); on-target activity 0.64 is ranked after safety clearance."
+3,g04,0.59,low,acceptable,"nearest annotated hit: chr9:440070-440089 (4 mismatches, intergenic); on-target activity 0.59 is ranked after safety clearance."
+4,g03,0.74,high,reject,"annotated near match: chr7:330040-330059 (2 mismatch(es), coding exon); on-target activity 0.74 cannot override a safety rejection."
+5,g01,0.82,critical,reject,"annotated near match: chr2:100120-100139 (1 mismatch(es), coding exon); expression risk is high; coding bystander count is 1; on-target activity 0.82 cannot override a safety rejection."
+6,g05,0.78,critical,reject,"annotated near match: chr12:550100-550119 (1 mismatch(es), coding exon); expression risk is high; coding bystander count is 2; on-target activity 0.78 cannot override a safety rejection."

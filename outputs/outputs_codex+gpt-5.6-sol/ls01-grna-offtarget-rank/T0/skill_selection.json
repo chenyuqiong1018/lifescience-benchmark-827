@@ -1,0 +1,19 @@
+{
+  "mode": "AUTO_FROM_183_WHITELIST",
+  "clean_isolated_environment": "work/active_skills/ls01-grna-offtarget-rank/T0",
+  "selected_in_order": [
+    {
+      "name": "dna-rna-sequence-analysis",
+      "source": "https://github.com/InternScience/scp/blob/main/skills/dna-rna-sequence-analysis/SKILL.md"
+    },
+    {
+      "name": "genome_annotation",
+      "source": "https://github.com/InternScience/scp/blob/main/skills/genome_annotation/SKILL.md"
+    },
+    {
+      "name": "code_execution_analysis",
+      "source": "https://github.com/InternScience/scp/blob/main/skills/code_execution_analysis/SKILL.md"
+    }
+  ],
+  "remote_tools_called": []
+}
