@@ -1,0 +1,24 @@
+{
+  "task_id": "ls02-deleterious-mutation",
+  "model": "qwen3.8-max",
+  "catalog_size": 143,
+  "selected_skills": [
+    "variant_pathogenicity",
+    "comprehensive-variant-annotation",
+    "gene_comprehensive_lookup"
+  ],
+  "rationale": "The task centers on detecting and documenting a mosaic nonsense SNV in a loss-of-function-intolerant protein-coding gene on chr9, requiring variant consequence/pathogenicity assessment and gene/annotation context; these skills cover variant annotation, clinical/pathogenicity evidence, and gene metadata needed for the report.",
+  "usage": {
+    "completion_tokens": 4098,
+    "completion_tokens_details": {
+      "reasoning_tokens": 3987,
+      "text_tokens": 4098
+    },
+    "prompt_tokens": 10016,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10016
+    },
+    "total_tokens": 14114
+  }
+}
