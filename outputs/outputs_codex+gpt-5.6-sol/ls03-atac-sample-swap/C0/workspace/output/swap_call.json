@@ -1,0 +1,81 @@
+{
+  "swap_detected": true,
+  "organ_a": "Cloaca",
+  "organ_b": "Stomach",
+  "confidence": "high",
+  "evidence": {
+    "method": "three-bin TSS promoter accessibility, CPM library normalization, per-marker across-organ scaling, reciprocal diagonal-coherence gain",
+    "coordinate_remapping": "whole chromosome-arm GTF coordinates converted to sequential chrom-size fragments",
+    "table_rows": 2430700,
+    "gtf_gene_records": 99088,
+    "marker_instances_by_organ": {
+      "Bladder": 5,
+      "Brain": 11,
+      "Cloaca": 3,
+      "GallBladder": 12,
+      "Gill": 7,
+      "Heart": 17,
+      "Intestine": 13,
+      "Kidney": 29,
+      "Limb": 10,
+      "Liver": 10,
+      "Lung": 2,
+      "Pancreas": 11,
+      "Prostate": 3,
+      "Spleen": 3,
+      "Stomach": 17
+    },
+    "library_totals": {
+      "Bladder": 701506327,
+      "Brain": 1168148790,
+      "Cloaca": 484000505,
+      "GallBladder": 565994637,
+      "Gill": 1094125058,
+      "Heart": 868549497,
+      "Intestine": 699794434,
+      "Kidney": 745602917,
+      "Limb": 1147926115,
+      "Liver": 398317869,
+      "Lung": 877686879,
+      "Pancreas": 1398702406,
+      "Prostate": 973845979,
+      "Spleen": 497829833,
+      "Stomach": 455786546
+    },
+    "current_diagonal_scores": {
+      "Bladder": 1.1805645076944207,
+      "Brain": 1.5457872158860448,
+      "Cloaca": 0.9942831588709562,
+      "GallBladder": 0.8411435559614162,
+      "Gill": 1.581589990560895,
+      "Heart": 1.2666714453448487,
+      "Intestine": 1.8938872118023151,
+      "Kidney": 0.9825112286667099,
+      "Limb": 1.2993497568967194,
+      "Liver": 2.1322380072169733,
+      "Lung": 3.360120976877851,
+      "Pancreas": 3.071293335259414,
+      "Prostate": 1.6218607654990926,
+      "Spleen": 1.88914774220559,
+      "Stomach": 0.8469005004037234
+    },
+    "top_pair_score": 1.2527145957576393,
+    "second_pair": {
+      "organ_a": "GallBladder",
+      "organ_b": "Stomach",
+      "score": 0.6747594314527082
+    },
+    "top_margin": 0.5779551643049311,
+    "reciprocal_components": {
+      "organ_a_self": 0.9942831588709562,
+      "organ_a_in_b": 1.9755618614350183,
+      "organ_b_self": 0.8469005004037234,
+      "organ_b_in_a": 1.118336393597301
+    },
+    "input_sha256": {
+      "gtf": "cc0c3c4e39f3afedcbe2bc5aad1d63fc461714aeb75051f4d109390455874c5d",
+      "count_table": "00875695427a53522c51ab62697ab4e950307d6c1adb8c1af728bc43343fa44f",
+      "chrom_sizes": "e599999a627dc825eeefcd2c1070905531b46919c13384293201163013b6632b"
+    }
+  }
+}

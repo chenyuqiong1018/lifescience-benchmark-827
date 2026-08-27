@@ -1,0 +1,1 @@
+Completed the ATAC-seq label audit without skills. A unique reciprocal promoter-marker signal supports a **Cloaca ↔ Stomach** swap with high confidence. The top swap score is 1.25271460 versus 0.67475943 for the runner-up; all 105 unordered pairs are reported in `workspace/output/sample_similarity.csv`.
