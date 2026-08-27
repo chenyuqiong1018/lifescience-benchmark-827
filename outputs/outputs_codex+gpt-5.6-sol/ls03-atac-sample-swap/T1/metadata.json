@@ -1,0 +1,28 @@
+{
+  "task_id": "ls03-atac-sample-swap",
+  "task_number": 7,
+  "arm": "T1",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "status": "success",
+  "source_commit": "fc01b5a6d20be98a20fe214055d02ea81528e5a5",
+  "completed_at": "2026-08-28T03:09:41.3602322+08:00",
+  "skills": [
+    "regulatory_region_analysis",
+    "tissue_specific_analysis",
+    "exploratory-data-analysis",
+    "statistical-analysis",
+    "scientific-visualization"
+  ],
+  "result_summary": {
+    "swap_detected": true,
+    "organ_a": "Cloaca",
+    "organ_b": "Stomach",
+    "confidence": "high",
+    "top_score": 1.2527145957576395,
+    "runner_up_score": 0.6747594314527083,
+    "margin": 0.5779551643049312,
+    "jackknife_top_pair_fraction": 0.9933333333333333,
+    "jackknife_trials": 150
+  }
+}
