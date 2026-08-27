@@ -1,0 +1,7 @@
+rank,guide_id,on_target_score,risk_class,decision,rationale
+1,g02,0.67,low,recommend,nearest annotated hit has 3 mismatches in intron. Activity 0.67 is compared only after clearing the annotated safety filters.
+2,g06,0.64,low,acceptable,nearest annotated hit has 3 mismatches in intergenic. Activity 0.64 is compared only after clearing the annotated safety filters.
+3,g04,0.59,low,acceptable,nearest annotated hit has 4 mismatches in intergenic. Activity 0.59 is compared only after clearing the annotated safety filters.
+4,g03,0.74,high,reject,coding-exon near match at 2 mismatch(es). Activity 0.74 does not outweigh the participant-visible safety rejection rule.
+5,g01,0.82,critical,reject,coding-exon near match at 1 mismatch(es); high expression-risk annotation; 1 coding bystander(s). Activity 0.82 does not outweigh the participant-visible safety rejection rule.
+6,g05,0.78,critical,reject,coding-exon near match at 1 mismatch(es); high expression-risk annotation; 2 coding bystander(s). Activity 0.78 does not outweigh the participant-visible safety rejection rule.
