@@ -1,0 +1,45 @@
+{
+  "resource_name": "Reactome_2022",
+  "format": "GMT",
+  "retrieved_at": "2026-08-16T21:40:00+08:00",
+  "download_url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=Reactome_2022",
+  "source_service": "Enrichr, Ma'ayan Lab",
+  "underlying_database": "Reactome",
+  "gmt_file": "Reactome_2022.gmt",
+  "gmt_bytes": 778913,
+  "gmt_sha256": "cfe1adc75aa3137ba74c1b35a3098e88ea1708b204e5edfd788092b7ef5c08f8",
+  "term_count": 1818,
+  "background_file": "Reactome_2022.background.txt",
+  "background_definition": "Sorted unique union of every gene symbol in GMT columns 3 onward",
+  "background_gene_count": 10489,
+  "background_bytes": 65942,
+  "background_sha256": "1ef29c29901cdc2e1efdfd378141ea6811f49e2d70b35e63be2a4b0e9c41c0cc",
+  "mapping_file": "ensg_to_gene_name.tsv",
+  "mapping_sha256": "bcee755a136bec21e8e60886acbbb841751633b67ba786f61e52857295cc9c17",
+  "license_boundary": {
+    "reactome_annotations": "CC0 1.0",
+    "enrichr": "Use with attribution; cite the Enrichr publications listed at https://maayanlab.cloud/Enrichr/",
+    "expression_inputs": "Retain upstream BixBench/original-study terms; no new license asserted"
+  },
+  "citations": [
+    "Chen EY et al. Enrichr. BMC Bioinformatics. 2013;14:128.",
+    "Kuleshov MV et al. Enrichr 2016 update. Nucleic Acids Research. 2016.",
+    "Xie Z et al. Gene set knowledge discovery with Enrichr. Current Protocols. 2021;1:e90."
+  ],
+  "run_policy": "Do not fetch or substitute another Reactome/Enrichr release during a run.",
+  "verification": {
+    "gmt_sha256_verified": "cfe1adc75aa3137ba74c1b35a3098e88ea1708b204e5edfd788092b7ef5c08f8",
+    "background_sha256_verified": "1ef29c29901cdc2e1efdfd378141ea6811f49e2d70b35e63be2a4b0e9c41c0cc",
+    "mapping_sha256_verified": "bcee755a136bec21e8e60886acbbb841751633b67ba786f61e52857295cc9c17",
+    "gmt_term_count_verified": 1818,
+    "background_gene_count_verified": 10489
+  },
+  "analysis_usage": {
+    "gseapy_version": "1.1.4",
+    "local_resource_only": true,
+    "downloaded_or_substituted_during_run": false,
+    "background_applied": "Reactome_2022.background.txt",
+    "selected_skill": "go_term_analysis",
+    "external_skill_data_calls_used": false
+  }
+}
