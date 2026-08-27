@@ -1,0 +1,4 @@
+target_gene,query_guide_id,score,runner_up_score,confidence
+PABPC1,guide18,0.843426,0.445620,1.000
+NUDT21,guide13,0.766347,0.610190,1.000
+LEO1,guide14,0.582859,0.464379,1.000
