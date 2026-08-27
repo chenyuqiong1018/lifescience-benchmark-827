@@ -1,0 +1,1 @@
+Completed controlled T1 with `chromosome_analysis`, `ucsc_genome_exploration`, and `code_execution_analysis`. The call is **hg19** (high confidence): 84,664/84,664 REF matches and 0 mismatches. T2T is explicitly excluded because its reference was not supplied.
