@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "task_id": "ls03-genome-coordinates",
+  "source_repo_commit": "1f670019ad1a3296eb6da55e9022cc3db6dca0fd",
+  "staging_source": "lifescience/docs/inputs from the same repository commit",
+  "staged_at": "2026-08-26T06:46:00+08:00",
+  "files": [
+    {
+      "name": "single_cell_dynamics_question.csv",
+      "bytes": 18511956,
+      "sha256": "fc7a5e166dcdba18e05275a1cd5d338b476153bc035fb718a4a945e14ac97646"
+    }
+  ],
+  "grounding_rule": "All distance, contact-threshold, lag, association, and uncertainty criteria must be recomputed directly from the immutable CSV; candidate-reported metrics are not trusted."
+}

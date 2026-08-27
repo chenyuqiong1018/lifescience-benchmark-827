@@ -1,0 +1,12 @@
+{
+  "failure_mode": "tip_pickup_failed_before_aspirate",
+  "failed_well": "B2",
+  "liquid_moved_in_failed_event": false,
+  "completed_final_wells": ["A1", "A2", "A3", "B1"],
+  "recovery_wells": ["B2", "B3"],
+  "recovery": {
+    "B2": {"source": "source:A2", "transfer_uL": 2, "diluent_uL": 98, "final_uM": 0.5, "final_volume_uL": 100},
+    "B3": {"source": "source:A2", "transfer_uL": 2, "diluent_uL": 98, "final_uM": 0.5, "final_volume_uL": 100}
+  }
+}
+

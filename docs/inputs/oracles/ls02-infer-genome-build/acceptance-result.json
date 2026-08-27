@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "all_passed": true,
+  "cases_passed": 5,
+  "cases_required": 5,
+  "candidate_code_executed": false,
+  "results": [
+    {
+      "case": "reference_like_correct",
+      "passed": true,
+      "detail": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "fatal_gates": {
+            "FATAL_TRUTH_CONCLUSION": true,
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE": true,
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": true
+          },
+          "build_resolves_to_hg19": true,
+          "verified_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532,
+            36242820
+          ],
+          "discriminating_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532
+          ],
+          "full_panel_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532,
+            36242820
+          ],
+          "contradictory_positions": [],
+          "verified_anchor_count": 10,
+          "discriminating_anchor_count": 9,
+          "full_reference_panel_count": 10,
+          "broad_coordinate_span": true,
+          "confidence_calibrated_to_verified_evidence": true,
+          "report_concludes_hg19": true,
+          "report_verified_anchor_mentions": 2,
+          "report_describes_coordinate_ref_method": true,
+          "candidate_self_reported_counts_and_scores_ignored": true
+        },
+        "failure_codes": []
+      }
+    },
+    {
+      "case": "empty_or_missing",
+      "passed": true,
+      "detail": {
+        "core_science": 0,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "fatal_gates": {
+            "FATAL_TRUTH_CONCLUSION": false,
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE": false,
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": false
+          },
+          "build_resolves_to_hg19": false,
+          "verified_positions": [],
+          "discriminating_positions": [],
+          "full_panel_positions": [],
+          "contradictory_positions": [],
+          "verified_anchor_count": 0,
+          "discriminating_anchor_count": 0,
+          "full_reference_panel_count": 0,
+          "broad_coordinate_span": false,
+          "confidence_calibrated_to_verified_evidence": false,
+          "report_concludes_hg19": false,
+          "report_verified_anchor_mentions": 0,
+          "report_describes_coordinate_ref_method": false,
+          "candidate_self_reported_counts_and_scores_ignored": true
+        },
+        "failure_codes": [
+          "FATAL_TRUTH_CONCLUSION",
+          "FATAL_GROUNDED_POSITIVE_EVIDENCE",
+          "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE",
+          "PARTIAL_GROUNDED_ANCHOR_COVERAGE",
+          "PARTIAL_DIRECTION_OR_CONFIDENCE",
+          "PARTIAL_REPORT_SUMMARY"
+        ]
+      }
+    },
+    {
+      "case": "scientifically_wrong",
+      "passed": true,
+      "detail": {
+        "core_science": 34,
+        "direction": 6,
+        "summary": 3,
+        "hardgate_pass": false,
+        "criteria": {
+          "fatal_gates": {
+            "FATAL_TRUTH_CONCLUSION": false,
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE": true,
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": true
+          },
+          "build_resolves_to_hg19": false,
+          "verified_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532,
+            36242820
+          ],
+          "discriminating_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532
+          ],
+          "full_panel_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532,
+            36242820
+          ],
+          "contradictory_positions": [],
+          "verified_anchor_count": 10,
+          "discriminating_anchor_count": 9,
+          "full_reference_panel_count": 10,
+          "broad_coordinate_span": true,
+          "confidence_calibrated_to_verified_evidence": true,
+          "report_concludes_hg19": false,
+          "report_verified_anchor_mentions": 2,
+          "report_describes_coordinate_ref_method": true,
+          "candidate_self_reported_counts_and_scores_ignored": true
+        },
+        "failure_codes": [
+          "FATAL_TRUTH_CONCLUSION",
+          "PARTIAL_GROUNDED_ANCHOR_COVERAGE",
+          "PARTIAL_DIRECTION_OR_CONFIDENCE",
+          "PARTIAL_REPORT_SUMMARY"
+        ]
+      }
+    },
+    {
+      "case": "plausible_but_unsupported",
+      "passed": true,
+      "detail": {
+        "unsupported_self_report": {
+          "core_science": 6,
+          "direction": 9,
+          "summary": 3,
+          "hardgate_pass": false,
+          "criteria": {
+            "fatal_gates": {
+              "FATAL_TRUTH_CONCLUSION": true,
+              "FATAL_GROUNDED_POSITIVE_EVIDENCE": false,
+              "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": false
+            },
+            "build_resolves_to_hg19": true,
+            "verified_positions": [],
+            "discriminating_positions": [],
+            "full_panel_positions": [],
+            "contradictory_positions": [],
+            "verified_anchor_count": 0,
+            "discriminating_anchor_count": 0,
+            "full_reference_panel_count": 0,
+            "broad_coordinate_span": false,
+            "confidence_calibrated_to_verified_evidence": false,
+            "report_concludes_hg19": true,
+            "report_verified_anchor_mentions": 0,
+            "report_describes_coordinate_ref_method": true,
+            "candidate_self_reported_counts_and_scores_ignored": true
+          },
+          "failure_codes": [
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE",
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE",
+            "PARTIAL_GROUNDED_ANCHOR_COVERAGE",
+            "PARTIAL_DIRECTION_OR_CONFIDENCE",
+            "PARTIAL_REPORT_SUMMARY"
+          ]
+        },
+        "fabricated_number_variant": {
+          "core_science": 6,
+          "direction": 9,
+          "summary": 3,
+          "hardgate_pass": false,
+          "criteria": {
+            "fatal_gates": {
+              "FATAL_TRUTH_CONCLUSION": true,
+              "FATAL_GROUNDED_POSITIVE_EVIDENCE": false,
+              "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": false
+            },
+            "build_resolves_to_hg19": true,
+            "verified_positions": [],
+            "discriminating_positions": [],
+            "full_panel_positions": [],
+            "contradictory_positions": [],
+            "verified_anchor_count": 0,
+            "discriminating_anchor_count": 0,
+            "full_reference_panel_count": 0,
+            "broad_coordinate_span": false,
+            "confidence_calibrated_to_verified_evidence": false,
+            "report_concludes_hg19": true,
+            "report_verified_anchor_mentions": 0,
+            "report_describes_coordinate_ref_method": true,
+            "candidate_self_reported_counts_and_scores_ignored": true
+          },
+          "failure_codes": [
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE",
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE",
+            "PARTIAL_GROUNDED_ANCHOR_COVERAGE",
+            "PARTIAL_DIRECTION_OR_CONFIDENCE",
+            "PARTIAL_REPORT_SUMMARY"
+          ]
+        },
+        "negated_evidence_variant": {
+          "core_science": 6,
+          "direction": 9,
+          "summary": 3,
+          "hardgate_pass": false,
+          "criteria": {
+            "fatal_gates": {
+              "FATAL_TRUTH_CONCLUSION": true,
+              "FATAL_GROUNDED_POSITIVE_EVIDENCE": false,
+              "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": false
+            },
+            "build_resolves_to_hg19": true,
+            "verified_positions": [],
+            "discriminating_positions": [],
+            "full_panel_positions": [],
+            "contradictory_positions": [
+              61795,
+              3752643,
+              6519054,
+              10363652,
+              13750251,
+              17236905,
+              20276671,
+              24373039,
+              30899532,
+              36242820
+            ],
+            "verified_anchor_count": 0,
+            "discriminating_anchor_count": 0,
+            "full_reference_panel_count": 0,
+            "broad_coordinate_span": false,
+            "confidence_calibrated_to_verified_evidence": false,
+            "report_concludes_hg19": true,
+            "report_verified_anchor_mentions": 0,
+            "report_describes_coordinate_ref_method": true,
+            "candidate_self_reported_counts_and_scores_ignored": true
+          },
+          "failure_codes": [
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE",
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE",
+            "PARTIAL_GROUNDED_ANCHOR_COVERAGE",
+            "PARTIAL_DIRECTION_OR_CONFIDENCE",
+            "PARTIAL_REPORT_SUMMARY"
+          ]
+        }
+      }
+    },
+    {
+      "case": "valid_alternative_implementation",
+      "passed": true,
+      "detail": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "fatal_gates": {
+            "FATAL_TRUTH_CONCLUSION": true,
+            "FATAL_GROUNDED_POSITIVE_EVIDENCE": true,
+            "FATAL_DISCRIMINATING_REFERENCE_EVIDENCE": true
+          },
+          "build_resolves_to_hg19": true,
+          "verified_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532,
+            36242820
+          ],
+          "discriminating_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532
+          ],
+          "full_panel_positions": [
+            61795,
+            3752643,
+            6519054,
+            10363652,
+            13750251,
+            17236905,
+            20276671,
+            24373039,
+            30899532,
+            36242820
+          ],
+          "contradictory_positions": [],
+          "verified_anchor_count": 10,
+          "discriminating_anchor_count": 9,
+          "full_reference_panel_count": 10,
+          "broad_coordinate_span": true,
+          "confidence_calibrated_to_verified_evidence": true,
+          "report_concludes_hg19": true,
+          "report_verified_anchor_mentions": 2,
+          "report_describes_coordinate_ref_method": true,
+          "candidate_self_reported_counts_and_scores_ignored": true
+        },
+        "failure_codes": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "all_passed": true,
+  "candidate_code_executed": false,
+  "cases": {
+    "empty_or_missing": {
+      "observed": {
+        "core_science": 0,
+        "criteria": {
+          "confidence_order_grounded": false,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": false,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": false,
+          "mapping_identity": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "numeric_scores_grounded": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {},
+          "report_ambiguity_affirmed": false,
+          "report_mapping_affirmed": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          }
+        },
+        "direction": 0,
+        "failure_codes": [
+          "FATAL_MAPPING_IDENTITY",
+          "NUMERIC_ALIGNMENT_EVIDENCE_UNGROUNDED",
+          "AMBIGUITY_QUANTIFICATION_MISMATCH",
+          "CONFIDENCE_ORDER_MISMATCH",
+          "REPORT_SCIENTIFIC_SUMMARY_UNGROUNDED"
+        ],
+        "hardgate_pass": false,
+        "summary": 0
+      },
+      "passed": true
+    },
+    "plausible_but_unsupported": {
+      "fabricated_number_variant": {
+        "core_science": 40,
+        "criteria": {
+          "confidence_order_grounded": true,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": true,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": false,
+          "mapping_identity": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "numeric_scores_grounded": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {
+            "LEO1": 0.98969072,
+            "NUDT21": 0.98979592,
+            "PABPC1": 0.98989899
+          },
+          "report_ambiguity_affirmed": false,
+          "report_mapping_affirmed": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          }
+        },
+        "direction": 4,
+        "failure_codes": [
+          "NUMERIC_ALIGNMENT_EVIDENCE_UNGROUNDED",
+          "AMBIGUITY_QUANTIFICATION_MISMATCH",
+          "REPORT_SCIENTIFIC_SUMMARY_UNGROUNDED"
+        ],
+        "hardgate_pass": true,
+        "summary": 3
+      },
+      "negated_evidence_variant": {
+        "core_science": 40,
+        "criteria": {
+          "confidence_order_grounded": true,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": true,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": true,
+          "mapping_identity": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "numeric_scores_grounded": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {
+            "LEO1": 0.17117233,
+            "NUDT21": 0.21056715,
+            "PABPC1": 0.45951428
+          },
+          "report_ambiguity_affirmed": false,
+          "report_mapping_affirmed": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          }
+        },
+        "direction": 15,
+        "failure_codes": [
+          "REPORT_SCIENTIFIC_SUMMARY_UNGROUNDED"
+        ],
+        "hardgate_pass": true,
+        "summary": 0
+      },
+      "observed": {
+        "core_science": 0,
+        "criteria": {
+          "confidence_order_grounded": false,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": false,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": false,
+          "mapping_identity": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "numeric_scores_grounded": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {
+            "LEO1": 0.01030928,
+            "NUDT21": 0.01020408,
+            "PABPC1": 0.01010101
+          },
+          "report_ambiguity_affirmed": false,
+          "report_mapping_affirmed": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          }
+        },
+        "direction": 0,
+        "failure_codes": [
+          "FATAL_MAPPING_IDENTITY",
+          "NUMERIC_ALIGNMENT_EVIDENCE_UNGROUNDED",
+          "AMBIGUITY_QUANTIFICATION_MISMATCH",
+          "CONFIDENCE_ORDER_MISMATCH",
+          "REPORT_SCIENTIFIC_SUMMARY_UNGROUNDED"
+        ],
+        "hardgate_pass": false,
+        "summary": 0
+      },
+      "passed": true
+    },
+    "reference_like_correct": {
+      "observed": {
+        "core_science": 40,
+        "criteria": {
+          "confidence_order_grounded": true,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": true,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": true,
+          "mapping_identity": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "numeric_scores_grounded": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {
+            "LEO1": 0.17117233,
+            "NUDT21": 0.21056715,
+            "PABPC1": 0.45951428
+          },
+          "report_ambiguity_affirmed": true,
+          "report_mapping_affirmed": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          }
+        },
+        "direction": 15,
+        "failure_codes": [],
+        "hardgate_pass": true,
+        "summary": 5
+      },
+      "passed": true
+    },
+    "scientifically_wrong": {
+      "observed": {
+        "core_science": 0,
+        "criteria": {
+          "confidence_order_grounded": false,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": false,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": false,
+          "mapping_identity": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "numeric_scores_grounded": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {
+            "LEO1": 0.18421053,
+            "NUDT21": 0.20634921,
+            "PABPC1": 0.46153846
+          },
+          "report_ambiguity_affirmed": false,
+          "report_mapping_affirmed": {
+            "LEO1": false,
+            "NUDT21": false,
+            "PABPC1": false
+          }
+        },
+        "direction": 0,
+        "failure_codes": [
+          "FATAL_MAPPING_IDENTITY",
+          "NUMERIC_ALIGNMENT_EVIDENCE_UNGROUNDED",
+          "AMBIGUITY_QUANTIFICATION_MISMATCH",
+          "CONFIDENCE_ORDER_MISMATCH",
+          "REPORT_SCIENTIFIC_SUMMARY_UNGROUNDED"
+        ],
+        "hardgate_pass": false,
+        "summary": 0
+      },
+      "passed": true,
+      "target_leakage_variant": {
+        "core_science": 40,
+        "criteria": {
+          "confidence_order_grounded": true,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": true,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": false
+          },
+          "leo1_is_most_ambiguous": true,
+          "mapping_identity": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "numeric_scores_grounded": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "query_target_metadata_leakage_detected": true,
+          "relative_margins": {
+            "LEO1": 0.17117233,
+            "NUDT21": 0.21056715,
+            "PABPC1": 0.45951428
+          },
+          "report_ambiguity_affirmed": true,
+          "report_mapping_affirmed": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          }
+        },
+        "direction": 13,
+        "failure_codes": [
+          "FATAL_NO_QUERY_TARGET_LEAKAGE"
+        ],
+        "hardgate_pass": false,
+        "summary": 5
+      }
+    },
+    "valid_alternative_implementation": {
+      "observed": {
+        "core_science": 40,
+        "criteria": {
+          "confidence_order_grounded": true,
+          "fatal_gates": {
+            "FATAL_MAPPING_IDENTITY": true,
+            "FATAL_NO_QUERY_TARGET_LEAKAGE": true
+          },
+          "leo1_is_most_ambiguous": true,
+          "mapping_identity": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "numeric_scores_grounded": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          },
+          "query_target_metadata_leakage_detected": false,
+          "relative_margins": {
+            "LEO1": 0.15,
+            "NUDT21": 0.22727273,
+            "PABPC1": 0.45454545
+          },
+          "report_ambiguity_affirmed": true,
+          "report_mapping_affirmed": {
+            "LEO1": true,
+            "NUDT21": true,
+            "PABPC1": true
+          }
+        },
+        "direction": 15,
+        "failure_codes": [],
+        "hardgate_pass": true,
+        "summary": 5
+      },
+      "passed": true
+    }
+  },
+  "cases_passed": 5,
+  "cases_total": 5,
+  "schema_version": 1,
+  "task_id": "ls04-perturbseq-reference-map"
+}

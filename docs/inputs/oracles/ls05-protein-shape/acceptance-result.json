@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "all_passed": true,
+  "candidate_code_executed": false,
+  "cases": [
+    {
+      "name": "reference_like_correct",
+      "passed": true
+    },
+    {
+      "name": "empty_or_missing",
+      "passed": true
+    },
+    {
+      "name": "scientifically_wrong",
+      "passed": true
+    },
+    {
+      "name": "plausible_but_unsupported",
+      "passed": true
+    },
+    {
+      "name": "valid_alternative_implementation",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "all_passed": true,
+  "cases": [
+    {
+      "case": "reference_like_correct",
+      "passed": true
+    },
+    {
+      "case": "empty_or_missing",
+      "passed": true
+    },
+    {
+      "case": "scientifically_wrong",
+      "passed": true
+    },
+    {
+      "case": "plausible_but_unsupported",
+      "passed": true
+    },
+    {
+      "case": "valid_alternative_implementation",
+      "passed": true
+    }
+  ],
+  "required_case_count": 5,
+  "adversarial_variants": [
+    "wrong_locus_self_report",
+    "fabricated_depth_ratio",
+    "negated_depth_evidence"
+  ],
+  "candidate_code_executed": false
+}

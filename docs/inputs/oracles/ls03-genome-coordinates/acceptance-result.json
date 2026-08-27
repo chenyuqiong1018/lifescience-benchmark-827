@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "task_id": "ls03-genome-coordinates",
+  "passed": true,
+  "cases_passed": 5,
+  "cases_total": 5,
+  "candidate_code_executed": false,
+  "cases": [
+    {
+      "name": "reference_like_correct",
+      "passed": true,
+      "details": {
+        "hardgate_pass": true,
+        "scores": [
+          40,
+          15,
+          5
+        ],
+        "candidate_code_not_executed": true
+      },
+      "error": null
+    },
+    {
+      "name": "empty_or_missing",
+      "passed": true,
+      "details": {
+        "hardgate_pass": false,
+        "scores": [
+          0,
+          0,
+          0
+        ],
+        "candidate_code_not_executed": true
+      },
+      "error": null
+    },
+    {
+      "name": "scientifically_wrong",
+      "passed": true,
+      "details": {
+        "hardgate_pass": false,
+        "core_science": 3,
+        "grounded_gate_passed": false,
+        "candidate_code_not_executed": true
+      },
+      "error": null
+    },
+    {
+      "name": "plausible_but_unsupported",
+      "passed": true,
+      "details": {
+        "self_report_rejected": true,
+        "bare_causal_claim_rejected": true,
+        "fabricated_numbers_rejected": true,
+        "negated_evidence_not_misclassified": true,
+        "candidate_code_not_executed": true
+      },
+      "error": null
+    },
+    {
+      "name": "valid_alternative_implementation",
+      "passed": true,
+      "details": {
+        "hardgate_pass": true,
+        "scores": [
+          40,
+          15,
+          5
+        ],
+        "negated_causal_wording_accepted": true,
+        "alternative_method": "proximity_pearson",
+        "alternative_orientation": "opposite_lag_sign_convention",
+        "candidate_code_not_executed": true
+      },
+      "error": null
+    }
+  ]
+}

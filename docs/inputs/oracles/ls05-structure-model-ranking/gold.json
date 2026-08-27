@@ -1,0 +1,8 @@
+{
+  "order": ["model_A", "model_C", "model_B"],
+  "rows": {
+    "model_A": {"rank": 1, "global_score": 0.81, "interface_score": 1, "critical_residue_risk": 4.8, "decision": "preferred"},
+    "model_C": {"rank": 2, "global_score": 0.62, "interface_score": 1, "critical_residue_risk": 4.1, "decision": "alternate"},
+    "model_B": {"rank": 3, "global_score": 0.74, "interface_score": 0, "critical_residue_risk": 8.5, "decision": "reject_incomplete_mapping"}
+  }
+}

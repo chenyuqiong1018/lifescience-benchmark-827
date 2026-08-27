@@ -1,0 +1,10 @@
+{
+  "order": ["Y218F", "R244A", "L265W", "S301A"],
+  "rows": {
+    "Y218F": {"rank": 1, "pocket_support": "unsupported_low_confidence", "confidence_penalty": "plddt_lt_50;pae_gt_10A", "decision": "defer_structure_validation"},
+    "R244A": {"rank": 2, "pocket_support": "unsupported_low_confidence", "confidence_penalty": "plddt_lt_50;pae_gt_10A", "decision": "defer_structure_validation"},
+    "L265W": {"rank": 3, "pocket_support": "unsupported_low_confidence", "confidence_penalty": "plddt_lt_50;pae_gt_10A", "decision": "defer_structure_validation"},
+    "S301A": {"rank": 4, "pocket_support": "cautious_support", "confidence_penalty": "none", "decision": "out_of_scope_non_pocket"}
+  },
+  "assessment": {"pocket_reliable": false, "prioritize_mutations": false}
+}

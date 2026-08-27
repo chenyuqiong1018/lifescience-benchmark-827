@@ -1,0 +1,139 @@
+{
+  "accepted": true,
+  "cases": {
+    "reference_like_correct": true,
+    "empty_or_missing": true,
+    "scientifically_wrong": true,
+    "valid_alternative_implementation": true
+  },
+  "candidate_code_executed": false,
+  "details": {
+    "reference_like_correct": {
+      "core_science": 40,
+      "direction": 15,
+      "summary": 5,
+      "hardgate_pass": true,
+      "criteria": {
+        "audit_readable": true,
+        "all_primer_rows_present": true,
+        "p01_transcripts": true,
+        "p01_amplicon_102": true,
+        "p02_transcripts": true,
+        "p02_amplicon_99": true,
+        "p03_no_amplicon": true,
+        "invalid_cds_metadata_identified": true,
+        "p01_disposition": true,
+        "p02_disposition": true,
+        "p03_disposition": true,
+        "report_consistent": true
+      },
+      "failure_codes": []
+    },
+    "empty_or_missing": {
+      "missing": {
+        "core_science": 0,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "audit_readable": false,
+          "all_primer_rows_present": false,
+          "p01_transcripts": false,
+          "p01_amplicon_102": false,
+          "p02_transcripts": false,
+          "p02_amplicon_99": false,
+          "p03_no_amplicon": false,
+          "invalid_cds_metadata_identified": false,
+          "p01_disposition": false,
+          "p02_disposition": false,
+          "p03_disposition": false,
+          "report_consistent": false
+        },
+        "failure_codes": [
+          "MISSING_OR_UNREADABLE_AUDIT",
+          "PRIMER_MATCH_MISMATCH",
+          "AMPLICON_LENGTH_MISMATCH",
+          "CDS_METADATA_AUDIT_MISSING",
+          "DISPOSITION_MISMATCH",
+          "REPORT_MISMATCH"
+        ]
+      },
+      "empty": {
+        "core_science": 0,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "audit_readable": false,
+          "all_primer_rows_present": false,
+          "p01_transcripts": false,
+          "p01_amplicon_102": false,
+          "p02_transcripts": false,
+          "p02_amplicon_99": false,
+          "p03_no_amplicon": false,
+          "invalid_cds_metadata_identified": false,
+          "p01_disposition": false,
+          "p02_disposition": false,
+          "p03_disposition": false,
+          "report_consistent": false
+        },
+        "failure_codes": [
+          "MISSING_OR_UNREADABLE_AUDIT",
+          "PRIMER_MATCH_MISMATCH",
+          "AMPLICON_LENGTH_MISMATCH",
+          "CDS_METADATA_AUDIT_MISSING",
+          "DISPOSITION_MISMATCH",
+          "REPORT_MISMATCH"
+        ]
+      }
+    },
+    "scientifically_wrong": {
+      "core_science": 0,
+      "direction": 0,
+      "summary": 0,
+      "hardgate_pass": false,
+      "criteria": {
+        "audit_readable": true,
+        "all_primer_rows_present": true,
+        "p01_transcripts": false,
+        "p01_amplicon_102": false,
+        "p02_transcripts": false,
+        "p02_amplicon_99": false,
+        "p03_no_amplicon": false,
+        "invalid_cds_metadata_identified": false,
+        "p01_disposition": false,
+        "p02_disposition": false,
+        "p03_disposition": false,
+        "report_consistent": false
+      },
+      "failure_codes": [
+        "PRIMER_MATCH_MISMATCH",
+        "AMPLICON_LENGTH_MISMATCH",
+        "CDS_METADATA_AUDIT_MISSING",
+        "DISPOSITION_MISMATCH",
+        "REPORT_MISMATCH"
+      ]
+    },
+    "valid_alternative_implementation": {
+      "core_science": 40,
+      "direction": 15,
+      "summary": 5,
+      "hardgate_pass": true,
+      "criteria": {
+        "audit_readable": true,
+        "all_primer_rows_present": true,
+        "p01_transcripts": true,
+        "p01_amplicon_102": true,
+        "p02_transcripts": true,
+        "p02_amplicon_99": true,
+        "p03_no_amplicon": true,
+        "invalid_cds_metadata_identified": true,
+        "p01_disposition": true,
+        "p02_disposition": true,
+        "p03_disposition": true,
+        "report_consistent": true
+      },
+      "failure_codes": []
+    }
+  }
+}

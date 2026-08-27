@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "all_passed": true,
+  "cases": [
+    {
+      "case": "reference_like_correct",
+      "passed": true
+    },
+    {
+      "case": "empty_or_missing",
+      "passed": true
+    },
+    {
+      "case": "scientifically_wrong",
+      "passed": true
+    },
+    {
+      "case": "plausible_but_unsupported",
+      "passed": true
+    },
+    {
+      "case": "valid_alternative_implementation",
+      "passed": true
+    }
+  ]
+}

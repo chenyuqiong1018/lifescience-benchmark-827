@@ -1,0 +1,70 @@
+{
+  "all_required_cases_passed": true,
+  "adversarial_false_positive_passed": true,
+  "cases": [
+    {
+      "name": "reference_like_correct",
+      "passed": true,
+      "expected_hardgate": true,
+      "actual_hardgate": true,
+      "failure_codes": []
+    },
+    {
+      "name": "empty_or_missing",
+      "passed": true,
+      "expected_hardgate": false,
+      "actual_hardgate": false,
+      "failure_codes": [
+        "FATAL_INPUT_LINKED_QUANTITATIVE_GROUNDING",
+        "FATAL_FROZEN_CONTRAST_DIRECTION",
+        "FATAL_OFFICIAL_ENDPOINT_AND_PREDICATE"
+      ]
+    },
+    {
+      "name": "scientifically_wrong",
+      "passed": true,
+      "expected_hardgate": false,
+      "actual_hardgate": false,
+      "failure_codes": [
+        "FATAL_FROZEN_CONTRAST_DIRECTION"
+      ]
+    },
+    {
+      "name": "plausible_but_unsupported",
+      "passed": true,
+      "expected_hardgate": false,
+      "actual_hardgate": false,
+      "failure_codes": [
+        "FATAL_INPUT_LINKED_QUANTITATIVE_GROUNDING",
+        "FATAL_FROZEN_CONTRAST_DIRECTION",
+        "FATAL_OFFICIAL_ENDPOINT_AND_PREDICATE"
+      ]
+    },
+    {
+      "name": "valid_alternative_implementation",
+      "passed": true,
+      "expected_hardgate": true,
+      "actual_hardgate": true,
+      "failure_codes": []
+    },
+    {
+      "name": "negated_evidence_variant",
+      "passed": true,
+      "expected_hardgate": false,
+      "actual_hardgate": false,
+      "failure_codes": [
+        "FATAL_FROZEN_CONTRAST_DIRECTION"
+      ]
+    },
+    {
+      "name": "fabricated_number_variant",
+      "passed": true,
+      "expected_hardgate": false,
+      "actual_hardgate": false,
+      "failure_codes": [
+        "FATAL_INPUT_LINKED_QUANTITATIVE_GROUNDING"
+      ]
+    }
+  ],
+  "candidate_code_executed": false
+}

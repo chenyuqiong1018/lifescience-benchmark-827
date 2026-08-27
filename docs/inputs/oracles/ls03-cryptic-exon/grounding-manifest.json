@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "task_id": "ls03-cryptic-exon",
+  "source": {
+    "dataset": "Genentech/compbiobench-data-v1",
+    "dataset_revision": "c673f0855fce09d320f1677f168f7864eec52c1a",
+    "question_id": "cryptic-exon-q1",
+    "retrieved_at": "2026-08-26T11:38:05+08:00"
+  },
+  "authorized_input_integrity": [
+    {
+      "name": "cryptic.exon.q1.fq.gz",
+      "sha256": "50017ddd9d89165f26b464c88a2b998880913f2dc89832c999f835806575c88d"
+    }
+  ],
+  "annotation": {
+    "name": "MANE.GRCh38.v1.3.refseq_genomic.gtf.gz",
+    "source_url": "https://huggingface.co/datasets/Genentech/compbiobench-data-v1/resolve/c673f0855fce09d320f1677f168f7864eec52c1a/data/MANE.GRCh38.v1.3.refseq_genomic.gtf.gz",
+    "local_path": "grounding-resources/MANE.GRCh38.v1.3.refseq_genomic.gtf.gz",
+    "bytes": 8416473,
+    "sha256": "e68c5e492891ad8e82464fb74b9926f751340779aded727d3377b75fbe6788d8"
+  },
+  "reference_transcriptome": {
+    "name": "MANE.GRCh38.v1.3.refseq_rna.fna.gz",
+    "local_path": "grounding-resources/MANE.GRCh38.v1.3.refseq_rna.fna.gz",
+    "bytes": 22306703,
+    "sha256": "be948469b02e0d298e4407fe5ff2373c6a2fc616d8d75b4636a702ee2fea1afe"
+  },
+  "truth_grounding": {
+    "method": "Map all reads with minimap2 2.28-r1209 in splice mode (-ax splice -k14 -w5), count primary MAPQ 60 splice alignments, and classify junction novelty against MANE GRCh38 v1.3. The result is unchanged at MAPQ thresholds 0, 10, 20, 30, and 60.",
+    "genome_build": "GRCh38/hg38",
+    "gene": "GNG10",
+    "chromosome": "chr9",
+    "strand": "+",
+    "cryptic_exon_zero_based_half_open": [111664536, 111664589],
+    "cryptic_exon_one_based_inclusive": [111664537, 111664589],
+    "cryptic_exon_length_bp": 53,
+    "left_novel_junction_zero_based_intron": [111661715, 111664536],
+    "left_junction_reads": 40,
+    "right_novel_junction_zero_based_intron": [111664589, 111666814],
+    "right_junction_reads": 33,
+    "splice_motifs": {
+      "left_acceptor": "AG",
+      "cryptic_exon_donor": "GT",
+      "right_acceptor": "AG"
+    },
+    "gene_primary_alignments": 510,
+    "supporting_alignment_sha256": "7630d924f345a33c29ddc5a147aab76cd00ac1d09a859e6e4fc7666ef25b2380"
+  },
+  "false_positive_control": {
+    "gene": "CD74",
+    "reason": "Its prominent novel junction skips an annotated exon and does not form a new exon bounded by two novel junctions; it must not satisfy the target event."
+  },
+  "checker_grounding_rule": "Derive truth only from the authorized FASTQ, pinned MANE annotation, and independently fetched hg38 reference sequence. Accept coordinate-equivalent 0-based or 1-based reporting when the convention is explicit. Require GNG10 and both junctions supporting the same 53-bp cryptic exon; do not award core-science credit from candidate self-report alone."
+}

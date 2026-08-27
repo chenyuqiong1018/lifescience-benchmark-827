@@ -1,0 +1,17 @@
+{
+  "all_passed": true,
+  "cases": {
+    "reference_like_correct": {
+      "passed": true
+    },
+    "empty_or_missing": {
+      "passed": true
+    },
+    "scientifically_wrong": {
+      "passed": true
+    },
+    "valid_alternative_implementation": {
+      "passed": true
+    }
+  }
+}

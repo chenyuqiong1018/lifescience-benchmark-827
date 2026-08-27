@@ -1,0 +1,15 @@
+{
+  "sample_count": 24,
+  "transfer_rows": 192,
+  "required_tip_count": 144,
+  "reagent_consumption_uL": {
+    "lysis_buffer": 1920,
+    "bead_suspension": 2880,
+    "wash_buffer": 8640,
+    "elution_buffer": 960
+  },
+  "peak_sample_well_volume_uL": 250,
+  "final_sample_well_volume_uL": 40,
+  "supernatant_waste_uL": 6000,
+  "wash_waste_uL": 8640
+}

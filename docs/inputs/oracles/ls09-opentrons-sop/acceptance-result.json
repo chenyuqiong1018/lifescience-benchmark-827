@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "cases": {
+    "reference_like_correct": true,
+    "empty_or_missing": true,
+    "scientifically_wrong": true,
+    "plausible_but_unsupported": true,
+    "valid_alternative_implementation": true
+  },
+  "candidate_code_executed": false
+}

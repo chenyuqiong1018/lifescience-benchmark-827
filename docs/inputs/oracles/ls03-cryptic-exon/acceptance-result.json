@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "task_id": "ls03-cryptic-exon",
+  "all_passed": true,
+  "tests_run": 5,
+  "cases": {
+    "reference_like_correct": {
+      "passed": true,
+      "result": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "truth_gene_gng10": true,
+          "truth_chromosome_chr9": true,
+          "truth_exon_interval_with_explicit_convention": true,
+          "truth_exon_length_53bp": true,
+          "truth_left_junction_geometry": true,
+          "truth_left_junction_40_reads": true,
+          "truth_right_junction_geometry": true,
+          "truth_right_junction_33_reads": true,
+          "truth_expression_evidence": true,
+          "mane_grch38_v1_3_provenance": true,
+          "both_junctions_correctly_called_novel": true,
+          "protein_coding_target_conclusion": true,
+          "report_gene": true,
+          "report_53bp_interval": true,
+          "report_support_counts": true,
+          "report_novelty_and_annotation": true,
+          "fatal_gates": {
+            "FATAL_TRUTH_GENE": true,
+            "FATAL_TRUTH_EVENT_GEOMETRY": true,
+            "FATAL_TWO_JUNCTION_SUPPORT": true
+          }
+        },
+        "failure_codes": []
+      }
+    },
+    "empty_or_missing": {
+      "passed": true,
+      "result": {
+        "core_science": 0,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "truth_gene_gng10": false,
+          "truth_chromosome_chr9": false,
+          "truth_exon_interval_with_explicit_convention": false,
+          "truth_exon_length_53bp": false,
+          "truth_left_junction_geometry": false,
+          "truth_left_junction_40_reads": false,
+          "truth_right_junction_geometry": false,
+          "truth_right_junction_33_reads": false,
+          "truth_expression_evidence": false,
+          "mane_grch38_v1_3_provenance": false,
+          "both_junctions_correctly_called_novel": false,
+          "protein_coding_target_conclusion": false,
+          "report_gene": false,
+          "report_53bp_interval": false,
+          "report_support_counts": false,
+          "report_novelty_and_annotation": false,
+          "fatal_gates": {
+            "FATAL_TRUTH_GENE": false,
+            "FATAL_TRUTH_EVENT_GEOMETRY": false,
+            "FATAL_TWO_JUNCTION_SUPPORT": false
+          }
+        },
+        "failure_codes": [
+          "FATAL_TRUTH_GENE",
+          "FATAL_TRUTH_EVENT_GEOMETRY",
+          "FATAL_TWO_JUNCTION_SUPPORT",
+          "DIRECTION_INCOMPLETE",
+          "SUMMARY_INCOMPLETE"
+        ]
+      }
+    },
+    "scientifically_wrong": {
+      "passed": true,
+      "result": {
+        "core_science": 0,
+        "direction": 5,
+        "summary": 1,
+        "hardgate_pass": false,
+        "criteria": {
+          "truth_gene_gng10": false,
+          "truth_chromosome_chr9": false,
+          "truth_exon_interval_with_explicit_convention": false,
+          "truth_exon_length_53bp": false,
+          "truth_left_junction_geometry": false,
+          "truth_left_junction_40_reads": false,
+          "truth_right_junction_geometry": false,
+          "truth_right_junction_33_reads": false,
+          "truth_expression_evidence": false,
+          "mane_grch38_v1_3_provenance": true,
+          "both_junctions_correctly_called_novel": false,
+          "protein_coding_target_conclusion": false,
+          "report_gene": false,
+          "report_53bp_interval": false,
+          "report_support_counts": false,
+          "report_novelty_and_annotation": true,
+          "fatal_gates": {
+            "FATAL_TRUTH_GENE": false,
+            "FATAL_TRUTH_EVENT_GEOMETRY": false,
+            "FATAL_TWO_JUNCTION_SUPPORT": false
+          }
+        },
+        "failure_codes": [
+          "FATAL_TRUTH_GENE",
+          "FATAL_TRUTH_EVENT_GEOMETRY",
+          "FATAL_TWO_JUNCTION_SUPPORT",
+          "DIRECTION_INCOMPLETE",
+          "SUMMARY_INCOMPLETE"
+        ]
+      }
+    },
+    "plausible_but_unsupported": {
+      "passed": true,
+      "result": {
+        "self_report": {
+          "core_science": 0,
+          "direction": 5,
+          "summary": 1,
+          "hardgate_pass": false,
+          "criteria": {
+            "truth_gene_gng10": false,
+            "truth_chromosome_chr9": false,
+            "truth_exon_interval_with_explicit_convention": false,
+            "truth_exon_length_53bp": false,
+            "truth_left_junction_geometry": false,
+            "truth_left_junction_40_reads": false,
+            "truth_right_junction_geometry": false,
+            "truth_right_junction_33_reads": false,
+            "truth_expression_evidence": false,
+            "mane_grch38_v1_3_provenance": true,
+            "both_junctions_correctly_called_novel": false,
+            "protein_coding_target_conclusion": false,
+            "report_gene": false,
+            "report_53bp_interval": false,
+            "report_support_counts": false,
+            "report_novelty_and_annotation": true,
+            "fatal_gates": {
+              "FATAL_TRUTH_GENE": false,
+              "FATAL_TRUTH_EVENT_GEOMETRY": false,
+              "FATAL_TWO_JUNCTION_SUPPORT": false
+            }
+          },
+          "failure_codes": [
+            "FATAL_TRUTH_GENE",
+            "FATAL_TRUTH_EVENT_GEOMETRY",
+            "FATAL_TWO_JUNCTION_SUPPORT",
+            "DIRECTION_INCOMPLETE",
+            "SUMMARY_INCOMPLETE"
+          ]
+        },
+        "fabricated_numbers": {
+          "core_science": 30,
+          "direction": 15,
+          "summary": 4,
+          "hardgate_pass": false,
+          "criteria": {
+            "truth_gene_gng10": true,
+            "truth_chromosome_chr9": true,
+            "truth_exon_interval_with_explicit_convention": true,
+            "truth_exon_length_53bp": true,
+            "truth_left_junction_geometry": true,
+            "truth_left_junction_40_reads": false,
+            "truth_right_junction_geometry": true,
+            "truth_right_junction_33_reads": false,
+            "truth_expression_evidence": false,
+            "mane_grch38_v1_3_provenance": true,
+            "both_junctions_correctly_called_novel": true,
+            "protein_coding_target_conclusion": true,
+            "report_gene": true,
+            "report_53bp_interval": true,
+            "report_support_counts": false,
+            "report_novelty_and_annotation": true,
+            "fatal_gates": {
+              "FATAL_TRUTH_GENE": true,
+              "FATAL_TRUTH_EVENT_GEOMETRY": true,
+              "FATAL_TWO_JUNCTION_SUPPORT": false
+            }
+          },
+          "failure_codes": [
+            "FATAL_TWO_JUNCTION_SUPPORT",
+            "SUMMARY_INCOMPLETE"
+          ]
+        },
+        "negated_evidence": {
+          "core_science": 40,
+          "direction": 9,
+          "summary": 4,
+          "hardgate_pass": true,
+          "criteria": {
+            "truth_gene_gng10": true,
+            "truth_chromosome_chr9": true,
+            "truth_exon_interval_with_explicit_convention": true,
+            "truth_exon_length_53bp": true,
+            "truth_left_junction_geometry": true,
+            "truth_left_junction_40_reads": true,
+            "truth_right_junction_geometry": true,
+            "truth_right_junction_33_reads": true,
+            "truth_expression_evidence": true,
+            "mane_grch38_v1_3_provenance": true,
+            "both_junctions_correctly_called_novel": false,
+            "protein_coding_target_conclusion": true,
+            "report_gene": true,
+            "report_53bp_interval": true,
+            "report_support_counts": true,
+            "report_novelty_and_annotation": false,
+            "fatal_gates": {
+              "FATAL_TRUTH_GENE": true,
+              "FATAL_TRUTH_EVENT_GEOMETRY": true,
+              "FATAL_TWO_JUNCTION_SUPPORT": true
+            }
+          },
+          "failure_codes": [
+            "DIRECTION_INCOMPLETE",
+            "SUMMARY_INCOMPLETE"
+          ]
+        }
+      }
+    },
+    "valid_alternative_implementation": {
+      "passed": true,
+      "result": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "truth_gene_gng10": true,
+          "truth_chromosome_chr9": true,
+          "truth_exon_interval_with_explicit_convention": true,
+          "truth_exon_length_53bp": true,
+          "truth_left_junction_geometry": true,
+          "truth_left_junction_40_reads": true,
+          "truth_right_junction_geometry": true,
+          "truth_right_junction_33_reads": true,
+          "truth_expression_evidence": true,
+          "mane_grch38_v1_3_provenance": true,
+          "both_junctions_correctly_called_novel": true,
+          "protein_coding_target_conclusion": true,
+          "report_gene": true,
+          "report_53bp_interval": true,
+          "report_support_counts": true,
+          "report_novelty_and_annotation": true,
+          "fatal_gates": {
+            "FATAL_TRUTH_GENE": true,
+            "FATAL_TRUTH_EVENT_GEOMETRY": true,
+            "FATAL_TWO_JUNCTION_SUPPORT": true
+          }
+        },
+        "failure_codes": []
+      }
+    }
+  },
+  "candidate_code_executed": false
+}

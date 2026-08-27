@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "task_id": "ls02-infer-genome-build",
+  "source": "UCSC Genome Browser REST API getData/sequence",
+  "source_url_template": "https://api.genome.ucsc.edu/getData/sequence?genome={assembly};chrom=chr20;start={pos-1};end={pos}",
+  "retrieved_at": "2026-08-25T22:43:14.7867758Z",
+  "vcf_record_count": 84664,
+  "assemblies": ["hg18", "hg19", "hg38", "hs1"],
+  "anchors": [
+    {"vcf_index":0,"pos":61795,"vcf_ref":"G","reference_bases":{"hg18":"C","hg19":"G","hg38":"A","hs1":"T"}},
+    {"vcf_index":5000,"pos":3752643,"vcf_ref":"T","reference_bases":{"hg18":"C","hg19":"T","hg38":"C","hs1":"G"}},
+    {"vcf_index":10000,"pos":6519054,"vcf_ref":"C","reference_bases":{"hg18":"T","hg19":"C","hg38":"T","hs1":"A"}},
+    {"vcf_index":15000,"pos":10363652,"vcf_ref":"G","reference_bases":{"hg18":"A","hg19":"G","hg38":"A","hs1":"T"}},
+    {"vcf_index":20000,"pos":13750251,"vcf_ref":"A","reference_bases":{"hg18":"T","hg19":"A","hg38":"T","hs1":"T"}},
+    {"vcf_index":25000,"pos":17236905,"vcf_ref":"C","reference_bases":{"hg18":"A","hg19":"C","hg38":"G","hs1":"T"}},
+    {"vcf_index":30000,"pos":20276671,"vcf_ref":"T","reference_bases":{"hg18":"C","hg19":"T","hg38":"A","hs1":"G"}},
+    {"vcf_index":35000,"pos":24373039,"vcf_ref":"G","reference_bases":{"hg18":"T","hg19":"G","hg38":"G","hs1":"G"}},
+    {"vcf_index":40000,"pos":30899532,"vcf_ref":"A","reference_bases":{"hg18":"A","hg19":"A","hg38":"G","hs1":"G"}},
+    {"vcf_index":45000,"pos":36242820,"vcf_ref":"T","reference_bases":{"hg18":"T","hg19":"T","hg38":"T","hs1":"T"}},
+    {"vcf_index":50000,"pos":40667442,"vcf_ref":"T","reference_bases":{"hg18":"C","hg19":"T","hg38":"G","hs1":"T"}},
+    {"vcf_index":55000,"pos":44379292,"vcf_ref":"T","reference_bases":{"hg18":"A","hg19":"T","hg38":"G","hs1":"C"}},
+    {"vcf_index":60000,"pos":47817855,"vcf_ref":"G","reference_bases":{"hg18":"A","hg19":"G","hg38":"G","hs1":"A"}},
+    {"vcf_index":65000,"pos":51196192,"vcf_ref":"G","reference_bases":{"hg18":"G","hg19":"G","hg38":"T","hs1":"T"}},
+    {"vcf_index":70000,"pos":54390600,"vcf_ref":"C","reference_bases":{"hg18":"C","hg19":"C","hg38":"C","hs1":"C"}},
+    {"vcf_index":75000,"pos":57160580,"vcf_ref":"C","reference_bases":{"hg18":"T","hg19":"C","hg38":"A","hs1":"T"}},
+    {"vcf_index":80000,"pos":60495147,"vcf_ref":"C","reference_bases":{"hg18":"A","hg19":"C","hg38":"G","hs1":"A"}},
+    {"vcf_index":84663,"pos":62965185,"vcf_ref":"C","reference_bases":{"hg18":null,"hg19":"C","hg38":"T","hs1":"T"}}
+  ],
+  "summary": {
+    "hg18_matches": 4,
+    "hg19_matches": 18,
+    "hg38_matches": 4,
+    "hs1_matches": 4,
+    "call": "hg19",
+    "grounding_rule": "Match VCF REF at the same 1-based chr20 coordinate against independently retrieved assembly reference bases."
+  }
+}

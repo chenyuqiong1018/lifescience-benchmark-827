@@ -1,0 +1,14 @@
+{
+  "run_id": "codex/C0/ls09-opentrons-sop/trial-2",
+  "classification": "evaluation_contract_regression",
+  "observed_transfer_plan_rows": 1032,
+  "plan_granularity": "included individual mix strokes because the prompt did not define net-stage-only granularity",
+  "simulation_status": "FAILED / NOT EXECUTION-READY",
+  "environment_error": "ModuleNotFoundError: No module named 'opentrons'",
+  "agent_release_decision": "ABORT BEFORE EXECUTION",
+  "review": {
+    "plan_row_failure_attributable_to_agent": false,
+    "simulation_failure_attributable_to_agent": false,
+    "required_contract_fix": "Define exactly eight net transfer stages per sample and exclude mix/command-log rows; provide a pinned simulator or redesign around evaluator prevalidation."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "accepted": true,
+  "all_cases_passed": true,
+  "adversarial_false_positive_passed": true,
+  "candidate_code_executed": false,
+  "cases": {
+    "reference_like_correct": {
+      "passed": true,
+      "result": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "authorized_input_recomputed": true,
+          "negative_nonunique_call": true,
+          "organ_pair_unset": true,
+          "similarity_numeric_agreement": true,
+          "similarity_breadth": true,
+          "matched_method": "log1p_pearson",
+          "mean_absolute_error": 0.0,
+          "unique_pairs": 12,
+          "organs_represented": 13,
+          "uncertainty_identifiability_rationale": true,
+          "report_consistent": true
+        },
+        "failure_codes": []
+      }
+    },
+    "empty_or_missing": {
+      "passed": true,
+      "result": {
+        "core_science": 0,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "authorized_input_recomputed": true,
+          "negative_nonunique_call": false,
+          "organ_pair_unset": true,
+          "similarity_numeric_agreement": false,
+          "similarity_breadth": false,
+          "matched_method": null,
+          "mean_absolute_error": null,
+          "unique_pairs": 0,
+          "organs_represented": 0,
+          "uncertainty_identifiability_rationale": false,
+          "report_consistent": false
+        },
+        "failure_codes": [
+          "MISSING_OR_INVALID_SWAP_CALL",
+          "UNSUPPORTED_SWAP_DIRECTION",
+          "SIMILARITY_TABLE_INSUFFICIENT",
+          "SIMILARITY_NOT_GROUNDED",
+          "UNCERTAINTY_NOT_JUSTIFIED",
+          "REPORT_MISMATCH"
+        ]
+      }
+    },
+    "scientifically_wrong": {
+      "passed": true,
+      "result": {
+        "core_science": 32,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "authorized_input_recomputed": true,
+          "negative_nonunique_call": false,
+          "organ_pair_unset": false,
+          "similarity_numeric_agreement": true,
+          "similarity_breadth": true,
+          "matched_method": "log1p_pearson",
+          "mean_absolute_error": 0.0,
+          "unique_pairs": 12,
+          "organs_represented": 13,
+          "uncertainty_identifiability_rationale": false,
+          "report_consistent": false
+        },
+        "failure_codes": [
+          "UNSUPPORTED_SWAP_DIRECTION",
+          "UNCERTAINTY_NOT_JUSTIFIED",
+          "REPORT_MISMATCH"
+        ]
+      }
+    },
+    "plausible_but_unsupported_self_report": {
+      "passed": true,
+      "result": {
+        "core_science": 18,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": false,
+        "criteria": {
+          "authorized_input_recomputed": true,
+          "negative_nonunique_call": true,
+          "organ_pair_unset": true,
+          "similarity_numeric_agreement": false,
+          "similarity_breadth": true,
+          "matched_method": "log1p_pearson",
+          "mean_absolute_error": 0.218032,
+          "unique_pairs": 9,
+          "organs_represented": 12,
+          "uncertainty_identifiability_rationale": true,
+          "report_consistent": true
+        },
+        "failure_codes": [
+          "SIMILARITY_NOT_GROUNDED"
+        ]
+      }
+    },
+    "valid_alternative_method_layout": {
+      "passed": true,
+      "result": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "authorized_input_recomputed": true,
+          "negative_nonunique_call": true,
+          "organ_pair_unset": true,
+          "similarity_numeric_agreement": true,
+          "similarity_breadth": true,
+          "matched_method": "cosine",
+          "mean_absolute_error": 9.3e-05,
+          "unique_pairs": 9,
+          "organs_represented": 12,
+          "uncertainty_identifiability_rationale": true,
+          "report_consistent": true
+        },
+        "failure_codes": []
+      }
+    }
+  }
+}

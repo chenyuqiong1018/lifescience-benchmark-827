@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "task_id": "ls08-multiome-column-match",
+  "source": {
+    "dataset": "Genentech/compbiobench-data-v1",
+    "dataset_revision": "c673f0855fce09d320f1677f168f7864eec52c1a",
+    "question_id": "multiome-match-atac-rna-q1",
+    "retrieved_at": "2026-08-26T11:38:05+08:00"
+  },
+  "authorized_input_integrity": [
+    {"name": "multiome.match.atac.rna.q1.atac.tsv.gz", "bytes": 15259355, "sha256": "2b72f84d4a9c75dc78611b3b6ff727a0d2190e3d98f49f2fd08e8d1ebfe00d16"},
+    {"name": "multiome.match.atac.rna.q1.rna.tsv.gz", "bytes": 1432352, "sha256": "caceed54a983fb7c0b58cb5d34a61a999b0e7dec9efa2dd0175450fa0f080784"}
+  ],
+  "annotation": {
+    "name": "MANE.GRCh38.v1.3.refseq_genomic.gtf.gz",
+    "source_url": "https://huggingface.co/datasets/Genentech/compbiobench-data-v1/resolve/c673f0855fce09d320f1677f168f7864eec52c1a/data/MANE.GRCh38.v1.3.refseq_genomic.gtf.gz",
+    "local_path": "grounding-resources/MANE.GRCh38.v1.3.refseq_genomic.gtf.gz",
+    "bytes": 8416473,
+    "sha256": "e68c5e492891ad8e82464fb74b9926f751340779aded727d3377b75fbe6788d8"
+  },
+  "frozen_matching_rule": {
+    "gene_activity": "Using MANE GRCh38 v1.3 gene records, sum the supplied 10-kb ATAC bins overlapping each gene body for every ATAC column.",
+    "feature_filter": "Keep shared annotated genes with nonzero variance in both modalities and with RNA mean >0.1 or ATAC mean >1; 17,281 genes pass.",
+    "transform": "Apply log1p separately to RNA TPM and ATAC gene activity, then z-score each gene across the eight populations.",
+    "similarity": "For each RNA/ATAC column pair, use the mean product of gene-wise z-scores (Pearson-style similarity).",
+    "assignment": "Choose the one-to-one permutation maximizing the sum of the eight matched similarities. Resolve exact ties lexicographically for determinism."
+  },
+  "recomputed_truth": {
+    "rna_to_atac_mapping": [5, 1, 4, 0, 6, 3, 7, 2],
+    "answer_string": "5;1;4;0;6;3;7;2",
+    "assignment_score": 2.9981507565,
+    "robustness": [
+      {"gene_activity_window":"gene_body","flank_bp":0,"n_genes":17281,"mapping":"5;1;4;0;6;3;7;2"},
+      {"gene_activity_window":"gene_body","flank_bp":10000,"n_genes":17349,"mapping":"5;1;4;0;6;3;7;2"},
+      {"gene_activity_window":"gene_body","flank_bp":50000,"n_genes":17350,"mapping":"5;1;4;0;6;3;7;2"},
+      {"gene_activity_window":"tss","flank_bp":50000,"n_genes":17350,"mapping":"5;1;4;0;6;3;7;2"},
+      {"gene_activity_window":"tss","flank_bp":100000,"n_genes":17350,"mapping":"5;1;4;0;6;3;7;2"}
+    ]
+  },
+  "checker_grounding_rule": "Recompute a one-to-one mapping from authorized inputs and the pinned annotation; candidate-reported correlation matrices or permutations are not truth. Require exactly eight unique 0-based ATAC indices and the frozen mapping. Accept equivalent deterministic gene-activity windows when their assignment is identical."
+}

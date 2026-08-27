@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "task_id": "ls07-combination-treatment-mechanism",
+  "truth_source": {
+    "dataset": "futurehouse/BixBench",
+    "dataset_version": "1.5",
+    "dataset_revision": "2f660cbcab36b87f5d49b997f71e67be94131889",
+    "source_file": "BixBench.jsonl",
+    "source_url": "https://huggingface.co/datasets/futurehouse/BixBench/resolve/v1.5/BixBench.jsonl",
+    "capsule_uuid": "15ff11e5-2db1-45b6-b3a3-46bc2a74b821",
+    "retrieved_at": "2026-08-26T11:31:00+08:00"
+  },
+  "official_truth": {
+    "primary_question_id": "bix-43-q5",
+    "primary_mechanism": "TP53-mediated cell cycle regulation",
+    "supporting_question_id": "bix-43-q4",
+    "supporting_pathway": "TP53 Regulates Transcription Of Cell Cycle Genes",
+    "supporting_overlap_fraction": "8/49",
+    "supporting_question_id_2": "bix-43-q2",
+    "supporting_odds_ratio": 6.02,
+    "contrast_numerator": "Cisplatin_IC50_CBD_IC50",
+    "contrast_denominator": "DMSO",
+    "de_thresholds": {
+      "p_value_lt": 0.05,
+      "absolute_log2_fold_change_gt": 0.5,
+      "base_mean_gt": 10
+    },
+    "gene_set_library": "Reactome_2022"
+  },
+  "authorized_input_integrity": [
+    {"name": "counts_raw_unfiltered.csv", "bytes": 6080359, "sha256": "c233e3e1c68efea27818d97cc45dd1cceeb0bbb9e8693951b6964cd1a8f6ac17"},
+    {"name": "ensg_to_gene_name.tsv", "bytes": 2446778, "sha256": "d61e6ed65d12c208356c0e2358075f2686265da2efd7e5c8d5430df1f2b38123"},
+    {"name": "sample_layout.csv", "bytes": 2891, "sha256": "cb0212290186c6c5ecbd4d06f18e7fd0ad93d101ab0f07e7171e566e5cfa2584"},
+    {"name": "Reactome_2022.gmt", "bytes": 780730, "sha256": "ef3174607c913fe6cff03e2a7049fe470552cc0b6c5a72d8e41f5f92f1932bce"},
+    {"name": "Reactome_2022.background.txt", "bytes": 76431, "sha256": "7def4634ab921eb3674ab3904b93baec9d9405f7250d10e5e213c30dca89dfe7"}
+  ],
+  "checker_grounding_rule": "Score the primary mechanism against the immutable BixBench v1.5 truth and require candidate evidence to be traceable to the frozen six-sample contrast and local Reactome_2022 library. Candidate self-reported pathway labels, odds ratios, or overlaps are not sufficient without a parseable enrichment result. Accept scientifically equivalent TP53/p53 cell-cycle wording and defensible equivalent table layouts."
+}

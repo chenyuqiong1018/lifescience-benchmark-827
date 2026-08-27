@@ -1,0 +1,123 @@
+{
+  "all_passed": true,
+  "cases": [
+    {
+      "name": "reference_like_correct",
+      "passed": true,
+      "result": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "chromosome_9": true,
+          "position_127661125": true,
+          "ref_G": true,
+          "alt_T": true,
+          "gene_STXBP1": true,
+          "nonsense_stop_gained": true,
+          "read_counts_and_vaf": true,
+          "mosaic_interpretation": true,
+          "lof_intolerance_supported": true,
+          "report_consistent": true,
+          "reference_version_documented": true,
+          "annotation_version_documented": true
+        },
+        "failure_codes": []
+      }
+    },
+    {
+      "name": "empty_or_missing",
+      "passed": true,
+      "result": {
+        "core_science": 0,
+        "direction": 0,
+        "summary": 0,
+        "hardgate_pass": false,
+        "criteria": {
+          "chromosome_9": false,
+          "position_127661125": false,
+          "ref_G": false,
+          "alt_T": false,
+          "gene_STXBP1": false,
+          "nonsense_stop_gained": false,
+          "read_counts_and_vaf": false,
+          "mosaic_interpretation": false,
+          "lof_intolerance_supported": false,
+          "report_consistent": false,
+          "reference_version_documented": false,
+          "annotation_version_documented": false
+        },
+        "failure_codes": [
+          "VARIANT_TABLE_EMPTY_OR_UNREADABLE",
+          "TARGET_VARIANT_MISMATCH",
+          "GENE_MISMATCH",
+          "CONSEQUENCE_MISMATCH",
+          "READ_EVIDENCE_MISMATCH",
+          "MOSAIC_INTERPRETATION_MISSING",
+          "LOF_INTOLERANCE_SUPPORT_MISSING",
+          "REPORT_MISMATCH",
+          "VERSION_DOCUMENTATION_MISSING"
+        ]
+      }
+    },
+    {
+      "name": "scientifically_wrong",
+      "passed": true,
+      "result": {
+        "core_science": 2,
+        "direction": 0,
+        "summary": 2,
+        "hardgate_pass": false,
+        "criteria": {
+          "chromosome_9": true,
+          "position_127661125": false,
+          "ref_G": false,
+          "alt_T": false,
+          "gene_STXBP1": false,
+          "nonsense_stop_gained": false,
+          "read_counts_and_vaf": false,
+          "mosaic_interpretation": false,
+          "lof_intolerance_supported": false,
+          "report_consistent": false,
+          "reference_version_documented": true,
+          "annotation_version_documented": true
+        },
+        "failure_codes": [
+          "TARGET_VARIANT_MISMATCH",
+          "GENE_MISMATCH",
+          "CONSEQUENCE_MISMATCH",
+          "READ_EVIDENCE_MISMATCH",
+          "MOSAIC_INTERPRETATION_MISSING",
+          "LOF_INTOLERANCE_SUPPORT_MISSING",
+          "REPORT_MISMATCH"
+        ]
+      }
+    },
+    {
+      "name": "valid_alternative_implementation",
+      "passed": true,
+      "result": {
+        "core_science": 40,
+        "direction": 15,
+        "summary": 5,
+        "hardgate_pass": true,
+        "criteria": {
+          "chromosome_9": true,
+          "position_127661125": true,
+          "ref_G": true,
+          "alt_T": true,
+          "gene_STXBP1": true,
+          "nonsense_stop_gained": true,
+          "read_counts_and_vaf": true,
+          "mosaic_interpretation": true,
+          "lof_intolerance_supported": true,
+          "report_consistent": true,
+          "reference_version_documented": true,
+          "annotation_version_documented": true
+        },
+        "failure_codes": []
+      }
+    }
+  ]
+}

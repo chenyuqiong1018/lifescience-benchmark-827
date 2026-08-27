@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "task_id": "ls07-combination-treatment-deg",
+  "truth_source": {
+    "dataset": "futurehouse/BixBench",
+    "dataset_version": "1.5",
+    "dataset_revision": "2f660cbcab36b87f5d49b997f71e67be94131889",
+    "source_file": "BixBench.jsonl",
+    "source_url": "https://huggingface.co/datasets/futurehouse/BixBench/resolve/v1.5/BixBench.jsonl",
+    "question_id": "bix-43-q3",
+    "capsule_uuid": "15ff11e5-2db1-45b6-b3a3-46bc2a74b821",
+    "retrieved_at": "2026-08-26T11:31:00+08:00"
+  },
+  "official_question": "Using DESeq2 for differential expression analysis, how many genes show significant differential expression (adjusted p-value < 0.05, absolute log2 fold change > 0.5, baseMean > 10) in the CBD/cisplatin combination treatment compared to DMSO control?",
+  "official_ideal": {
+    "significant_gene_count": 677,
+    "contrast_numerator": "Cisplatin_IC50_CBD_IC50",
+    "contrast_denominator": "DMSO",
+    "replicates_per_group": 3,
+    "thresholds": {
+      "adjusted_p_value_lt": 0.05,
+      "absolute_log2_fold_change_gt": 0.5,
+      "base_mean_gt": 10
+    },
+    "direction_convention": "positive log2 fold change means higher expression in Cisplatin_IC50_CBD_IC50 than DMSO"
+  },
+  "authorized_input_integrity": [
+    {"name": "counts_raw_unfiltered.csv", "bytes": 6080359, "sha256": "c233e3e1c68efea27818d97cc45dd1cceeb0bbb9e8693951b6964cd1a8f6ac17"},
+    {"name": "ensg_to_gene_name.tsv", "bytes": 2446778, "sha256": "d61e6ed65d12c208356c0e2358075f2686265da2efd7e5c8d5430df1f2b38123"},
+    {"name": "sample_layout.csv", "bytes": 2891, "sha256": "cb0212290186c6c5ecbd4d06f18e7fd0ad93d101ab0f07e7171e566e5cfa2584"}
+  ],
+  "checker_grounding_rule": "Use the immutable official BixBench v1.5 ideal and contrast definition for the aggregate scientific truth. Candidate-authored labels or counts are not truth. Independently validate candidate tables for six-sample membership, orientation, threshold logic, internal row/count consistency, and explicit uncertainty; accept equivalent deterministic DESeq2 layouts and naming."
+}
