@@ -1,0 +1,23 @@
+{
+  "task_id": "ls02-find-deletion",
+  "condition": "T0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "chromosome_analysis",
+    "genome_annotation",
+    "ucsc_genome_exploration"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-27T20:20:26.959617+00:00",
+  "usage": {
+    "input_tokens": 5970131,
+    "cached_input_tokens": 5760128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 132516,
+    "reasoning_output_tokens": 92966
+  },
+  "finished_at": "2026-08-27T21:13:03.841232+00:00",
+  "return_code": 0
+}

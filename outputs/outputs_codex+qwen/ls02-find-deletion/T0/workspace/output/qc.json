@@ -1,0 +1,144 @@
+{
+  "task": "locate large deletion in shallow paired-end hg38 data",
+  "coordinate_convention": {
+    "basis": "1-based, GRCh38 chr22",
+    "start_100kb": "last retained base before the deletion, rounded to the nearest 100 kb",
+    "end_100kb": "last deleted base, rounded to the nearest 100 kb",
+    "size_bp": "end_100kb - start_100kb"
+  },
+  "inputs": {
+    "r1": "find.deletion.r1.fq.gz",
+    "r2": "find.deletion.r2.fq.gz",
+    "read_pairs": 332123,
+    "read_length": 150,
+    "total_sequenced_bp": 99636900,
+    "mean_quality_r1": 40.0,
+    "mean_quality_r2": 40.0,
+    "reference": "GRCh38_chr22.fa.gz",
+    "reference_name": "chr22",
+    "reference_length": 50818468,
+    "reference_non_acgt": 13746488
+  },
+  "alignment": {
+    "method": "custom numpy seed-and-vote mapper (k=20, seed step 10, max k-mer occurrence 16, min matches 130/150)",
+    "r1_mapped": 327743,
+    "r2_mapped": 327607,
+    "r1_mapped_pct": 98.68,
+    "r2_mapped_pct": 98.64,
+    "mean_matches_r1": 149.88479082695892,
+    "mean_matches_r2": 149.88601891900967
+  },
+  "coverage": {
+    "mean_depth_x": 2.652,
+    "mappable_fraction": 0.5291,
+    "median_reads_per_100kb_bin": 1760.0
+  },
+  "insert_size": {
+    "n_concordant_fr": 156835,
+    "median_bp": 500.0,
+    "mad_bp": 34.0,
+    "discordant_threshold_bp": 1004.0840000000001,
+    "n_discordant_pairs_raw": 1258,
+    "n_discordant_pairs_uniqueness_filtered": 922
+  },
+  "depth_segmentation": {
+    "coarse_bin_bp": 100000,
+    "fine_bin_bp": 10000,
+    "normalization": "read starts per bin divided by mappability-(k-mer uniqueness) adjusted expectation",
+    "genome_median_ratio": 0.9829346404299208,
+    "depleted_coarse_bins": [
+      200,
+      210
+    ],
+    "depleted_region_0based": [
+      20000000,
+      21000000
+    ],
+    "inner_median_ratio": 0.005700226524177734,
+    "zygosity_estimate": "homozygous",
+    "fine_edges_0based": [
+      20000000,
+      21000000
+    ]
+  },
+  "breakpoints": {
+    "raw_evidence_method": "split_reads",
+    "raw_left_1based_last_retained": 20000000,
+    "raw_right_1based_last_deleted": 21000000,
+    "raw_size_bp": 1000000,
+    "raw_note": "median junction position across split reads that bracket the depth interval; nucleotide-resolution evidence",
+    "split_reads_supporting": [
+      {
+        "end": "R1",
+        "read_id": 139652,
+        "strand": 1,
+        "J_left": 20000000,
+        "J_right": 21000000,
+        "split": 44,
+        "pre_matches": 44,
+        "suf_matches": 106,
+        "size_on_ref": 1000000
+      },
+      {
+        "end": "R2",
+        "read_id": 15240,
+        "strand": 0,
+        "J_left": 20000000,
+        "J_right": 21000000,
+        "split": 98,
+        "pre_matches": 98,
+        "suf_matches": 52,
+        "size_on_ref": 1000000
+      },
+      {
+        "end": "R2",
+        "read_id": 152440,
+        "strand": 0,
+        "J_left": 20000001,
+        "J_right": 21000001,
+        "split": 100,
+        "pre_matches": 100,
+        "suf_matches": 50,
+        "size_on_ref": 1000000
+      }
+    ],
+    "discordant_pairs_spanning": [
+      {
+        "left_mate_start_0based": 19999645,
+        "right_mate_start_0based": 21000058,
+        "apparent_insert_bp": 1000563
+      }
+    ],
+    "rounded_start_100kb": 20000000,
+    "rounded_end_100kb": 21000000,
+    "rounded_size_bp": 1000000,
+    "precision_note": "raw breakpoints are the experimental evidence (method: split_reads); TSV coordinates are those raw values rounded to the nearest 100 kb as the task requires, so the reported precision is limited to +/-50 kb by rounding even though the raw evidence is finer"
+  },
+  "artifact_audit": {
+    "note": "chr22 is rich in segmental duplications; paralogous copies of the deleted segment cause secondary depth-depleted windows and spurious split clusters. Each additional depleted region was tested for junction evidence before being dismissed.",
+    "secondary_depth_dips": [
+      {
+        "region_0based": [
+          21200000,
+          21300000
+        ],
+        "n_coarse_bins": 1,
+        "median_ratio": 0.015600898841301752,
+        "frac_kmers_with_multiple_copies": 0.923,
+        "split_reads_at_edges": 0,
+        "discordant_pairs_spanning": 0,
+        "called_deletion": false
+      }
+    ]
+  },
+  "deletion": {
+    "chrom": "chr22",
+    "start_100kb": 20000000,
+    "end_100kb": 21000000,
+    "size_bp": 1000000,
+    "zygosity": "homozygous",
+    "depth_ratio_inside_region": 0.005154832997658646,
+    "supporting_signals": "read_depth:10x100kb_bins,median_ratio=0.006,homozygous;discordant_pairs=1;split_reads=3"
+  },
+  "runtime_seconds": 33.6
+}
