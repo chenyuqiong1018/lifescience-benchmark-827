@@ -1,0 +1,9 @@
+{
+  "task_id": "ls01-vector-orf-audit",
+  "arm": "C0",
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "skills": [],
+  "external_data": false,
+  "status": "success"
+}
