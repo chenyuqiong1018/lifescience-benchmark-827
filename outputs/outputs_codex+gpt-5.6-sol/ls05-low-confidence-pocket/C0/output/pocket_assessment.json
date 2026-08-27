@@ -1,0 +1,5 @@
+{
+  "pocket_reliable": false,
+  "prioritize_mutations": false,
+  "reason": "Both nominated pocket intervals are below the reliability threshold: residues 210-230 have pLDDT 47 and PAE 14.2 A, and residues 231-270 have pLDDT 43 and PAE 17.8 A. All pocket mutations should be deferred pending structure validation."
+}
