@@ -1,0 +1,161 @@
+{
+  "build": "hg19",
+  "confidence": "high",
+  "n_variants_checked": 84664,
+  "n_ref_matches": 84664,
+  "n_ref_mismatches": 0,
+  "evidence": {
+    "method": "Each VCF REF allele was fetched at its declared 1-based POS from every supplied chr20 reference and compared case-insensitively; the build whose reference reproduces the REF alleles is called. Chromosome naming was recorded but not used as evidence.",
+    "vcf": {
+      "file": "inputs/vcf.infer.build.q1.vcf.gz",
+      "records_analyzed": 84664,
+      "records_skipped": 0,
+      "chrom_field_values": {
+        "20": 84664
+      },
+      "pos_range": [
+        61795,
+        62965185
+      ]
+    },
+    "per_build": {
+      "hg18": {
+        "contig_length": 62435964,
+        "fasta_header": [
+          "chr20"
+        ],
+        "ref_matches": 20758,
+        "ref_mismatches": 62951,
+        "uninformative": 349,
+        "out_of_range": 606,
+        "variants_checked": 83709,
+        "ref_match_rate": 0.247978,
+        "unique_support_variants": 0,
+        "first_mismatch_examples": [
+          {
+            "pos": 61795,
+            "vcf_ref": "G",
+            "reference_base": "C"
+          },
+          {
+            "pos": 63360,
+            "vcf_ref": "C",
+            "reference_base": "A"
+          },
+          {
+            "pos": 63799,
+            "vcf_ref": "C",
+            "reference_base": "A"
+          },
+          {
+            "pos": 65288,
+            "vcf_ref": "G",
+            "reference_base": "A"
+          },
+          {
+            "pos": 65900,
+            "vcf_ref": "G",
+            "reference_base": "A"
+          }
+        ]
+      },
+      "hg19": {
+        "contig_length": 63025520,
+        "fasta_header": [
+          "20"
+        ],
+        "ref_matches": 84664,
+        "ref_mismatches": 0,
+        "uninformative": 0,
+        "out_of_range": 0,
+        "variants_checked": 84664,
+        "ref_match_rate": 1.0,
+        "unique_support_variants": 48200,
+        "first_mismatch_examples": []
+      },
+      "hg38": {
+        "contig_length": 64444167,
+        "fasta_header": [
+          "chr20"
+        ],
+        "ref_matches": 20966,
+        "ref_mismatches": 63517,
+        "uninformative": 181,
+        "out_of_range": 0,
+        "variants_checked": 84483,
+        "ref_match_rate": 0.248168,
+        "unique_support_variants": 0,
+        "first_mismatch_examples": [
+          {
+            "pos": 61795,
+            "vcf_ref": "G",
+            "reference_base": "A"
+          },
+          {
+            "pos": 65288,
+            "vcf_ref": "G",
+            "reference_base": "T"
+          },
+          {
+            "pos": 65900,
+            "vcf_ref": "G",
+            "reference_base": "C"
+          },
+          {
+            "pos": 66370,
+            "vcf_ref": "G",
+            "reference_base": "T"
+          },
+          {
+            "pos": 69094,
+            "vcf_ref": "G",
+            "reference_base": "A"
+          }
+        ]
+      }
+    },
+    "build_ranking": [
+      {
+        "build": "hg19",
+        "ref_match_rate": 1.0,
+        "ref_matches": 84664,
+        "ref_mismatches": 0
+      },
+      {
+        "build": "hg38",
+        "ref_match_rate": 0.248168,
+        "ref_matches": 20966,
+        "ref_mismatches": 63517
+      },
+      {
+        "build": "hg18",
+        "ref_match_rate": 0.247978,
+        "ref_matches": 20758,
+        "ref_mismatches": 62951
+      }
+    ],
+    "best_vs_runner_up_margin": 0.751832,
+    "reference_integrity": {
+      "hg18": {
+        "sha256": "db0b097285fa234583a425097acfaf936ffff42819c63ef81445df19686f7765",
+        "manifest_sha256": "db0b097285fa234583a425097acfaf936ffff42819c63ef81445df19686f7765",
+        "verified": true
+      },
+      "hg19": {
+        "sha256": "c204a3e25b91ba4b4dcddaaa6bd97121eec8ed25797f833433fe47df979de089",
+        "manifest_sha256": "c204a3e25b91ba4b4dcddaaa6bd97121eec8ed25797f833433fe47df979de089",
+        "verified": true
+      },
+      "hg38": {
+        "sha256": "d9a47cd37c4476a4ea2f9036a8d92260bf3a30ea06ee1eb6d7f8a314bf40ac0c",
+        "manifest_sha256": "d9a47cd37c4476a4ea2f9036a8d92260bf3a30ea06ee1eb6d7f8a314bf40ac0c",
+        "verified": true
+      }
+    },
+    "t2t": {
+      "candidate": "T2T (hs1)",
+      "status": "excluded_no_reference_supplied",
+      "note": "No T2T chr20 FASTA is present under inputs/references; per the references README it is excluded from scoring rather than treated as a mismatch."
+    }
+  }
+}
