@@ -1,0 +1,23 @@
+{
+  "contract_version": 1,
+  "robot": "OT-2",
+  "protocol_api_level": "2.16",
+  "opentrons_package_version": "7.1.0",
+  "robot_software_version_that_introduced_api": "7.1.0",
+  "python": "CPython 3.10.x",
+  "reference_platform": "Linux x86_64 (manylinux2014-compatible)",
+  "requirements_lock": "docs/environments/opentrons-api-2.16/requirements-linux-x86_64-py310.lock",
+  "requirements_lock_sha256": "3af81dcdb8953713e370ae8d69896ec45d075a9a1c76adf6b191b942c41902dd",
+  "invocation": [
+    "python",
+    "-m",
+    "opentrons.simulate",
+    "output/protocol.py"
+  ],
+  "working_directory": "workspace root",
+  "capture_policy": "Capture unedited stdout and stderr plus exit code in output/simulation.txt",
+  "success_criteria": "exit code 0 and no simulator exception",
+  "failure_policy": "Record the exact error and mark the protocol not execution-ready; never synthesize a success record",
+  "network_policy": "The simulator environment is provisioned before the run. No package download is allowed during the timed run.",
+  "acceptance_status": "accepted_reference_simulation_3_of_3_on_campaign_host"
+}

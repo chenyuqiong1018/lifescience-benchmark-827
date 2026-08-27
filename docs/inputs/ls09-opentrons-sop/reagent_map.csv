@@ -1,0 +1,6 @@
+reagent,labware_role,well,initial_volume_uL,dead_volume_uL
+lysis_buffer,reagents,A1,2500,300
+bead_suspension,reagents,A2,3500,300
+wash_buffer,reagents,A3,9000,300
+elution_buffer,reagents,A4,1500,300
+

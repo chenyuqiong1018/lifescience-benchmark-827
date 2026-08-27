@@ -1,0 +1,7 @@
+model_id,residue_start,residue_end,mean_error_a
+model_A,1,180,1.4
+model_A,181,240,4.8
+model_B,1,180,1.2
+model_B,181,240,8.5
+model_C,1,180,2.9
+model_C,181,240,4.1

@@ -1,0 +1,5 @@
+source,compound_id,concentration_uM,available_volume_uL,solvent
+source:A1,CMPD_A,50,1994,DMSO_0.5pct_in_media
+source:A2,CMPD_B,25,1998,DMSO_0.5pct_in_media
+diluent:R1,,0,5000,media
+

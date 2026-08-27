@@ -1,0 +1,3 @@
+compound_id,stock_mm,final_um,final_volume_ul,replicates
+CMPD_A,10,1,100,3
+CMPD_B,5,0.5,100,3

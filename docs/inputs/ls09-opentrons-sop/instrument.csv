@@ -1,0 +1,2 @@
+robot,api_level,pipette,mount,min_volume_uL,max_volume_uL,channels,tip_count
+OT-2,2.16,p300_single_gen2,right,20,300,1,192

@@ -1,0 +1,22 @@
+{
+  "retrieved_utc_date": "2026-08-17",
+  "coordinate_convention": "FASTA positions are queried as 1-based VCF coordinates",
+  "files": [
+    {
+      "file": "hg18_chr20.fa.gz",
+      "source": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/chromosomes/chr20.fa.gz",
+      "sha256": "db0b097285fa234583a425097acfaf936ffff42819c63ef81445df19686f7765"
+    },
+    {
+      "file": "hg19_chr20.fa.gz",
+      "source": "https://storage.googleapis.com/genomics-public-data/references/hg19/v0/chr20.fa.gz",
+      "sha256": "c204a3e25b91ba4b4dcddaaa6bd97121eec8ed25797f833433fe47df979de089"
+    },
+    {
+      "file": "hg38_chr20.fa.gz",
+      "source": "https://storage.googleapis.com/genomics-public-data/references/hg38/v0/chr20.fa.gz",
+      "sha256": "d9a47cd37c4476a4ea2f9036a8d92260bf3a30ea06ee1eb6d7f8a314bf40ac0c"
+    }
+  ],
+  "t2t_status": "Authoritative full-assembly endpoints were reachable but the chromosome-only UCSC endpoint did not exist; T2T is therefore an explicitly unavailable candidate, not counted as a mismatch. The three supplied references already yield a unique 100% hg19 REF match."
+}

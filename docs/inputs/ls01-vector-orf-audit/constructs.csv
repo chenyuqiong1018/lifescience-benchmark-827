@@ -1,0 +1,4 @@
+construct_id,promoter,insert_sequence,tag,claimed_frame
+c01,EF1a,ATGGCCGACTACAAAGACGATGACGACAAGTAA,C_terminal_FLAG,in_frame
+c02,CMV,ATGGCCGACTACAAAGACGATGACGACAAGAA,C_terminal_FLAG,in_frame
+c03,EF1a,ATGGCCGACTACAAAGACGATGACGACAAGTGA,C_terminal_FLAG,out_of_frame

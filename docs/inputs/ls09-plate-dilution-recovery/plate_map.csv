@@ -1,0 +1,8 @@
+well,compound_id,replicate,requested_final_uM,requested_final_volume_uL
+A1,CMPD_A,1,1,100
+A2,CMPD_A,2,1,100
+A3,CMPD_A,3,1,100
+B1,CMPD_B,1,0.5,100
+B2,CMPD_B,2,0.5,100
+B3,CMPD_B,3,0.5,100
+

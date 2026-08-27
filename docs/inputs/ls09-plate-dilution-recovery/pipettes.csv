@@ -1,0 +1,3 @@
+pipette,min_ul,max_ul,increment_ul
+P20,2,20,0.1
+P300,20,300,1

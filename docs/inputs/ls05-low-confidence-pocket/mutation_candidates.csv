@@ -1,0 +1,5 @@
+mutation,predicted_ddg_kcal_mol,predicted_activity_change,region
+Y218F,0.4,increase,pocket
+R244A,2.8,increase,pocket
+L265W,4.1,unknown,pocket
+S301A,0.2,no_change,core

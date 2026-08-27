@@ -1,0 +1,7 @@
+slot,api_load_name,role,on_module,well_capacity_uL
+1,nest_12_reservoir_15ml,reagents,false,15000
+4,opentrons_96_tiprack_300ul,tips,false,300
+5,magnetic_module_gen2,module,false,
+5,nest_96_wellplate_2ml_deep,processing_plate,true,2000
+6,nest_1_reservoir_195ml,liquid_waste,false,195000
+7,opentrons_96_tiprack_300ul,tips,false,300

@@ -1,0 +1,8 @@
+event_id,operation,status,well,compound_id,detail
+1,prepare_intermediate,completed,source:A1,CMPD_A,50 uM intermediate prepared
+2,prepare_intermediate,completed,source:A2,CMPD_B,25 uM intermediate prepared
+3,dispense_final,completed,A1,CMPD_A,2 uL intermediate plus 98 uL diluent
+4,dispense_final,completed,A2,CMPD_A,2 uL intermediate plus 98 uL diluent
+5,dispense_final,completed,A3,CMPD_A,2 uL intermediate plus 98 uL diluent
+6,dispense_final,completed,B1,CMPD_B,2 uL intermediate plus 98 uL diluent
+7,dispense_final,failed_before_aspirate,B2,CMPD_B,tip pickup failed; no liquid moved

@@ -1,0 +1,5 @@
+residue_start,residue_end,plddt,pae_to_core_a,pocket_member
+1,209,88,2.1,false
+210,230,47,14.2,true
+231,270,43,17.8,true
+271,340,84,3.4,false

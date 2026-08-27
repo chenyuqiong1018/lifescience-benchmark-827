@@ -1,0 +1,4 @@
+model_id,tm_score,lddt,rmsd_a,aligned_residues,chain_mapping_complete
+model_A,0.81,0.76,2.4,238,true
+model_B,0.74,0.79,2.0,211,false
+model_C,0.62,0.65,3.8,240,true

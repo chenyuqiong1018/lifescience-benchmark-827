@@ -1,0 +1,7 @@
+guide_id,locus,mismatches,region,expression_risk
+g01,chr2:100120-100139,1,coding_exon,high
+g02,chr5:220010-220029,3,intron,low
+g03,chr7:330040-330059,2,coding_exon,medium
+g04,chr9:440070-440089,4,intergenic,low
+g05,chr12:550100-550119,1,coding_exon,high
+g06,chr14:660130-660149,3,intergenic,low
