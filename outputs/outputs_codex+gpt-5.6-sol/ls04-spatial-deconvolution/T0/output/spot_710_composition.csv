@@ -1,0 +1,4 @@
+cell_type,weight,evidence
+B_Cell,0.329049,"marker_MLE=0.327; joint_bootstrap_95%CI=[0.294,0.358]; marker_sensitivity=[0.320,0.334]"
+Endothelial,0.360644,"marker_MLE=0.359; joint_bootstrap_95%CI=[0.328,0.389]; marker_sensitivity=[0.350,0.370]"
+Macrophage,0.310308,"marker_MLE=0.309; joint_bootstrap_95%CI=[0.275,0.333]; marker_sensitivity=[0.301,0.320]"
