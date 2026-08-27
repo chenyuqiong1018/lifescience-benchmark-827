@@ -1,0 +1,22 @@
+{
+  "task_id": "ls01-vector-orf-audit",
+  "condition": "T0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "dna-rna-sequence-analysis",
+    "synthetic_biology_design"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-27T12:22:23.137191+00:00",
+  "usage": {
+    "input_tokens": 188640,
+    "cached_input_tokens": 164480,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 12778,
+    "reasoning_output_tokens": 8413
+  },
+  "finished_at": "2026-08-27T12:27:04.626530+00:00",
+  "return_code": 0
+}

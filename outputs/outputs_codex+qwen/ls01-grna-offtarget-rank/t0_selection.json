@@ -1,0 +1,22 @@
+{
+  "task_id": "ls01-grna-offtarget-rank",
+  "model": "qwen3.8-max",
+  "catalog_size": 143,
+  "selected_skills": [
+    "dna-rna-sequence-analysis"
+  ],
+  "rationale": "The task requires reading supplied CSV files, ranking guide candidates using sequence-derived on-target and off-target safety evidence (coding/exonic near matches, mismatch counts), and writing local output files without external data. dna-rna-sequence-analysis is the closest catalog skill for analyzing oligonucleotide guide sequences and their properties; no external retrieval or modeling skills are needed.",
+  "usage": {
+    "completion_tokens": 1256,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1162,
+      "text_tokens": 1256
+    },
+    "prompt_tokens": 10027,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10027
+    },
+    "total_tokens": 11283
+  }
+}

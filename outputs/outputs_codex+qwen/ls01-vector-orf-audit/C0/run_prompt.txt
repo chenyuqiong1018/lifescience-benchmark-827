@@ -1,0 +1,7 @@
+Audit each construct for start/stop codons, reading frame, tag/linker compatibility and cloning flags represented in the input. Write output/construct_audit.csv with construct_id,frame_ok,start_ok,stop_ok,tag_ok,overall_status,issues, output/analysis.py, and output/report.md. Do not infer sequence features that are absent from the input.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Complete the requested task and save every requested deliverable in the current workspace.

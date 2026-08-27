@@ -1,0 +1,7 @@
+Audit every primer pair against the supplied transcript isoforms. Write output/primer_audit.csv with pair_id,transcripts_matched,amplicon_length,cds_compatible,status,reason, output/analysis.py, and output/report.md. Use only supplied sequences; report malformed or internally inconsistent sequence metadata rather than silently repairing it.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Complete the requested task and save every requested deliverable in the current workspace.

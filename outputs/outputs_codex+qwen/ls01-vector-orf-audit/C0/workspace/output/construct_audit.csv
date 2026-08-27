@@ -1,0 +1,4 @@
+construct_id,frame_ok,start_ok,stop_ok,tag_ok,overall_status,issues
+c01,True,True,True,False,fail,TAG
+c02,False,True,False,True,fail,STOP;FRAME
+c03,False,True,True,False,fail,FRAME;TAG

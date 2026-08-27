@@ -1,0 +1,23 @@
+{
+  "task_id": "ls01-primer-transcript-audit",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "dna-rna-sequence-analysis",
+    "ensembl-sequence-retrieval",
+    "transcriptome_analysis"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-27T11:54:03.636490+00:00",
+  "usage": {
+    "input_tokens": 436146,
+    "cached_input_tokens": 389248,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 35124,
+    "reasoning_output_tokens": 27185
+  },
+  "finished_at": "2026-08-27T12:07:03.900926+00:00",
+  "return_code": 0
+}

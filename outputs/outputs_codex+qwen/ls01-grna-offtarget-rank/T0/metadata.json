@@ -1,0 +1,21 @@
+{
+  "task_id": "ls01-grna-offtarget-rank",
+  "condition": "T0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "dna-rna-sequence-analysis"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-27T10:33:13.499976+00:00",
+  "usage": {
+    "input_tokens": 191917,
+    "cached_input_tokens": 168192,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 11366,
+    "reasoning_output_tokens": 5926
+  },
+  "finished_at": "2026-08-27T10:38:14.134380+00:00",
+  "return_code": 0
+}

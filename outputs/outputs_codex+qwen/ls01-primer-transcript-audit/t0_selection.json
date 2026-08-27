@@ -1,0 +1,23 @@
+{
+  "task_id": "ls01-primer-transcript-audit",
+  "model": "qwen3.8-max",
+  "catalog_size": 143,
+  "selected_skills": [
+    "dna-rna-sequence-analysis",
+    "transcriptome_analysis"
+  ],
+  "rationale": "The task audits primer pairs against supplied transcript isoforms, requiring nucleotide sequence matching, reverse-complement handling, amplicon length determination, and transcript/CDS compatibility checks; the closest catalog capabilities are DNA/RNA sequence analysis plus transcript-oriented sequence lookup and validation.",
+  "usage": {
+    "completion_tokens": 1636,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1559,
+      "text_tokens": 1636
+    },
+    "prompt_tokens": 9994,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 9994
+    },
+    "total_tokens": 11630
+  }
+}

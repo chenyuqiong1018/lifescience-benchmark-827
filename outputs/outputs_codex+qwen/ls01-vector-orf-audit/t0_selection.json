@@ -1,0 +1,23 @@
+{
+  "task_id": "ls01-vector-orf-audit",
+  "model": "qwen3.8-max",
+  "catalog_size": 143,
+  "selected_skills": [
+    "dna-rna-sequence-analysis",
+    "synthetic_biology_design"
+  ],
+  "rationale": "The task audits constructs for start/stop codons, reading frame, tag/linker compatibility, and cloning flags, which requires explicit DNA/RNA sequence parsing and codon-aware construct validation. synthetic_biology_design is the closest catalog capability for codon/construct-level synthetic biology assessment; dna-rna-sequence-analysis provides the closest DNA/RNA sequence feature analysis support.",
+  "usage": {
+    "completion_tokens": 521,
+    "completion_tokens_details": {
+      "reasoning_tokens": 418,
+      "text_tokens": 521
+    },
+    "prompt_tokens": 10001,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10001
+    },
+    "total_tokens": 10522
+  }
+}
