@@ -1,0 +1,6 @@
+{
+  "mode": "AUTO_FROM_183_WHITELIST",
+  "clean_isolated_environment": "work/active_skills/ls01-vector-orf-audit/T0",
+  "selected_in_order": ["dna-rna-sequence-analysis", "synthetic_biology_design", "code_execution_analysis"],
+  "remote_tools_called": []
+}
