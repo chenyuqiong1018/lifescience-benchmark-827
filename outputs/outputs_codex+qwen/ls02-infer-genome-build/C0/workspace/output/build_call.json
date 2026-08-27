@@ -1,0 +1,137 @@
+{
+  "build": "hg19",
+  "confidence": "high",
+  "n_variants_checked": 84664,
+  "n_ref_matches": 84664,
+  "n_ref_mismatches": 0,
+  "evidence": [
+    "VCF contains 84664 variant records on contig '20' (POS 61795..62965185; 84664 SNVs, 0 indels/other); chromosome naming alone was not used as evidence.",
+    "All three supplied chr20 references passed SHA-256 verification against reference_manifest.json (hg18 62435964 bp, hg19 63025520 bp, hg38 64444167 bp).",
+    "hg18: 20758/84664 VCF REF alleles match the reference at the declared 1-based coordinates (24.5181%); 62951 mismatches, 955 unverifiable.",
+    "hg19: 84664/84664 VCF REF alleles match the reference at the declared 1-based coordinates (100.0000%); 0 mismatches, 0 unverifiable.",
+    "hg38: 20966/84664 VCF REF alleles match the reference at the declared 1-based coordinates (24.7638%); 63517 mismatches, 181 unverifiable.",
+    "hg19 reproduces 100% of REF alleles while every alternative build mismatches the majority of sites; the coordinate system is therefore identified unambiguously.",
+    "T2T/hs1 excluded: no T2T chr20 reference is supplied in inputs/references (per its README, an unavailable candidate is excluded, not counted as a mismatch). A T2T coordinate call would additionally be incompatible with an exact, genome-wide REF match against one of the supplied linear-build references."
+  ],
+  "per_build": {
+    "hg18": {
+      "fasta_header": "chr20",
+      "contig_length_bp": 62435964,
+      "n_ref_matches": 20758,
+      "n_ref_mismatches": 62951,
+      "n_unverifiable": 955,
+      "match_rate": 0.245181,
+      "first_mismatch_examples": [
+        {
+          "chrom": "20",
+          "pos": 61795,
+          "vcf_ref": "G",
+          "ref_genome_base": "C"
+        },
+        {
+          "chrom": "20",
+          "pos": 63360,
+          "vcf_ref": "C",
+          "ref_genome_base": "A"
+        },
+        {
+          "chrom": "20",
+          "pos": 63799,
+          "vcf_ref": "C",
+          "ref_genome_base": "A"
+        },
+        {
+          "chrom": "20",
+          "pos": 65288,
+          "vcf_ref": "G",
+          "ref_genome_base": "A"
+        },
+        {
+          "chrom": "20",
+          "pos": 65900,
+          "vcf_ref": "G",
+          "ref_genome_base": "A"
+        }
+      ]
+    },
+    "hg19": {
+      "fasta_header": "20",
+      "contig_length_bp": 63025520,
+      "n_ref_matches": 84664,
+      "n_ref_mismatches": 0,
+      "n_unverifiable": 0,
+      "match_rate": 1.0,
+      "first_mismatch_examples": []
+    },
+    "hg38": {
+      "fasta_header": "chr20",
+      "contig_length_bp": 64444167,
+      "n_ref_matches": 20966,
+      "n_ref_mismatches": 63517,
+      "n_unverifiable": 181,
+      "match_rate": 0.247638,
+      "first_mismatch_examples": [
+        {
+          "chrom": "20",
+          "pos": 61795,
+          "vcf_ref": "G",
+          "ref_genome_base": "A"
+        },
+        {
+          "chrom": "20",
+          "pos": 65288,
+          "vcf_ref": "G",
+          "ref_genome_base": "T"
+        },
+        {
+          "chrom": "20",
+          "pos": 65900,
+          "vcf_ref": "G",
+          "ref_genome_base": "C"
+        },
+        {
+          "chrom": "20",
+          "pos": 66370,
+          "vcf_ref": "G",
+          "ref_genome_base": "T"
+        },
+        {
+          "chrom": "20",
+          "pos": 69094,
+          "vcf_ref": "G",
+          "ref_genome_base": "A"
+        }
+      ]
+    }
+  },
+  "reference_integrity": {
+    "hg18": {
+      "sha256_ok": true,
+      "source": "https://hgdownload.soe.ucsc.edu/goldenPath/hg18/chromosomes/chr20.fa.gz"
+    },
+    "hg19": {
+      "sha256_ok": true,
+      "source": "https://storage.googleapis.com/genomics-public-data/references/hg19/v0/chr20.fa.gz"
+    },
+    "hg38": {
+      "sha256_ok": true,
+      "source": "https://storage.googleapis.com/genomics-public-data/references/hg38/v0/chr20.fa.gz"
+    }
+  },
+  "vcf": {
+    "file": "inputs/vcf.infer.build.q1.vcf.gz",
+    "contigs": [
+      "20"
+    ],
+    "min_pos": 61795,
+    "max_pos": 62965185,
+    "n_snv": 84664,
+    "n_indel_or_other": 0
+  },
+  "t2t": {
+    "candidate": true,
+    "reference_available": false,
+    "status": "explicitly_excluded",
+    "note": "T2T/hs1 excluded: no T2T chr20 reference is supplied in inputs/references (per its README, an unavailable candidate is excluded, not counted as a mismatch). A T2T coordinate call would additionally be incompatible with an exact, genome-wide REF match against one of the supplied linear-build references."
+  }
+}
