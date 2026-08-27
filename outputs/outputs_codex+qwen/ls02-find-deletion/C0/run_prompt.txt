@@ -1,0 +1,9 @@
+Locate the large deletion in the supplied shallow paired-end hg38 data. Write output/deletion.tsv with chrom,start_100kb,end_100kb,size_bp,supporting_signals, output/qc.json, output/analysis.py, and output/report.md. Round breakpoints to the nearest 100 kb and distinguish evidence from precision limits.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Never enumerate, stop, kill, suspend, or otherwise control system-wide processes. Do not use Stop-Process, taskkill, pkill, killall, or Get-Process for termination. If a command you launched is slow, wait for it or redesign the next command without terminating any process.
+- Do not access or affect any process, file, directory, task, or project outside the current workspace.
+- Complete the requested task and save every requested deliverable in the current workspace.

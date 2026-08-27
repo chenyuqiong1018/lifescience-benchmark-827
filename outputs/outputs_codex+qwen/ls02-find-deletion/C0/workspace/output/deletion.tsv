@@ -1,0 +1,2 @@
+chrom	start_100kb	end_100kb	size_bp	supporting_signals
+chr22	20000000	21000000	1000000	read_depth=10 consecutive 100kb bins at CN 0.00 vs 1.03 genome median (homozygous-like); depth interval chr22:20000001-21000000 | discordant_pairs=1 FR pair(s) spanning the depth region (median span 1,000,563 bp, insert median 500 bp) | split_reads=2 junction read(s) in 1 cluster(s), best at chr22:20000001-21000000 (n=2)
