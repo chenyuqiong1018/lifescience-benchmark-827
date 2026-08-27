@@ -1,0 +1,30 @@
+{
+  "mode": "T1-controlled",
+  "control_file": "T1-control_all skill.md",
+  "task_id": "ls03-cryptic-exon",
+  "required_skills": [
+    "transcriptome_analysis",
+    "ensembl-sequence-retrieval",
+    "genome_annotation",
+    "code_execution_analysis"
+  ],
+  "installed_skills": [
+    {
+      "name": "transcriptome_analysis",
+      "download_url": "https://github.com/InternScience/scp/blob/main/skills/transcriptome_analysis/SKILL.md"
+    },
+    {
+      "name": "ensembl-sequence-retrieval",
+      "download_url": "https://github.com/InternScience/scp/blob/main/skills/ensembl-sequence-retrieval/SKILL.md"
+    },
+    {
+      "name": "genome_annotation",
+      "download_url": "https://github.com/InternScience/scp/blob/main/skills/genome_annotation/SKILL.md"
+    },
+    {
+      "name": "code_execution_analysis",
+      "download_url": "https://github.com/InternScience/scp/blob/main/skills/code_execution_analysis/SKILL.md"
+    }
+  ],
+  "isolation": "The T0 active environment was archived, the T1 directory was confirmed empty, all four controlled skills were freshly installed, and every SKILL.md was opened completely before execution."
+}
