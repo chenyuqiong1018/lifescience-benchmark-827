@@ -1,0 +1,22 @@
+{
+  "task": "ls04-differential-composition",
+  "condition": "T1",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "skills": ["scvi-tools", "scgpt", "statistical-analysis", "scientific-visualization"],
+  "skill_install_note": "scvi-tools and scgpt whitelist Feishu anchors were permission-blocked (3380004), so exact selected local caches were freshly copied into the empty isolated arm directory; the other two skills were downloaded from whitelist GitHub links",
+  "status": "success",
+  "validation": {
+    "composition_rows": 32,
+    "sample_1_cells": 6295,
+    "sample_2_cells": 5004,
+    "sample_fraction_sums_equal_one": true,
+    "matrix_entry_counts_match_headers": true,
+    "all_marker_symbols_unique_and_present": true,
+    "depleted_call": "horizontal cell",
+    "sample_2_to_sample_1_fraction_ratio": 0.26009150485518756,
+    "independent_ratio_ranking_check": true,
+    "svg_parses_as_xml": true,
+    "deterministic_rerun": true
+  }
+}

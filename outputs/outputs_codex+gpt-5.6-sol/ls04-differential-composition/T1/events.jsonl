@@ -1,0 +1,6 @@
+{"event":"arm_started","task":"ls04-differential-composition","condition":"T1","skills":["scvi-tools","scgpt","statistical-analysis","scientific-visualization"]}
+{"event":"whitelist_anchor_permission_error","skills":["scvi-tools","scgpt"],"code":3380004}
+{"event":"skills_freshly_installed_and_opened","local_cache_reinstall":["scvi-tools","scgpt"],"github_download":["statistical-analysis","scientific-visualization"]}
+{"event":"analysis_completed","composition_rows":32,"sample_1_cells":6295,"sample_2_cells":5004,"depleted_call":"horizontal cell","fraction_ratio":0.26009150485518756}
+{"event":"validation_passed","fraction_sums_equal_one":true,"entry_counts_match_headers":true,"independent_ratio_ranking_check":true,"svg_parses_as_xml":true}
+{"event":"deterministic_rerun_passed"}
