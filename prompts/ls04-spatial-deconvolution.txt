@@ -1,0 +1,1 @@
+Use the supplied single-cell reference and Visium data to identify the cell type or mixture represented at Spot_710-1. Write output/spot_710_composition.csv with cell_type,weight,evidence, output/analysis.py, and output/report.md. Weights must be nonnegative and sum to 1 within 0.01; do not force a single type if a mixture is supported.

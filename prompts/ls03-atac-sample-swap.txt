@@ -1,0 +1,1 @@
+Determine whether two organ labels are swapped in the axolotl bulk ATAC-seq data. Write output/swap_call.json with swap_detected,organ_a,organ_b,confidence,evidence, output/sample_similarity.csv, output/analysis.py, and output/report.md. If evidence does not support a unique swap, return swap_detected=false and explain uncertainty.

@@ -1,0 +1,1 @@
+Map query perturbation groups to the labeled reference across the cell-type shift and identify the query guide IDs corresponding to PABPC1, NUDT21 and LEO1. Write output/guide_mapping.csv with target_gene,query_guide_id,score,runner_up_score,confidence, output/analysis.py, and output/report.md. Prevent target metadata leakage and quantify ambiguity.

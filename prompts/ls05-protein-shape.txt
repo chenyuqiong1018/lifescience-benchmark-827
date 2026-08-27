@@ -1,0 +1,1 @@
+Inspect the supplied PDB geometry and determine which one of B,D,F,H,J,L,N,P,R,T,V,X,Z it most resembles. Write output/shape_call.json with letter,confidence,orientation_notes and output/shape_view.png. Use only the supplied structure.

@@ -1,0 +1,1 @@
+Audit each construct for start/stop codons, reading frame, tag/linker compatibility and cloning flags represented in the input. Write output/construct_audit.csv with construct_id,frame_ok,start_ok,stop_ok,tag_ok,overall_status,issues, output/analysis.py, and output/report.md. Do not infer sequence features that are absent from the input.

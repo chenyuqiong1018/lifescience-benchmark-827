@@ -1,0 +1,1 @@
+Compare the two retinal single-cell expression matrices and identify the cell population that is severely depleted in sample 2. Write output/composition.csv with sample,cell_type,n_cells,fraction, output/depleted_call.json, output/analysis.py, and output/report.md. Document QC, normalization, annotation evidence and uncertainty.
