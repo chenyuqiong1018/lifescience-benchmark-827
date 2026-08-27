@@ -1,160 +1,54 @@
-# T1 Control — All Skills
+# T1-control_all Skill 指定方案
 
-## 实验条件定义
+## 适用范围
 
-- 条件名称：`T1-control_all-skill`
-- 任务范围：物质科学评测集 30 题（`MS01-Q1`—`MS10-Q3`）。
-- 固定候选池：物质科学模板中的全部 96 个 Skill，其中物质专用 48 个、通用 48 个。
-- 允许范围：每道题只能从下方 96 个 Skill 中选择，不得调用候选池外能力。
-- 选择方式：运行前依据题目 prompt、inputs 类型和交付物，从固定候选池选择最相关的 1—4 个 Skill；禁止把 96 个 Skill 全部注入上下文。
-- 隔离要求：每次运行前清空已安装或已启用的 Skill，只安装并打开本题实际选中的 Skill；运行结束后再次清空。
-- 审计要求：记录候选池版本、实际选择结果、选择理由、安装/启用/清理时间及失败回退。
-- 无匹配回退：若没有合适 Skill，记录 `no_matching_skill` 并以无 Skill 方式完成，不得使用候选池外能力。
+- 候选池严格采用飞书 5.2「生命科学」模板中的 183 个 Skill：143 个生命科学 Skill + 40 个通用 Skill。
+- 每题固定指定 1–5 个与核心方法、输入格式或交付物直接相关的 Skill；允许复用，但不为凑数加入无关 Skill。
+- 同一题的所有 T1 重复运行必须使用完全相同的 Skill 集合和表内顺序。
+- 本方案只改变 T1 的指定 Skill；不配置额外 MCP，task-card、inputs、模型和其他运行参数保持不变。
 
-## 30 题适用范围
+## 指定方案
 
-| 序号 | Task ID | T1 指定候选池 | 单题选择上限 |
-| ---: | --- | --- | ---: |
-| 1 | `MS01-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 2 | `MS01-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 3 | `MS01-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 4 | `MS02-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 5 | `MS02-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 6 | `MS02-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 7 | `MS03-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 8 | `MS03-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 9 | `MS03-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 10 | `MS04-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 11 | `MS04-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 12 | `MS04-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 13 | `MS05-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 14 | `MS05-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 15 | `MS05-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 16 | `MS06-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 17 | `MS06-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 18 | `MS06-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 19 | `MS07-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 20 | `MS07-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 21 | `MS07-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 22 | `MS08-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 23 | `MS08-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 24 | `MS08-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 25 | `MS09-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 26 | `MS09-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 27 | `MS09-Q3` | 全部 96 个物质＋通用 Skill | 4 |
-| 28 | `MS10-Q1` | 全部 96 个物质＋通用 Skill | 4 |
-| 29 | `MS10-Q2` | 全部 96 个物质＋通用 Skill | 4 |
-| 30 | `MS10-Q3` | 全部 96 个物质＋通用 Skill | 4 |
+| 序号 | Task ID | T1 指定 Skill |
+|---:|---|---|
+| 1 | `ls01-grna-offtarget-rank` | `dna-rna-sequence-analysis`; `genome_annotation`; `code_execution_analysis` |
+| 2 | `ls01-primer-transcript-audit` | `dna-rna-sequence-analysis`; `ensembl-sequence-retrieval`; `transcriptome_analysis`; `code_execution_analysis` |
+| 3 | `ls01-vector-orf-audit` | `dna-rna-sequence-analysis`; `synthetic_biology_design`; `code_execution_analysis` |
+| 4 | `ls02-deleterious-mutation` | `genome_annotation`; `snp_functional_analysis`; `statistical-analysis`; `code_execution_analysis` |
+| 5 | `ls02-find-deletion` | `chromosome_analysis`; `ucsc_genome_exploration`; `genome_annotation`; `code_execution_analysis` |
+| 6 | `ls02-infer-genome-build` | `chromosome_analysis`; `ucsc_genome_exploration`; `code_execution_analysis` |
+| 7 | `ls03-atac-sample-swap` | `regulatory_region_analysis`; `tissue_specific_analysis`; `exploratory-data-analysis`; `statistical-analysis`; `scientific-visualization` |
+| 8 | `ls03-cryptic-exon` | `transcriptome_analysis`; `ensembl-sequence-retrieval`; `genome_annotation`; `code_execution_analysis` |
+| 9 | `ls03-genome-coordinates` | `regulatory_region_analysis`; `region-gene-elements`; `statistical-analysis`; `scientific-visualization` |
+| 10 | `ls04-differential-composition` | `scvi-tools`; `scgpt`; `statistical-analysis`; `scientific-visualization` |
+| 11 | `ls04-perturbseq-reference-map` | `scvi-tools`; `scgpt`; `statistical-analysis`; `code_execution_analysis` |
+| 12 | `ls04-spatial-deconvolution` | `scvi-tools`; `scgpt`; `statistical-analysis`; `code_execution_analysis`; `scientific-visualization` |
+| 13 | `ls05-protein-shape` | `protein_structure_analysis`; `protein_quality_assessment`; `code_execution_analysis`; `matplotlib` |
+| 14 | `ls05-structure-model-ranking` | `protein_quality_assessment`; `protein_structure_analysis`; `statistical-analysis`; `code_execution_analysis` |
+| 15 | `ls05-low-confidence-pocket` | `protein_quality_assessment`; `binding_site_characterization`; `alphafold_structure_pipeline`; `scientific-critical-thinking`; `code_execution_analysis` |
+| 16 | `ls06-eno1-effect-size` | `proteome_analysis`; `markitdown`; `exploratory-data-analysis`; `statistical-analysis`; `code_execution_analysis` |
+| 17 | `ls06-eno1-significance-audit` | `proteome_analysis`; `biomarker_discovery`; `markitdown`; `statistical-analysis`; `code_execution_analysis` |
+| 18 | `ls07-combination-treatment-deg` | `biomarker_discovery`; `transcriptome_analysis`; `statistical-analysis`; `code_execution_analysis` |
+| 19 | `ls07-combination-treatment-mechanism` | `go_term_analysis`; `string-ppi-enrichment`; `scientific-critical-thinking`; `code_execution_analysis` |
+| 20 | `ls08-enhancer-promoter-integration` | `regulatory_region_analysis`; `region-gene-elements`; `scientific-critical-thinking`; `code_execution_analysis` |
+| 21 | `ls08-multiome-column-match` | `multiomics_integration`; `regulatory_region_analysis`; `exploratory-data-analysis`; `statistical-analysis`; `code_execution_analysis` |
+| 22 | `ls09-opentrons-sop` | `synthetic_biology_design`; `protocol-generation-from-description`; `protocol-to-executable-json`; `unit_conversion_suite`; `code_execution_analysis` |
+| 23 | `ls09-plate-dilution-recovery` | `bioassay_analysis`; `unit_conversion_suite`; `measurement-error-analysis`; `protocol-generation-from-description`; `code_execution_analysis` |
+| 24 | `ls10-neun-power-analysis` | `biomarker_discovery`; `statistical-analysis`; `code_execution_analysis` |
+| 25 | `ls10-treatment-response-model` | `personalized_medicine`; `exploratory-data-analysis`; `statistical-analysis`; `code_execution_analysis` |
 
-## 96 Skill 候选池
+## 运行约束
 
-| 序号 | Skill 名称 | 类型 |
-| ---: | --- | --- |
-| 1 | `admet_druglikeness_report` | 物质专用 |
-| 2 | `aliphatic_ring_analysis` | 物质专用 |
-| 3 | `buoyancy-acceleration-calculation` | 物质专用 |
-| 4 | `capacitance-calculation` | 物质专用 |
-| 5 | `cas_compound_lookup` | 物质专用 |
-| 6 | `chembl-molecule-search` | 物质专用 |
-| 7 | `chemical-mass-percent-calculation` | 物质专用 |
-| 8 | `chemical-structure-analysis` | 物质专用 |
-| 9 | `chemical_patent_analysis` | 物质专用 |
-| 10 | `chemical_property_profiling` | 物质专用 |
-| 11 | `chemical_safety_assessment` | 物质专用 |
-| 12 | `chemical_structure_comparison` | 物质专用 |
-| 13 | `combinatorial_chemistry` | 物质专用 |
-| 14 | `compound-name-retrieval` | 物质专用 |
-| 15 | `compound_database_crossref` | 物质专用 |
-| 16 | `drugsda-admet` | 物质专用 |
-| 17 | `drugsda-compound-retrieve` | 物质专用 |
-| 18 | `drugsda-denovo-sampling` | 物质专用 |
-| 19 | `drugsda-drug-likeness` | 物质专用 |
-| 20 | `drugsda-linker-sampling` | 物质专用 |
-| 21 | `drugsda-mol-properties` | 物质专用 |
-| 22 | `drugsda-mol-similarity` | 物质专用 |
-| 23 | `drugsda-mol2mol-sampling` | 物质专用 |
-| 24 | `drugsda-rgroup-sampling` | 物质专用 |
-| 25 | `electrical_circuit_analysis` | 物质专用 |
-| 26 | `electromagnetic_analysis` | 物质专用 |
-| 27 | `energy_conversion` | 通用 |
-| 28 | `experimental_data_processing` | 通用 |
-| 29 | `functional_group_profiling` | 物质专用 |
-| 30 | `geometric-volume-calculation` | 通用 |
-| 31 | `geometry_trigonometry` | 通用 |
-| 32 | `lead_compound_optimization` | 物质专用 |
-| 33 | `length_measurement` | 通用 |
-| 34 | `material-density-volume-calculation` | 物质专用 |
-| 35 | `mobility_analysis` | 物质专用 |
-| 36 | `molecular-descriptors-calculation` | 物质专用 |
-| 37 | `molecular-format-conversion` | 物质专用 |
-| 38 | `molecular-properties-calculation` | 物质专用 |
-| 39 | `molecular-property-profiling` | 物质专用 |
-| 40 | `molecular-similarity-search` | 物质专用 |
-| 41 | `molecular_fingerprint_analysis` | 物质专用 |
-| 42 | `molecular_visualization_suite` | 物质专用 |
-| 43 | `natural_product_analysis` | 物质专用 |
-| 44 | `nuclear_physics` | 物质专用 |
-| 45 | `optical-frequency-calculation` | 物质专用 |
-| 46 | `optics_analysis` | 物质专用 |
-| 47 | `polymer_property_analysis` | 物质专用 |
-| 48 | `pubchem-smiles-search` | 物质专用 |
-| 49 | `pubchem_deep_dive` | 物质专用 |
-| 50 | `signal_processing` | 通用 |
-| 51 | `smiles-to-cas-conversion` | 物质专用 |
-| 52 | `smiles_comprehensive_analysis` | 物质专用 |
-| 53 | `statistical_error_analysis` | 通用 |
-| 54 | `substructure_activity_search` | 物质专用 |
-| 55 | `thermal_analysis` | 物质专用 |
-| 56 | `unit-conversion-nanoscale` | 通用 |
-| 57 | `exploratory-data-analysis` | 通用 |
-| 58 | `statistical-analysis` | 通用 |
-| 59 | `markitdown` | 通用 |
-| 60 | `openalex-database` | 通用 |
-| 61 | `hypothesis-generation` | 通用 |
-| 62 | `initialize-atlas-graph` | 通用 |
-| 63 | `peer-review` | 通用 |
-| 64 | `scientific-critical-thinking` | 通用 |
-| 65 | `matplotlib` | 通用 |
-| 66 | `scientific-visualization` | 通用 |
-| 67 | `seaborn` | 通用 |
-| 68 | `citation-management` | 通用 |
-| 69 | `compute-env-setup` | 通用 |
-| 70 | `customize` | 通用 |
-| 71 | `figure-composer` | 通用 |
-| 72 | `figure-style` | 通用 |
-| 73 | `literature-review` | 通用 |
-| 74 | `managed-model-endpoints` | 通用 |
-| 75 | `paper-narrative` | 通用 |
-| 76 | `pdf-explore` | 通用 |
-| 77 | `product-self-knowledge` | 通用 |
-| 78 | `remote-compute-modal` | 通用 |
-| 79 | `remote-compute-ssh` | 通用 |
-| 80 | `self-awareness` | 通用 |
-| 81 | `skill-creator` | 通用 |
-| 82 | `using-model-endpoint` | 通用 |
-| 83 | `code_execution_analysis` | 通用 |
-| 84 | `lab_protocol_from_literature` | 通用 |
-| 85 | `measurement-error-analysis` | 通用 |
-| 86 | `meta-analysis-execution` | 通用 |
-| 87 | `protocol-extraction-from-pdf` | 通用 |
-| 88 | `protocol-generation-from-description` | 通用 |
-| 89 | `protocol-to-executable-json` | 通用 |
-| 90 | `scientific-literature-search` | 通用 |
-| 91 | `unit_conversion_suite` | 通用 |
-| 92 | `web_literature_mining` | 通用 |
-| 93 | `nature-figure` | 通用 |
-| 94 | `drugsda-data-valid` | 通用 |
-| 95 | `drugsda-file-transfer` | 通用 |
-| 96 | `pubmed-article-search` | 通用 |
+1. Skill 只提供方法与工具指导；若 Skill 默认流程与 task-card 冲突，以 task-card、冻结 inputs 和 oracle 规则为准。
+2. 禁止用在线数据库或 Skill 示例数据替换随题材料；涉及固定版本、阈值、排序公式、字段名或输出结构时，严格执行题面合同。
+3. 通用 Skill 的加入用于补足表格解析、统计检验、代码计算、误差审计、协议结构化和图形输出能力，不改变生命科学领域 Skill 的证据边界。
+4. 记录实际加载的 Skill 名称及顺序，确保 T1 可复现，并可与 C0=`NONE`、T0=`AUTO` 公平比较。
 
-## 单题执行记录格式
+## 核验摘要
 
-| Task ID | 实际选择 Skill | 选择理由 | 安装成功 | 已启用 | 运行后已清理 |
-| --- | --- | --- | --- | --- | --- |
-| `MSxx-Qx` | `skill_a`; `skill_b` | 与 prompt、inputs 和交付物的对应关系 | 是/否 | 是/否 | 是/否 |
-
-## 版本来源
-
-- Skill 清单来源：飞书《项目模板》“物质科学模板（通用＋物质）”章节。
-- 本文件固定 96 项全集作为 T1 可选范围；后续若清单变更，应更新文件并记录版本差异。
-
+- 题目数：25
+- 每题 Skill 数：3–5
+- 候选池：183（生命科学 143 + 通用 40）
+- 表内所用生命科学 Skill：均来自序号 1–143
+- 表内所用通用 Skill：均来自序号 144–183
+- 额外 MCP：无
