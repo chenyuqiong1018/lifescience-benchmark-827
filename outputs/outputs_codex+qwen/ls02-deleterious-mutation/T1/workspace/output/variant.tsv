@@ -1,0 +1,2 @@
+chrom	pos	ref	alt	gene	consequence	alt_reads	total_reads	allele_fraction
+chr9	127661125	G	T	STXBP1	stop_gained	6	47	0.1277

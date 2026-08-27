@@ -1,0 +1,9 @@
+Analyze the supplied chr9 exome reads to identify the high-confidence mosaic nonsense SNV in a highly loss-of-function-intolerant protein-coding gene. Write output/variant.tsv with chrom,pos,ref,alt,gene,consequence,alt_reads,total_reads,allele_fraction, output/evidence.json, output/analysis.py, and output/report.md. Report allele fraction as 0–1 and document reference/annotation versions.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Never enumerate, stop, kill, suspend, or otherwise control system-wide processes. Do not use Stop-Process, taskkill, pkill, killall, or Get-Process for termination. If a command you launched is slow, wait for it or redesign the next command without terminating any process.
+- Do not access or affect any process, file, directory, task, or project outside the current workspace.
+- Complete the requested task and save every requested deliverable in the current workspace.

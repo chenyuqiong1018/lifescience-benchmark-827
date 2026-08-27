@@ -1,0 +1,263 @@
+{
+  "variant": {
+    "chrom": "chr9",
+    "pos": 127661125,
+    "ref": "G",
+    "alt": "T",
+    "gene": "STXBP1",
+    "gene_id": "ENSG00000136854.26",
+    "consequence": "stop_gained (nonsense)",
+    "so_term": "stop_gained",
+    "hgvs_protein": "p.Glu117Ter",
+    "hgvs_protein_1letter": "p.E117*",
+    "codon_change": "GAA>TAA",
+    "canonical_transcript": "ENST00000373299.5",
+    "canonical_transcript_name": "STXBP1-201",
+    "exon": "6/19",
+    "strand": "+",
+    "all_affected_transcripts": [
+      "ENST00000373299.5:E117*",
+      "ENST00000373302.8:E117*",
+      "ENST00000494254.4:E117*",
+      "ENST00000496504.4:E117*",
+      "ENST00000625363.3:E103*",
+      "ENST00000626333.2:E103*",
+      "ENST00000626539.3:E103*",
+      "ENST00000627871.3:E103*",
+      "ENST00000636962.2:E117*",
+      "ENST00000637173.2:E103*",
+      "ENST00000637521.2:E103*",
+      "ENST00000637953.1:E117*",
+      "ENST00000647107.2:E117*",
+      "ENST00000650920.1:E103*",
+      "ENST00000704680.1:E103*",
+      "ENST00000713765.1:E117*",
+      "ENST00000713766.1:E117*"
+    ]
+  },
+  "read_support": {
+    "alt_reads": 6,
+    "ref_reads": 41,
+    "total_reads": 47,
+    "allele_fraction": 0.1276595744680851,
+    "allele_fraction_rounded": 0.1277,
+    "alt_forward": 5,
+    "alt_reverse": 1,
+    "ref_forward": 23,
+    "ref_reverse": 18,
+    "min_alt_baseq": 33,
+    "min_mapq": 60,
+    "alt_unique_molecules": 6,
+    "alt_read_names": [
+      "READ_204796",
+      "READ_378102",
+      "READ_301814",
+      "READ_14027",
+      "READ_428597",
+      "READ_191105"
+    ],
+    "alt_read_details": [
+      {
+        "name": "READ_204796",
+        "strand": "+",
+        "mapq": 60,
+        "base": "T",
+        "baseq": 33,
+        "read_pos": 100,
+        "dist_to_end": 49,
+        "align_start": 127661025
+      },
+      {
+        "name": "READ_378102",
+        "strand": "+",
+        "mapq": 60,
+        "base": "T",
+        "baseq": 33,
+        "read_pos": 98,
+        "dist_to_end": 52,
+        "align_start": 127661027
+      },
+      {
+        "name": "READ_301814",
+        "strand": "+",
+        "mapq": 60,
+        "base": "T",
+        "baseq": 33,
+        "read_pos": 90,
+        "dist_to_end": 60,
+        "align_start": 127661035
+      },
+      {
+        "name": "READ_14027",
+        "strand": "+",
+        "mapq": 60,
+        "base": "T",
+        "baseq": 33,
+        "read_pos": 79,
+        "dist_to_end": 71,
+        "align_start": 127661046
+      },
+      {
+        "name": "READ_428597",
+        "strand": "+",
+        "mapq": 60,
+        "base": "T",
+        "baseq": 33,
+        "read_pos": 43,
+        "dist_to_end": 43,
+        "align_start": 127661082
+      },
+      {
+        "name": "READ_191105",
+        "strand": "-",
+        "mapq": 60,
+        "base": "T",
+        "baseq": 33,
+        "read_pos": 3,
+        "dist_to_end": 3,
+        "align_start": 127661122
+      }
+    ]
+  },
+  "mosaic_statistics": {
+    "binomial_p_vs_germline_het_AF0.5": 8.858493316665772e-08,
+    "binomial_p_vs_sequencing_error_0.01": 7.554243968214453e-06,
+    "binomial_p_vs_sequencing_error_0.005": 1.4073084525434683e-07,
+    "interpretation": "ALT fraction is significantly inconsistent with germline heterozygosity (AF ~ 0.5) and strongly exceeds sequencing-error expectation -> somatic mosaicism"
+  },
+  "site_quality": {
+    "nearby_called_variants_within_50bp": [],
+    "reference_context_21bp": "CCTGTTTAATGAACTGGTAAA",
+    "max_homopolymer_in_context": 3,
+    "dedup_consistent": "ALT/ref counts identical with and without marked duplicates (site not affected by PCR duplicates)"
+  },
+  "gene_loss_of_function_intolerance": {
+    "gene": "STXBP1",
+    "source": "gnomAD v4 constraint, GraphQL API (live fetch)",
+    "gene_id_gnomad": "ENSG00000136854",
+    "pLI": 0.9999999999999992,
+    "oe_lof": 0.03820437312423431,
+    "oe_lof_ci": [
+      0.017399779278645385,
+      0.09874119569009897
+    ],
+    "lof_z": 7.2302184322647784,
+    "exp_lof": 78.52504189100279,
+    "obs_lof": 3,
+    "classification": "highly LoF-intolerant: pLI >= 0.9 and o/e LoF upper CI <= 0.35"
+  },
+  "rejected_stop_gained_candidates": [
+    {
+      "pos": 101670953,
+      "ref": "C",
+      "alt": "T",
+      "genes": [
+        "GRIN3A"
+      ],
+      "alt_reads": 11,
+      "total_reads": 20,
+      "allele_fraction": 0.55,
+      "alt_forward": 8,
+      "alt_reverse": 3,
+      "rejection_reasons": [
+        "allele fraction consistent with germline heterozygosity (AF ~ 0.5)",
+        "gene(s) not highly LoF-intolerant per gnomAD constraint"
+      ]
+    },
+    {
+      "pos": 113391620,
+      "ref": "A",
+      "alt": "G",
+      "genes": [
+        "ALAD"
+      ],
+      "alt_reads": 13,
+      "total_reads": 21,
+      "allele_fraction": 0.619,
+      "alt_forward": 1,
+      "alt_reverse": 12,
+      "rejection_reasons": [
+        "allele fraction consistent with germline heterozygosity (AF ~ 0.5)",
+        "gene(s) not highly LoF-intolerant per gnomAD constraint"
+      ]
+    },
+    {
+      "pos": 114196007,
+      "ref": "C",
+      "alt": "T",
+      "genes": [
+        "COL27A1"
+      ],
+      "alt_reads": 4,
+      "total_reads": 23,
+      "allele_fraction": 0.1739,
+      "alt_forward": 0,
+      "alt_reverse": 4,
+      "rejection_reasons": [
+        "only 4 ALT reads (< 5 required)",
+        "ALT reads observed on a single strand only (strand bias)",
+        "allele fraction consistent with germline heterozygosity (AF ~ 0.5)",
+        "gene(s) not highly LoF-intolerant per gnomAD constraint"
+      ]
+    },
+    {
+      "pos": 121017727,
+      "ref": "G",
+      "alt": "A",
+      "genes": [
+        "C5"
+      ],
+      "alt_reads": 19,
+      "total_reads": 41,
+      "allele_fraction": 0.4634,
+      "alt_forward": 8,
+      "alt_reverse": 11,
+      "rejection_reasons": [
+        "allele fraction consistent with germline heterozygosity (AF ~ 0.5)",
+        "gene(s) not highly LoF-intolerant per gnomAD constraint"
+      ]
+    }
+  ],
+  "reference_and_annotation": {
+    "genome_build": "GRCh38 (primary assembly), chromosome chr9",
+    "reference_fasta": "inputs/reference/GRCh38_chr9.fa.gz (Broad Institute GATK GRCh38 resource bundle)",
+    "reference_seq_length": 138394717,
+    "annotation": "GENCODE v47 (Ensembl 113, release date 2024-07-19), primary assembly, chr9 records: inputs/reference/gencode.v47.chr9.annotation.gtf.gz",
+    "constraint_source": "gnomAD v4 gene constraint (gnomad.broadinstitute.org)",
+    "coordinate_system": "GRCh38, 1-based"
+  },
+  "pipeline": {
+    "tools": {
+      "bwa": "Version: 0.7.17-r1188",
+      "samtools": "samtools 1.19.2",
+      "bcftools": "bcftools 1.19",
+      "python": "3.12.3"
+    },
+    "alignment": {
+      "aligner": "bwa mem 0.7.17 (single-end)",
+      "dedup": "samtools markdup; primary analysis on duplicate-filtered BAM (samtools view -F 1024)",
+      "total_reads": 431840,
+      "primary_reads": 431396,
+      "mapped_primary": 429399,
+      "primary_duplicates": 92995
+    },
+    "variant_filters": {
+      "mpileup_mapq_min": 30,
+      "mpileup_baseq_min": 20,
+      "high_conf_min_alt_reads": 5,
+      "high_conf_min_depth": 20,
+      "high_conf_min_alt_baseq": 20,
+      "high_conf_min_mapq": 20,
+      "af_scan_window": [
+        0.03,
+        0.97
+      ],
+      "mosaic_het_pmax": 0.001,
+      "isolation_window_bp": 50
+    },
+    "sites_scanned": 16318674,
+    "stop_gained_sites_found": 5,
+    "runtime_seconds": 27.3,
+    "completed_at": "2026-08-28T02:43:35"
+  }
+}
