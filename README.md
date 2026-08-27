@@ -4,8 +4,8 @@ This repository contains the complete participant-visible inputs for the 25 life
 
 The files are frozen from [`Nono111-dot/lifescience`](https://github.com/Nono111-dot/lifescience) commit [`c14f6974804e09bff9fd1b435d9d888582c5a41c`](https://github.com/Nono111-dot/lifescience/tree/c14f6974804e09bff9fd1b435d9d888582c5a41c/docs/inputs).
 
-- Input directories: `docs/inputs/<task-id>/`
-- Authoritative inventory and checksums: `docs/inputs/SHA256SUMS.tsv`
+- Input directories: `inputs/<task-id>/`
+- Authoritative inventory and checksums: `inputs/SHA256SUMS.tsv`
 - Task count: 25
 - Participant-visible files: 89
 

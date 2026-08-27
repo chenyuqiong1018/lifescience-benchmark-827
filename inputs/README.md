@@ -2,7 +2,7 @@
 
 This directory contains inputs for exactly the 25 task IDs listed in `docs/contracts/selected-tasks-v1.tsv`.
 
-For a run, copy the contents of exactly one `docs/inputs/<task-id>/` directory into a fresh workspace's `inputs/` directory. Keep file names and subdirectories unchanged and never edit the repository copy.
+For a run, copy the contents of exactly one `inputs/<task-id>/` directory into a fresh workspace's `inputs/` directory. Keep file names and subdirectories unchanged and never edit the repository copy.
 
 The authoritative file inventory, byte size and SHA-256 for every participant-visible input is [`SHA256SUMS.tsv`](SHA256SUMS.tsv). The matching individual task card under `task-card/` contains the frozen exact input list. Those two sources supersede prose summaries elsewhere.
 
