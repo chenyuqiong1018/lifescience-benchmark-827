@@ -1,0 +1,58 @@
+{
+  "swap_detected": true,
+  "organ_a": "Cloaca",
+  "organ_b": "Stomach",
+  "confidence": "high",
+  "evidence": {
+    "method": "library-normalized three-bin TSS promoter accessibility and reciprocal organ-marker coherence",
+    "coordinate_conversion": "GTF whole-arm coordinates converted to chrom-size fragments",
+    "table_rows": 2430700,
+    "marker_instances_by_organ": {
+      "Bladder": 5,
+      "Brain": 11,
+      "Cloaca": 3,
+      "GallBladder": 12,
+      "Gill": 7,
+      "Heart": 17,
+      "Intestine": 13,
+      "Kidney": 29,
+      "Limb": 10,
+      "Liver": 10,
+      "Lung": 2,
+      "Pancreas": 11,
+      "Prostate": 3,
+      "Spleen": 3,
+      "Stomach": 17
+    },
+    "library_totals": {
+      "Bladder": 701506327,
+      "Brain": 1168148790,
+      "Cloaca": 484000505,
+      "GallBladder": 565994637,
+      "Gill": 1094125058,
+      "Heart": 868549497,
+      "Intestine": 699794434,
+      "Kidney": 745602917,
+      "Limb": 1147926115,
+      "Liver": 398317869,
+      "Lung": 877686879,
+      "Pancreas": 1398702406,
+      "Prostate": 973845979,
+      "Spleen": 497829833,
+      "Stomach": 455786546
+    },
+    "top_score": 1.2527145957576393,
+    "runner_up": {
+      "organ_a": "GallBladder",
+      "organ_b": "Stomach",
+      "score": 0.6747594314527082
+    },
+    "margin": 0.5779551643049311,
+    "reciprocal_components": {
+      "a_self": 0.9942831588709562,
+      "a_in_b": 1.9755618614350183,
+      "b_self": 0.8469005004037234,
+      "b_in_a": 1.118336393597301
+    }
+  }
+}

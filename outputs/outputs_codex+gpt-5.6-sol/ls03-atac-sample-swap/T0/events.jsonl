@@ -1,0 +1,3 @@
+{"event":"skills_installed_and_opened","skills":["regulatory_region_analysis","tissue_specific_analysis","code_execution_analysis"],"fresh":true}
+{"event":"analysis_completed","swap_detected":true,"organ_a":"Cloaca","organ_b":"Stomach","confidence":"high","top_score":1.2527145957576393,"margin":0.5779551643049311}
+{"event":"artifacts_verified","pair_rows":105,"deterministic_rerun":true,"status":"success"}
