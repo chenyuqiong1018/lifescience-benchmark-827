@@ -1,0 +1,4 @@
+pair_id,transcripts_matched,amplicon_length,cds_compatible,status,reason
+p01,TX_CANONICAL,102,false,fail,"observed 102 bp, expected 108 bp; TX_CANONICAL: CDS=101-700 exceeds transcript length 102"
+p02,TX_ALT,99,false,fail,"observed 99 bp, expected 104 bp; TX_ALT: CDS=101-640 exceeds transcript length 102"
+p03,,,NA,fail,no valid primer-pair amplicon; TX_CANONICAL: CDS=101-700 exceeds transcript length 102

@@ -1,0 +1,1 @@
+Audit every primer pair against the supplied transcript isoforms. Write output/primer_audit.csv with pair_id,transcripts_matched,amplicon_length,cds_compatible,status,reason, output/analysis.py, and output/report.md. Use only supplied sequences; report malformed or internally inconsistent sequence metadata rather than silently repairing it.
