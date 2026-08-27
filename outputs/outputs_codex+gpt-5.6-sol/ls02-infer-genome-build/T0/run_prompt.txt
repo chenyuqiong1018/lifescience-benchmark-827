@@ -1,0 +1,1 @@
+Determine whether the supplied chr20 VCF uses hg18, hg19, hg38 or T2T coordinates. Write output/build_call.json with build,confidence,n_variants_checked,n_ref_matches,n_ref_mismatches,evidence, output/analysis.py, and output/report.md. Base the call on reproducible allele/coordinate checks and do not treat chromosome naming alone as proof.

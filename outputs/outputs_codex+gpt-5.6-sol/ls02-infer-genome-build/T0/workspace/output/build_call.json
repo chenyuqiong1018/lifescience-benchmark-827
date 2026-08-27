@@ -1,0 +1,103 @@
+{
+  "build": "hg19",
+  "confidence": "high",
+  "n_variants_checked": 84664,
+  "n_ref_matches": 84664,
+  "n_ref_mismatches": 0,
+  "evidence": {
+    "method": "exhaustive FASTA[POS-1:POS-1+len(REF)] comparison",
+    "chromosome_labels": [
+      "20"
+    ],
+    "candidate_checks": {
+      "hg18": {
+        "matches": 20758,
+        "mismatches": 63906,
+        "out_of_range": 606,
+        "fraction": 0.24518095058112066,
+        "length_bp": 62435964,
+        "header": ">chr20",
+        "sha256": "db0b097285fa234583a425097acfaf936ffff42819c63ef81445df19686f7765",
+        "mismatch_examples": [
+          {
+            "pos": 61795,
+            "ref": "G",
+            "observed": "C"
+          },
+          {
+            "pos": 63360,
+            "ref": "C",
+            "observed": "A"
+          },
+          {
+            "pos": 63799,
+            "ref": "C",
+            "observed": "A"
+          },
+          {
+            "pos": 65288,
+            "ref": "G",
+            "observed": "A"
+          },
+          {
+            "pos": 65900,
+            "ref": "G",
+            "observed": "A"
+          }
+        ]
+      },
+      "hg19": {
+        "matches": 84664,
+        "mismatches": 0,
+        "out_of_range": 0,
+        "fraction": 1.0,
+        "length_bp": 63025520,
+        "header": ">20",
+        "sha256": "c204a3e25b91ba4b4dcddaaa6bd97121eec8ed25797f833433fe47df979de089",
+        "mismatch_examples": []
+      },
+      "hg38": {
+        "matches": 20966,
+        "mismatches": 63698,
+        "out_of_range": 0,
+        "fraction": 0.24763772087309838,
+        "length_bp": 64444167,
+        "header": ">chr20",
+        "sha256": "d9a47cd37c4476a4ea2f9036a8d92260bf3a30ea06ee1eb6d7f8a314bf40ac0c",
+        "mismatch_examples": [
+          {
+            "pos": 61795,
+            "ref": "G",
+            "observed": "A"
+          },
+          {
+            "pos": 63360,
+            "ref": "C",
+            "observed": "N"
+          },
+          {
+            "pos": 63799,
+            "ref": "C",
+            "observed": "N"
+          },
+          {
+            "pos": 65288,
+            "ref": "G",
+            "observed": "T"
+          },
+          {
+            "pos": 65900,
+            "ref": "G",
+            "observed": "C"
+          }
+        ]
+      }
+    },
+    "winner_margin_matches": 63698,
+    "t2t": {
+      "status": "not_evaluated_reference_absent",
+      "reason": "No T2T/hs1 reference was supplied; absence is not a mismatch."
+    },
+    "vcf_sha256": "0f035fb4f35b47be7a52b8d632daeb005eff6016fa1653f3008229d2e46f016e"
+  }
+}
