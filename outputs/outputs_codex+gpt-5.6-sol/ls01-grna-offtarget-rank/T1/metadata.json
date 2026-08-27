@@ -1,0 +1,15 @@
+{
+  "task_id": "ls01-grna-offtarget-rank",
+  "arm": "T1",
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "skills": [
+    "dna-rna-sequence-analysis",
+    "genome_annotation",
+    "code_execution_analysis"
+  ],
+  "skill_mode": "T1_CONTROL_ALL",
+  "control_file": "T1-control_all skill.md",
+  "external_data": false,
+  "status": "success"
+}

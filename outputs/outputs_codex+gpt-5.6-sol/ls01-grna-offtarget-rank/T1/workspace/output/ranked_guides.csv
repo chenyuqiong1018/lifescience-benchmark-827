@@ -1,0 +1,7 @@
+rank,guide_id,on_target_score,risk_class,decision,rationale
+1,g02,0.67,low,recommend,nearest hit chr5:220010-220029 has 3 mismatches in intron; activity 0.67 is ranked after safety clearance.
+2,g06,0.64,low,acceptable,nearest hit chr14:660130-660149 has 3 mismatches in intergenic; activity 0.64 is ranked after safety clearance.
+3,g04,0.59,low,acceptable,nearest hit chr9:440070-440089 has 4 mismatches in intergenic; activity 0.59 is ranked after safety clearance.
+4,g03,0.74,high,reject,coding-exon hit chr7:330040-330059 has 2 mismatch(es); activity 0.74 does not override safety rejection.
+5,g01,0.82,critical,reject,coding-exon hit chr2:100120-100139 has 1 mismatch(es); high expression risk; 1 coding bystander(s); activity 0.82 does not override safety rejection.
+6,g05,0.78,critical,reject,coding-exon hit chr12:550100-550119 has 1 mismatch(es); high expression risk; 2 coding bystander(s); activity 0.78 does not override safety rejection.
