@@ -1,0 +1,24 @@
+{
+  "group_labels": [
+    "KD",
+    "CTRL"
+  ],
+  "n_each": {
+    "KD": 8,
+    "CTRL": 8
+  },
+  "means": {
+    "KD": 214.5,
+    "CTRL": 210.625
+  },
+  "sds": {
+    "KD": 10.941402365066633,
+    "CTRL": 22.85318046012102
+  },
+  "pooled_sd": 17.91622369330578,
+  "cohens_d": 0.21628441720382488,
+  "alpha": 0.05,
+  "power": 0.8,
+  "alternative": "two-sided",
+  "required_n_per_group": 337
+}
