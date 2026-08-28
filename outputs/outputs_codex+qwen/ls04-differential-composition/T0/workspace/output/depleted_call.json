@@ -1,0 +1,30 @@
+{
+  "depleted_cell_type": "horizontal cell",
+  "rule": "Listed type with the smallest sample_2/sample_1 fraction ratio among types with >=1% fraction in sample_1.",
+  "min_fraction_sample_1_threshold": 0.01,
+  "fraction_sample_1": 0.03764892772041303,
+  "fraction_sample_2": 0.00979216626698641,
+  "ratio_sample_2_over_sample_1": 0.26009150485518756,
+  "n_cells_sample_1": 237,
+  "n_cells_sample_2": 49,
+  "eligible_cell_types": [
+    "astrocyte",
+    "cone cell",
+    "rod cell",
+    "horizontal cell",
+    "bipolar cell",
+    "RGC",
+    "muller glia cell"
+  ],
+  "all_ratios_sample_2_over_sample_1": {
+    "astrocyte": 0.2736687842708289,
+    "cone cell": 0.9337108091304734,
+    "rod cell": 1.1257397502521123,
+    "horizontal cell": 0.26009150485518756,
+    "bipolar cell": 0.8496253106447305,
+    "RGC": 1.1495458805369498,
+    "muller glia cell": 1.0638891230765388
+  },
+  "annotation_method": "frozen marker-mean rule (see ANNOTATION_RULE.md)",
+  "note": "Simple marker-score rule frozen for reproducibility; not a full biological annotation workflow."
+}

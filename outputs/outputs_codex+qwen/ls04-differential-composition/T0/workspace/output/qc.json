@@ -1,0 +1,56 @@
+{
+  "sample_1": {
+    "n_genes": 36601,
+    "n_cells": 6295,
+    "nnz": 9246637,
+    "sparsity": 0.959867600851802,
+    "total_counts": 19252239.0,
+    "library_size_per_cell": {
+      "min": 205.0,
+      "median": 1999.0,
+      "mean": 3058.3382049245433,
+      "max": 45431.0
+    },
+    "genes_detected_per_cell": {
+      "min": 181.0,
+      "median": 1166.0,
+      "mean": 1468.885941223193,
+      "max": 8802.0
+    },
+    "mito_fraction_per_cell": {
+      "min": 0.0,
+      "median": 0.0,
+      "mean": 0.0003339336174909662,
+      "max": 0.011428571428571429
+    },
+    "n_mt_genes_used": 13,
+    "cells_with_zero_counts": 0
+  },
+  "sample_2": {
+    "n_genes": 36601,
+    "n_cells": 5004,
+    "nnz": 9953348,
+    "sparsity": 0.9456550821745271,
+    "total_counts": 21197652.0,
+    "library_size_per_cell": {
+      "min": 204.0,
+      "median": 3197.0,
+      "mean": 4236.141486810551,
+      "max": 48129.0
+    },
+    "genes_detected_per_cell": {
+      "min": 174.0,
+      "median": 1671.5,
+      "mean": 1989.0783373301358,
+      "max": 9052.0
+    },
+    "mito_fraction_per_cell": {
+      "min": 0.0,
+      "median": 0.000364963503649635,
+      "mean": 0.0004577010369610105,
+      "max": 0.01474442988204456
+    },
+    "n_mt_genes_used": 13,
+    "cells_with_zero_counts": 0
+  }
+}

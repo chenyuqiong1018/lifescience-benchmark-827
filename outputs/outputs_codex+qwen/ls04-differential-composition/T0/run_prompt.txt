@@ -1,0 +1,17 @@
+Compare the two retinal single-cell expression matrices and identify the cell population that is severely depleted in sample 2. Write output/composition.csv with sample,cell_type,n_cells,fraction, output/depleted_call.json, output/analysis.py, and output/report.md. Document QC, normalization, annotation evidence and uncertainty.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Never enumerate, stop, kill, suspend, or otherwise control system-wide processes. Do not use Stop-Process, taskkill, pkill, killall, or Get-Process for termination. If a command you launched is slow, wait for it or redesign the next command without terminating any process.
+- Do not access or affect any process, file, directory, task, or project outside the current workspace.
+- Complete the requested task and save every requested deliverable in the current workspace.
+
+BOUNDED HIGH-QUALITY EXECUTION:
+- Plan the required artifacts and validation checks once, then execute them directly. Avoid repeating the same reasoning or re-deriving already verified facts.
+- For expensive analyses, perform one production run and at most one independent verification run when scientifically necessary. Do not repeat a full analysis for wording, formatting, row ordering, metadata, or report-only changes.
+- If only a report or lightweight derived artifact changes, regenerate or patch only that artifact from the already validated results. Preserve the validated scientific outputs.
+- Use vectorized/chunked computation and inspect a small sample before launching an expensive full-data run. Reuse intermediates created inside this workspace when doing so does not weaken validation.
+- Once every requested artifact exists and the required scientific checks pass, stop. Do not add optional cosmetic refinements or extra full reruns.
+- A failed optional check must not block delivery: document the limitation, keep valid artifacts, and finish.

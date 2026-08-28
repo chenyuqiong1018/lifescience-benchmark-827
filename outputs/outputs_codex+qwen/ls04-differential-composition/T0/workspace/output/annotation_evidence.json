@@ -1,0 +1,270 @@
+{
+  "sample_1": {
+    "n_cells_total": 6295,
+    "global_ambiguous_fraction_zero_margin": 0.027323272438443208,
+    "per_type": {
+      "astrocyte": {
+        "n_cells": 285,
+        "fraction": 0.04527402700555997,
+        "mean_marker_score_assigned": 0.3701355578470843,
+        "median_marker_score_assigned": 0.42687032220846927,
+        "mean_margin_over_runner_up": 0.12879055122016722,
+        "frac_assigned_with_zero_margin": 0.4245614035087719
+      },
+      "microglial cell": {
+        "n_cells": 11,
+        "fraction": 0.0017474185861795076,
+        "mean_marker_score_assigned": 0.40758294771237663,
+        "median_marker_score_assigned": 0.361043724520412,
+        "mean_margin_over_runner_up": 0.13880740837656272,
+        "frac_assigned_with_zero_margin": 0.45454545454545453
+      },
+      "RPE cell": {
+        "n_cells": 2,
+        "fraction": 0.0003177124702144559,
+        "mean_marker_score_assigned": 0.2898615815885081,
+        "median_marker_score_assigned": 0.2898615815885081,
+        "mean_margin_over_runner_up": 0.0,
+        "frac_assigned_with_zero_margin": 1.0
+      },
+      "cone cell": {
+        "n_cells": 225,
+        "fraction": 0.035742652899126294,
+        "mean_marker_score_assigned": 0.7488523469433737,
+        "median_marker_score_assigned": 0.745400200365486,
+        "mean_margin_over_runner_up": 0.433600799255991,
+        "frac_assigned_with_zero_margin": 0.02666666666666667
+      },
+      "rod cell": {
+        "n_cells": 3976,
+        "fraction": 0.6316123907863384,
+        "mean_marker_score_assigned": 1.6620880434609089,
+        "median_marker_score_assigned": 1.6847292532342157,
+        "mean_margin_over_runner_up": 1.2220068928763979,
+        "frac_assigned_with_zero_margin": 0.0005030181086519115
+      },
+      "horizontal cell": {
+        "n_cells": 237,
+        "fraction": 0.03764892772041303,
+        "mean_marker_score_assigned": 1.028639512234926,
+        "median_marker_score_assigned": 1.0944009257036473,
+        "mean_margin_over_runner_up": 0.7275427342653603,
+        "frac_assigned_with_zero_margin": 0.06751054852320675
+      },
+      "bipolar cell": {
+        "n_cells": 918,
+        "fraction": 0.14583002382843527,
+        "mean_marker_score_assigned": 1.2313877549460157,
+        "median_marker_score_assigned": 1.2176412903067086,
+        "mean_margin_over_runner_up": 0.7873312693754442,
+        "frac_assigned_with_zero_margin": 0.016339869281045753
+      },
+      "RGC": {
+        "n_cells": 116,
+        "fraction": 0.018427323272438442,
+        "mean_marker_score_assigned": 0.9786434584124163,
+        "median_marker_score_assigned": 1.0348475882454555,
+        "mean_margin_over_runner_up": 0.6684994923307552,
+        "frac_assigned_with_zero_margin": 0.0
+      },
+      "T cells": {
+        "n_cells": 4,
+        "fraction": 0.0006354249404289118,
+        "mean_marker_score_assigned": 0.4061813979782028,
+        "median_marker_score_assigned": 0.3773575485578986,
+        "mean_margin_over_runner_up": 0.05164731564803765,
+        "frac_assigned_with_zero_margin": 0.25
+      },
+      "macrophage": {
+        "n_cells": 3,
+        "fraction": 0.0004765687053216839,
+        "mean_marker_score_assigned": 0.24602123591321334,
+        "median_marker_score_assigned": 0.2606740565437568,
+        "mean_margin_over_runner_up": 0.014481892030208712,
+        "frac_assigned_with_zero_margin": 0.6666666666666666
+      },
+      "Schwann cell": {
+        "n_cells": 2,
+        "fraction": 0.0003177124702144559,
+        "mean_marker_score_assigned": 0.32761380932631323,
+        "median_marker_score_assigned": 0.32761380932631323,
+        "mean_margin_over_runner_up": 0.024606963322029732,
+        "frac_assigned_with_zero_margin": 0.5
+      },
+      "Pericyte": {
+        "n_cells": 2,
+        "fraction": 0.0003177124702144559,
+        "mean_marker_score_assigned": 0.4283147443228872,
+        "median_marker_score_assigned": 0.4283147443228872,
+        "mean_margin_over_runner_up": 0.03387096960172564,
+        "frac_assigned_with_zero_margin": 0.5
+      },
+      "B cell": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "fibroblast": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "endothelial cell": {
+        "n_cells": 2,
+        "fraction": 0.0003177124702144559,
+        "mean_marker_score_assigned": 0.3668410279369177,
+        "median_marker_score_assigned": 0.3668410279369177,
+        "mean_margin_over_runner_up": 0.3668410279369177,
+        "frac_assigned_with_zero_margin": 0.0
+      },
+      "muller glia cell": {
+        "n_cells": 512,
+        "fraction": 0.08133439237490071,
+        "mean_marker_score_assigned": 1.480548121160203,
+        "median_marker_score_assigned": 1.532146851809741,
+        "mean_margin_over_runner_up": 0.7036411346140942,
+        "frac_assigned_with_zero_margin": 0.0
+      }
+    }
+  },
+  "sample_2": {
+    "n_cells_total": 5004,
+    "global_ambiguous_fraction_zero_margin": 0.005195843325339729,
+    "per_type": {
+      "astrocyte": {
+        "n_cells": 62,
+        "fraction": 0.012390087929656275,
+        "mean_marker_score_assigned": 0.4542541911173282,
+        "median_marker_score_assigned": 0.4845487267397237,
+        "mean_margin_over_runner_up": 0.12021654889537003,
+        "frac_assigned_with_zero_margin": 0.24193548387096775
+      },
+      "microglial cell": {
+        "n_cells": 3,
+        "fraction": 0.0005995203836930455,
+        "mean_marker_score_assigned": 0.28887997042186797,
+        "median_marker_score_assigned": 0.292245961078729,
+        "mean_margin_over_runner_up": 0.029471398531679283,
+        "frac_assigned_with_zero_margin": 0.6666666666666666
+      },
+      "RPE cell": {
+        "n_cells": 3,
+        "fraction": 0.0005995203836930455,
+        "mean_marker_score_assigned": 1.9327973797410316,
+        "median_marker_score_assigned": 1.96740755797151,
+        "mean_margin_over_runner_up": 0.8346563352713483,
+        "frac_assigned_with_zero_margin": 0.0
+      },
+      "cone cell": {
+        "n_cells": 167,
+        "fraction": 0.03337330135891287,
+        "mean_marker_score_assigned": 1.2746596074144527,
+        "median_marker_score_assigned": 1.2952462612204363,
+        "mean_margin_over_runner_up": 0.6239882597701231,
+        "frac_assigned_with_zero_margin": 0.005988023952095809
+      },
+      "rod cell": {
+        "n_cells": 3558,
+        "fraction": 0.7110311750599521,
+        "mean_marker_score_assigned": 2.876480503353287,
+        "median_marker_score_assigned": 3.054927475577978,
+        "mean_margin_over_runner_up": 2.253029663938253,
+        "frac_assigned_with_zero_margin": 0.0016863406408094434
+      },
+      "horizontal cell": {
+        "n_cells": 49,
+        "fraction": 0.00979216626698641,
+        "mean_marker_score_assigned": 0.7319179066045227,
+        "median_marker_score_assigned": 0.707923767911768,
+        "mean_margin_over_runner_up": 0.3650666446880627,
+        "frac_assigned_with_zero_margin": 0.02040816326530612
+      },
+      "bipolar cell": {
+        "n_cells": 620,
+        "fraction": 0.12390087929656275,
+        "mean_marker_score_assigned": 1.4522278509942963,
+        "median_marker_score_assigned": 1.4631927344849274,
+        "mean_margin_over_runner_up": 0.8653833361163876,
+        "frac_assigned_with_zero_margin": 0.0
+      },
+      "RGC": {
+        "n_cells": 106,
+        "fraction": 0.021183053557154278,
+        "mean_marker_score_assigned": 1.2724700730845178,
+        "median_marker_score_assigned": 1.4492409778488748,
+        "mean_margin_over_runner_up": 0.843405709257587,
+        "frac_assigned_with_zero_margin": 0.0
+      },
+      "T cells": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "macrophage": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "Schwann cell": {
+        "n_cells": 2,
+        "fraction": 0.0003996802557953637,
+        "mean_marker_score_assigned": 0.6491800620521282,
+        "median_marker_score_assigned": 0.6491800620521282,
+        "mean_margin_over_runner_up": 0.48019053883927937,
+        "frac_assigned_with_zero_margin": 0.0
+      },
+      "Pericyte": {
+        "n_cells": 1,
+        "fraction": 0.00019984012789768185,
+        "mean_marker_score_assigned": 0.7764501803727909,
+        "median_marker_score_assigned": 0.7764501803727909,
+        "mean_margin_over_runner_up": 0.0,
+        "frac_assigned_with_zero_margin": 1.0
+      },
+      "B cell": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "fibroblast": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "endothelial cell": {
+        "n_cells": 0,
+        "fraction": 0.0,
+        "mean_marker_score_assigned": null,
+        "median_marker_score_assigned": null,
+        "mean_margin_over_runner_up": null,
+        "frac_assigned_with_zero_margin": null
+      },
+      "muller glia cell": {
+        "n_cells": 433,
+        "fraction": 0.08653077537969624,
+        "mean_marker_score_assigned": 2.1102146388020127,
+        "median_marker_score_assigned": 2.419519011619169,
+        "mean_margin_over_runner_up": 1.1978062957753015,
+        "frac_assigned_with_zero_margin": 0.0
+      }
+    }
+  }
+}
