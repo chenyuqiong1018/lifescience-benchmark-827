@@ -1,0 +1,33 @@
+sample,cell_type,n_cells,fraction
+sample1,astrocyte,285,0.045274
+sample1,microglial cell,11,0.001747
+sample1,RPE cell,2,0.000318
+sample1,cone cell,225,0.035743
+sample1,rod cell,3976,0.631612
+sample1,horizontal cell,237,0.037649
+sample1,bipolar cell,918,0.14583
+sample1,RGC,116,0.018427
+sample1,T cells,4,0.000635
+sample1,macrophage,3,0.000477
+sample1,Schwann cell,2,0.000318
+sample1,Pericyte,2,0.000318
+sample1,B cell,0,0.0
+sample1,fibroblast,0,0.0
+sample1,endothelial cell,2,0.000318
+sample1,muller glia cell,512,0.081334
+sample2,astrocyte,62,0.01239
+sample2,microglial cell,3,0.0006
+sample2,RPE cell,3,0.0006
+sample2,cone cell,167,0.033373
+sample2,rod cell,3558,0.711031
+sample2,horizontal cell,49,0.009792
+sample2,bipolar cell,620,0.123901
+sample2,RGC,106,0.021183
+sample2,T cells,0,0.0
+sample2,macrophage,0,0.0
+sample2,Schwann cell,2,0.0004
+sample2,Pericyte,1,0.0002
+sample2,B cell,0,0.0
+sample2,fibroblast,0,0.0
+sample2,endothelial cell,0,0.0
+sample2,muller glia cell,433,0.086531

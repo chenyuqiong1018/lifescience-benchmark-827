@@ -1,0 +1,114 @@
+{
+  "depleted_cell_type": "horizontal cell",
+  "criterion": "Among cell types with >=1% fraction in sample 1, the one with the smallest sample2/sample1 fraction ratio (frozen rule in inputs/ANNOTATION_RULE.md).",
+  "fraction_sample1": 0.03764892772041303,
+  "fraction_sample2": 0.00979216626698641,
+  "ratio_sample2_over_sample1": 0.26009150485518756,
+  "ranking_by_ratio_among_eligible": [
+    {
+      "cell_type": "horizontal cell",
+      "fraction_sample1": 0.03764892772041303,
+      "fraction_sample2": 0.00979216626698641,
+      "ratio_sample2_over_sample1": 0.26009150485518756,
+      "eligible_sample1_fraction_ge_1pct": true
+    },
+    {
+      "cell_type": "astrocyte",
+      "fraction_sample1": 0.04527402700555997,
+      "fraction_sample2": 0.012390087929656275,
+      "ratio_sample2_over_sample1": 0.2736687842708289,
+      "eligible_sample1_fraction_ge_1pct": true
+    },
+    {
+      "cell_type": "bipolar cell",
+      "fraction_sample1": 0.14583002382843527,
+      "fraction_sample2": 0.12390087929656275,
+      "ratio_sample2_over_sample1": 0.8496253106447305,
+      "eligible_sample1_fraction_ge_1pct": true
+    },
+    {
+      "cell_type": "cone cell",
+      "fraction_sample1": 0.035742652899126294,
+      "fraction_sample2": 0.03337330135891287,
+      "ratio_sample2_over_sample1": 0.9337108091304734,
+      "eligible_sample1_fraction_ge_1pct": true
+    },
+    {
+      "cell_type": "muller glia cell",
+      "fraction_sample1": 0.08133439237490071,
+      "fraction_sample2": 0.08653077537969624,
+      "ratio_sample2_over_sample1": 1.0638891230765388,
+      "eligible_sample1_fraction_ge_1pct": true
+    },
+    {
+      "cell_type": "rod cell",
+      "fraction_sample1": 0.6316123907863384,
+      "fraction_sample2": 0.7110311750599521,
+      "ratio_sample2_over_sample1": 1.1257397502521123,
+      "eligible_sample1_fraction_ge_1pct": true
+    },
+    {
+      "cell_type": "RGC",
+      "fraction_sample1": 0.018427323272438442,
+      "fraction_sample2": 0.021183053557154278,
+      "ratio_sample2_over_sample1": 1.1495458805369498,
+      "eligible_sample1_fraction_ge_1pct": true
+    }
+  ],
+  "ineligible_types": [
+    {
+      "cell_type": "microglial cell",
+      "fraction_sample1": 0.0017474185861795076,
+      "fraction_sample2": 0.0005995203836930455,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "RPE cell",
+      "fraction_sample1": 0.0003177124702144559,
+      "fraction_sample2": 0.0005995203836930455,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "T cells",
+      "fraction_sample1": 0.0006354249404289118,
+      "fraction_sample2": 0.0,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "macrophage",
+      "fraction_sample1": 0.0004765687053216839,
+      "fraction_sample2": 0.0,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "Schwann cell",
+      "fraction_sample1": 0.0003177124702144559,
+      "fraction_sample2": 0.0003996802557953637,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "Pericyte",
+      "fraction_sample1": 0.0003177124702144559,
+      "fraction_sample2": 0.00019984012789768185,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "B cell",
+      "fraction_sample1": 0.0,
+      "fraction_sample2": 0.0,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "fibroblast",
+      "fraction_sample1": 0.0,
+      "fraction_sample2": 0.0,
+      "eligible_sample1_fraction_ge_1pct": false
+    },
+    {
+      "cell_type": "endothelial cell",
+      "fraction_sample1": 0.0003177124702144559,
+      "fraction_sample2": 0.0,
+      "eligible_sample1_fraction_ge_1pct": false
+    }
+  ]
+}

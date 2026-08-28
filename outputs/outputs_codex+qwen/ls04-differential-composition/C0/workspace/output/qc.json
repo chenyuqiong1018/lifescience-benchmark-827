@@ -1,0 +1,69 @@
+{
+  "marker_genes_missing": [],
+  "samples": {
+    "sample1": {
+      "file": "differential.composition.q1.1.mtx.gz",
+      "n_cells": 6295,
+      "n_genes_in_matrix": 36601,
+      "library_size_mean": 3058.3382049245433,
+      "library_size_median": 1999.0,
+      "library_size_min": 205.0,
+      "library_size_max": 45431.0,
+      "genes_per_cell_median": 1166.0,
+      "genes_per_cell_mean": 1468.885941223193,
+      "median_assigned_marker_score_by_type": {
+        "astrocyte": 0.3701355578470843,
+        "microglial cell": 0.40758294771237663,
+        "RPE cell": 0.2898615815885081,
+        "cone cell": 0.7488523469433735,
+        "rod cell": 1.6620880434609089,
+        "horizontal cell": 1.028639512234926,
+        "bipolar cell": 1.2313877549460157,
+        "RGC": 0.9786434584124163,
+        "T cells": 0.4061813979782028,
+        "macrophage": 0.24602123591321334,
+        "Schwann cell": 0.32761380932631323,
+        "Pericyte": 0.4283147443228872,
+        "B cell": null,
+        "fibroblast": null,
+        "endothelial cell": 0.3668410279369177,
+        "muller glia cell": 1.480548121160203
+      },
+      "cells_with_top2_margin_lt_0.1": 434,
+      "cells_with_top2_margin_lt_0.01": 190,
+      "max_score_per_cell_median": 1.4516090134313062
+    },
+    "sample2": {
+      "file": "differential.composition.q1.2.mtx.gz",
+      "n_cells": 5004,
+      "n_genes_in_matrix": 36601,
+      "library_size_mean": 4236.141486810551,
+      "library_size_median": 3197.0,
+      "library_size_min": 204.0,
+      "library_size_max": 48129.0,
+      "genes_per_cell_median": 1671.5,
+      "genes_per_cell_mean": 1989.0783373301358,
+      "median_assigned_marker_score_by_type": {
+        "astrocyte": 0.4542541911173281,
+        "microglial cell": 0.28887997042186797,
+        "RPE cell": 1.9327973797410316,
+        "cone cell": 1.2746596074144527,
+        "rod cell": 2.876480503353287,
+        "horizontal cell": 0.7319179066045227,
+        "bipolar cell": 1.4522278509942963,
+        "RGC": 1.2724700730845178,
+        "T cells": null,
+        "macrophage": null,
+        "Schwann cell": 0.6491800620521282,
+        "Pericyte": 0.7764501803727909,
+        "B cell": null,
+        "fibroblast": null,
+        "endothelial cell": null,
+        "muller glia cell": 2.1102146388020127
+      },
+      "cells_with_top2_margin_lt_0.1": 213,
+      "cells_with_top2_margin_lt_0.01": 48,
+      "max_score_per_cell_median": 2.4918344122625427
+    }
+  }
+}
