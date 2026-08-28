@@ -1,0 +1,22 @@
+{
+  "task_id": "ls03-atac-sample-swap",
+  "model": "qwen3.8-max",
+  "catalog_size": 143,
+  "selected_skills": [
+    "biomedical-web-search"
+  ],
+  "rationale": "The task requires determining whether organ labels are swapped in axolotl bulk ATAC-seq data, which involves evaluating biological evidence and uncertainty without any specific computational tool mentioned in the catalog. The closest domain-relevant capability is biomedical-web-search for investigating axolotl organ-specific ATAC-seq signatures or related literature to support evidence assessment.",
+  "usage": {
+    "completion_tokens": 3074,
+    "completion_tokens_details": {
+      "reasoning_tokens": 2985,
+      "text_tokens": 3074
+    },
+    "prompt_tokens": 10001,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "text_tokens": 10001
+    },
+    "total_tokens": 13075
+  }
+}

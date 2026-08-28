@@ -1,0 +1,7 @@
+{
+  "swap_detected": true,
+  "organ_a": "Cloaca",
+  "organ_b": "Stomach",
+  "confidence": 0.96,
+  "evidence": "Reciprocal marker mismatch unique to one organ pair. (1) The column labeled 'Stomach' shows the highest accessibility of Cloaca marker genes (posterior endoderm / urogenital-sinus program: z=+0.82 vs +0.13 in column 'Cloaca'), driven by CDX2 z=+2.34, HOXC11 z=+2.02, MSMB z=+2.63, HOXB13 z=+1.35, HOXC10 z=+1.58, PPARG z=+1.37 and urothelial UPK1B/UPK3B promoters - a cloacal rather than gastric identity. (2) The column labeled 'Cloaca' shows the highest accessibility of Stomach marker genes (z=+0.88 vs -0.28 in column 'Stomach'), driven by stomach hallmarks CLDN18 z=+3.24, TFF3.2 z=+2.91, GKN1-family z=+2.81, MUC2-family z=+2.71, SHH z=+2.52, MUC5AC/MUC5B-family z up to +1.85, while gastric markers are closed in column 'Stomach' (TFF2 z=-2.2, CLDN18 z=-0.56). (3) The eight strongly marked organs (Brain, Heart, Intestine, Kidney, Liver, Lung, Pancreas, Spleen) all best-match their own labeled columns (self z +0.84 to +1.46); the remaining weakly-marked organs show only shallow, non-reciprocal mismatches dominated by multi-copy gene families (UPK/UMOD/MUC/KRT), and genome-wide log2-CPM sample correlations show no additional misplaced library. Swap score +1.86 (e(Cloaca->Stomach)=+0.69, e(Stomach->Cloaca)=+1.17) vs runner-up Prostate<->Stomach +1.15, whose reverse direction fails (column 'Prostate' lacks gastric hallmarks)."
+}
