@@ -1,0 +1,7 @@
+{
+  "swap_detected": true,
+  "organ_a": "Cloaca",
+  "organ_b": "Stomach",
+  "confidence": 0.9,
+  "evidence": "Marker-gene promoter accessibility (TSS+/-5000bp, CPM, variance-floored z) shows a mutually supported label exchange between 'Cloaca' and 'Stomach'. The 'Cloaca' column strongly expresses 'Stomach' markers and vice versa: cross-fit z = 1.00 and 0.81 (both positive; bottleneck cross-fit is the maximum over all 105 organ pairs, runner-up 0.32); 75% of marker genes move in the swap direction (win-rate rank 1 of 105); directional-gain permutation p=0.0e+00 (z=7.3). All other organs' marker sets are most accessible in their own columns. Key genes: stomach program GKN1/GKN2/CLDN18.S peaks in the 'Cloaca' column (z~2.2-3.6) while hindgut/urogenital program CDX2/MUC2/FFAR4/CALB1/MSMB/TCTE3/UPK peaks in the 'Stomach' column. Result robust to promoter window 2-10 kb."
+}

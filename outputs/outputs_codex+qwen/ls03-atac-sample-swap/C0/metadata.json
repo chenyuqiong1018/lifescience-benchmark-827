@@ -1,0 +1,19 @@
+{
+  "task_id": "ls03-atac-sample-swap",
+  "condition": "C0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-27T23:33:29.536785+00:00",
+  "usage": {
+    "input_tokens": 5590703,
+    "cached_input_tokens": 5343616,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 148364,
+    "reasoning_output_tokens": 106628
+  },
+  "finished_at": "2026-08-28T00:30:44.579846+00:00",
+  "return_code": 0
+}
