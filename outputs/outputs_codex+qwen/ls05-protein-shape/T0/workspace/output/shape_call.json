@@ -1,0 +1,5 @@
+{
+  "letter": "Z",
+  "confidence": 0.92,
+  "orientation_notes": "The backbone is essentially planar (best plane z ~ -0.19*y, residual ~5 A), lying in the XY plane of the PDB frame with a slight ~11 deg tilt about the X axis. Viewed along the Z axis (x right, y up) the shape reads as an upright Z: a top horizontal bar parallel to X (x -175..75 at y~+55), a diagonal from the top bar's right end down to the bottom bar's left end, and a bottom horizontal bar (x -25..120 at y~-30). No in-plane rotation is needed; viewing from -Z (or flipping y) would mirror it into an S-like zigzag."
+}
