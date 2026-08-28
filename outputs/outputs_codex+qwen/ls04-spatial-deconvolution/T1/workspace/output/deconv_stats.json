@@ -1,0 +1,73 @@
+{
+ "spot": "Spot_710-1",
+ "umi": 3693,
+ "grid": [
+  20,
+  23
+ ],
+ "r2_full": 0.6100558401685012,
+ "weights_full": {
+  "Tumor_Core": 0.0,
+  "Fibroblast_Stroma": 0.0,
+  "T_Cell": 0.011566215587960824,
+  "B_Cell": 0.31742098929281387,
+  "Macrophage": 0.3165775208039851,
+  "Endothelial": 0.3544352743152402
+ },
+ "best_combo": [
+  "B_Cell",
+  "Macrophage",
+  "Endothelial"
+ ],
+ "best_r2": 0.6097215148985524,
+ "best_w": {
+  "B_Cell": 0.32114968835468594,
+  "Macrophage": 0.32052587966542556,
+  "Endothelial": 0.35832443197988845
+ },
+ "runner_up": {
+  "combo": [
+   "T_Cell",
+   "B_Cell",
+   "Endothelial"
+  ],
+  "r2": 0.35140016530270257
+ },
+ "corr": {
+  "Tumor_Core": -0.05783129203237758,
+  "Fibroblast_Stroma": -0.06177601787368897,
+  "T_Cell": -0.013192970130640714,
+  "B_Cell": 0.409302381182064,
+  "Macrophage": 0.39467256289911645,
+  "Endothelial": 0.46531279937043885
+ },
+ "votes": {
+  "Endothelial": 20
+ },
+ "k": 20,
+ "nb_mean": {
+  "Tumor_Core": 0.0014692476008650135,
+  "Fibroblast_Stroma": 0.5012119482529221,
+  "T_Cell": 0.3058714650926985,
+  "B_Cell": 0.06169936715627169,
+  "Macrophage": 0.006380750237128624,
+  "Endothelial": 0.12336722166011396
+ },
+ "reported": [
+  {
+   "cell_type": "B_Cell",
+   "weight": 0.321,
+   "evidence": "NNLS weight 0.321 (full-model fit R2=0.610); member of best-fit cell-type subset (R2=0.610): yes; Pearson r vs B_Cell centroid 0.409; 0/20 top-correlated reference cells are B_Cell; mean NNLS weight in 8 neighboring spots 0.062"
+  },
+  {
+   "cell_type": "Macrophage",
+   "weight": 0.32,
+   "evidence": "NNLS weight 0.320 (full-model fit R2=0.610); member of best-fit cell-type subset (R2=0.610): yes; Pearson r vs Macrophage centroid 0.395; 0/20 top-correlated reference cells are Macrophage; mean NNLS weight in 8 neighboring spots 0.006"
+  },
+  {
+   "cell_type": "Endothelial",
+   "weight": 0.359,
+   "evidence": "NNLS weight 0.359 (full-model fit R2=0.610); member of best-fit cell-type subset (R2=0.610): yes; Pearson r vs Endothelial centroid 0.465; 20/20 top-correlated reference cells are Endothelial; mean NNLS weight in 8 neighboring spots 0.123"
+  }
+ ]
+}

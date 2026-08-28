@@ -1,0 +1,22 @@
+{
+  "task_id": "ls04-spatial-deconvolution",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "scvi-tools",
+    "scgpt"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T09:17:25.340791+00:00",
+  "usage": {
+    "input_tokens": 340934,
+    "cached_input_tokens": 306176,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 16201,
+    "reasoning_output_tokens": 6566
+  },
+  "finished_at": "2026-08-28T09:24:37.248277+00:00",
+  "return_code": 0
+}

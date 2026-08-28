@@ -1,0 +1,4 @@
+cell_type,weight,evidence
+B_Cell,0.321,NNLS weight 0.321 (full-model fit R2=0.610); member of best-fit cell-type subset (R2=0.610): yes; Pearson r vs B_Cell centroid 0.409; 0/20 top-correlated reference cells are B_Cell; mean NNLS weight in 8 neighboring spots 0.062
+Macrophage,0.32,NNLS weight 0.320 (full-model fit R2=0.610); member of best-fit cell-type subset (R2=0.610): yes; Pearson r vs Macrophage centroid 0.395; 0/20 top-correlated reference cells are Macrophage; mean NNLS weight in 8 neighboring spots 0.006
+Endothelial,0.359,NNLS weight 0.359 (full-model fit R2=0.610); member of best-fit cell-type subset (R2=0.610): yes; Pearson r vs Endothelial centroid 0.465; 20/20 top-correlated reference cells are Endothelial; mean NNLS weight in 8 neighboring spots 0.123
