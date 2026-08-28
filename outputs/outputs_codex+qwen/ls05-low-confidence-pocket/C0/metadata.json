@@ -1,0 +1,19 @@
+{
+  "task_id": "ls05-low-confidence-pocket",
+  "condition": "C0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T10:37:28.580978+00:00",
+  "usage": {
+    "input_tokens": 182629,
+    "cached_input_tokens": 161792,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 8142,
+    "reasoning_output_tokens": 3222
+  },
+  "finished_at": "2026-08-28T10:46:59.852984+00:00",
+  "return_code": 0
+}

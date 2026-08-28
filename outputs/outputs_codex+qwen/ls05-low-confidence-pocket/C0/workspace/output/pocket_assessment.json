@@ -1,0 +1,5 @@
+{
+  "pocket_reliable": false,
+  "prioritize_mutations": false,
+  "reason": "The nominated pocket spans residue intervals 210-230 (pLDDT=47, PAE=14.2 A) and 231-270 (pLDDT=43, PAE=17.8 A). Both pocket intervals fall below the pLDDT>=70 and PAE<=10 A reliability thresholds; pLDDT<50 marks coordinates that should not be interpreted and PAE>10 A indicates uncertain relative placement. The pocket is therefore unreliable, and mutation prioritization should be deferred until experimental structure validation. Predicted ddG and activity changes are model hypotheses only, not measured binding or activity effects."
+}
