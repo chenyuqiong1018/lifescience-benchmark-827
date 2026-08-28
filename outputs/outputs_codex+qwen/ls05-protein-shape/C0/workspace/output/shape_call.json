@@ -1,0 +1,5 @@
+{
+  "letter": "T",
+  "confidence": 0.68,
+  "orientation_notes": "Structure is strongly planar (PC1/PC2/PC3 variance ~0.51/0.03/0.02). In the principal-axis frame the letter lies rotated ~90 degrees: the T crossbar is the straight helix-bundle bar along PC2 at the -PC1 side, and the stem (two slightly splayed helix bundles, ~+/-15 deg) extends along +PC1, joining the bar at its midpoint; viewed from the opposite face the figure is mirrored. Upright reading: rotate the PC1-PC2 view 90 deg so the bar is horizontal on top and the stem points down."
+}
