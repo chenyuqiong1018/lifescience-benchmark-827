@@ -1,0 +1,38 @@
+{
+  "depleted_cell_type": "horizontal cell",
+  "sample1": "sample1",
+  "sample2": "sample2",
+  "sample1_fraction": 0.037649,
+  "sample2_fraction": 0.009792,
+  "sample1_n_cells": 237,
+  "sample2_n_cells": 49,
+  "ratio_sample2_over_sample1": 0.260092,
+  "criterion": "smallest sample-2/sample-1 fraction ratio among cell types with fraction >= 1% in sample 1 (frozen rule in inputs/ANNOTATION_RULE.md)",
+  "candidate_types": [
+    "astrocyte",
+    "cone cell",
+    "rod cell",
+    "horizontal cell",
+    "bipolar cell",
+    "RGC",
+    "muller glia cell"
+  ],
+  "all_fraction_ratios": {
+    "astrocyte": 0.273669,
+    "microglial cell": 0.343089,
+    "RPE cell": 1.88699,
+    "cone cell": 0.933711,
+    "rod cell": 1.12574,
+    "horizontal cell": 0.260092,
+    "bipolar cell": 0.849625,
+    "RGC": 1.149546,
+    "T cells": 0.0,
+    "macrophage": 0.0,
+    "Schwann cell": 1.257994,
+    "Pericyte": 0.628997,
+    "B cell": null,
+    "fibroblast": null,
+    "endothelial cell": 0.0,
+    "muller glia cell": 1.063889
+  }
+}

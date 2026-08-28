@@ -1,0 +1,202 @@
+{
+  "rule": "frozen marker-mean rule (see inputs/ANNOTATION_RULE.md)",
+  "n_cell_types": 16,
+  "n_marker_entries": 84,
+  "missing_marker_genes": [],
+  "shared_markers": [
+    "RLBP1",
+    "SLC1A3"
+  ],
+  "samples": {
+    "sample1": {
+      "qc": {
+        "n_cells": 6295,
+        "zero_library_cells": 0,
+        "library_size": {
+          "min": 205.0,
+          "p5": 829.7,
+          "median": 1999.0,
+          "p95": 9249.999999999993,
+          "max": 45431.0,
+          "mean": 3058.3382049245433
+        },
+        "genes_detected": {
+          "min": 181,
+          "median": 1166.0,
+          "max": 8802
+        },
+        "mito_pct": {
+          "median": 0.0,
+          "p95": 0.1272386068965405
+        },
+        "cells_lib_lt_500": 43,
+        "cells_genes_lt_200": 2,
+        "cells_mito_gt_20pct": 0,
+        "mtx_integrity": {
+          "shape_genes_x_cells": [
+            36601,
+            6295
+          ],
+          "nnz": 9246637,
+          "non_negative": true,
+          "integer_counts": true
+        }
+      },
+      "n_assigned": 6295,
+      "counts": {
+        "astrocyte": 285,
+        "microglial cell": 11,
+        "RPE cell": 2,
+        "cone cell": 225,
+        "rod cell": 3976,
+        "horizontal cell": 237,
+        "bipolar cell": 918,
+        "RGC": 116,
+        "T cells": 4,
+        "macrophage": 3,
+        "Schwann cell": 2,
+        "Pericyte": 2,
+        "B cell": 0,
+        "fibroblast": 0,
+        "endothelial cell": 2,
+        "muller glia cell": 512
+      },
+      "fractions": {
+        "astrocyte": 0.045274,
+        "microglial cell": 0.001747,
+        "RPE cell": 0.000318,
+        "cone cell": 0.035743,
+        "rod cell": 0.631612,
+        "horizontal cell": 0.037649,
+        "bipolar cell": 0.14583,
+        "RGC": 0.018427,
+        "T cells": 0.000635,
+        "macrophage": 0.000477,
+        "Schwann cell": 0.000318,
+        "Pericyte": 0.000318,
+        "B cell": 0.0,
+        "fibroblast": 0.0,
+        "endothelial cell": 0.000318,
+        "muller glia cell": 0.081334
+      },
+      "mean_winning_marker_score": {
+        "astrocyte": 0.3701,
+        "microglial cell": 0.4076,
+        "RPE cell": 0.2899,
+        "cone cell": 0.7489,
+        "rod cell": 1.6621,
+        "horizontal cell": 1.0286,
+        "bipolar cell": 1.2314,
+        "RGC": 0.9786,
+        "T cells": 0.4062,
+        "macrophage": 0.246,
+        "Schwann cell": 0.3276,
+        "Pericyte": 0.4283,
+        "B cell": null,
+        "fibroblast": null,
+        "endothelial cell": 0.3668,
+        "muller glia cell": 1.4805
+      },
+      "assignment_margin": {
+        "median": 0.9936,
+        "p10": 0.1459,
+        "frac_below_0.1": 0.0689
+      }
+    },
+    "sample2": {
+      "qc": {
+        "n_cells": 5004,
+        "zero_library_cells": 0,
+        "library_size": {
+          "min": 204.0,
+          "p5": 1837.0,
+          "median": 3197.0,
+          "p95": 9953.699999999999,
+          "max": 48129.0,
+          "mean": 4236.141486810551
+        },
+        "genes_detected": {
+          "min": 174,
+          "median": 1671.5,
+          "max": 9052
+        },
+        "mito_pct": {
+          "median": 0.0364963503649635,
+          "p95": 0.13118410228561903
+        },
+        "cells_lib_lt_500": 29,
+        "cells_genes_lt_200": 5,
+        "cells_mito_gt_20pct": 0,
+        "mtx_integrity": {
+          "shape_genes_x_cells": [
+            36601,
+            5004
+          ],
+          "nnz": 9953348,
+          "non_negative": true,
+          "integer_counts": true
+        }
+      },
+      "n_assigned": 5004,
+      "counts": {
+        "astrocyte": 62,
+        "microglial cell": 3,
+        "RPE cell": 3,
+        "cone cell": 167,
+        "rod cell": 3558,
+        "horizontal cell": 49,
+        "bipolar cell": 620,
+        "RGC": 106,
+        "T cells": 0,
+        "macrophage": 0,
+        "Schwann cell": 2,
+        "Pericyte": 1,
+        "B cell": 0,
+        "fibroblast": 0,
+        "endothelial cell": 0,
+        "muller glia cell": 433
+      },
+      "fractions": {
+        "astrocyte": 0.01239,
+        "microglial cell": 0.0006,
+        "RPE cell": 0.0006,
+        "cone cell": 0.033373,
+        "rod cell": 0.711031,
+        "horizontal cell": 0.009792,
+        "bipolar cell": 0.123901,
+        "RGC": 0.021183,
+        "T cells": 0.0,
+        "macrophage": 0.0,
+        "Schwann cell": 0.0004,
+        "Pericyte": 0.0002,
+        "B cell": 0.0,
+        "fibroblast": 0.0,
+        "endothelial cell": 0.0,
+        "muller glia cell": 0.086531
+      },
+      "mean_winning_marker_score": {
+        "astrocyte": 0.4543,
+        "microglial cell": 0.2889,
+        "RPE cell": 1.9328,
+        "cone cell": 1.2747,
+        "rod cell": 2.8765,
+        "horizontal cell": 0.7319,
+        "bipolar cell": 1.4522,
+        "RGC": 1.2725,
+        "T cells": null,
+        "macrophage": null,
+        "Schwann cell": 0.6492,
+        "Pericyte": 0.7765,
+        "B cell": null,
+        "fibroblast": null,
+        "endothelial cell": null,
+        "muller glia cell": 2.1102
+      },
+      "assignment_margin": {
+        "median": 2.1768,
+        "p10": 0.277,
+        "frac_below_0.1": 0.0426
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "task_id": "ls04-differential-composition",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "scvi-tools",
+    "scgpt"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T06:44:42.619998+00:00",
+  "usage": {
+    "input_tokens": 344205,
+    "cached_input_tokens": 307456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17713,
+    "reasoning_output_tokens": 8195
+  },
+  "finished_at": "2026-08-28T06:53:45.123355+00:00",
+  "return_code": 0
+}
