@@ -1,0 +1,22 @@
+{
+  "task_id": "ls06-eno1-significance-audit",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "proteome_analysis",
+    "biomarker_discovery"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T11:46:19.017264+00:00",
+  "usage": {
+    "input_tokens": 139911,
+    "cached_input_tokens": 121984,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5082,
+    "reasoning_output_tokens": 1707
+  },
+  "finished_at": "2026-08-28T11:48:31.368311+00:00",
+  "return_code": 0
+}
