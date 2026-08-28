@@ -1,0 +1,4 @@
+cell_type,weight,evidence
+Endothelial,0.359,"NNLS_fit_R2=0.61; nnls_weight=0.354; marker_mass_fraction=0.30; top20_marker_genes_expressed=20/20 (mean count 7.8); example markers Gene_297, Gene_295, Gene_323"
+B_Cell,0.321,"NNLS_fit_R2=0.61; nnls_weight=0.317; marker_mass_fraction=0.24; top20_marker_genes_expressed=20/20 (mean count 6.1); example markers Gene_167, Gene_168, Gene_156"
+Macrophage,0.32,"NNLS_fit_R2=0.61; nnls_weight=0.317; marker_mass_fraction=0.28; top20_marker_genes_expressed=20/20 (mean count 5.95); example markers Gene_222, Gene_212, Gene_604"
