@@ -1,0 +1,23 @@
+{
+  "task_id": "ls05-low-confidence-pocket",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "protein_quality_assessment",
+    "binding_site_characterization",
+    "alphafold_structure_pipeline"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T10:48:45.171094+00:00",
+  "usage": {
+    "input_tokens": 160128,
+    "cached_input_tokens": 135680,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 14213,
+    "reasoning_output_tokens": 8296
+  },
+  "finished_at": "2026-08-28T11:14:21.995048+00:00",
+  "return_code": 0
+}

@@ -1,0 +1,5 @@
+{
+  "pocket_reliable": false,
+  "prioritize_mutations": false,
+  "reason": "Pocket is not reliable: pocket intervals 210-230 (pLDDT 47, PAE 14.2 A); 231-270 (pLDDT 43, PAE 17.8 A) fail the requirement that every pocket interval has pLDDT >= 70 and PAE <= 10 A. pLDDT < 50 means the predicted coordinates should not be interpreted, and PAE > 10 A means the relative placement of the pocket with respect to the core is uncertain, so the pocket geometry cannot support mutation prioritization. All pocket candidates receive decision defer_structure_validation. Predicted ddG and activity changes are model hypotheses only, not measured binding or activity effects."
+}
