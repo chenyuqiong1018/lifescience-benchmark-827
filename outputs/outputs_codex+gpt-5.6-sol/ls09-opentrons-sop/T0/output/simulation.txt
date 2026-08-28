@@ -1,0 +1,10 @@
+COMMAND
+python -m opentrons.simulate output/protocol.py
+
+STDOUT
+
+STDERR
+C:\Python314\python.exe: Error while finding module specification for 'opentrons.simulate' (ModuleNotFoundError: No module named 'opentrons')
+
+EXIT_CODE
+1
