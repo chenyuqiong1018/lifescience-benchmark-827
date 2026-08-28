@@ -1,0 +1,6 @@
+{"timestamp":"2026-08-28T04:10:33.4065031+08:00","event":"arm_started","task_id":"ls03-genome-coordinates","arm":"C0","model":"gpt-5.6-sol","reasoning_effort":"high"}
+{"timestamp":"2026-08-28T04:10:33.4065031+08:00","event":"skill_isolation_confirmed","skills":[],"detail":"C0 executed without installing or opening any benchmark skill."}
+{"timestamp":"2026-08-28T04:10:33.4065031+08:00","event":"allowed_inputs_restored","detail":"Sparse checkout connection reset was recovered by downloading only the three allowed task blobs from exact GitHub blob SHAs and verifying each with git hash-object."}
+{"timestamp":"2026-08-28T04:10:33.4065031+08:00","event":"analysis_completed","cells":600,"observations":150000,"contact_threshold_nm":260,"strongest_lag":-1,"strongest_association":0.07784324772318547,"strongest_lag_n_observations":149400,"causal_claim":false}
+{"timestamp":"2026-08-28T04:10:33.4065031+08:00","event":"validation_completed","checks":{"cell_rows":600,"timepoints_per_cell":250,"lag_rows":41,"lags_complete":true,"within_cell_pairing":true,"n_observations_formula":true,"finite_associations":true,"deterministic_rerun":true}}
+{"timestamp":"2026-08-28T04:10:33.4065031+08:00","event":"arm_completed","status":"success"}

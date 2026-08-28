@@ -1,0 +1,12 @@
+{
+  "swap_detected": true,
+  "organ_a": "Cloaca",
+  "organ_b": "Stomach",
+  "confidence": "high",
+  "evidence": [
+    "The strongest reciprocal promoter-marker coherence gain is 1.252715 for Cloaca <-> Stomach; the runner-up is GallBladder <-> Stomach at 0.674759 (margin 0.577955).",
+    "Cloaca markers score 1.9756 in the Stomach-labelled sample versus 0.9943 in the Cloaca-labelled sample; Stomach markers score 1.1183 versus 0.8469.",
+    "Leave-one-marker-locus-out re-ranking retained the same top pair in 99.3% of 150 trials; minimum top-versus-runner-up margin was 0.052243.",
+    "Signals were normalized by complete-library CPM and expressed relative to each promoter locus's across-organ mean; total library size alone was not used as swap evidence."
+  ]
+}

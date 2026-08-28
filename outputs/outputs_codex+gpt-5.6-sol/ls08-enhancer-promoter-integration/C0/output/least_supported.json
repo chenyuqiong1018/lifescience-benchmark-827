@@ -1,0 +1,37 @@
+{
+  "least_supported_causal_pair": "EP3",
+  "contact_evidence": 3.104750280566484,
+  "perturbation_effect": -0.010776186090758526,
+  "combined_support": 0.033457366788719176,
+  "rank": 4,
+  "physical_eligibility_threshold": 1.645,
+  "eligible_pair_count": 4,
+  "candidate_pair_count": 7,
+  "candidate_pairs": [
+    "EP1",
+    "EP2",
+    "EP3",
+    "EP4",
+    "EP5",
+    "EP6",
+    "EP7"
+  ],
+  "ep8_invented": false,
+  "contact_model": {
+    "background_row_count": 200,
+    "response": "log1p(mean_count)",
+    "predictor": "log10(distance_bp)",
+    "intercept": 11.645968189216763,
+    "slope": -1.7342314918711217,
+    "background_residual_median": 0.02382766534151154,
+    "background_residual_mad": 0.2031956927874728,
+    "robust_scale": 0.30125793412670715
+  },
+  "perturbation_model": {
+    "guide_effect": "log2((mean_perturbed + 0.5)/(mean_control + 0.5))",
+    "pair_aggregation": "median across guides",
+    "guides_per_pair": 4,
+    "replicates_per_guide_condition": 3
+  },
+  "interpretation_limit": "Eligibility and rank follow the frozen local integration policy; they do not by themselves prove a biological enhancer-promoter causal relationship."
+}

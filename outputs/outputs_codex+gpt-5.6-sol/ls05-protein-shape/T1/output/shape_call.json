@@ -1,0 +1,5 @@
+{
+  "letter": "T",
+  "confidence": 0.98,
+  "orientation_notes": "Center all 2,388 C-alpha coordinates from chains A, B, C, D, E, F, align PC1 left-to-right and PC2 vertically, and view along PC3. The front projection has a broad approximately 291 A crossbar with a centered approximately 64 A downward stem; the crossbar-to-lower-layer width ratio is 1.9. PC1 accounts for 92.7% of coordinate variance. The orthogonal PC1-PC3 panel verifies assembly depth, while complete near-complete occupancy (0.98 mean) and all six populated chains support a stable assembly-level T call."
+}

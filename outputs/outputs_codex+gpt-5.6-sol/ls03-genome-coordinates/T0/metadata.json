@@ -1,0 +1,22 @@
+{
+  "task": "ls03-genome-coordinates",
+  "condition": "T0",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "skills": [
+    "statistical-analysis"
+  ],
+  "contact_threshold_nm": 260,
+  "status": "success",
+  "validation": {
+    "cell_rows": 600,
+    "lag_rows": 41,
+    "lag_range": [-20, 20],
+    "strongest_absolute_lag": -1,
+    "strongest_association": 0.07784324772318545,
+    "strongest_n_observations": 149400,
+    "all_cells_have_250_timepoints": true,
+    "lag_observation_counts_match_expected": true,
+    "deterministic_rerun": true
+  }
+}

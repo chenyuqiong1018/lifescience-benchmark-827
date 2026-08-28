@@ -1,0 +1,6 @@
+{"event":"arm_started","task":"ls03-genome-coordinates","condition":"T1","skills":["regulatory_region_analysis","region-gene-elements","statistical-analysis","scientific-visualization"]}
+{"event":"skills_freshly_installed_and_opened","source":"183-item Feishu whitelist"}
+{"event":"recoverable_environment_error","detail":"matplotlib unavailable before analysis began; switched to dependency-free SVG without installing an additional capability"}
+{"event":"analysis_completed","cell_rows":600,"lag_rows":41,"strongest_absolute_lag":-1,"association":0.07784324772318547,"n_observations":149400}
+{"event":"validation_passed","all_cells_have_250_timepoints":true,"lag_observation_counts_match_expected":true,"svg_parses_as_xml":true}
+{"event":"deterministic_rerun_passed"}

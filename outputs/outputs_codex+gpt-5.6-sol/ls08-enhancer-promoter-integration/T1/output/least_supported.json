@@ -1,0 +1,67 @@
+{
+  "least_supported_causal_pair": "EP3",
+  "contact_evidence": 3.104750280566484,
+  "perturbation_effect": -0.010776186090758526,
+  "combined_support": 0.033457366788719176,
+  "rank": 4,
+  "physical_eligibility_threshold": 1.645,
+  "eligible_pair_count": 4,
+  "candidate_pair_count": 7,
+  "candidate_pairs": [
+    "EP1",
+    "EP2",
+    "EP3",
+    "EP4",
+    "EP5",
+    "EP6",
+    "EP7"
+  ],
+  "ep8_invented": false,
+  "contact_model": {
+    "background_row_count": 200,
+    "response": "log1p(mean_count)",
+    "predictor": "log10(distance_bp)",
+    "intercept": 11.645968189216763,
+    "slope": -1.7342314918711217,
+    "background_residual_median": 0.02382766534151154,
+    "background_residual_mad": 0.2031956927874728,
+    "robust_scale": 0.30125793412670715
+  },
+  "perturbation_model": {
+    "guide_effect": "log2((mean_perturbed + 0.5)/(mean_control + 0.5))",
+    "pair_aggregation": "median across guides",
+    "guides_per_pair": 4,
+    "replicates_per_guide_condition": 3
+  },
+  "controlled_skill_usage": {
+    "installed_and_opened": [
+      "regulatory_region_analysis",
+      "region-gene-elements",
+      "scientific-critical-thinking",
+      "code_execution_analysis"
+    ],
+    "regulatory_region_analysis": "used to preserve physical-region evidence separately from functional evidence",
+    "region-gene-elements": "association context considered; IGVF query disabled because no coordinates were supplied",
+    "scientific-critical-thinking": "used to distinguish frozen-rule eligibility from demonstrated biological causality",
+    "code_execution_analysis": "remote endpoint returned code echo only; local executable script is authoritative",
+    "external_skill_data_calls_used": false
+  },
+  "critical_appraisal": {
+    "supported_inference": "EP3 is the weakest pair among candidates passing the supplied physical-contact threshold.",
+    "biological_causality_established": false,
+    "strengths": [
+      "orthogonal physical-contact and perturbation modalities",
+      "distance-adjusted contact evidence using 200 background rows",
+      "four guides with three replicates per condition",
+      "prespecified threshold, support formula, and deterministic ranking"
+    ],
+    "limitations": [
+      "pair keys lack genomic coordinates, gene identities, and biosample annotations",
+      "Hi-C contact does not prove direct enhancer-promoter regulation",
+      "CRISPR expression changes may include indirect or off-target effects",
+      "the product score is a local heuristic without an uncertainty interval",
+      "only EP1-EP7 are supplied despite the source question mentioning eight candidates"
+    ],
+    "evidence_confidence": "high for reproducing the frozen-rule ranking; low for a standalone biological causal claim"
+  }
+}

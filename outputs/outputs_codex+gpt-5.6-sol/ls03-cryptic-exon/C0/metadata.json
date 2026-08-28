@@ -1,0 +1,23 @@
+{
+  "task_id": "ls03-cryptic-exon",
+  "task_number": 8,
+  "arm": "C0",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "status": "success",
+  "source_commit": "d6591ee75b05e78df42a120e5a3327a8c063d33e",
+  "completed_at": "2026-08-28T03:44:34.6452723+08:00",
+  "skills": [],
+  "result_summary": {
+    "gene": "GNG10",
+    "chrom": "chr9",
+    "start": 111664537,
+    "end": 111664589,
+    "left_junction": [111661716, 111664536],
+    "right_junction": [111664590, 111666814],
+    "left_junction_reads": 45,
+    "right_junction_reads": 42,
+    "cryptic_exon_overlap_reads": 77,
+    "annotation_version": "Ensembl Genes 112"
+  }
+}

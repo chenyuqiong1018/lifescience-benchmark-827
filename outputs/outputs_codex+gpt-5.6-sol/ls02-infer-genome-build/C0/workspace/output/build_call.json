@@ -1,0 +1,176 @@
+{
+  "build": "hg19",
+  "confidence": "high",
+  "n_variants_checked": 84664,
+  "n_ref_matches": 84664,
+  "n_ref_mismatches": 0,
+  "evidence": {
+    "coordinate_convention": "VCF POS is 1-based; REF checked against FASTA[pos-1:pos-1+len(REF)]",
+    "chromosome_labels_seen": [
+      "20"
+    ],
+    "candidate_checks": {
+      "hg18": {
+        "fasta": "inputs\\ls02-infer-genome-build\\references\\hg18_chr20.fa.gz",
+        "fasta_header": ">chr20",
+        "fasta_length_bp": 62435964,
+        "sha256": "db0b097285fa234583a425097acfaf936ffff42819c63ef81445df19686f7765",
+        "n_ref_matches": 20758,
+        "n_ref_mismatches": 63906,
+        "n_out_of_range": 606,
+        "match_fraction": 0.24518095058112066,
+        "mismatch_examples": [
+          {
+            "pos": 61795,
+            "vcf_ref": "G",
+            "reference": "C",
+            "alt": "T"
+          },
+          {
+            "pos": 63360,
+            "vcf_ref": "C",
+            "reference": "A",
+            "alt": "T"
+          },
+          {
+            "pos": 63799,
+            "vcf_ref": "C",
+            "reference": "A",
+            "alt": "T"
+          },
+          {
+            "pos": 65288,
+            "vcf_ref": "G",
+            "reference": "A",
+            "alt": "T"
+          },
+          {
+            "pos": 65900,
+            "vcf_ref": "G",
+            "reference": "A",
+            "alt": "A"
+          },
+          {
+            "pos": 66370,
+            "vcf_ref": "G",
+            "reference": "A",
+            "alt": "A"
+          },
+          {
+            "pos": 69094,
+            "vcf_ref": "G",
+            "reference": "A",
+            "alt": "A"
+          },
+          {
+            "pos": 74347,
+            "vcf_ref": "G",
+            "reference": "T",
+            "alt": "A"
+          },
+          {
+            "pos": 76962,
+            "vcf_ref": "T",
+            "reference": "C",
+            "alt": "C"
+          },
+          {
+            "pos": 77816,
+            "vcf_ref": "G",
+            "reference": "C",
+            "alt": "A"
+          }
+        ]
+      },
+      "hg19": {
+        "fasta": "inputs\\ls02-infer-genome-build\\references\\hg19_chr20.fa.gz",
+        "fasta_header": ">20",
+        "fasta_length_bp": 63025520,
+        "sha256": "c204a3e25b91ba4b4dcddaaa6bd97121eec8ed25797f833433fe47df979de089",
+        "n_ref_matches": 84664,
+        "n_ref_mismatches": 0,
+        "n_out_of_range": 0,
+        "match_fraction": 1.0,
+        "mismatch_examples": []
+      },
+      "hg38": {
+        "fasta": "inputs\\ls02-infer-genome-build\\references\\hg38_chr20.fa.gz",
+        "fasta_header": ">chr20",
+        "fasta_length_bp": 64444167,
+        "sha256": "d9a47cd37c4476a4ea2f9036a8d92260bf3a30ea06ee1eb6d7f8a314bf40ac0c",
+        "n_ref_matches": 20966,
+        "n_ref_mismatches": 63698,
+        "n_out_of_range": 0,
+        "match_fraction": 0.24763772087309838,
+        "mismatch_examples": [
+          {
+            "pos": 61795,
+            "vcf_ref": "G",
+            "reference": "A",
+            "alt": "T"
+          },
+          {
+            "pos": 63360,
+            "vcf_ref": "C",
+            "reference": "N",
+            "alt": "T"
+          },
+          {
+            "pos": 63799,
+            "vcf_ref": "C",
+            "reference": "N",
+            "alt": "T"
+          },
+          {
+            "pos": 65288,
+            "vcf_ref": "G",
+            "reference": "T",
+            "alt": "T"
+          },
+          {
+            "pos": 65900,
+            "vcf_ref": "G",
+            "reference": "C",
+            "alt": "A"
+          },
+          {
+            "pos": 66370,
+            "vcf_ref": "G",
+            "reference": "T",
+            "alt": "A"
+          },
+          {
+            "pos": 69094,
+            "vcf_ref": "G",
+            "reference": "A",
+            "alt": "A"
+          },
+          {
+            "pos": 74347,
+            "vcf_ref": "G",
+            "reference": "C",
+            "alt": "A"
+          },
+          {
+            "pos": 76962,
+            "vcf_ref": "T",
+            "reference": "A",
+            "alt": "C"
+          },
+          {
+            "pos": 77816,
+            "vcf_ref": "G",
+            "reference": "T",
+            "alt": "A"
+          }
+        ]
+      }
+    },
+    "winner_margin_matches": 63698,
+    "t2t": {
+      "status": "not_evaluated_reference_absent",
+      "reason": "No T2T/hs1 chromosome reference was supplied; it is excluded rather than counted as a mismatch."
+    },
+    "vcf_sha256": "0f035fb4f35b47be7a52b8d632daeb005eff6016fa1653f3008229d2e46f016e"
+  }
+}

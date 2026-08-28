@@ -1,0 +1,3 @@
+gene	chrom	junction_role	intron_start	intron_end	read_support	splice_motif	annotation_version	annotation_status
+GNG10	chr9	left	111661716	111664536	45	GT-AG	Ensembl Genes 112	novel
+GNG10	chr9	right	111664590	111666814	42	GT-AG	Ensembl Genes 112	novel

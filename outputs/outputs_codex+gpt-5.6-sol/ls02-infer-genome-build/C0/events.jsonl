@@ -1,0 +1,5 @@
+{"event":"run_started","task_id":"ls02-infer-genome-build","arm":"C0","model":"gpt-5.6-sol","reasoning_effort":"high","skills":[]}
+{"event":"inputs_validated","vcf_records":84664,"chromosome_labels":["20"],"candidate_references":["hg18","hg19","hg38"],"t2t_reference_available":false}
+{"event":"allele_checks_completed","hg18":{"matches":20758,"mismatches":63906},"hg19":{"matches":84664,"mismatches":0},"hg38":{"matches":20966,"mismatches":63698}}
+{"event":"analysis_completed","build":"hg19","confidence":"high","n_variants_checked":84664,"n_ref_matches":84664,"n_ref_mismatches":0}
+{"event":"artifacts_verified","deterministic_rerun":true,"status":"success"}

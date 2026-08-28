@@ -1,0 +1,35 @@
+{
+  "mode": "T1-controlled",
+  "control_file": "T1-control_all skill.md",
+  "task_id": "ls03-atac-sample-swap",
+  "required_skills": [
+    "regulatory_region_analysis",
+    "tissue_specific_analysis",
+    "exploratory-data-analysis",
+    "statistical-analysis",
+    "scientific-visualization"
+  ],
+  "installed_skills": [
+    {
+      "name": "regulatory_region_analysis",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/regulatory_region_analysis"
+    },
+    {
+      "name": "tissue_specific_analysis",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/tissue_specific_analysis"
+    },
+    {
+      "name": "exploratory-data-analysis",
+      "download_url": "https://github.com/synthetic-sciences/openscience/blob/main/backend/cli/skills/coding/exploratory-data-analysis/SKILL.md"
+    },
+    {
+      "name": "statistical-analysis",
+      "download_url": "https://github.com/synthetic-sciences/openscience/blob/main/backend/cli/skills/coding/statistical-analysis/SKILL.md"
+    },
+    {
+      "name": "scientific-visualization",
+      "download_url": "https://github.com/synthetic-sciences/openscience/blob/main/backend/cli/skills/visualization/scientific-visualization/SKILL.md"
+    }
+  ],
+  "isolation": "Previous-arm active skills were moved to the project archive before fresh installation. All five T1 SKILL.md files were opened in full before execution."
+}

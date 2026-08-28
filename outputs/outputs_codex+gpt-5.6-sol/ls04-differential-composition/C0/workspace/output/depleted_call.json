@@ -1,0 +1,18 @@
+{
+  "cell_type": "horizontal cell",
+  "sample_1_n_cells": 237,
+  "sample_1_fraction": 0.03764892772041303,
+  "sample_2_n_cells": 49,
+  "sample_2_fraction": 0.00979216626698641,
+  "sample_2_to_sample_1_fraction_ratio": 0.26009150485518756,
+  "sample_1_eligibility_threshold": 0.01,
+  "eligible_cell_types": [
+    "astrocyte",
+    "cone cell",
+    "rod cell",
+    "horizontal cell",
+    "bipolar cell",
+    "RGC",
+    "muller glia cell"
+  ]
+}

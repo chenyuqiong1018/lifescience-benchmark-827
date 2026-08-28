@@ -1,0 +1,4 @@
+{"event":"run_started","task_id":"ls03-atac-sample-swap","arm":"C0","skills":[]}
+{"event":"coordinates_reconstructed","method":"whole-arm GTF to sequential chrom-size fragments"}
+{"event":"analysis_completed","swap_detected":true,"organ_a":"Cloaca","organ_b":"Stomach","confidence":"high","top_score":1.2527145957576393,"margin":0.5779551643049311}
+{"event":"artifacts_verified","pair_rows":105,"lexical_pairs":true,"deterministic_rerun":true,"status":"success"}

@@ -1,0 +1,137 @@
+{
+  "task": "ls02-find-deletion",
+  "method": "stdlib exact 31-mer terminal anchoring; unique full-read verification; 100-kb depth; FR-pair and exact-junction confirmation",
+  "inputs": {
+    "r1": {
+      "path": "inputs\\ls02-find-deletion\\find.deletion.r1.fq.gz",
+      "sha256": "ebb2325b99c28eb227d8f0c2c0db0eef808f737a6377b7956029f0d1f5f140d5"
+    },
+    "r2": {
+      "path": "inputs\\ls02-find-deletion\\find.deletion.r2.fq.gz",
+      "sha256": "142a6502367f40fc7324cf6243ee3dbae715afd79dfa2ae3069d38a849249cae"
+    },
+    "reference": {
+      "path": "inputs\\ls02-find-deletion\\reference\\GRCh38_chr22.fa.gz",
+      "sha256": "975dfb2a410b2c271efc7d7ab321db50663132ed9521294da4690ade78f05810"
+    }
+  },
+  "reference": {
+    "name": "chr22",
+    "length_bp": 50818468,
+    "N_bases": 13746483
+  },
+  "fastq": {
+    "pairs": 332123,
+    "ends": 664246,
+    "read_length_counts": {
+      "150": 664246
+    },
+    "quality_score_counts": {
+      "40": 99636900
+    }
+  },
+  "mapping": {
+    "seed_length": 31,
+    "observed_terminal_seed_count": 2531036,
+    "indexed_seed_count": 1374880,
+    "repetitive_seed_count": 25864,
+    "end_mapping_multiplicity": {
+      "0": 3169,
+      "1": 640933,
+      "2": 12592,
+      "3": 4558,
+      "4": 1152,
+      "5": 902,
+      "6": 423,
+      "7": 293,
+      "8": 143,
+      "9": 27,
+      "10": 38,
+      "11": 6,
+      "12": 1,
+      "13": 9
+    },
+    "pair_classes": {
+      "FR": 315293,
+      "not_both_unique": 16814,
+      "other_orientation": 16
+    },
+    "median_normal_FR_span_bp": 500,
+    "mean_unique_read_depth_outside_deletion": 2.6652248275219677
+  },
+  "deletion_evidence": {
+    "zero_depth_bin_start_indices": [
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209
+    ],
+    "zero_depth_bin_count": 10,
+    "left_flanking_bin_mapped_bases": 264504,
+    "right_flanking_bin_mapped_bases": 271200,
+    "spanning_FR_pairs": [
+      {
+        "pair": 220881,
+        "r1_start_1based": 19999646,
+        "r1_strand": "+",
+        "r2_start_1based": 21000059,
+        "r2_strand": "-",
+        "reference_span_bp": 1000563,
+        "deletion_adjusted_span_bp": 563
+      },
+      {
+        "pair": 256753,
+        "r1_start_1based": 21000014,
+        "r1_strand": "-",
+        "r2_start_1based": 19999672,
+        "r2_strand": "+",
+        "reference_span_bp": 1000492,
+        "deletion_adjusted_span_bp": 492
+      }
+    ],
+    "junction_spanning_reads": [
+      {
+        "pair": 15241,
+        "end": "R2",
+        "strand": "+",
+        "left_aligned_bp": 98,
+        "right_aligned_bp": 52
+      },
+      {
+        "pair": 139653,
+        "end": "R1",
+        "strand": "-",
+        "left_aligned_bp": 44,
+        "right_aligned_bp": 106
+      },
+      {
+        "pair": 152441,
+        "end": "R2",
+        "strand": "+",
+        "left_aligned_bp": 99,
+        "right_aligned_bp": 51
+      },
+      {
+        "pair": 250584,
+        "end": "R2",
+        "strand": "+",
+        "left_aligned_bp": 28,
+        "right_aligned_bp": 122
+      }
+    ]
+  },
+  "precision": {
+    "reported_rounding_bp": 100000,
+    "reported_breakpoints": [
+      20000000,
+      21000000
+    ],
+    "interpretation": "Rounded breakpoint boundaries; deletion interval in 1-based reference terms is approximately start+1 through end."
+  }
+}

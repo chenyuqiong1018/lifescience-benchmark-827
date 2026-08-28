@@ -1,0 +1,3 @@
+{"event":"skills_installed","task_id":"ls02-deleterious-mutation","arm":"T0","skills":["genome_annotation","snp_functional_analysis","statistical-analysis","code_execution_analysis"],"isolated":true}
+{"event":"skills_opened","task_id":"ls02-deleterious-mutation","arm":"T0","skills":["genome_annotation","snp_functional_analysis","statistical-analysis","code_execution_analysis"]}
+{"event":"arm_completed","task_id":"ls02-deleterious-mutation","arm":"T0","status":"success","external_data":false}

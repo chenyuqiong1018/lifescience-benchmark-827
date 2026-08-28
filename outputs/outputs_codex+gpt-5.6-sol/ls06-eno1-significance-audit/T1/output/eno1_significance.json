@@ -1,0 +1,8 @@
+{
+  "gene": "ENO1",
+  "adjusted_p_value": 0.226,
+  "fdr_threshold": 0.05,
+  "significant": false,
+  "source_file": "Proteomic_data .xlsx",
+  "source_sheet": "Tumor vs Normal"
+}

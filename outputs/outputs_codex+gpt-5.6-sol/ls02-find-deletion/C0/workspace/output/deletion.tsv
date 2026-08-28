@@ -1,0 +1,2 @@
+chrom	start_100kb	end_100kb	size_bp	supporting_signals
+chr22	20000000	21000000	1000000	10 consecutive callable 100-kb bins with zero unique-read depth; 2 FR read pairs span the interval; 4 exact junction-spanning reads

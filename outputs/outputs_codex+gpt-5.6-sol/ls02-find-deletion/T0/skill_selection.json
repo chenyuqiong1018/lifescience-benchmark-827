@@ -1,0 +1,25 @@
+{
+  "selection_mode": "autonomous_from_183_skill_whitelist",
+  "skills": [
+    {
+      "name": "chromosome_analysis",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/chromosome_analysis",
+      "reason": "Validate chromosome identity, assembly context, and chromosome-scale structural-variant interpretation."
+    },
+    {
+      "name": "genome_annotation",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/genome_annotation",
+      "reason": "Keep hg38 coordinate semantics and reference annotation context explicit."
+    },
+    {
+      "name": "code_execution_analysis",
+      "download_url": "https://github.com/InternScience/scp/tree/main/skills/code_execution_analysis",
+      "reason": "Implement and verify a reproducible local analysis over FASTQ and reference inputs."
+    }
+  ],
+  "installation_root": "work/active_skills/ls02-find-deletion/T0",
+  "installed_fresh": true,
+  "opened_before_execution": true,
+  "external_service_calls": [],
+  "external_service_note": "Installed skill instructions were used as workflow guidance; remote SCP examples require an API key and were unnecessary because the supplied local chr22 reference is authoritative for the requested call."
+}

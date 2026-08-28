@@ -1,0 +1,10 @@
+{
+  "task_id": "ls02-deleterious-mutation",
+  "arm": "T0",
+  "model": "gpt-5.6-sol",
+  "reasoning": "high",
+  "skills": ["genome_annotation", "snp_functional_analysis", "statistical-analysis", "code_execution_analysis"],
+  "skill_mode": "AUTO_FROM_183_WHITELIST",
+  "external_data": false,
+  "status": "success"
+}

@@ -1,0 +1,191 @@
+{
+  "comparison": "Cisplatin_IC50_CBD_IC50 versus DMSO",
+  "primary_cellular_mechanism": "TP53 Regulates Transcription Of Cell Cycle Genes",
+  "primary_reactome_id": "R-HSA-6791312",
+  "primary_support": {
+    "pathway": "TP53 Regulates Transcription Of Cell Cycle Genes",
+    "reactome_id": "R-HSA-6791312",
+    "analysis_set": "all_passing",
+    "overlap": "8/49",
+    "p_value": 4.2776601030251256e-05,
+    "adjusted_p_value": 0.0377289621086816,
+    "odds_ratio": 7.585774793161718,
+    "combined_score": 76.3092480114133,
+    "overlap_genes": [
+      "BAX",
+      "BTG2",
+      "CCNE1",
+      "CCNE2",
+      "CDKN1A",
+      "PCNA",
+      "PLK2",
+      "RGCC"
+    ]
+  },
+  "selection_rule": "Among all-passing DE genes, prefer terms with adjusted p < 0.05, then sort by adjusted p-value, raw p-value, descending combined score, and term.",
+  "de_method": {
+    "pydeseq2_version": "0.5.0",
+    "design": "~Group",
+    "refit_cooks": true,
+    "contrast": [
+      "Group",
+      "Cisplatin_IC50_CBD_IC50",
+      "DMSO"
+    ],
+    "filter": "at least one selected sample has raw count > 10",
+    "passing_rule": "padj < 0.05 and abs(log2FoldChange) > 0.5 and baseMean > 10",
+    "retained_gene_count": 18029,
+    "passing_gene_count": 555,
+    "upregulated_passing_gene_count": 356,
+    "downregulated_passing_gene_count": 199,
+    "unavailable_adjusted_pvalue_count": 4545
+  },
+  "enrichment_method": {
+    "gseapy_version": "1.1.4",
+    "resource": "Reactome_2022",
+    "offline_local_gmt": true,
+    "background_gene_count": 10489,
+    "all_passing_mapped_background_gene_count": 282,
+    "upregulated_mapped_background_gene_count": 187,
+    "downregulated_mapped_background_gene_count": 95,
+    "significant_term_count_all_passing": 1,
+    "significant_term_count_upregulated": 1,
+    "significant_term_count_downregulated": 0
+  },
+  "controlled_skill_usage": {
+    "installed_and_opened": [
+      "go_term_analysis",
+      "string-ppi-enrichment",
+      "scientific-critical-thinking",
+      "code_execution_analysis"
+    ],
+    "go_term_analysis": "used for ontology-aware functional stratification; external calls disabled",
+    "string-ppi-enrichment": "PPI context considered; external STRING call disabled",
+    "scientific-critical-thinking": "used for validity, confounding, and causal-claim appraisal",
+    "code_execution_analysis": "remote endpoint returned code echo only; local executable analysis is authoritative",
+    "external_skill_data_calls_used": false,
+    "reason": "Only the evaluator-supplied frozen Reactome library and mapping are permitted."
+  },
+  "critical_appraisal": {
+    "supported_inference": "TP53-related cell-cycle transcription is statistically over-represented among genes associated with the combination-versus-DMSO contrast.",
+    "causal_inference_supported": false,
+    "strengths": [
+      "prespecified six-sample contrast and DE thresholds",
+      "explicit FDR control for genes and pathways",
+      "byte-verified frozen pathway library and explicit background",
+      "complete reporting of overall and directional enrichment"
+    ],
+    "limitations": [
+      "three replicates per group limit precision and power",
+      "the model contains Group only, so unmodeled technical factors may remain",
+      "no single-agent arms are included, so synergy and component attribution cannot be inferred",
+      "over-representation ignores gene-gene correlation and pathway redundancy",
+      "a significant pathway does not establish pathway activation or causation"
+    ],
+    "evidence_confidence": "moderate for an experiment-specific statistical association; low for a causal mechanism"
+  },
+  "supporting_pathways": [
+    {
+      "pathway": "TP53 Regulates Transcription Of Cell Cycle Genes",
+      "reactome_id": "R-HSA-6791312",
+      "analysis_set": "all_passing",
+      "overlap": "8/49",
+      "p_value": 4.2776601030251256e-05,
+      "adjusted_p_value": 0.0377289621086816,
+      "odds_ratio": 7.585774793161718,
+      "combined_score": 76.3092480114133,
+      "overlap_genes": [
+        "BAX",
+        "BTG2",
+        "CCNE1",
+        "CCNE2",
+        "CDKN1A",
+        "PCNA",
+        "PLK2",
+        "RGCC"
+      ]
+    },
+    {
+      "pathway": "TP53 Regulates Transcription Of Cell Death Genes",
+      "reactome_id": "R-HSA-5633008",
+      "analysis_set": "all_passing",
+      "overlap": "7/44",
+      "p_value": 0.00015389793527791323,
+      "adjusted_p_value": 0.06786898945755973,
+      "odds_ratio": 7.383303085299455,
+      "combined_score": 64.81964900267576,
+      "overlap_genes": [
+        "BAX",
+        "FASN",
+        "IGFBP3",
+        "TNFRSF10C",
+        "TP53I3",
+        "TP53INP1",
+        "TRIAP1"
+      ]
+    },
+    {
+      "pathway": "Aberrant Regulation Of Mitotic G1/S Transition In Cancer Due To RB1 Defects",
+      "reactome_id": "R-HSA-9659787",
+      "analysis_set": "all_passing",
+      "overlap": "4/17",
+      "p_value": 0.0009229546123975354,
+      "adjusted_p_value": 0.2526155511158977,
+      "odds_ratio": 12.201675643327349,
+      "combined_score": 85.26446136289834,
+      "overlap_genes": [
+        "CCNE1",
+        "CCNE2",
+        "CDKN1A",
+        "CDKN1C"
+      ]
+    },
+    {
+      "pathway": "Transcriptional Regulation By TP53",
+      "reactome_id": "R-HSA-3700989",
+      "analysis_set": "all_passing",
+      "overlap": "20/354",
+      "p_value": 0.0013996646439300947,
+      "adjusted_p_value": 0.2526155511158977,
+      "odds_ratio": 2.3051519681116095,
+      "combined_score": 15.148358280478995,
+      "overlap_genes": [
+        "BAX",
+        "BTG2",
+        "CCNE1",
+        "CCNE2",
+        "CDKN1A",
+        "DDB2",
+        "FASN",
+        "FOS",
+        "IGFBP3",
+        "PCNA",
+        "PLK2",
+        "PRKAA2",
+        "RGCC",
+        "RRM2B",
+        "TAF9B",
+        "TIGAR",
+        "TNFRSF10C",
+        "TP53I3",
+        "TP53INP1",
+        "TRIAP1"
+      ]
+    },
+    {
+      "pathway": "CHL1 Interactions",
+      "reactome_id": "R-HSA-447041",
+      "analysis_set": "all_passing",
+      "overlap": "3/9",
+      "p_value": 0.0014320609473690345,
+      "adjusted_p_value": 0.2526155511158977,
+      "odds_ratio": 19.653364524563095,
+      "combined_score": 128.70282184145447,
+      "overlap_genes": [
+        "ANK1",
+        "ITGA2",
+        "NRP1"
+      ]
+    }
+  ]
+}

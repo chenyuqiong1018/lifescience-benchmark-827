@@ -1,0 +1,5 @@
+{
+  "pocket_reliable": false,
+  "prioritize_mutations": false,
+  "reason": "The two pocket intervals both fail the required confidence criteria: 210-230 has pLDDT 47 and PAE 14.2 A; 231-270 has pLDDT 43 and PAE 17.8 A. Mutation hypotheses should remain deferred until the pocket structure is validated."
+}

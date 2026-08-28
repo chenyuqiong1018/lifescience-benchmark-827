@@ -1,0 +1,5 @@
+{
+  "pocket_reliable": false,
+  "prioritize_mutations": false,
+  "reason": "Pocket reliability requires every pocket interval to have pLDDT >= 70 and PAE <= 10 A. Residues 210-230 have pLDDT 47 and PAE 14.2 A; residues 231-270 have pLDDT 43 and PAE 17.8 A. Both intervals fail both criteria, so mutation prioritization is deferred."
+}

@@ -1,0 +1,4 @@
+rank,model_id,global_score,interface_score,critical_residue_risk,decision
+1,model_A,0.81,1,4.8,preferred
+2,model_C,0.62,1,4.1,alternate
+3,model_B,0.74,0,8.5,reject_incomplete_mapping

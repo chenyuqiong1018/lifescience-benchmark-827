@@ -1,0 +1,1 @@
+Identify the protein-coding HGNC gene containing the highly expressed cryptic exon supported by two novel splice junctions. Write output/cryptic_exon.tsv with gene,chrom,start,end,left_junction_reads,right_junction_reads,expression_evidence, output/junctions.tsv, output/analysis.py, and output/report.md. Novelty must be assessed against the supplied annotation version.

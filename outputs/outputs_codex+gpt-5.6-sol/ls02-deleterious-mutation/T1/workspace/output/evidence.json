@@ -1,0 +1,183 @@
+{
+  "coordinate_system": "GRCh38, 1-based",
+  "annotation": "GENCODE v47 primary-assembly chr9 GTF",
+  "variant": {
+    "chrom": "chr9",
+    "pos": 127661125,
+    "ref": "G",
+    "alt": "T",
+    "gene": "STXBP1",
+    "consequence": "stop_gained"
+  },
+  "read_evidence": {
+    "alt_reads": 17,
+    "ref_reads": 73,
+    "other_reads": 0,
+    "total_reads": 90,
+    "allele_fraction": 0.18888888888888888,
+    "alt_forward": 13,
+    "alt_reverse": 4,
+    "alt_unique_alignment_starts": 13,
+    "alt_base_quality_min": 33,
+    "alt_base_quality_median": 33,
+    "alt_read_mismatch_median": 1,
+    "alt_read_mismatch_max": 3
+  },
+  "consequence_reconstruction": {
+    "transcript_count": 21,
+    "transcripts": [
+      {
+        "transcript_id": "ENST00000637521.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000625363.3",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000636509.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000626539.3",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000637953.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000635950.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000636962.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000637173.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000713764.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000496504.4",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000713765.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000647107.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000713766.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000373299.5",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000373302.8",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000627871.3",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000494254.4",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000704680.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000650920.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      },
+      {
+        "transcript_id": "ENST00000704681.1",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 117
+      },
+      {
+        "transcript_id": "ENST00000626333.2",
+        "strand": "+",
+        "ref_codon": "GAA",
+        "alt_codon": "TAA",
+        "amino_acid_position": 103
+      }
+    ]
+  },
+  "input_sha256": {
+    "deleterious.mutation.q2.R1.fq.gz": "656a689d572750249a8f5a24e35159c9a11bfb63d425a83f2774a81e8379bf29",
+    "GRCh38_chr9.fa.gz": "61023a6fb85e19ff8ca6797fc9acc7d9eac751195c51a56e51af087f68579705",
+    "gencode.v47.chr9.annotation.gtf.gz": "dacc70b3287ae965e4369f4fcf61b818c942ffd293e1f44aec593af99c172ee6"
+  }
+}

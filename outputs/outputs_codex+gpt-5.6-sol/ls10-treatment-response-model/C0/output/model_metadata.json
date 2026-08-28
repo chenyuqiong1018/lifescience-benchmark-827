@@ -1,0 +1,38 @@
+{
+  "workbook": "data.xlsx",
+  "sheet": "Sheet1",
+  "outcome": "Efficacy",
+  "outcome_coding": {
+    "PR": 1,
+    "SD": 0,
+    "PD": 0
+  },
+  "modeled_event": "PR (treatment response)",
+  "gender_reference_level": "Female",
+  "gender_coding": {
+    "Female": 0,
+    "Male": 1
+  },
+  "predictors": [
+    "BMI",
+    "Age",
+    "Gender_Male"
+  ],
+  "complete_case_variables": [
+    "Efficacy",
+    "BMI",
+    "Age",
+    "Gender"
+  ],
+  "n_input_rows": 80,
+  "n_complete_cases": 80,
+  "n_dropped_missing": 0,
+  "outcome_counts_complete_cases": {
+    "PR": 41,
+    "SD": 17,
+    "PD": 22
+  },
+  "model": "binary logistic regression",
+  "link": "logit",
+  "converged": true
+}
