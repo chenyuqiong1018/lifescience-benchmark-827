@@ -1,0 +1,2 @@
+gene	chrom	start	end	left_junction_reads	right_junction_reads	expression_evidence
+GNG10	chr9	111664537	111664589	49	49	506 uniquely-mapped GNG10 reads; all map to the cryptic isoform (0 reads span constitutive intron 1, 111661716-111666814); 21 reads span both novel junctions (full exon inclusion); exon body covered 48-55x (mean 51.5x) by 77 junction-overlapping reads

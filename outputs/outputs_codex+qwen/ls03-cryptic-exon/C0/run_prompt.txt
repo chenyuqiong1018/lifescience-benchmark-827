@@ -1,0 +1,9 @@
+Identify the protein-coding HGNC gene containing the highly expressed cryptic exon supported by two novel splice junctions. Write output/cryptic_exon.tsv with gene,chrom,start,end,left_junction_reads,right_junction_reads,expression_evidence, output/junctions.tsv, output/analysis.py, and output/report.md. Novelty must be assessed against the supplied annotation version.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Never enumerate, stop, kill, suspend, or otherwise control system-wide processes. Do not use Stop-Process, taskkill, pkill, killall, or Get-Process for termination. If a command you launched is slow, wait for it or redesign the next command without terminating any process.
+- Do not access or affect any process, file, directory, task, or project outside the current workspace.
+- Complete the requested task and save every requested deliverable in the current workspace.
