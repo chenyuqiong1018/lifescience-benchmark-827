@@ -1,0 +1,7 @@
+# Multiome column matching
+
+The frozen rule retained Ensembl 112 gene symbols occurring exactly once, present in RNA, and located on chromosomes 1-22, X, or Y. Strand-aware 1-based transcription start sites were converted to 0-based coordinates and assigned to their containing 10 kb ATAC bins. Both RNA TPM and mapped ATAC signal were transformed with `log1p`; the 2,000 mapped genes with greatest variance across RNA populations were retained.
+
+The shared biological signal is gene-proximal chromatin accessibility and expression covariation across the same populations: accessibility at a gene's TSS-containing bin should track that gene's RNA abundance. Pearson correlations across the selected genes produced the 8×8 score matrix. Exhaustive evaluation of all 8! assignments, equivalent to the maximum-weight Hungarian solution at this size, enforced a bijection and maximized total correlation (3.663500).
+
+Recovered mapping: RNA 0→ATAC 5, RNA 1→ATAC 1, RNA 2→ATAC 4, RNA 3→ATAC 0, RNA 4→ATAC 6, RNA 5→ATAC 3, RNA 6→ATAC 7, RNA 7→ATAC 2. `match_score` is the correlation selected by the global bijection; `runner_up_score` is the second-highest correlation within that RNA row. The smallest assigned-versus-row-runner-up margin is 0.012746. Scores measure cross-modal concordance, not causal regulation, and the assignment is specific to the supplied normalization and gene-coordinate release.
