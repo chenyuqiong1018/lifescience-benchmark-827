@@ -1,0 +1,3 @@
+step,source,destination,transfer_uL,transfer_pipette,diluent_source,diluent_uL,diluent_pipette,final_concentration,final_volume_uL
+dispense_final:B2,source:A2,B2,2,P20,diluent:R1,98,P300,0.5 uM,100
+dispense_final:B3,source:A2,B3,2,P20,diluent:R1,98,P300,0.5 uM,100
