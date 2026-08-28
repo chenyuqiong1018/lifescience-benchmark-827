@@ -1,0 +1,22 @@
+{
+  "task_id": "ls04-perturbseq-reference-map",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "scvi-tools",
+    "scgpt"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T08:41:00.655655+00:00",
+  "usage": {
+    "input_tokens": 481571,
+    "cached_input_tokens": 427776,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 30666,
+    "reasoning_output_tokens": 16215
+  },
+  "finished_at": "2026-08-28T08:54:16.239024+00:00",
+  "return_code": 0
+}

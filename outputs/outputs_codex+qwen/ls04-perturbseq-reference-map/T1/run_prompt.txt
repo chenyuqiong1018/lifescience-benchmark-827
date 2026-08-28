@@ -1,0 +1,21 @@
+Map query perturbation groups to the labeled reference across the cell-type shift and identify the query guide IDs corresponding to PABPC1, NUDT21 and LEO1. Write output/guide_mapping.csv with target_gene,query_guide_id,score,runner_up_score,confidence, output/analysis.py, and output/report.md. Prevent target metadata leakage and quantify ambiguity.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Never enumerate, stop, kill, suspend, or otherwise control system-wide processes. Do not use Stop-Process, taskkill, pkill, killall, or Get-Process for termination. If a command you launched is slow, wait for it or redesign the next command without terminating any process.
+- Do not access or affect any process, file, directory, task, or project outside the current workspace.
+- Complete the requested task and save every requested deliverable in the current workspace.
+
+BOUNDED HIGH-QUALITY EXECUTION:
+- Plan the required artifacts and validation checks once, then execute them directly. Avoid repeating the same reasoning or re-deriving already verified facts.
+- For expensive analyses, perform one production run and at most one independent verification run when scientifically necessary. Do not repeat a full analysis for wording, formatting, row ordering, metadata, or report-only changes.
+- If only a report or lightweight derived artifact changes, regenerate or patch only that artifact from the already validated results. Preserve the validated scientific outputs.
+- Use vectorized/chunked computation and inspect a small sample before launching an expensive full-data run. Reuse intermediates created inside this workspace when doing so does not weaken validation.
+- Once every requested artifact exists and the required scientific checks pass, stop. Do not add optional cosmetic refinements or extra full reruns.
+- A failed optional check must not block delivery: document the limitation, keep valid artifacts, and finish.
+- Begin implementing the simplest method that satisfies the supplied task rules within the first five tool calls. Do not spend the run narrating or comparing optional methods.
+- Use exactly one primary method and one lightweight validation path unless the user-visible task explicitly requires more. Do not add optional sensitivity analyses, alternate models, or exploratory diagnostics after required outputs validate.
+- Treat a valid required-artifact set as the stopping condition. Optional diagnostics must never delay final delivery.
+- Before finishing, assert exact requested filenames, schemas, row counts, and allowed values. Extra explanatory data belongs in report.md or a supplementary file, never in the required machine-readable artifact.

@@ -1,0 +1,43 @@
+{
+  "n_ref_cells": 4183,
+  "n_qry_cells": 3516,
+  "n_shared_genes": 11858,
+  "ctrl_profile_corr": 0.9178110957145691,
+  "n_rows_written": 34,
+  "subsample_stability": 0.7647058823529411,
+  "subsample_unstable_genes": [
+    "CDC73",
+    "CPSF2",
+    "CPSF3",
+    "CTR9",
+    "LEO1",
+    "PAF1",
+    "PHF3",
+    "SF3A1"
+  ],
+  "nt_guide_max_abs_corr": 0.14086827721133505,
+  "nt_row_assigned_nt_guide": true,
+  "targets": {
+    "PABPC1": {
+      "query_guide_id": "guide18",
+      "score": 0.5321810577694615,
+      "runner_up_score": 0.3386594749680293,
+      "confidence": 0.03514500250907273,
+      "margin": 0.19352158280143217
+    },
+    "NUDT21": {
+      "query_guide_id": "guide13",
+      "score": 0.6356735544449684,
+      "runner_up_score": 0.5127352791727182,
+      "confidence": 0.03753522367261591,
+      "margin": 0.12293827527225021
+    },
+    "LEO1": {
+      "query_guide_id": "guide14",
+      "score": 0.3140052477033541,
+      "runner_up_score": 0.22286732905673126,
+      "confidence": 0.02945870854546147,
+      "margin": 0.09113791864662282
+    }
+  }
+}
