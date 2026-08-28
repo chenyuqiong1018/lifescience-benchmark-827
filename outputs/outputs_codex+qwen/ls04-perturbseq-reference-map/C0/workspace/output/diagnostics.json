@@ -1,0 +1,1465 @@
+{
+ "method": "NT-referenced log1p-CPM signatures; F-ratio features (K=1500); Pearson stage-1 + NNLS complex resolution",
+ "n_common_genes": 11858,
+ "n_query_guides": 32,
+ "n_ref_genes": 33,
+ "nt_cells": {
+  "query": 1424,
+  "ref": 922
+ },
+ "nt_vs_nt_profile_r": 0.9178,
+ "subsample_final_stability": 0.8125,
+ "spearman_stage1_agreement": 0.7812,
+ "raw_profile_centroid_max_r": {
+  "mean": 0.8948,
+  "max": 0.9162
+ },
+ "signature_stage1_score_stats": {
+  "median": 0.4827,
+  "min": 0.0761,
+  "max": 0.7207
+ },
+ "genes_of_interest": {
+  "PABPC1": [
+   "guide18"
+  ],
+  "NUDT21": [
+   "guide13"
+  ],
+  "LEO1": [
+   "guide14"
+  ]
+ },
+ "gene_pull": [
+  {
+   "gene": "CDC73",
+   "best_guide": "guide14",
+   "pull_r": 0.3914,
+   "runner_up_guide": "guide30",
+   "runner_up_r": 0.2614
+  },
+  {
+   "gene": "CPSF1",
+   "best_guide": "guide4",
+   "pull_r": 0.7207,
+   "runner_up_guide": "guide29",
+   "runner_up_r": 0.6295
+  },
+  {
+   "gene": "CPSF2",
+   "best_guide": "guide4",
+   "pull_r": 0.6583,
+   "runner_up_guide": "guide3",
+   "runner_up_r": 0.6271
+  },
+  {
+   "gene": "CPSF3",
+   "best_guide": "guide4",
+   "pull_r": 0.6733,
+   "runner_up_guide": "guide3",
+   "runner_up_r": 0.6128
+  },
+  {
+   "gene": "CPSF3L",
+   "best_guide": "guide30",
+   "pull_r": 0.2994,
+   "runner_up_guide": "guide28",
+   "runner_up_r": 0.2448
+  },
+  {
+   "gene": "CPSF4",
+   "best_guide": "guide4",
+   "pull_r": 0.7033,
+   "runner_up_guide": "guide29",
+   "runner_up_r": 0.6464
+  },
+  {
+   "gene": "CPSF6",
+   "best_guide": "guide19",
+   "pull_r": 0.6163,
+   "runner_up_guide": "guide13",
+   "runner_up_r": 0.6079
+  },
+  {
+   "gene": "CPSF7",
+   "best_guide": "guide2",
+   "pull_r": 0.3035,
+   "runner_up_guide": "guide29",
+   "runner_up_r": 0.1487
+  },
+  {
+   "gene": "CSTF1",
+   "best_guide": "guide4",
+   "pull_r": 0.62,
+   "runner_up_guide": "guide22",
+   "runner_up_r": 0.5532
+  },
+  {
+   "gene": "CSTF2",
+   "best_guide": "guide4",
+   "pull_r": 0.3545,
+   "runner_up_guide": "guide3",
+   "runner_up_r": 0.3421
+  },
+  {
+   "gene": "CSTF3",
+   "best_guide": "guide4",
+   "pull_r": 0.6462,
+   "runner_up_guide": "guide22",
+   "runner_up_r": 0.603
+  },
+  {
+   "gene": "CTR9",
+   "best_guide": "guide14",
+   "pull_r": 0.4065,
+   "runner_up_guide": "guide28",
+   "runner_up_r": 0.3099
+  },
+  {
+   "gene": "FIP1L1",
+   "best_guide": "guide20",
+   "pull_r": 0.5352,
+   "runner_up_guide": "guide29",
+   "runner_up_r": 0.5195
+  },
+  {
+   "gene": "LEO1",
+   "best_guide": "guide14",
+   "pull_r": 0.3349,
+   "runner_up_guide": "guide20",
+   "runner_up_r": 0.1765
+  },
+  {
+   "gene": "NUDT21",
+   "best_guide": "guide13",
+   "pull_r": 0.7107,
+   "runner_up_guide": "guide19",
+   "runner_up_r": 0.6055
+  },
+  {
+   "gene": "PABPC1",
+   "best_guide": "guide18",
+   "pull_r": 0.6605,
+   "runner_up_guide": "guide16",
+   "runner_up_r": 0.3688
+  },
+  {
+   "gene": "PABPN1",
+   "best_guide": "guide24",
+   "pull_r": 0.5268,
+   "runner_up_guide": "guide22",
+   "runner_up_r": 0.3214
+  },
+  {
+   "gene": "PAF1",
+   "best_guide": "guide14",
+   "pull_r": 0.4193,
+   "runner_up_guide": "guide28",
+   "runner_up_r": 0.3433
+  },
+  {
+   "gene": "PAPOLA",
+   "best_guide": "guide7",
+   "pull_r": 0.4814,
+   "runner_up_guide": "guide9",
+   "runner_up_r": 0.3615
+  },
+  {
+   "gene": "PCF11",
+   "best_guide": "guide20",
+   "pull_r": 0.6467,
+   "runner_up_guide": "guide4",
+   "runner_up_r": 0.5218
+  },
+  {
+   "gene": "PHF3",
+   "best_guide": "guide1",
+   "pull_r": 0.1343,
+   "runner_up_guide": "guide2",
+   "runner_up_r": 0.0546
+  },
+  {
+   "gene": "RBBP6",
+   "best_guide": "guide9",
+   "pull_r": 0.5559,
+   "runner_up_guide": "guide20",
+   "runner_up_r": 0.5239
+  },
+  {
+   "gene": "RPAP2",
+   "best_guide": "guide16",
+   "pull_r": 0.3673,
+   "runner_up_guide": "guide28",
+   "runner_up_r": 0.3378
+  },
+  {
+   "gene": "RPRD1A",
+   "best_guide": "guide5",
+   "pull_r": 0.2239,
+   "runner_up_guide": "guide20",
+   "runner_up_r": 0.2197
+  },
+  {
+   "gene": "RPRD1B",
+   "best_guide": "guide30",
+   "pull_r": 0.4685,
+   "runner_up_guide": "guide16",
+   "runner_up_r": 0.4325
+  },
+  {
+   "gene": "SCAF1",
+   "best_guide": "guide16",
+   "pull_r": 0.5195,
+   "runner_up_guide": "guide26",
+   "runner_up_r": 0.484
+  },
+  {
+   "gene": "SCAF11",
+   "best_guide": "guide18",
+   "pull_r": 0.163,
+   "runner_up_guide": "guide16",
+   "runner_up_r": 0.1603
+  },
+  {
+   "gene": "SCAF4",
+   "best_guide": "guide6",
+   "pull_r": 0.3691,
+   "runner_up_guide": "guide16",
+   "runner_up_r": 0.315
+  },
+  {
+   "gene": "SCAF8",
+   "best_guide": "guide30",
+   "pull_r": 0.1223,
+   "runner_up_guide": "guide28",
+   "runner_up_r": 0.1066
+  },
+  {
+   "gene": "SF3A1",
+   "best_guide": "guide20",
+   "pull_r": 0.3517,
+   "runner_up_guide": "guide30",
+   "runner_up_r": 0.3197
+  },
+  {
+   "gene": "SRSF3",
+   "best_guide": "guide30",
+   "pull_r": 0.3743,
+   "runner_up_guide": "guide28",
+   "runner_up_r": 0.3087
+  },
+  {
+   "gene": "SYMPK",
+   "best_guide": "guide4",
+   "pull_r": 0.623,
+   "runner_up_guide": "guide3",
+   "runner_up_r": 0.5826
+  },
+  {
+   "gene": "THOC5",
+   "best_guide": "guide20",
+   "pull_r": 0.3579,
+   "runner_up_guide": "guide27",
+   "runner_up_r": 0.3326
+  }
+ ],
+ "leo1_disambiguation": {
+  "guide14_within_paf_r": {
+   "PAF1": 0.4193034768104553,
+   "CTR9": 0.40652281045913696,
+   "CDC73": 0.3913795053958893,
+   "LEO1": 0.33490484952926636
+  },
+  "guide14_nnls_weights_paf": {
+   "PAF1": 0.0251,
+   "CTR9": 0.0,
+   "CDC73": 0.0413,
+   "LEO1": 0.2523
+  },
+  "guide14_cell_votes": {
+   "PAF1": 0.3273,
+   "CTR9": 0.2545,
+   "CDC73": 0.2364,
+   "LEO1": 0.1818
+  },
+  "guide14_mean_cell_r": {
+   "PAF1": 0.1197,
+   "CTR9": 0.1179,
+   "CDC73": 0.1127,
+   "LEO1": 0.1001
+  },
+  "leo1_gene_pull_top3": [
+   [
+    "guide14",
+    0.3349
+   ],
+   [
+    "guide20",
+    0.1765
+   ],
+   [
+    "guide17",
+    0.1692
+   ]
+  ],
+  "forced_bijection_total_score": {
+   "guide14=LEO1": 13.3659,
+   "guide14=PAF1": 13.3442,
+   "unconstrained": 13.3659
+  }
+ },
+ "per_guide": [
+  {
+   "query_guide_id": "guide1",
+   "n_cells": 199,
+   "final_gene": "THOC5",
+   "stage1_gene": "THOC5",
+   "complex_refined": false,
+   "score": 0.19279780983924866,
+   "stage1_score": 0.19279780983924866,
+   "runner_up_score": 0.16916655004024506,
+   "margin": 0.0236312597990036,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "THOC5",
+     "r": 0.1928
+    },
+    {
+     "gene": "PABPC1",
+     "r": 0.1692
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.1621
+    },
+    {
+     "gene": "PCF11",
+     "r": 0.1582
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.1518
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide2",
+   "n_cells": 200,
+   "final_gene": "CPSF7",
+   "stage1_gene": "CPSF7",
+   "complex_refined": false,
+   "score": 0.30352091789245605,
+   "stage1_score": 0.30352091789245605,
+   "runner_up_score": 0.19637346267700195,
+   "margin": 0.1071474552154541,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF7",
+     "r": 0.3035
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.1964
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.1593
+    },
+    {
+     "gene": "SCAF4",
+     "r": 0.1467
+    },
+    {
+     "gene": "CDC73",
+     "r": 0.1436
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide3",
+   "n_cells": 23,
+   "final_gene": "CPSF2",
+   "stage1_gene": "CPSF2",
+   "complex_refined": false,
+   "score": 0.6270608901977539,
+   "stage1_score": 0.6270608901977539,
+   "runner_up_score": 0.6131253838539124,
+   "margin": 0.013935506343841553,
+   "near_ties": 2,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF2",
+     "r": 0.6271
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.6131
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.6128
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.587
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.5826
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide4",
+   "n_cells": 68,
+   "final_gene": "CPSF1",
+   "stage1_gene": "CPSF1",
+   "complex_refined": false,
+   "score": 0.7206794619560242,
+   "stage1_score": 0.7206794619560242,
+   "runner_up_score": 0.7032777070999146,
+   "margin": 0.01740175485610962,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF1",
+     "r": 0.7207
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.7033
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.6733
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.6583
+    },
+    {
+     "gene": "CSTF3",
+     "r": 0.6462
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide5",
+   "n_cells": 178,
+   "final_gene": "PCF11",
+   "stage1_gene": "PCF11",
+   "complex_refined": false,
+   "score": 0.49472880363464355,
+   "stage1_score": 0.49472880363464355,
+   "runner_up_score": 0.4513017535209656,
+   "margin": 0.04342705011367798,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "PCF11",
+     "r": 0.4947
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.4513
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.4433
+    },
+    {
+     "gene": "FIP1L1",
+     "r": 0.4231
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4067
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide6",
+   "n_cells": 127,
+   "final_gene": "SCAF4",
+   "stage1_gene": "SCAF4",
+   "complex_refined": false,
+   "score": 0.3691159784793854,
+   "stage1_score": 0.3691159784793854,
+   "runner_up_score": 0.23429866135120392,
+   "margin": 0.13481731712818146,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF4",
+     "r": 0.3691
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.2343
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.2077
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.2043
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.1908
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide7",
+   "n_cells": 208,
+   "final_gene": "PAPOLA",
+   "stage1_gene": "PAPOLA",
+   "complex_refined": false,
+   "score": 0.4814453125,
+   "stage1_score": 0.4814453125,
+   "runner_up_score": 0.3490411937236786,
+   "margin": 0.1324041187763214,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "PAPOLA",
+     "r": 0.4814
+    },
+    {
+     "gene": "RBBP6",
+     "r": 0.349
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.3163
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.3067
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.3024
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide8",
+   "n_cells": 102,
+   "final_gene": "CPSF2",
+   "stage1_gene": "CPSF2",
+   "complex_refined": false,
+   "score": 0.3408604860305786,
+   "stage1_score": 0.3408604860305786,
+   "runner_up_score": 0.303937703371048,
+   "margin": 0.03692278265953064,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF2",
+     "r": 0.3409
+    },
+    {
+     "gene": "PCF11",
+     "r": 0.3039
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.2959
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.2648
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.2497
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide9",
+   "n_cells": 48,
+   "final_gene": "RBBP6",
+   "stage1_gene": "RBBP6",
+   "complex_refined": false,
+   "score": 0.5559239387512207,
+   "stage1_score": 0.5559239387512207,
+   "runner_up_score": 0.5052775740623474,
+   "margin": 0.05064636468887329,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "RBBP6",
+     "r": 0.5559
+    },
+    {
+     "gene": "PCF11",
+     "r": 0.5053
+    },
+    {
+     "gene": "FIP1L1",
+     "r": 0.4724
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.4568
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.4525
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide10",
+   "n_cells": 16,
+   "final_gene": "CPSF6",
+   "stage1_gene": "CPSF6",
+   "complex_refined": false,
+   "score": 0.19853033125400543,
+   "stage1_score": 0.19853033125400543,
+   "runner_up_score": 0.19715717434883118,
+   "margin": 0.0013731569051742554,
+   "near_ties": 4,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF6",
+     "r": 0.1985
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.1972
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.1958
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.1859
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.1803
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide11",
+   "n_cells": 158,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.23127523064613342,
+   "stage1_score": 0.23127523064613342,
+   "runner_up_score": 0.20294752717018127,
+   "margin": 0.02832770347595215,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.2313
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.2029
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.2003
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.1949
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.1782
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide12",
+   "n_cells": 20,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.4408411979675293,
+   "stage1_score": 0.4408411979675293,
+   "runner_up_score": 0.4251217246055603,
+   "margin": 0.015719473361968994,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.4408
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.4251
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.4158
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4012
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.3952
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide13",
+   "n_cells": 86,
+   "final_gene": "NUDT21",
+   "stage1_gene": "NUDT21",
+   "complex_refined": false,
+   "score": 0.7107431292533875,
+   "stage1_score": 0.7107431292533875,
+   "runner_up_score": 0.6078710556030273,
+   "margin": 0.10287207365036011,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "NUDT21",
+     "r": 0.7107
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.6079
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.4543
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.3691
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.3684
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide14",
+   "n_cells": 55,
+   "final_gene": "LEO1",
+   "stage1_gene": "PAF1",
+   "complex_refined": true,
+   "score": 0.33490484952926636,
+   "stage1_score": 0.4193034768104553,
+   "runner_up_score": 0.4193034768104553,
+   "margin": -0.08439862728118896,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "PAF1",
+     "r": 0.4193
+    },
+    {
+     "gene": "CTR9",
+     "r": 0.4065
+    },
+    {
+     "gene": "CDC73",
+     "r": 0.3914
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.3607
+    },
+    {
+     "gene": "LEO1",
+     "r": 0.3349
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide15",
+   "n_cells": 55,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.42385798692703247,
+   "stage1_score": 0.42385798692703247,
+   "runner_up_score": 0.32799094915390015,
+   "margin": 0.09586703777313232,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.4239
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.328
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.3249
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.3189
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.3077
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide16",
+   "n_cells": 40,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.5195142030715942,
+   "stage1_score": 0.5195142030715942,
+   "runner_up_score": 0.4984539747238159,
+   "margin": 0.02106022834777832,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.5195
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4985
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.4638
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.4325
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.4029
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide17",
+   "n_cells": 27,
+   "final_gene": "CPSF4",
+   "stage1_gene": "CPSF4",
+   "complex_refined": false,
+   "score": 0.5295098423957825,
+   "stage1_score": 0.5295098423957825,
+   "runner_up_score": 0.5112094879150391,
+   "margin": 0.018300354480743408,
+   "near_ties": 2,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF4",
+     "r": 0.5295
+    },
+    {
+     "gene": "FIP1L1",
+     "r": 0.5112
+    },
+    {
+     "gene": "PCF11",
+     "r": 0.5112
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.5035
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.4928
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide18",
+   "n_cells": 97,
+   "final_gene": "PABPC1",
+   "stage1_gene": "PABPC1",
+   "complex_refined": false,
+   "score": 0.6605271100997925,
+   "stage1_score": 0.6605271100997925,
+   "runner_up_score": 0.44325965642929077,
+   "margin": 0.2172674536705017,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "PABPC1",
+     "r": 0.6605
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.4433
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.3163
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.2772
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.2703
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide19",
+   "n_cells": 32,
+   "final_gene": "CPSF6",
+   "stage1_gene": "CPSF6",
+   "complex_refined": false,
+   "score": 0.6163259148597717,
+   "stage1_score": 0.6163259148597717,
+   "runner_up_score": 0.6054593920707703,
+   "margin": 0.010866522789001465,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF6",
+     "r": 0.6163
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.6055
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.456
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.4105
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.3846
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide20",
+   "n_cells": 43,
+   "final_gene": "PCF11",
+   "stage1_gene": "PCF11",
+   "complex_refined": false,
+   "score": 0.6467052698135376,
+   "stage1_score": 0.6467052698135376,
+   "runner_up_score": 0.5352392196655273,
+   "margin": 0.11146605014801025,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "PCF11",
+     "r": 0.6467
+    },
+    {
+     "gene": "FIP1L1",
+     "r": 0.5352
+    },
+    {
+     "gene": "RBBP6",
+     "r": 0.5239
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.5224
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.4951
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide21",
+   "n_cells": 38,
+   "final_gene": "CPSF2",
+   "stage1_gene": "CPSF2",
+   "complex_refined": false,
+   "score": 0.58653324842453,
+   "stage1_score": 0.58653324842453,
+   "runner_up_score": 0.5702309608459473,
+   "margin": 0.016302287578582764,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF2",
+     "r": 0.5865
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.5702
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.5131
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4965
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.4836
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide22",
+   "n_cells": 29,
+   "final_gene": "CPSF4",
+   "stage1_gene": "CPSF4",
+   "complex_refined": false,
+   "score": 0.6070474982261658,
+   "stage1_score": 0.6070474982261658,
+   "runner_up_score": 0.6030238270759583,
+   "margin": 0.0040236711502075195,
+   "near_ties": 2,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF4",
+     "r": 0.607
+    },
+    {
+     "gene": "CSTF3",
+     "r": 0.603
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.5874
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.5532
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.5322
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide23",
+   "n_cells": 83,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.3319565951824188,
+   "stage1_score": 0.3319565951824188,
+   "runner_up_score": 0.29068344831466675,
+   "margin": 0.041273146867752075,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.332
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.2907
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.2832
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.2821
+    },
+    {
+     "gene": "PCF11",
+     "r": 0.2673
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide24",
+   "n_cells": 65,
+   "final_gene": "PABPN1",
+   "stage1_gene": "PABPN1",
+   "complex_refined": false,
+   "score": 0.5268313884735107,
+   "stage1_score": 0.5268313884735107,
+   "runner_up_score": 0.25469791889190674,
+   "margin": 0.272133469581604,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "PABPN1",
+     "r": 0.5268
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.2547
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.2501
+    },
+    {
+     "gene": "THOC5",
+     "r": 0.2414
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.2132
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide25",
+   "n_cells": 6,
+   "final_gene": "SYMPK",
+   "stage1_gene": "SYMPK",
+   "complex_refined": false,
+   "score": 0.564207136631012,
+   "stage1_score": 0.564207136631012,
+   "runner_up_score": 0.5243461728096008,
+   "margin": 0.03986096382141113,
+   "near_ties": 0,
+   "low_n": true,
+   "top5": [
+    {
+     "gene": "SYMPK",
+     "r": 0.5642
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.5243
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.4985
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.4923
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.4868
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide26",
+   "n_cells": 15,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.48403865098953247,
+   "stage1_score": 0.48403865098953247,
+   "runner_up_score": 0.41905477643013,
+   "margin": 0.06498387455940247,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.484
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4191
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.3874
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.3565
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.3483
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide27",
+   "n_cells": 10,
+   "final_gene": "SCAF1",
+   "stage1_gene": "SCAF1",
+   "complex_refined": false,
+   "score": 0.4750216603279114,
+   "stage1_score": 0.4750216603279114,
+   "runner_up_score": 0.4356931447982788,
+   "margin": 0.03932851552963257,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "SCAF1",
+     "r": 0.475
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4357
+    },
+    {
+     "gene": "CPSF6",
+     "r": 0.4152
+    },
+    {
+     "gene": "NUDT21",
+     "r": 0.4062
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.3945
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide28",
+   "n_cells": 16,
+   "final_gene": "RPRD1B",
+   "stage1_gene": "RPRD1B",
+   "complex_refined": false,
+   "score": 0.415230393409729,
+   "stage1_score": 0.415230393409729,
+   "runner_up_score": 0.3955010175704956,
+   "margin": 0.0197293758392334,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "RPRD1B",
+     "r": 0.4152
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.3955
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.3819
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.3623
+    },
+    {
+     "gene": "PAF1",
+     "r": 0.3433
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide29",
+   "n_cells": 22,
+   "final_gene": "CPSF4",
+   "stage1_gene": "CPSF4",
+   "complex_refined": false,
+   "score": 0.6463667750358582,
+   "stage1_score": 0.6463667750358582,
+   "runner_up_score": 0.6295188069343567,
+   "margin": 0.016847968101501465,
+   "near_ties": 1,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CPSF4",
+     "r": 0.6464
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.6295
+    },
+    {
+     "gene": "CPSF3",
+     "r": 0.5886
+    },
+    {
+     "gene": "CSTF3",
+     "r": 0.5824
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.578
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide30",
+   "n_cells": 13,
+   "final_gene": "RPRD1B",
+   "stage1_gene": "RPRD1B",
+   "complex_refined": false,
+   "score": 0.4685136079788208,
+   "stage1_score": 0.4685136079788208,
+   "runner_up_score": 0.4341011643409729,
+   "margin": 0.0344124436378479,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "RPRD1B",
+     "r": 0.4685
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.4341
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.434
+    },
+    {
+     "gene": "SCAF1",
+     "r": 0.4143
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.3901
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide31",
+   "n_cells": 10,
+   "final_gene": "CSTF1",
+   "stage1_gene": "CSTF1",
+   "complex_refined": false,
+   "score": 0.26721516251564026,
+   "stage1_score": 0.26721516251564026,
+   "runner_up_score": 0.24370315670967102,
+   "margin": 0.02351200580596924,
+   "near_ties": 0,
+   "low_n": false,
+   "top5": [
+    {
+     "gene": "CSTF1",
+     "r": 0.2672
+    },
+    {
+     "gene": "CPSF4",
+     "r": 0.2437
+    },
+    {
+     "gene": "CPSF1",
+     "r": 0.2212
+    },
+    {
+     "gene": "PCF11",
+     "r": 0.213
+    },
+    {
+     "gene": "CSTF3",
+     "r": 0.1974
+    }
+   ],
+   "perm_pvalue": 0.004975124378109453
+  },
+  {
+   "query_guide_id": "guide32",
+   "n_cells": 3,
+   "final_gene": "PAPOLA",
+   "stage1_gene": "PAPOLA",
+   "complex_refined": false,
+   "score": 0.07605277746915817,
+   "stage1_score": 0.07605277746915817,
+   "runner_up_score": 0.06689953804016113,
+   "margin": 0.00915323942899704,
+   "near_ties": 3,
+   "low_n": true,
+   "top5": [
+    {
+     "gene": "PAPOLA",
+     "r": 0.0761
+    },
+    {
+     "gene": "RPRD1B",
+     "r": 0.0669
+    },
+    {
+     "gene": "CPSF2",
+     "r": 0.0632
+    },
+    {
+     "gene": "CSTF1",
+     "r": 0.0626
+    },
+    {
+     "gene": "SYMPK",
+     "r": 0.0519
+    }
+   ],
+   "perm_pvalue": 0.06467661691542288
+  }
+ ]
+}
