@@ -1,0 +1,7 @@
+cell_type,weight,evidence
+Endothelial,0.3544,"NNLS weight from deconvolving spot CPM against mean-CPM reference profiles; spot-vs-profile cosine=0.723, pearson=0.465; mixture reconstruction R2=0.610"
+B_Cell,0.3174,"NNLS weight from deconvolving spot CPM against mean-CPM reference profiles; spot-vs-profile cosine=0.693, pearson=0.409; mixture reconstruction R2=0.610"
+Macrophage,0.3166,"NNLS weight from deconvolving spot CPM against mean-CPM reference profiles; spot-vs-profile cosine=0.687, pearson=0.395; mixture reconstruction R2=0.610"
+T_Cell,0.0116,"NNLS weight from deconvolving spot CPM against mean-CPM reference profiles; spot-vs-profile cosine=0.487, pearson=-0.013; mixture reconstruction R2=0.610"
+Fibroblast_Stroma,0.0,"NNLS weight from deconvolving spot CPM against mean-CPM reference profiles; spot-vs-profile cosine=0.457, pearson=-0.062; mixture reconstruction R2=0.610"
+Tumor_Core,0.0,"NNLS weight from deconvolving spot CPM against mean-CPM reference profiles; spot-vs-profile cosine=0.466, pearson=-0.058; mixture reconstruction R2=0.610"
