@@ -1,0 +1,929 @@
+{
+ "shared_genes": 11858,
+ "dropped_target_genes_from_query": [
+  "CPSF1",
+  "CPSF2",
+  "CPSF3",
+  "CPSF3L",
+  "CPSF4",
+  "CPSF6",
+  "CPSF7",
+  "CSTF1",
+  "CSTF2",
+  "CSTF3",
+  "CTR9",
+  "FIP1L1",
+  "LEO1",
+  "NUDT21",
+  "PABPC1",
+  "PABPN1",
+  "PAF1",
+  "PAPOLA",
+  "PCF11",
+  "PHF3",
+  "RBBP6",
+  "RPAP2",
+  "RPRD1A",
+  "RPRD1B",
+  "SCAF1",
+  "SCAF11",
+  "SCAF4",
+  "SCAF8",
+  "SF3A1",
+  "SRSF3",
+  "SYMPK",
+  "THOC5"
+ ],
+ "targets_in_query_var": [
+  "CDC73"
+ ],
+ "n_ref": 4183,
+ "n_qry": 3516,
+ "ref_self_map_top1_accuracy": 0.7576,
+ "ref_self_map_detail": {
+  "CDC73": {
+   "pred": "CDC73",
+   "ok": true,
+   "score": 0.7433,
+   "top2": [
+    [
+     "CDC73",
+     0.7433053122327136
+    ],
+    [
+     "CTR9",
+     0.635044061855721
+    ]
+   ]
+  },
+  "CPSF1": {
+   "pred": "CPSF1",
+   "ok": true,
+   "score": 0.6468,
+   "top2": [
+    [
+     "CPSF1",
+     0.6468193895674329
+    ],
+    [
+     "CSTF3",
+     0.6032937847998827
+    ]
+   ]
+  },
+  "CPSF2": {
+   "pred": "CPSF3",
+   "ok": false,
+   "score": 0.6119,
+   "top2": [
+    [
+     "CPSF3",
+     0.6141017594126259
+    ],
+    [
+     "CPSF2",
+     0.6119466496795782
+    ]
+   ]
+  },
+  "CPSF3": {
+   "pred": "CPSF3",
+   "ok": true,
+   "score": 0.6292,
+   "top2": [
+    [
+     "CPSF3",
+     0.6291993607196222
+    ],
+    [
+     "CPSF2",
+     0.5781706143850865
+    ]
+   ]
+  },
+  "CPSF3L": {
+   "pred": "CPSF3L",
+   "ok": true,
+   "score": 0.633,
+   "top2": [
+    [
+     "CPSF3L",
+     0.6330082248647149
+    ],
+    [
+     "SF3A1",
+     0.5261580171523041
+    ]
+   ]
+  },
+  "CPSF4": {
+   "pred": "CPSF4",
+   "ok": true,
+   "score": 0.5384,
+   "top2": [
+    [
+     "CPSF4",
+     0.5383914499339674
+    ],
+    [
+     "CPSF3",
+     0.5017606459554387
+    ]
+   ]
+  },
+  "CPSF6": {
+   "pred": "CPSF6",
+   "ok": true,
+   "score": 0.823,
+   "top2": [
+    [
+     "CPSF6",
+     0.823001701564339
+    ],
+    [
+     "NUDT21",
+     0.7379033111356127
+    ]
+   ]
+  },
+  "CPSF7": {
+   "pred": "CPSF7",
+   "ok": true,
+   "score": 0.3178,
+   "top2": [
+    [
+     "CPSF7",
+     0.3178221209011972
+    ],
+    [
+     "SCAF4",
+     0.2196726059211412
+    ]
+   ]
+  },
+  "CSTF1": {
+   "pred": "CPSF3",
+   "ok": false,
+   "score": 0.1973,
+   "top2": [
+    [
+     "CPSF3",
+     0.30930793740776374
+    ],
+    [
+     "CSTF3",
+     0.3066891926754664
+    ]
+   ]
+  },
+  "CSTF2": {
+   "pred": "CPSF1",
+   "ok": false,
+   "score": 0.1583,
+   "top2": [
+    [
+     "CPSF1",
+     0.18068769816897937
+    ],
+    [
+     "CPSF2",
+     0.18066624254591895
+    ]
+   ]
+  },
+  "CSTF3": {
+   "pred": "CSTF3",
+   "ok": true,
+   "score": 0.676,
+   "top2": [
+    [
+     "CSTF3",
+     0.6760388485064744
+    ],
+    [
+     "CPSF1",
+     0.5723466873232683
+    ]
+   ]
+  },
+  "CTR9": {
+   "pred": "CTR9",
+   "ok": true,
+   "score": 0.781,
+   "top2": [
+    [
+     "CTR9",
+     0.7810463598580003
+    ],
+    [
+     "PAF1",
+     0.7283304676877137
+    ]
+   ]
+  },
+  "FIP1L1": {
+   "pred": "FIP1L1",
+   "ok": true,
+   "score": 0.6901,
+   "top2": [
+    [
+     "FIP1L1",
+     0.6900832802107391
+    ],
+    [
+     "RBBP6",
+     0.571213998949413
+    ]
+   ]
+  },
+  "LEO1": {
+   "pred": "LEO1",
+   "ok": true,
+   "score": 0.7863,
+   "top2": [
+    [
+     "LEO1",
+     0.7862782779881524
+    ],
+    [
+     "CTR9",
+     0.621150013993158
+    ]
+   ]
+  },
+  "NUDT21": {
+   "pred": "NUDT21",
+   "ok": true,
+   "score": 0.904,
+   "top2": [
+    [
+     "NUDT21",
+     0.9039631726529392
+    ],
+    [
+     "CPSF6",
+     0.7509572117384037
+    ]
+   ]
+  },
+  "PABPC1": {
+   "pred": "PABPC1",
+   "ok": true,
+   "score": 0.7807,
+   "top2": [
+    [
+     "PABPC1",
+     0.7806663467205925
+    ],
+    [
+     "CPSF3L",
+     0.21523388473535948
+    ]
+   ]
+  },
+  "PABPN1": {
+   "pred": "PABPN1",
+   "ok": true,
+   "score": 0.6839,
+   "top2": [
+    [
+     "PABPN1",
+     0.683924480749208
+    ],
+    [
+     "PAPOLA",
+     0.2232594209047292
+    ]
+   ]
+  },
+  "PAF1": {
+   "pred": "CTR9",
+   "ok": false,
+   "score": 0.6235,
+   "top2": [
+    [
+     "CTR9",
+     0.6354585587726412
+    ],
+    [
+     "PAF1",
+     0.6235180483033951
+    ]
+   ]
+  },
+  "PAPOLA": {
+   "pred": "PAPOLA",
+   "ok": true,
+   "score": 0.4921,
+   "top2": [
+    [
+     "PAPOLA",
+     0.49213463685397574
+    ],
+    [
+     "RBBP6",
+     0.3034553888475021
+    ]
+   ]
+  },
+  "PCF11": {
+   "pred": "RBBP6",
+   "ok": false,
+   "score": 0.4518,
+   "top2": [
+    [
+     "RBBP6",
+     0.4715428017407431
+    ],
+    [
+     "PCF11",
+     0.4518314623096411
+    ]
+   ]
+  },
+  "PHF3": {
+   "pred": "PHF3",
+   "ok": true,
+   "score": 0.3127,
+   "top2": [
+    [
+     "PHF3",
+     0.3127224676608133
+    ],
+    [
+     "RPRD1B",
+     0.13850374310685717
+    ]
+   ]
+  },
+  "RBBP6": {
+   "pred": "RBBP6",
+   "ok": true,
+   "score": 0.6293,
+   "top2": [
+    [
+     "RBBP6",
+     0.6293304551244224
+    ],
+    [
+     "FIP1L1",
+     0.5336927486055022
+    ]
+   ]
+  },
+  "RPAP2": {
+   "pred": "SF3A1",
+   "ok": false,
+   "score": 0.024,
+   "top2": [
+    [
+     "SF3A1",
+     0.3359750906152552
+    ],
+    [
+     "CPSF3",
+     0.17941699207442924
+    ]
+   ]
+  },
+  "RPRD1A": {
+   "pred": "CPSF1",
+   "ok": false,
+   "score": 0.1908,
+   "top2": [
+    [
+     "CPSF1",
+     0.23721145268404767
+    ],
+    [
+     "PCF11",
+     0.216348117918499
+    ]
+   ]
+  },
+  "RPRD1B": {
+   "pred": "RPRD1B",
+   "ok": true,
+   "score": 0.6663,
+   "top2": [
+    [
+     "RPRD1B",
+     0.6662811272393198
+    ],
+    [
+     "SCAF8",
+     0.22038953996891122
+    ]
+   ]
+  },
+  "SCAF1": {
+   "pred": "SCAF1",
+   "ok": true,
+   "score": 0.2767,
+   "top2": [
+    [
+     "SCAF1",
+     0.27674244568885953
+    ],
+    [
+     "CPSF4",
+     0.12740850969175052
+    ]
+   ]
+  },
+  "SCAF11": {
+   "pred": "SCAF11",
+   "ok": true,
+   "score": 0.1791,
+   "top2": [
+    [
+     "SCAF11",
+     0.1790773378357289
+    ],
+    [
+     "SCAF1",
+     0.15100400357605703
+    ]
+   ]
+  },
+  "SCAF4": {
+   "pred": "SCAF4",
+   "ok": true,
+   "score": 0.4023,
+   "top2": [
+    [
+     "SCAF4",
+     0.4022937388831443
+    ],
+    [
+     "NUDT21",
+     0.22750432651044905
+    ]
+   ]
+  },
+  "SCAF8": {
+   "pred": "SCAF8",
+   "ok": true,
+   "score": 0.6256,
+   "top2": [
+    [
+     "SCAF8",
+     0.6255750097392003
+    ],
+    [
+     "RPRD1B",
+     0.18905126788832405
+    ]
+   ]
+  },
+  "SF3A1": {
+   "pred": "SF3A1",
+   "ok": true,
+   "score": 0.5941,
+   "top2": [
+    [
+     "SF3A1",
+     0.5941399078034769
+    ],
+    [
+     "CPSF3L",
+     0.41245502255369754
+    ]
+   ]
+  },
+  "SRSF3": {
+   "pred": "SRSF3",
+   "ok": true,
+   "score": 0.7104,
+   "top2": [
+    [
+     "SRSF3",
+     0.7104098368534089
+    ],
+    [
+     "SF3A1",
+     0.332450833065688
+    ]
+   ]
+  },
+  "SYMPK": {
+   "pred": "CPSF1",
+   "ok": false,
+   "score": 0.1592,
+   "top2": [
+    [
+     "CPSF1",
+     0.4143061699000878
+    ],
+    [
+     "CPSF3",
+     0.41213635017420386
+    ]
+   ]
+  },
+  "THOC5": {
+   "pred": "THOC5",
+   "ok": true,
+   "score": 0.4284,
+   "top2": [
+    [
+     "THOC5",
+     0.42844591488717815
+    ],
+    [
+     "PABPN1",
+     0.2190021318990477
+    ]
+   ]
+  }
+ },
+ "nt_null_max_sim_query": [
+  0.0708,
+  0.0925,
+  0.05,
+  0.0809,
+  0.0575,
+  0.1669,
+  0.0703,
+  0.0609,
+  0.0426,
+  0.0684
+ ],
+ "nt_null_max_sim_ref": [
+  0.0543,
+  0.0833,
+  0.1236,
+  0.1072,
+  0.0773,
+  0.083,
+  0.1167,
+  0.0777,
+  0.0981,
+  0.0539
+ ],
+ "query_nt_guides": [
+  "NT-I1",
+  "NT-I10",
+  "NT-I2",
+  "NT-I3",
+  "NT-I4",
+  "NT-I5",
+  "NT-I6",
+  "NT-I7",
+  "NT-I8",
+  "NT-I9"
+ ],
+ "query_guide_mapping": [
+  {
+   "query_guide_id": "guide1",
+   "target_gene": "THOC5",
+   "score": 0.1592,
+   "runner_up_gene": "PAPOLA",
+   "runner_up_score": 0.1007,
+   "confidence": 0.91,
+   "n_cells": 199,
+   "gap": 0.0585
+  },
+  {
+   "query_guide_id": "guide2",
+   "target_gene": "CPSF7",
+   "score": 0.2024,
+   "runner_up_gene": "NUDT21",
+   "runner_up_score": 0.1131,
+   "confidence": 1.0,
+   "n_cells": 200,
+   "gap": 0.0894
+  },
+  {
+   "query_guide_id": "guide3",
+   "target_gene": "CPSF2",
+   "score": 0.3011,
+   "runner_up_gene": "CPSF1",
+   "runner_up_score": 0.2741,
+   "confidence": 0.96,
+   "n_cells": 23,
+   "gap": 0.027
+  },
+  {
+   "query_guide_id": "guide4",
+   "target_gene": "CPSF1",
+   "score": 0.3424,
+   "runner_up_gene": "CSTF3",
+   "runner_up_score": 0.313,
+   "confidence": 0.9,
+   "n_cells": 68,
+   "gap": 0.0294
+  },
+  {
+   "query_guide_id": "guide5",
+   "target_gene": "RPRD1B",
+   "score": 0.226,
+   "runner_up_gene": "RBBP6",
+   "runner_up_score": 0.213,
+   "confidence": 0.75,
+   "n_cells": 178,
+   "gap": 0.0129
+  },
+  {
+   "query_guide_id": "guide6",
+   "target_gene": "SCAF4",
+   "score": 0.1406,
+   "runner_up_gene": "SRSF3",
+   "runner_up_score": 0.1299,
+   "confidence": 0.61,
+   "n_cells": 127,
+   "gap": 0.0107
+  },
+  {
+   "query_guide_id": "guide7",
+   "target_gene": "PAPOLA",
+   "score": 0.3131,
+   "runner_up_gene": "PABPN1",
+   "runner_up_score": 0.2257,
+   "confidence": 1.0,
+   "n_cells": 208,
+   "gap": 0.0874
+  },
+  {
+   "query_guide_id": "guide8",
+   "target_gene": "CPSF2",
+   "score": 0.3015,
+   "runner_up_gene": "CPSF1",
+   "runner_up_score": 0.1745,
+   "confidence": 1.0,
+   "n_cells": 102,
+   "gap": 0.127
+  },
+  {
+   "query_guide_id": "guide9",
+   "target_gene": "RBBP6",
+   "score": 0.2878,
+   "runner_up_gene": "PCF11",
+   "runner_up_score": 0.2348,
+   "confidence": 0.92,
+   "n_cells": 48,
+   "gap": 0.0529
+  },
+  {
+   "query_guide_id": "guide10",
+   "target_gene": "CTR9",
+   "score": 0.0704,
+   "runner_up_gene": "RPRD1B",
+   "runner_up_score": 0.0676,
+   "confidence": 0.18,
+   "n_cells": 16,
+   "gap": 0.0028
+  },
+  {
+   "query_guide_id": "guide11",
+   "target_gene": "SCAF11",
+   "score": 0.1114,
+   "runner_up_gene": "RPRD1B",
+   "runner_up_score": 0.076,
+   "confidence": 0.66,
+   "n_cells": 158,
+   "gap": 0.0354
+  },
+  {
+   "query_guide_id": "guide12",
+   "target_gene": "FIP1L1",
+   "score": 0.0927,
+   "runner_up_gene": "PCF11",
+   "runner_up_score": 0.0907,
+   "confidence": 0.17,
+   "n_cells": 20,
+   "gap": 0.0021
+  },
+  {
+   "query_guide_id": "guide13",
+   "target_gene": "NUDT21",
+   "score": 0.4843,
+   "runner_up_gene": "CPSF6",
+   "runner_up_score": 0.3774,
+   "confidence": 1.0,
+   "n_cells": 86,
+   "gap": 0.1069
+  },
+  {
+   "query_guide_id": "guide14",
+   "target_gene": "LEO1",
+   "score": 0.2493,
+   "runner_up_gene": "CTR9",
+   "runner_up_score": 0.1976,
+   "confidence": 0.98,
+   "n_cells": 55,
+   "gap": 0.0517
+  },
+  {
+   "query_guide_id": "guide15",
+   "target_gene": "PABPC1",
+   "score": 0.1661,
+   "runner_up_gene": "RPRD1B",
+   "runner_up_score": 0.1244,
+   "confidence": 0.84,
+   "n_cells": 55,
+   "gap": 0.0417
+  },
+  {
+   "query_guide_id": "guide16",
+   "target_gene": "RPRD1B",
+   "score": 0.2338,
+   "runner_up_gene": "PAPOLA",
+   "runner_up_score": 0.1321,
+   "confidence": 1.0,
+   "n_cells": 40,
+   "gap": 0.1016
+  },
+  {
+   "query_guide_id": "guide17",
+   "target_gene": "CPSF1",
+   "score": 0.2445,
+   "runner_up_gene": "FIP1L1",
+   "runner_up_score": 0.242,
+   "confidence": 0.31,
+   "n_cells": 27,
+   "gap": 0.0025
+  },
+  {
+   "query_guide_id": "guide18",
+   "target_gene": "PABPC1",
+   "score": 0.3261,
+   "runner_up_gene": "SCAF1",
+   "runner_up_score": 0.1357,
+   "confidence": 1.0,
+   "n_cells": 97,
+   "gap": 0.1904
+  },
+  {
+   "query_guide_id": "guide19",
+   "target_gene": "CPSF6",
+   "score": 0.3623,
+   "runner_up_gene": "NUDT21",
+   "runner_up_score": 0.322,
+   "confidence": 0.98,
+   "n_cells": 32,
+   "gap": 0.0403
+  },
+  {
+   "query_guide_id": "guide20",
+   "target_gene": "RBBP6",
+   "score": 0.2641,
+   "runner_up_gene": "PCF11",
+   "runner_up_score": 0.2237,
+   "confidence": 0.96,
+   "n_cells": 43,
+   "gap": 0.0404
+  },
+  {
+   "query_guide_id": "guide21",
+   "target_gene": "CPSF2",
+   "score": 0.3587,
+   "runner_up_gene": "CPSF1",
+   "runner_up_score": 0.2474,
+   "confidence": 1.0,
+   "n_cells": 38,
+   "gap": 0.1113
+  },
+  {
+   "query_guide_id": "guide22",
+   "target_gene": "CSTF3",
+   "score": 0.3145,
+   "runner_up_gene": "FIP1L1",
+   "runner_up_score": 0.2765,
+   "confidence": 0.87,
+   "n_cells": 29,
+   "gap": 0.0381
+  },
+  {
+   "query_guide_id": "guide23",
+   "target_gene": "RPRD1B",
+   "score": 0.1487,
+   "runner_up_gene": "RBBP6",
+   "runner_up_score": 0.1195,
+   "confidence": 0.84,
+   "n_cells": 83,
+   "gap": 0.0292
+  },
+  {
+   "query_guide_id": "guide24",
+   "target_gene": "PABPN1",
+   "score": 0.443,
+   "runner_up_gene": "PAPOLA",
+   "runner_up_score": 0.2223,
+   "confidence": 1.0,
+   "n_cells": 65,
+   "gap": 0.2207
+  },
+  {
+   "query_guide_id": "guide25",
+   "target_gene": "CPSF1",
+   "score": 0.211,
+   "runner_up_gene": "CPSF2",
+   "runner_up_score": 0.1761,
+   "confidence": 0.83,
+   "n_cells": 6,
+   "gap": 0.0349
+  },
+  {
+   "query_guide_id": "guide26",
+   "target_gene": "PHF3",
+   "score": 0.101,
+   "runner_up_gene": "RPRD1B",
+   "runner_up_score": 0.0686,
+   "confidence": 0.56,
+   "n_cells": 15,
+   "gap": 0.0325
+  },
+  {
+   "query_guide_id": "guide27",
+   "target_gene": "PABPN1",
+   "score": 0.1866,
+   "runner_up_gene": "THOC5",
+   "runner_up_score": 0.1651,
+   "confidence": 0.58,
+   "n_cells": 10,
+   "gap": 0.0215
+  },
+  {
+   "query_guide_id": "guide28",
+   "target_gene": "RPRD1B",
+   "score": 0.1744,
+   "runner_up_gene": "PCF11",
+   "runner_up_score": 0.1301,
+   "confidence": 0.64,
+   "n_cells": 16,
+   "gap": 0.0444
+  },
+  {
+   "query_guide_id": "guide29",
+   "target_gene": "CSTF3",
+   "score": 0.2542,
+   "runner_up_gene": "CPSF1",
+   "runner_up_score": 0.2501,
+   "confidence": 0.2,
+   "n_cells": 22,
+   "gap": 0.0041
+  },
+  {
+   "query_guide_id": "guide30",
+   "target_gene": "RPRD1B",
+   "score": 0.1079,
+   "runner_up_gene": "SRSF3",
+   "runner_up_score": 0.0905,
+   "confidence": 0.48,
+   "n_cells": 13,
+   "gap": 0.0174
+  },
+  {
+   "query_guide_id": "guide31",
+   "target_gene": "CSTF1",
+   "score": 0.1422,
+   "runner_up_gene": "RPRD1B",
+   "runner_up_score": 0.128,
+   "confidence": 0.52,
+   "n_cells": 10,
+   "gap": 0.0143
+  },
+  {
+   "query_guide_id": "guide32",
+   "target_gene": "CSTF1",
+   "score": 0.096,
+   "runner_up_gene": "RPRD1B",
+   "runner_up_score": 0.0885,
+   "confidence": 0.38,
+   "n_cells": 3,
+   "gap": 0.0074
+  }
+ ],
+ "cell_type_shift_joint_cluster_composition": {
+  "qry": {
+   "0": 0.0,
+   "1": 0.078,
+   "2": 0.387,
+   "3": 0.0,
+   "4": 0.0,
+   "5": 0.164,
+   "6": 0.179,
+   "7": 0.007,
+   "8": 0.184,
+   "9": 0.001
+  },
+  "ref": {
+   "0": 0.231,
+   "1": 0.0,
+   "2": 0.0,
+   "3": 0.186,
+   "4": 0.491,
+   "5": 0.0,
+   "6": 0.0,
+   "7": 0.027,
+   "8": 0.0,
+   "9": 0.065
+  }
+ },
+ "targets_asked": {
+  "PABPC1": "guide15",
+  "NUDT21": "guide13",
+  "LEO1": "guide14"
+ }
+}
