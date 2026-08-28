@@ -1,0 +1,5 @@
+{
+  "letter": "Z",
+  "confidence": 0.85,
+  "orientation_notes": "Structure is a planar three-stroke zigzag (two parallel ~300 A bars joined by a diagonal running from the top bar's right end to the bottom bar's left end), i.e. the letter Z. The letter face is tilted ~35-40 deg about its long axis: long axis ~ PDB x (PC1, span ~312 A), in-plane vertical ~ 0.83*y - 0.55*z (span ~134 A), depth/third axis ~93 A (two helix layers). Read with the long axis horizontal and this vertical up, the glyph is Z; the only alternate reading (N) would require rotating the glyph 90 deg in its plane, contrary to the bars lying along the dominant x axis."
+}

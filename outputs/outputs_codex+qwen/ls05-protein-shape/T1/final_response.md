@@ -1,0 +1,5 @@
+Done. The supplied structure (6 chains, helix-only synthetic PDB) is a planar three-stroke zigzag: two parallel ~300 Å horizontal bars joined by a diagonal running from the top bar's right end to the bottom bar's left end — the letter **Z**. The letter face is tilted ~35–40° about its long axis (long axis ≈ PDB x, in-plane vertical ≈ 0.83·y − 0.55·z), with ~93 Å depth from two stacked helix layers. The only geometrically similar alternative (N) would require a 90° in-plane rotation, inconsistent with the bars lying along the dominant x axis.
+
+Deliverables (schema-asserted):
+- `output/shape_call.json` — `{"letter": "Z", "confidence": 0.85, "orientation_notes": ...}` (exact keys; letter within allowed set B,D,F,H,J,L,N,P,R,T,V,X,Z)
+- `output/shape_view.png` — letter-face projection (PC1–PC2, depth-colored) plus 3D Cα trace, clearly showing the Z glyph.

@@ -1,0 +1,22 @@
+{
+  "task_id": "ls05-protein-shape",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "protein_structure_analysis",
+    "protein_quality_assessment"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T09:53:02.724131+00:00",
+  "usage": {
+    "input_tokens": 339000,
+    "cached_input_tokens": 217728,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 17423,
+    "reasoning_output_tokens": 12645
+  },
+  "finished_at": "2026-08-28T10:29:19.649832+00:00",
+  "return_code": 0
+}
