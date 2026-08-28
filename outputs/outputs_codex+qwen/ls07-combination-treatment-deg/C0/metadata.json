@@ -1,0 +1,19 @@
+{
+  "task_id": "ls07-combination-treatment-deg",
+  "condition": "C0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T12:09:30.165924+00:00",
+  "usage": {
+    "input_tokens": 924427,
+    "cached_input_tokens": 864128,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 25124,
+    "reasoning_output_tokens": 13468
+  },
+  "finished_at": "2026-08-28T12:21:35.195521+00:00",
+  "return_code": 0
+}
