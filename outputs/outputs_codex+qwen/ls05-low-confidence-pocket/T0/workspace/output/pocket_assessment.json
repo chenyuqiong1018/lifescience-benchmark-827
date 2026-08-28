@@ -1,0 +1,5 @@
+{
+  "pocket_reliable": false,
+  "prioritize_mutations": false,
+  "reason": "Every pocket interval fails the reliability thresholds (pLDDT >= 70 and PAE <= 10 A): 210-230 pLDDT 47, PAE 14.2 A; 231-270 pLDDT 43, PAE 17.8 A. Both pocket intervals fall below pLDDT 50, the range AlphaFold guidance says should not be interpreted, and their high PAE means the relative placement of the pocket is uncertain. All pocket mutation candidates therefore receive defer_structure_validation. Predicted ddG and activity changes are model hypotheses conditional on this unreliable structure; they are not measured binding or activity effects."
+}
