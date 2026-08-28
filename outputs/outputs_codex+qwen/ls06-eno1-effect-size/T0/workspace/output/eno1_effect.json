@@ -1,0 +1,9 @@
+{
+  "gene": "ENO1",
+  "tumor_value": 350385456.451912,
+  "normal_value": 72896133.2946858,
+  "fold_change": 4.8066,
+  "log2_fold_change": 2.265,
+  "source_file": "Proteomic_data .xlsx",
+  "source_sheet": "Tumor vs Normal"
+}
