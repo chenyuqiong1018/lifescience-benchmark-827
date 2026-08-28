@@ -1,0 +1,19 @@
+{
+  "task_id": "ls03-genome-coordinates",
+  "condition": "C0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-28T03:34:12.175237+00:00",
+  "usage": {
+    "input_tokens": 818406,
+    "cached_input_tokens": 749312,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 36681,
+    "reasoning_output_tokens": 17347
+  },
+  "finished_at": "2026-08-28T03:53:41.780836+00:00",
+  "return_code": 0
+}

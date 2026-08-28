@@ -1,0 +1,9 @@
+Analyze enhancer-promoter 3D distance and transcription dynamics across cells and time. Write output/cell_metrics.csv, output/lag_analysis.csv with lag,association,n_observations, output/analysis.py, and output/report.md. Use 260 nm as the supplied contact threshold. Separate temporal association from causation and state what the observational data cannot establish.
+
+
+EVALUATION ISOLATION RULES:
+- Work only inside the current workspace and use only the files under ./inputs.
+- Do not search for, inspect, or access task cards, oracles, graders, scoring materials, sibling task inputs, or repository history.
+- Never enumerate, stop, kill, suspend, or otherwise control system-wide processes. Do not use Stop-Process, taskkill, pkill, killall, or Get-Process for termination. If a command you launched is slow, wait for it or redesign the next command without terminating any process.
+- Do not access or affect any process, file, directory, task, or project outside the current workspace.
+- Complete the requested task and save every requested deliverable in the current workspace.
