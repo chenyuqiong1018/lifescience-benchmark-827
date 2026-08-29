@@ -1,0 +1,22 @@
+{
+  "task_id": "ls07-combination-treatment-deg",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "biomarker_discovery",
+    "transcriptome_analysis"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-29T16:47:58.359912+00:00",
+  "usage": {
+    "input_tokens": 991419,
+    "cached_input_tokens": 925568,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 24247,
+    "reasoning_output_tokens": 12959
+  },
+  "finished_at": "2026-08-29T17:11:00.433117+00:00",
+  "return_code": 0
+}
