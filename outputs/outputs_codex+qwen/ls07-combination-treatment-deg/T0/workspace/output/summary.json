@@ -1,0 +1,3924 @@
+{
+  "contrast": "Cisplatin_IC50_CBD_IC50 vs DMSO",
+  "numerator": "Cisplatin_IC50_CBD_IC50",
+  "denominator": "DMSO",
+  "design": "Group (single term)",
+  "samples": {
+    "Cisplatin_IC50_CBD_IC50": [
+      "9-1",
+      "9-2",
+      "9-3"
+    ],
+    "DMSO": [
+      "3-1",
+      "3-2",
+      "3-3"
+    ]
+  },
+  "software": {
+    "pydeseq2": "0.5.0",
+    "refit_cooks": true
+  },
+  "prefilter": {
+    "rule": "keep gene if raw count > 10 in at least one of the six selected samples",
+    "genes_input": 63677,
+    "genes_kept": 18029
+  },
+  "n_genes_tested": 18029,
+  "n_padj_unavailable": 4545,
+  "pass_criteria": {
+    "padj": 0.05,
+    "abs_log2FoldChange": 0.5,
+    "baseMean": 10
+  },
+  "n_significant": 555,
+  "n_up": 356,
+  "n_down": 199,
+  "significant_genes": [
+    {
+      "gene_id": "ENSG00000119125",
+      "gene_name": "GDA",
+      "baseMean": 2812.7648594843777,
+      "log2FoldChange": 1.2759657341499553,
+      "padj": 7.748296591856854e-45
+    },
+    {
+      "gene_id": "ENSG00000063438",
+      "gene_name": "AHRR",
+      "baseMean": 910.1184582485733,
+      "log2FoldChange": 2.1262681482462567,
+      "padj": 6.963349074516777e-26
+    },
+    {
+      "gene_id": "ENSG00000184254",
+      "gene_name": "ALDH1A3",
+      "baseMean": 19003.42675269104,
+      "log2FoldChange": 1.6177860595217652,
+      "padj": 1.5509241278324603e-25
+    },
+    {
+      "gene_id": "ENSG00000153292",
+      "gene_name": "ADGRF1",
+      "baseMean": 5268.939415509652,
+      "log2FoldChange": 0.8328782055847547,
+      "padj": 5.061860572293137e-23
+    },
+    {
+      "gene_id": "ENSG00000140465",
+      "gene_name": "CYP1A1",
+      "baseMean": 297.971688210785,
+      "log2FoldChange": 2.0320635136396348,
+      "padj": 2.83572778517618e-20
+    },
+    {
+      "gene_id": "ENSG00000185551",
+      "gene_name": "NR2F2",
+      "baseMean": 2535.5343552319428,
+      "log2FoldChange": 0.969983390908609,
+      "padj": 1.1795985785779302e-19
+    },
+    {
+      "gene_id": "ENSG00000166949",
+      "gene_name": "SMAD3",
+      "baseMean": 6170.436154995405,
+      "log2FoldChange": 0.7466467233023149,
+      "padj": 2.9771103253743034e-16
+    },
+    {
+      "gene_id": "ENSG00000186352",
+      "gene_name": "ANKRD37",
+      "baseMean": 125.65949841093887,
+      "log2FoldChange": -1.996261584397871,
+      "padj": 1.0211665330606066e-14
+    },
+    {
+      "gene_id": "ENSG00000124762",
+      "gene_name": "CDKN1A",
+      "baseMean": 9963.567681649138,
+      "log2FoldChange": 1.1988378576757874,
+      "padj": 1.027193124591105e-14
+    },
+    {
+      "gene_id": "ENSG00000161513",
+      "gene_name": "FDXR",
+      "baseMean": 2653.526803608362,
+      "log2FoldChange": 0.7863537929007057,
+      "padj": 1.6108835678545232e-14
+    },
+    {
+      "gene_id": "ENSG00000251095",
+      "gene_name": "ENSG00000251095",
+      "baseMean": 332.73701857247147,
+      "log2FoldChange": 1.3342086536391913,
+      "padj": 4.3077472329011586e-14
+    },
+    {
+      "gene_id": "ENSG00000177494",
+      "gene_name": "ZBED2",
+      "baseMean": 383.04720392148033,
+      "log2FoldChange": 1.2229901419699785,
+      "padj": 2.1273074293791646e-13
+    },
+    {
+      "gene_id": "ENSG00000026103",
+      "gene_name": "FAS",
+      "baseMean": 489.94879054568764,
+      "log2FoldChange": 1.1469615427284172,
+      "padj": 3.619242497362001e-13
+    },
+    {
+      "gene_id": "ENSG00000159388",
+      "gene_name": "BTG2",
+      "baseMean": 1259.3965530406006,
+      "log2FoldChange": 0.7842136310608141,
+      "padj": 3.9998482697184236e-13
+    },
+    {
+      "gene_id": "ENSG00000182795",
+      "gene_name": "C1orf116",
+      "baseMean": 1335.1104637520386,
+      "log2FoldChange": 0.7887119025667135,
+      "padj": 6.510638012614172e-13
+    },
+    {
+      "gene_id": "ENSG00000129474",
+      "gene_name": "AJUBA",
+      "baseMean": 1113.119361756884,
+      "log2FoldChange": 0.8757953773218934,
+      "padj": 3.058304419008269e-12
+    },
+    {
+      "gene_id": "ENSG00000175197",
+      "gene_name": "DDIT3",
+      "baseMean": 365.0958715518245,
+      "log2FoldChange": -1.2317587513025767,
+      "padj": 3.4372921704039662e-12
+    },
+    {
+      "gene_id": "ENSG00000164938",
+      "gene_name": "TP53INP1",
+      "baseMean": 1288.3514702187242,
+      "log2FoldChange": 0.8627333543262091,
+      "padj": 1.0624518159883537e-11
+    },
+    {
+      "gene_id": "ENSG00000172667",
+      "gene_name": "ZMAT3",
+      "baseMean": 1323.7311124528132,
+      "log2FoldChange": 0.9432288315890334,
+      "padj": 1.3155293017109916e-11
+    },
+    {
+      "gene_id": "ENSG00000196562",
+      "gene_name": "SULF2",
+      "baseMean": 356.9404342693767,
+      "log2FoldChange": 1.456492384542179,
+      "padj": 1.8949986289180046e-11
+    },
+    {
+      "gene_id": "ENSG00000126368",
+      "gene_name": "NR1D1",
+      "baseMean": 2305.9153377682424,
+      "log2FoldChange": -1.0088680242521708,
+      "padj": 5.730182914569992e-11
+    },
+    {
+      "gene_id": "ENSG00000170345",
+      "gene_name": "FOS",
+      "baseMean": 309.3717165660791,
+      "log2FoldChange": -1.5534422150230496,
+      "padj": 1.709525237829743e-10
+    },
+    {
+      "gene_id": "ENSG00000087074",
+      "gene_name": "PPP1R15A",
+      "baseMean": 1963.9420724754382,
+      "log2FoldChange": -0.6464683303048685,
+      "padj": 1.9800762518749495e-10
+    },
+    {
+      "gene_id": "ENSG00000180921",
+      "gene_name": "FAM83H",
+      "baseMean": 4434.004102445295,
+      "log2FoldChange": 0.7016378797433451,
+      "padj": 2.75983729189251e-10
+    },
+    {
+      "gene_id": "ENSG00000169499",
+      "gene_name": "PLEKHA2",
+      "baseMean": 971.5237681568277,
+      "log2FoldChange": -0.7527752481524651,
+      "padj": 3.0876658018209536e-10
+    },
+    {
+      "gene_id": "ENSG00000164543",
+      "gene_name": "STK17A",
+      "baseMean": 643.7133738179016,
+      "log2FoldChange": 0.7771614791645676,
+      "padj": 3.76129692982741e-10
+    },
+    {
+      "gene_id": "ENSG00000142910",
+      "gene_name": "TINAGL1",
+      "baseMean": 3507.3531591995684,
+      "log2FoldChange": 0.7130585112871446,
+      "padj": 4.313797847331948e-10
+    },
+    {
+      "gene_id": "ENSG00000087088",
+      "gene_name": "BAX",
+      "baseMean": 1210.3362643100584,
+      "log2FoldChange": 0.8113043858923815,
+      "padj": 4.755258317297712e-10
+    },
+    {
+      "gene_id": "ENSG00000107796",
+      "gene_name": "ACTA2",
+      "baseMean": 272.4458320563245,
+      "log2FoldChange": 1.1188049016517783,
+      "padj": 7.068688163781926e-10
+    },
+    {
+      "gene_id": "ENSG00000185088",
+      "gene_name": "RPS27L",
+      "baseMean": 1150.552531186179,
+      "log2FoldChange": 0.8264390022786605,
+      "padj": 7.901977495206965e-10
+    },
+    {
+      "gene_id": "ENSG00000135932",
+      "gene_name": "CAB39",
+      "baseMean": 2907.5844520060696,
+      "log2FoldChange": 0.6353671957805738,
+      "padj": 8.857745672598738e-10
+    },
+    {
+      "gene_id": "ENSG00000197852",
+      "gene_name": "INKA2",
+      "baseMean": 218.84701394349892,
+      "log2FoldChange": 1.2759034777370324,
+      "padj": 1.3115533237955306e-09
+    },
+    {
+      "gene_id": "ENSG00000182319",
+      "gene_name": null,
+      "baseMean": 2417.1395175076227,
+      "log2FoldChange": 0.7384539941963947,
+      "padj": 3.929680575630864e-09
+    },
+    {
+      "gene_id": "ENSG00000181026",
+      "gene_name": "AEN",
+      "baseMean": 1600.7672031303564,
+      "log2FoldChange": 0.608031688676514,
+      "padj": 5.424493612730106e-09
+    },
+    {
+      "gene_id": "ENSG00000178038",
+      "gene_name": "ALS2CL",
+      "baseMean": 1303.722382352176,
+      "log2FoldChange": 0.6345859282972849,
+      "padj": 7.466279716429988e-09
+    },
+    {
+      "gene_id": "ENSG00000179094",
+      "gene_name": "PER1",
+      "baseMean": 4059.839069163008,
+      "log2FoldChange": -0.583404304883559,
+      "padj": 7.748252812242434e-09
+    },
+    {
+      "gene_id": "ENSG00000114812",
+      "gene_name": "VIPR1",
+      "baseMean": 244.45587184225238,
+      "log2FoldChange": 1.0428643486802591,
+      "padj": 8.40422634205029e-09
+    },
+    {
+      "gene_id": "ENSG00000206075",
+      "gene_name": "SERPINB5",
+      "baseMean": 1152.8490795142109,
+      "log2FoldChange": 0.7527835962551579,
+      "padj": 1.2635184096840868e-08
+    },
+    {
+      "gene_id": "ENSG00000091428",
+      "gene_name": "RAPGEF4",
+      "baseMean": 73.72204389965948,
+      "log2FoldChange": -1.9237386565241708,
+      "padj": 1.7716726816466342e-08
+    },
+    {
+      "gene_id": "ENSG00000103044",
+      "gene_name": "HAS3",
+      "baseMean": 6941.74369950597,
+      "log2FoldChange": 0.8120611403409298,
+      "padj": 1.9823325551202167e-08
+    },
+    {
+      "gene_id": "ENSG00000188549",
+      "gene_name": "CCDC9B",
+      "baseMean": 897.5112106868122,
+      "log2FoldChange": 0.8829620163555493,
+      "padj": 2.4735263958046198e-08
+    },
+    {
+      "gene_id": "ENSG00000150347",
+      "gene_name": "ARID5B",
+      "baseMean": 158.05753135254616,
+      "log2FoldChange": -1.2049077904683132,
+      "padj": 4.220947005079254e-08
+    },
+    {
+      "gene_id": "ENSG00000100647",
+      "gene_name": "SUSD6",
+      "baseMean": 404.8984503650552,
+      "log2FoldChange": 0.8322642577851022,
+      "padj": 4.301606294485276e-08
+    },
+    {
+      "gene_id": "ENSG00000055163",
+      "gene_name": "CYFIP2",
+      "baseMean": 2345.209139500103,
+      "log2FoldChange": 0.7266231477103431,
+      "padj": 5.50642129556845e-08
+    },
+    {
+      "gene_id": "ENSG00000115129",
+      "gene_name": "TP53I3",
+      "baseMean": 388.6506491672141,
+      "log2FoldChange": 1.3144324588614942,
+      "padj": 5.520740651093267e-08
+    },
+    {
+      "gene_id": "ENSG00000071575",
+      "gene_name": "TRIB2",
+      "baseMean": 538.2062087174288,
+      "log2FoldChange": -0.8149586475638666,
+      "padj": 8.201722698641562e-08
+    },
+    {
+      "gene_id": "ENSG00000181722",
+      "gene_name": "ZBTB20",
+      "baseMean": 673.6977028155578,
+      "log2FoldChange": -0.6806266075056677,
+      "padj": 1.2332357739019743e-07
+    },
+    {
+      "gene_id": "ENSG00000169403",
+      "gene_name": "PTAFR",
+      "baseMean": 170.27108897954068,
+      "log2FoldChange": 1.0961506030184793,
+      "padj": 1.5535018202816575e-07
+    },
+    {
+      "gene_id": "ENSG00000188153",
+      "gene_name": "COL4A5",
+      "baseMean": 1403.530512842083,
+      "log2FoldChange": 0.5958465980032779,
+      "padj": 1.5535018202816575e-07
+    },
+    {
+      "gene_id": "ENSG00000167196",
+      "gene_name": "FBXO22",
+      "baseMean": 841.0221288258281,
+      "log2FoldChange": 0.6144626665340515,
+      "padj": 1.611657212257983e-07
+    },
+    {
+      "gene_id": "ENSG00000099194",
+      "gene_name": "SCD",
+      "baseMean": 24227.883031151036,
+      "log2FoldChange": -0.5151814806841076,
+      "padj": 1.7726019587176195e-07
+    },
+    {
+      "gene_id": "ENSG00000174307",
+      "gene_name": "PHLDA3",
+      "baseMean": 800.352496400123,
+      "log2FoldChange": 0.6957966668857547,
+      "padj": 1.7726019587176195e-07
+    },
+    {
+      "gene_id": "ENSG00000169126",
+      "gene_name": "ODAD2",
+      "baseMean": 333.1144356514872,
+      "log2FoldChange": -0.8525782589173804,
+      "padj": 2.1109659354913398e-07
+    },
+    {
+      "gene_id": "ENSG00000107957",
+      "gene_name": "SH3PXD2A",
+      "baseMean": 772.4197418320009,
+      "log2FoldChange": -0.7097363812540943,
+      "padj": 2.379023973048626e-07
+    },
+    {
+      "gene_id": "ENSG00000186480",
+      "gene_name": "INSIG1",
+      "baseMean": 1639.0029058832617,
+      "log2FoldChange": -0.6895731232433138,
+      "padj": 2.524143311404537e-07
+    },
+    {
+      "gene_id": "ENSG00000138764",
+      "gene_name": "CCNG2",
+      "baseMean": 1170.1494506044457,
+      "log2FoldChange": -0.7193196458377945,
+      "padj": 3.664617734870801e-07
+    },
+    {
+      "gene_id": "ENSG00000132646",
+      "gene_name": "PCNA",
+      "baseMean": 2720.5166467654285,
+      "log2FoldChange": 0.5065180710644456,
+      "padj": 3.789403229723289e-07
+    },
+    {
+      "gene_id": "ENSG00000235750",
+      "gene_name": "KIAA0040",
+      "baseMean": 2388.7976739600053,
+      "log2FoldChange": -0.6289474752532378,
+      "padj": 4.940502142297417e-07
+    },
+    {
+      "gene_id": "ENSG00000165288",
+      "gene_name": "BRWD3",
+      "baseMean": 1512.0721101223116,
+      "log2FoldChange": -0.5948048273994367,
+      "padj": 4.940502142297417e-07
+    },
+    {
+      "gene_id": "ENSG00000110400",
+      "gene_name": "NECTIN1",
+      "baseMean": 1133.5211981300426,
+      "log2FoldChange": 0.61397715985671,
+      "padj": 6.425847040809403e-07
+    },
+    {
+      "gene_id": "ENSG00000160818",
+      "gene_name": "GPATCH4",
+      "baseMean": 525.8045295125398,
+      "log2FoldChange": 0.7155802697468847,
+      "padj": 6.450775279104992e-07
+    },
+    {
+      "gene_id": "ENSG00000167772",
+      "gene_name": "ANGPTL4",
+      "baseMean": 1205.7760132946498,
+      "log2FoldChange": -0.9008924197584495,
+      "padj": 6.589906246912565e-07
+    },
+    {
+      "gene_id": "ENSG00000167114",
+      "gene_name": "SLC27A4",
+      "baseMean": 785.2896077064406,
+      "log2FoldChange": 0.7182383517572161,
+      "padj": 9.265747079568498e-07
+    },
+    {
+      "gene_id": "ENSG00000185920",
+      "gene_name": "PTCH1",
+      "baseMean": 315.0857310328819,
+      "log2FoldChange": -0.9225392270701388,
+      "padj": 1.2593678964528037e-06
+    },
+    {
+      "gene_id": "ENSG00000134574",
+      "gene_name": "DDB2",
+      "baseMean": 1784.5273122227816,
+      "log2FoldChange": 0.5836456447524137,
+      "padj": 1.2593678964528037e-06
+    },
+    {
+      "gene_id": "ENSG00000173535",
+      "gene_name": "TNFRSF10C",
+      "baseMean": 261.4384003932283,
+      "log2FoldChange": 0.924042306697141,
+      "padj": 1.5587962794150937e-06
+    },
+    {
+      "gene_id": "ENSG00000152229",
+      "gene_name": "PSTPIP2",
+      "baseMean": 866.9026183241617,
+      "log2FoldChange": 0.5804753268597823,
+      "padj": 1.5587962794150937e-06
+    },
+    {
+      "gene_id": "ENSG00000187994",
+      "gene_name": "RINL",
+      "baseMean": 988.4382999775997,
+      "log2FoldChange": 0.7301104062901637,
+      "padj": 1.8789308394762427e-06
+    },
+    {
+      "gene_id": "ENSG00000172831",
+      "gene_name": "CES2",
+      "baseMean": 895.083537965766,
+      "log2FoldChange": 0.680831026279324,
+      "padj": 1.8922375228513145e-06
+    },
+    {
+      "gene_id": "ENSG00000081019",
+      "gene_name": "RSBN1",
+      "baseMean": 628.701943701285,
+      "log2FoldChange": -0.6747495466120392,
+      "padj": 1.9259737281022448e-06
+    },
+    {
+      "gene_id": "ENSG00000143816",
+      "gene_name": "WNT9A",
+      "baseMean": 542.8691712094889,
+      "log2FoldChange": 0.9216413343212277,
+      "padj": 2.0466331632514974e-06
+    },
+    {
+      "gene_id": "ENSG00000172197",
+      "gene_name": "MBOAT1",
+      "baseMean": 526.4731124395552,
+      "log2FoldChange": -0.8355559512785132,
+      "padj": 2.352946050454558e-06
+    },
+    {
+      "gene_id": "ENSG00000065618",
+      "gene_name": "COL17A1",
+      "baseMean": 368.81669223893124,
+      "log2FoldChange": 1.260482276441945,
+      "padj": 2.463149918590025e-06
+    },
+    {
+      "gene_id": "ENSG00000138061",
+      "gene_name": "CYP1B1",
+      "baseMean": 194.52777155128737,
+      "log2FoldChange": 1.1221477478419295,
+      "padj": 2.6722163205908943e-06
+    },
+    {
+      "gene_id": "ENSG00000244509",
+      "gene_name": "APOBEC3C",
+      "baseMean": 1804.6574102074458,
+      "log2FoldChange": 0.5479448183418467,
+      "padj": 2.8480908029627717e-06
+    },
+    {
+      "gene_id": "ENSG00000115548",
+      "gene_name": "KDM3A",
+      "baseMean": 2926.07844123889,
+      "log2FoldChange": -0.8377518570317132,
+      "padj": 3.1624556831016487e-06
+    },
+    {
+      "gene_id": "ENSG00000170425",
+      "gene_name": "ADORA2B",
+      "baseMean": 1286.9268575177837,
+      "log2FoldChange": 0.8263056173562893,
+      "padj": 3.6010618786772563e-06
+    },
+    {
+      "gene_id": "ENSG00000072952",
+      "gene_name": "IRAG1",
+      "baseMean": 266.61840388876396,
+      "log2FoldChange": 0.9062758940169068,
+      "padj": 3.6772155642396144e-06
+    },
+    {
+      "gene_id": "ENSG00000196968",
+      "gene_name": "FUT11",
+      "baseMean": 1102.3172444431325,
+      "log2FoldChange": -0.9578029156216659,
+      "padj": 4.33099823266424e-06
+    },
+    {
+      "gene_id": "ENSG00000163235",
+      "gene_name": "TGFA",
+      "baseMean": 2633.8965899072896,
+      "log2FoldChange": 0.5691425216139604,
+      "padj": 4.69397211454594e-06
+    },
+    {
+      "gene_id": "ENSG00000136378",
+      "gene_name": "ADAMTS7",
+      "baseMean": 604.6939015427366,
+      "log2FoldChange": 0.6982608870243284,
+      "padj": 4.800035486992048e-06
+    },
+    {
+      "gene_id": "ENSG00000117000",
+      "gene_name": "RLF",
+      "baseMean": 1544.8387530003158,
+      "log2FoldChange": -0.5596186140713706,
+      "padj": 4.859972091647864e-06
+    },
+    {
+      "gene_id": "ENSG00000196072",
+      "gene_name": "BLOC1S2",
+      "baseMean": 834.2413110743855,
+      "log2FoldChange": 0.6110420840727767,
+      "padj": 4.930547999408571e-06
+    },
+    {
+      "gene_id": "ENSG00000160613",
+      "gene_name": "PCSK7",
+      "baseMean": 687.4338906228327,
+      "log2FoldChange": 0.7129555878689352,
+      "padj": 6.048997154303477e-06
+    },
+    {
+      "gene_id": "ENSG00000253368",
+      "gene_name": "TRNP1",
+      "baseMean": 2019.8534324609054,
+      "log2FoldChange": 0.6035584281136833,
+      "padj": 7.664400778782452e-06
+    },
+    {
+      "gene_id": "ENSG00000152022",
+      "gene_name": null,
+      "baseMean": 619.319870852749,
+      "log2FoldChange": -0.5947023518832513,
+      "padj": 9.106038135897681e-06
+    },
+    {
+      "gene_id": "ENSG00000053747",
+      "gene_name": "LAMA3",
+      "baseMean": 502.91490809389387,
+      "log2FoldChange": 1.0143190179599952,
+      "padj": 9.552279550319238e-06
+    },
+    {
+      "gene_id": "ENSG00000238227",
+      "gene_name": "TMEM250",
+      "baseMean": 772.3594109658949,
+      "log2FoldChange": 0.6004076222034209,
+      "padj": 1.0551197048007642e-05
+    },
+    {
+      "gene_id": "ENSG00000183087",
+      "gene_name": "GAS6",
+      "baseMean": 1953.4216073773975,
+      "log2FoldChange": 0.6617524633058203,
+      "padj": 1.1539195400624328e-05
+    },
+    {
+      "gene_id": "ENSG00000123384",
+      "gene_name": "LRP1",
+      "baseMean": 1452.7276415216202,
+      "log2FoldChange": -0.8034386354437943,
+      "padj": 1.2120922325191196e-05
+    },
+    {
+      "gene_id": "ENSG00000162643",
+      "gene_name": "DNAI3",
+      "baseMean": 57.07750713305912,
+      "log2FoldChange": 1.7053364225861856,
+      "padj": 1.2298890517881444e-05
+    },
+    {
+      "gene_id": "ENSG00000130518",
+      "gene_name": "IQCN",
+      "baseMean": 463.5364442827649,
+      "log2FoldChange": 0.6738569440276108,
+      "padj": 1.3619623679180196e-05
+    },
+    {
+      "gene_id": "ENSG00000124541",
+      "gene_name": "RRP36",
+      "baseMean": 586.8600883519778,
+      "log2FoldChange": 0.6649409466657413,
+      "padj": 1.7495045205111336e-05
+    },
+    {
+      "gene_id": "ENSG00000170855",
+      "gene_name": "TRIAP1",
+      "baseMean": 698.66788185039,
+      "log2FoldChange": 0.6010807311261399,
+      "padj": 1.7618565254275573e-05
+    },
+    {
+      "gene_id": "ENSG00000129757",
+      "gene_name": "CDKN1C",
+      "baseMean": 426.3245721381043,
+      "log2FoldChange": -0.9610300586570432,
+      "padj": 1.7618565254275573e-05
+    },
+    {
+      "gene_id": "ENSG00000272482",
+      "gene_name": null,
+      "baseMean": 94.38930612685401,
+      "log2FoldChange": 1.358634560088646,
+      "padj": 1.7618565254275573e-05
+    },
+    {
+      "gene_id": "ENSG00000146278",
+      "gene_name": "PNRC1",
+      "baseMean": 902.6468188535297,
+      "log2FoldChange": -0.6716039693859549,
+      "padj": 1.7753447227848048e-05
+    },
+    {
+      "gene_id": "ENSG00000198265",
+      "gene_name": "HELZ",
+      "baseMean": 3824.933531302316,
+      "log2FoldChange": -0.7086926632002148,
+      "padj": 1.7753447227848048e-05
+    },
+    {
+      "gene_id": "ENSG00000151689",
+      "gene_name": "INPP1",
+      "baseMean": 610.5342374606298,
+      "log2FoldChange": 0.6566981018085046,
+      "padj": 1.7753447227848048e-05
+    },
+    {
+      "gene_id": "ENSG00000155066",
+      "gene_name": "PROM2",
+      "baseMean": 701.4931306315584,
+      "log2FoldChange": 0.7231536236396704,
+      "padj": 1.81329045872399e-05
+    },
+    {
+      "gene_id": "ENSG00000147036",
+      "gene_name": "LANCL3",
+      "baseMean": 100.59109778868014,
+      "log2FoldChange": -1.2301691445166199,
+      "padj": 1.859012771019898e-05
+    },
+    {
+      "gene_id": "ENSG00000164920",
+      "gene_name": "OSR2",
+      "baseMean": 201.7982718850301,
+      "log2FoldChange": -1.2252101946745513,
+      "padj": 1.859012771019898e-05
+    },
+    {
+      "gene_id": "ENSG00000177076",
+      "gene_name": "ACER2",
+      "baseMean": 177.46906548546625,
+      "log2FoldChange": 1.0066696436862312,
+      "padj": 1.8900665665836443e-05
+    },
+    {
+      "gene_id": "ENSG00000154237",
+      "gene_name": "LRRK1",
+      "baseMean": 837.7368377549307,
+      "log2FoldChange": 0.5665768845331158,
+      "padj": 1.957462422495085e-05
+    },
+    {
+      "gene_id": "ENSG00000119950",
+      "gene_name": "MXI1",
+      "baseMean": 2323.6290642605823,
+      "log2FoldChange": -0.6415263125356709,
+      "padj": 2.101044567146947e-05
+    },
+    {
+      "gene_id": "ENSG00000117525",
+      "gene_name": "F3",
+      "baseMean": 1688.4357693219424,
+      "log2FoldChange": 0.5690027310565733,
+      "padj": 2.1134420267472273e-05
+    },
+    {
+      "gene_id": "ENSG00000043355",
+      "gene_name": "ZIC2",
+      "baseMean": 480.14568814267614,
+      "log2FoldChange": -0.6319406245577098,
+      "padj": 2.1191083235165465e-05
+    },
+    {
+      "gene_id": "ENSG00000178814",
+      "gene_name": "OPLAH",
+      "baseMean": 1016.2099745144548,
+      "log2FoldChange": 0.5570979413443351,
+      "padj": 2.300555351343286e-05
+    },
+    {
+      "gene_id": "ENSG00000104228",
+      "gene_name": "TRIM35",
+      "baseMean": 590.1904908450693,
+      "log2FoldChange": 0.6596130976292888,
+      "padj": 2.3392086226526118e-05
+    },
+    {
+      "gene_id": "ENSG00000100867",
+      "gene_name": "DHRS2",
+      "baseMean": 155.03588079237258,
+      "log2FoldChange": -1.009969665711666,
+      "padj": 2.407013822225841e-05
+    },
+    {
+      "gene_id": "ENSG00000269968",
+      "gene_name": "ENSG00000269968",
+      "baseMean": 215.57175880216707,
+      "log2FoldChange": -1.3019432215589692,
+      "padj": 2.407013822225841e-05
+    },
+    {
+      "gene_id": "ENSG00000167755",
+      "gene_name": "KLK6",
+      "baseMean": 1044.0161586775478,
+      "log2FoldChange": 0.7401713117036322,
+      "padj": 2.7260479979482195e-05
+    },
+    {
+      "gene_id": "ENSG00000050405",
+      "gene_name": "LIMA1",
+      "baseMean": 3113.7203470029744,
+      "log2FoldChange": 0.7480373652300483,
+      "padj": 2.7308677553134516e-05
+    },
+    {
+      "gene_id": "ENSG00000020256",
+      "gene_name": "ZFP64",
+      "baseMean": 453.12382472258486,
+      "log2FoldChange": -0.60926908882647,
+      "padj": 3.1288477713707936e-05
+    },
+    {
+      "gene_id": "ENSG00000247626",
+      "gene_name": "MARS2",
+      "baseMean": 361.99007055428564,
+      "log2FoldChange": 0.732606856410568,
+      "padj": 3.278334089427836e-05
+    },
+    {
+      "gene_id": "ENSG00000157514",
+      "gene_name": "TSC22D3",
+      "baseMean": 233.43788861289352,
+      "log2FoldChange": -0.9331301901794948,
+      "padj": 3.3269549259102274e-05
+    },
+    {
+      "gene_id": "ENSG00000140950",
+      "gene_name": "MEAK7",
+      "baseMean": 1568.3298191141655,
+      "log2FoldChange": 0.5049944491999857,
+      "padj": 3.425702225864894e-05
+    },
+    {
+      "gene_id": "ENSG00000138131",
+      "gene_name": "LOXL4",
+      "baseMean": 86.78857452059965,
+      "log2FoldChange": 1.1876029355448463,
+      "padj": 3.425702225864894e-05
+    },
+    {
+      "gene_id": "ENSG00000114019",
+      "gene_name": "AMOTL2",
+      "baseMean": 3181.925582008087,
+      "log2FoldChange": 0.7457282101859481,
+      "padj": 3.693119088551732e-05
+    },
+    {
+      "gene_id": "ENSG00000186166",
+      "gene_name": "CENATAC",
+      "baseMean": 594.1454989755797,
+      "log2FoldChange": 0.6726289332471297,
+      "padj": 3.730671312113172e-05
+    },
+    {
+      "gene_id": "ENSG00000180155",
+      "gene_name": "LYNX1",
+      "baseMean": 122.69294192724969,
+      "log2FoldChange": 1.731902682731576,
+      "padj": 3.730671312113172e-05
+    },
+    {
+      "gene_id": "ENSG00000033100",
+      "gene_name": "CHPF2",
+      "baseMean": 554.8955225991627,
+      "log2FoldChange": 0.7494097398168865,
+      "padj": 3.8998709383975954e-05
+    },
+    {
+      "gene_id": "ENSG00000181027",
+      "gene_name": "FKRP",
+      "baseMean": 405.07882356238224,
+      "log2FoldChange": 0.64451044888797,
+      "padj": 3.981208352341585e-05
+    },
+    {
+      "gene_id": "ENSG00000134954",
+      "gene_name": "ETS1",
+      "baseMean": 666.6496967342163,
+      "log2FoldChange": 0.5739651602662705,
+      "padj": 3.981208352341585e-05
+    },
+    {
+      "gene_id": "ENSG00000174840",
+      "gene_name": "PDE12",
+      "baseMean": 987.3546226569215,
+      "log2FoldChange": 0.5105849120356839,
+      "padj": 4.156609390812786e-05
+    },
+    {
+      "gene_id": "ENSG00000146373",
+      "gene_name": "RNF217",
+      "baseMean": 1350.539660448843,
+      "log2FoldChange": -0.6015366801348969,
+      "padj": 4.162824833601668e-05
+    },
+    {
+      "gene_id": "ENSG00000006327",
+      "gene_name": "TNFRSF12A",
+      "baseMean": 2808.764309207618,
+      "log2FoldChange": 0.5934374132085701,
+      "padj": 4.217545222876614e-05
+    },
+    {
+      "gene_id": "ENSG00000138678",
+      "gene_name": "GPAT3",
+      "baseMean": 950.4269142377997,
+      "log2FoldChange": 0.582477695523698,
+      "padj": 4.5831864573363784e-05
+    },
+    {
+      "gene_id": "ENSG00000180008",
+      "gene_name": "SOCS4",
+      "baseMean": 1151.3440164460671,
+      "log2FoldChange": 0.5422139516609293,
+      "padj": 4.774513949850926e-05
+    },
+    {
+      "gene_id": "ENSG00000125629",
+      "gene_name": "INSIG2",
+      "baseMean": 1083.5216046185708,
+      "log2FoldChange": -0.7436423185561284,
+      "padj": 4.877890830493979e-05
+    },
+    {
+      "gene_id": "ENSG00000169991",
+      "gene_name": "IFFO2",
+      "baseMean": 1225.7820382760576,
+      "log2FoldChange": 0.8680249771645645,
+      "padj": 4.9299188164443435e-05
+    },
+    {
+      "gene_id": "ENSG00000138347",
+      "gene_name": "MYPN",
+      "baseMean": 42.950796435996985,
+      "log2FoldChange": 1.7315527068910594,
+      "padj": 5.6493510215908005e-05
+    },
+    {
+      "gene_id": "ENSG00000126870",
+      "gene_name": "DYNC2I1",
+      "baseMean": 797.3612170333786,
+      "log2FoldChange": -0.6947964270402109,
+      "padj": 6.182014155181048e-05
+    },
+    {
+      "gene_id": "ENSG00000171793",
+      "gene_name": "CTPS1",
+      "baseMean": 984.6164973956937,
+      "log2FoldChange": 0.5890030401577836,
+      "padj": 6.391077908583364e-05
+    },
+    {
+      "gene_id": "ENSG00000078114",
+      "gene_name": "NEBL",
+      "baseMean": 957.9879550294546,
+      "log2FoldChange": -0.6939239141844619,
+      "padj": 6.634884291206474e-05
+    },
+    {
+      "gene_id": "ENSG00000164124",
+      "gene_name": "TMEM144",
+      "baseMean": 508.80008394789525,
+      "log2FoldChange": -0.6779304491508724,
+      "padj": 6.781091310349695e-05
+    },
+    {
+      "gene_id": "ENSG00000136279",
+      "gene_name": "DBNL",
+      "baseMean": 787.4222465372051,
+      "log2FoldChange": 0.515109116873202,
+      "padj": 7.193545060713352e-05
+    },
+    {
+      "gene_id": "ENSG00000225614",
+      "gene_name": "ZNF469",
+      "baseMean": 584.1361598794847,
+      "log2FoldChange": 0.8468797978510839,
+      "padj": 7.678953459770334e-05
+    },
+    {
+      "gene_id": "ENSG00000159792",
+      "gene_name": "PSKH1",
+      "baseMean": 403.8671429364006,
+      "log2FoldChange": 0.7150483143431823,
+      "padj": 8.789998757106017e-05
+    },
+    {
+      "gene_id": "ENSG00000188994",
+      "gene_name": "ZNF292",
+      "baseMean": 2899.2499028279326,
+      "log2FoldChange": -0.7712656237197679,
+      "padj": 9.100424401695169e-05
+    },
+    {
+      "gene_id": "ENSG00000145632",
+      "gene_name": "PLK2",
+      "baseMean": 3049.410992146844,
+      "log2FoldChange": 0.5089337314656273,
+      "padj": 9.100424401695169e-05
+    },
+    {
+      "gene_id": "ENSG00000012124",
+      "gene_name": "CD22",
+      "baseMean": 202.9677567497648,
+      "log2FoldChange": 1.107079490974433,
+      "padj": 9.100424401695169e-05
+    },
+    {
+      "gene_id": "ENSG00000114648",
+      "gene_name": "KLHL18",
+      "baseMean": 541.7009960892333,
+      "log2FoldChange": 0.5646811103502375,
+      "padj": 9.107705099512362e-05
+    },
+    {
+      "gene_id": "ENSG00000048392",
+      "gene_name": "RRM2B",
+      "baseMean": 2400.7838996559153,
+      "log2FoldChange": 0.7090566433553374,
+      "padj": 9.33819653173296e-05
+    },
+    {
+      "gene_id": "ENSG00000240891",
+      "gene_name": "PLCXD2",
+      "baseMean": 356.7912205075406,
+      "log2FoldChange": 0.7092123854884963,
+      "padj": 0.00010103759758733011
+    },
+    {
+      "gene_id": "ENSG00000167754",
+      "gene_name": "KLK5",
+      "baseMean": 67.37379423229923,
+      "log2FoldChange": 1.2321772418605097,
+      "padj": 0.00011244365897447283
+    },
+    {
+      "gene_id": "ENSG00000176697",
+      "gene_name": "BDNF",
+      "baseMean": 422.33616961604474,
+      "log2FoldChange": 0.8158541145886686,
+      "padj": 0.0001218042544673286
+    },
+    {
+      "gene_id": "ENSG00000197774",
+      "gene_name": "EME2",
+      "baseMean": 1003.4429985156471,
+      "log2FoldChange": 0.549058659634795,
+      "padj": 0.00012519961240354678
+    },
+    {
+      "gene_id": "ENSG00000164171",
+      "gene_name": "ITGA2",
+      "baseMean": 3398.9799127367173,
+      "log2FoldChange": 0.65480880028218,
+      "padj": 0.0001332015207105729
+    },
+    {
+      "gene_id": "ENSG00000167601",
+      "gene_name": "AXL",
+      "baseMean": 2341.243532945599,
+      "log2FoldChange": 0.5994185826500353,
+      "padj": 0.0001332015207105729
+    },
+    {
+      "gene_id": "ENSG00000151092",
+      "gene_name": "NGLY1",
+      "baseMean": 914.96044820797,
+      "log2FoldChange": -0.7011952998302738,
+      "padj": 0.00014381889045644736
+    },
+    {
+      "gene_id": "ENSG00000105784",
+      "gene_name": "RUNDC3B",
+      "baseMean": 146.78946622550563,
+      "log2FoldChange": -0.9853354842738734,
+      "padj": 0.00015080271250008607
+    },
+    {
+      "gene_id": "ENSG00000081692",
+      "gene_name": "JMJD4",
+      "baseMean": 195.49344992277824,
+      "log2FoldChange": 0.9026524470991568,
+      "padj": 0.00015080271250008607
+    },
+    {
+      "gene_id": "ENSG00000170949",
+      "gene_name": "ZNF160",
+      "baseMean": 1037.407925148111,
+      "log2FoldChange": -0.6284607821913629,
+      "padj": 0.00016240924941920238
+    },
+    {
+      "gene_id": "ENSG00000205189",
+      "gene_name": "ZBTB10",
+      "baseMean": 1033.8578751027455,
+      "log2FoldChange": -0.7350749989421221,
+      "padj": 0.00016419471889940747
+    },
+    {
+      "gene_id": "ENSG00000165271",
+      "gene_name": "NOL6",
+      "baseMean": 836.3109875596083,
+      "log2FoldChange": 0.5820235682463377,
+      "padj": 0.00016419471889940747
+    },
+    {
+      "gene_id": "ENSG00000188177",
+      "gene_name": "ZC3H6",
+      "baseMean": 509.4274383649713,
+      "log2FoldChange": -0.5828069859914102,
+      "padj": 0.00016419471889940747
+    },
+    {
+      "gene_id": "ENSG00000163032",
+      "gene_name": "VSNL1",
+      "baseMean": 330.0780034335909,
+      "log2FoldChange": -0.7895036745076518,
+      "padj": 0.00018263427896313608
+    },
+    {
+      "gene_id": "ENSG00000049283",
+      "gene_name": "EPN3",
+      "baseMean": 445.63323987332336,
+      "log2FoldChange": 0.6233091473454124,
+      "padj": 0.00020048798723261606
+    },
+    {
+      "gene_id": "ENSG00000142089",
+      "gene_name": "IFITM3",
+      "baseMean": 4569.612462602731,
+      "log2FoldChange": -0.5287148992033643,
+      "padj": 0.00020280252597135027
+    },
+    {
+      "gene_id": "ENSG00000198753",
+      "gene_name": "PLXNB3",
+      "baseMean": 206.88729207998082,
+      "log2FoldChange": 0.8564460209954056,
+      "padj": 0.00020515564980485342
+    },
+    {
+      "gene_id": "ENSG00000224877",
+      "gene_name": "NDUFAF8",
+      "baseMean": 604.7063525972626,
+      "log2FoldChange": 0.5816693326782086,
+      "padj": 0.00021402153530888937
+    },
+    {
+      "gene_id": "ENSG00000242265",
+      "gene_name": "PEG10",
+      "baseMean": 247.41385071962998,
+      "log2FoldChange": -0.7262021763545677,
+      "padj": 0.00022810145197884032
+    },
+    {
+      "gene_id": "ENSG00000172086",
+      "gene_name": "KRCC1",
+      "baseMean": 105.24647569479457,
+      "log2FoldChange": 1.1724357935189371,
+      "padj": 0.00023017525948667496
+    },
+    {
+      "gene_id": "ENSG00000243477",
+      "gene_name": "NAA80",
+      "baseMean": 327.4637506634045,
+      "log2FoldChange": -0.6943115925119608,
+      "padj": 0.00023017525948667496
+    },
+    {
+      "gene_id": "ENSG00000094841",
+      "gene_name": "UPRT",
+      "baseMean": 230.5245853594444,
+      "log2FoldChange": -0.7592417633797061,
+      "padj": 0.00024572336328201026
+    },
+    {
+      "gene_id": "ENSG00000115884",
+      "gene_name": "SDC1",
+      "baseMean": 577.4473557206019,
+      "log2FoldChange": 0.5539022765372612,
+      "padj": 0.00024572336328201026
+    },
+    {
+      "gene_id": "ENSG00000134955",
+      "gene_name": "SLC37A2",
+      "baseMean": 131.86901877441645,
+      "log2FoldChange": 0.9961550492091236,
+      "padj": 0.00027622623402008355
+    },
+    {
+      "gene_id": "ENSG00000180035",
+      "gene_name": "ZNF48",
+      "baseMean": 403.45190215091435,
+      "log2FoldChange": 0.5902072870709972,
+      "padj": 0.00028037641172236273
+    },
+    {
+      "gene_id": "ENSG00000099625",
+      "gene_name": "CBARP",
+      "baseMean": 498.63563228074287,
+      "log2FoldChange": 0.636550800880951,
+      "padj": 0.000280438702431993
+    },
+    {
+      "gene_id": "ENSG00000167771",
+      "gene_name": "RCOR2",
+      "baseMean": 362.10174995992185,
+      "log2FoldChange": -0.7881726216886101,
+      "padj": 0.0002825990573001521
+    },
+    {
+      "gene_id": "ENSG00000164023",
+      "gene_name": "SGMS2",
+      "baseMean": 1255.784080381137,
+      "log2FoldChange": 0.5480726050548261,
+      "padj": 0.0002947938944815228
+    },
+    {
+      "gene_id": "ENSG00000110925",
+      "gene_name": "CSRNP2",
+      "baseMean": 727.1728163741215,
+      "log2FoldChange": 0.5257892976627526,
+      "padj": 0.0003109512524403629
+    },
+    {
+      "gene_id": "ENSG00000076864",
+      "gene_name": "RAP1GAP",
+      "baseMean": 747.9637783651384,
+      "log2FoldChange": -0.5675605246634897,
+      "padj": 0.00032663901148963226
+    },
+    {
+      "gene_id": "ENSG00000104267",
+      "gene_name": "CA2",
+      "baseMean": 417.6158702725183,
+      "log2FoldChange": 0.6018088656719097,
+      "padj": 0.00032849319960343026
+    },
+    {
+      "gene_id": "ENSG00000234420",
+      "gene_name": "ZNF37BP",
+      "baseMean": 331.9973743944377,
+      "log2FoldChange": 0.752449616493691,
+      "padj": 0.0003312317685400411
+    },
+    {
+      "gene_id": "ENSG00000006756",
+      "gene_name": "ARSD",
+      "baseMean": 420.3983056214465,
+      "log2FoldChange": 0.6399252870272972,
+      "padj": 0.00033740879909961003
+    },
+    {
+      "gene_id": "ENSG00000115641",
+      "gene_name": "FHL2",
+      "baseMean": 2207.498741406793,
+      "log2FoldChange": 0.8053669228864224,
+      "padj": 0.0003379368137224117
+    },
+    {
+      "gene_id": "ENSG00000165507",
+      "gene_name": "DEPP1",
+      "baseMean": 345.41700080562777,
+      "log2FoldChange": -0.8076830116320152,
+      "padj": 0.00035685017855510996
+    },
+    {
+      "gene_id": "ENSG00000135763",
+      "gene_name": "URB2",
+      "baseMean": 566.8460445444606,
+      "log2FoldChange": 0.6206650634817903,
+      "padj": 0.00036333654389183784
+    },
+    {
+      "gene_id": "ENSG00000128510",
+      "gene_name": "CPA4",
+      "baseMean": 1921.9438491105639,
+      "log2FoldChange": 0.7955994993128643,
+      "padj": 0.00037236265580106867
+    },
+    {
+      "gene_id": "ENSG00000120451",
+      "gene_name": "SNX19",
+      "baseMean": 887.1506880149545,
+      "log2FoldChange": 0.6780169431614778,
+      "padj": 0.00037396274260742107
+    },
+    {
+      "gene_id": "ENSG00000239521",
+      "gene_name": "CASTOR3P",
+      "baseMean": 144.94829807669757,
+      "log2FoldChange": 0.8431232455402651,
+      "padj": 0.00040580001176601557
+    },
+    {
+      "gene_id": "ENSG00000168918",
+      "gene_name": "INPP5D",
+      "baseMean": 122.6108702501438,
+      "log2FoldChange": 0.9837662213952517,
+      "padj": 0.00040702810716312243
+    },
+    {
+      "gene_id": "ENSG00000161326",
+      "gene_name": null,
+      "baseMean": 685.3945532144321,
+      "log2FoldChange": 0.5241238928737878,
+      "padj": 0.00041016081776548507
+    },
+    {
+      "gene_id": "ENSG00000081059",
+      "gene_name": "TCF7",
+      "baseMean": 594.9229779721974,
+      "log2FoldChange": 0.5610379610754922,
+      "padj": 0.00041175229917608217
+    },
+    {
+      "gene_id": "ENSG00000205913",
+      "gene_name": "SRRM2-AS1",
+      "baseMean": 50.201261787223,
+      "log2FoldChange": 1.4231502746655398,
+      "padj": 0.0004512416639590189
+    },
+    {
+      "gene_id": "ENSG00000164484",
+      "gene_name": "TMEM200A",
+      "baseMean": 677.7026040668259,
+      "log2FoldChange": 0.6532807605624199,
+      "padj": 0.0004695493175827687
+    },
+    {
+      "gene_id": "ENSG00000179041",
+      "gene_name": "RRS1",
+      "baseMean": 523.0129271855851,
+      "log2FoldChange": 0.6437445448955698,
+      "padj": 0.0004723622411695108
+    },
+    {
+      "gene_id": "ENSG00000167619",
+      "gene_name": "TMEM145",
+      "baseMean": 154.5509117969496,
+      "log2FoldChange": -1.1100068831384755,
+      "padj": 0.0004814271249940812
+    },
+    {
+      "gene_id": "ENSG00000008853",
+      "gene_name": "RHOBTB2",
+      "baseMean": 280.42765355474114,
+      "log2FoldChange": 0.6604826592745298,
+      "padj": 0.0004854610276032761
+    },
+    {
+      "gene_id": "ENSG00000126016",
+      "gene_name": "AMOT",
+      "baseMean": 288.145856658362,
+      "log2FoldChange": -0.6757955956468206,
+      "padj": 0.00048571141589401443
+    },
+    {
+      "gene_id": "ENSG00000105173",
+      "gene_name": "CCNE1",
+      "baseMean": 423.67521350404905,
+      "log2FoldChange": 0.5554035797593424,
+      "padj": 0.000506575913503928
+    },
+    {
+      "gene_id": "ENSG00000101187",
+      "gene_name": "SLCO4A1",
+      "baseMean": 3329.155410234016,
+      "log2FoldChange": -0.6213006745999936,
+      "padj": 0.0005426849409900968
+    },
+    {
+      "gene_id": "ENSG00000261373",
+      "gene_name": "VPS9D1-AS1",
+      "baseMean": 523.0338939751547,
+      "log2FoldChange": 0.8301889754603301,
+      "padj": 0.0005519342469386565
+    },
+    {
+      "gene_id": "ENSG00000158483",
+      "gene_name": "FAM86C1P",
+      "baseMean": 172.07740408892164,
+      "log2FoldChange": 0.9137572102366561,
+      "padj": 0.0005575691236830579
+    },
+    {
+      "gene_id": "ENSG00000198520",
+      "gene_name": "ARMH1",
+      "baseMean": 77.82142499981401,
+      "log2FoldChange": 1.249169659704996,
+      "padj": 0.0005810328063454337
+    },
+    {
+      "gene_id": "ENSG00000152284",
+      "gene_name": "TCF7L1",
+      "baseMean": 579.150705810374,
+      "log2FoldChange": -0.7072770493251809,
+      "padj": 0.0005915117754246363
+    },
+    {
+      "gene_id": "ENSG00000087448",
+      "gene_name": "KLHL42",
+      "baseMean": 851.8388196897776,
+      "log2FoldChange": 0.6309304220605456,
+      "padj": 0.0006403685521704849
+    },
+    {
+      "gene_id": "ENSG00000139832",
+      "gene_name": "RAB20",
+      "baseMean": 194.34246569945734,
+      "log2FoldChange": -0.6961713612339984,
+      "padj": 0.0006572075835645402
+    },
+    {
+      "gene_id": "ENSG00000187231",
+      "gene_name": "SESTD1",
+      "baseMean": 449.15800463019946,
+      "log2FoldChange": -0.7647161294135485,
+      "padj": 0.0006630529922001591
+    },
+    {
+      "gene_id": "ENSG00000105855",
+      "gene_name": "ITGB8",
+      "baseMean": 224.9003796950576,
+      "log2FoldChange": 0.9277114908981183,
+      "padj": 0.0006630529922001591
+    },
+    {
+      "gene_id": "ENSG00000205129",
+      "gene_name": "CFAP96",
+      "baseMean": 172.4809011736579,
+      "log2FoldChange": -1.334634115409692,
+      "padj": 0.000688401541782293
+    },
+    {
+      "gene_id": "ENSG00000230439",
+      "gene_name": null,
+      "baseMean": 139.4802186254622,
+      "log2FoldChange": 0.9626341744212917,
+      "padj": 0.0007101257939241324
+    },
+    {
+      "gene_id": "ENSG00000134824",
+      "gene_name": "FADS2",
+      "baseMean": 416.0948873981408,
+      "log2FoldChange": 0.6778303125805918,
+      "padj": 0.0007144682234971301
+    },
+    {
+      "gene_id": "ENSG00000115946",
+      "gene_name": "PNO1",
+      "baseMean": 497.01511599803035,
+      "log2FoldChange": 0.5253795192942092,
+      "padj": 0.0007277726980644907
+    },
+    {
+      "gene_id": "ENSG00000244694",
+      "gene_name": "PTCHD4",
+      "baseMean": 57.876191608328135,
+      "log2FoldChange": 1.277793673887848,
+      "padj": 0.0007827234061352592
+    },
+    {
+      "gene_id": "ENSG00000009413",
+      "gene_name": "REV3L",
+      "baseMean": 1013.5198826267733,
+      "log2FoldChange": 0.6441002091827299,
+      "padj": 0.0008005586329288488
+    },
+    {
+      "gene_id": "ENSG00000155252",
+      "gene_name": "PI4K2A",
+      "baseMean": 940.0296974480465,
+      "log2FoldChange": 0.5544671811788732,
+      "padj": 0.000849575874024355
+    },
+    {
+      "gene_id": "ENSG00000103089",
+      "gene_name": "FA2H",
+      "baseMean": 389.48393320897026,
+      "log2FoldChange": -0.7232193061035037,
+      "padj": 0.0008812490407408619
+    },
+    {
+      "gene_id": "ENSG00000268223",
+      "gene_name": "ARL14EPL",
+      "baseMean": 200.77714112223484,
+      "log2FoldChange": 0.7682869258527415,
+      "padj": 0.0008982972522445506
+    },
+    {
+      "gene_id": "ENSG00000175505",
+      "gene_name": "CLCF1",
+      "baseMean": 638.380234783822,
+      "log2FoldChange": 0.8274409493381323,
+      "padj": 0.0008982972522445506
+    },
+    {
+      "gene_id": "ENSG00000259976",
+      "gene_name": "ENSG00000259976",
+      "baseMean": 526.4887283807458,
+      "log2FoldChange": -0.5198831463295472,
+      "padj": 0.0009174778428351387
+    },
+    {
+      "gene_id": "ENSG00000021355",
+      "gene_name": "SERPINB1",
+      "baseMean": 2888.757924455433,
+      "log2FoldChange": -0.557289367081131,
+      "padj": 0.0009174778428351387
+    },
+    {
+      "gene_id": "ENSG00000240875",
+      "gene_name": null,
+      "baseMean": 89.61422329995976,
+      "log2FoldChange": 1.0954749089538152,
+      "padj": 0.0009174778428351387
+    },
+    {
+      "gene_id": "ENSG00000180626",
+      "gene_name": "ZNF594",
+      "baseMean": 96.40704010868643,
+      "log2FoldChange": 0.9527740471786399,
+      "padj": 0.0009174778428351387
+    },
+    {
+      "gene_id": "ENSG00000116455",
+      "gene_name": "WDR77",
+      "baseMean": 412.18138111825124,
+      "log2FoldChange": 0.5402699805366697,
+      "padj": 0.0009255198749485122
+    },
+    {
+      "gene_id": "ENSG00000144452",
+      "gene_name": "ABCA12",
+      "baseMean": 44.216870658335615,
+      "log2FoldChange": 2.288185020376298,
+      "padj": 0.0009255198749485122
+    },
+    {
+      "gene_id": "ENSG00000083444",
+      "gene_name": "PLOD1",
+      "baseMean": 10272.235341589952,
+      "log2FoldChange": -0.7337993061095639,
+      "padj": 0.0009461296633300211
+    },
+    {
+      "gene_id": "ENSG00000078237",
+      "gene_name": "TIGAR",
+      "baseMean": 217.0598563796882,
+      "log2FoldChange": 0.9787163987092272,
+      "padj": 0.0009489401740603472
+    },
+    {
+      "gene_id": "ENSG00000146826",
+      "gene_name": "TRAPPC14",
+      "baseMean": 358.7940028609365,
+      "log2FoldChange": 0.6538332285632215,
+      "padj": 0.0009514707742923255
+    },
+    {
+      "gene_id": "ENSG00000182504",
+      "gene_name": "CEP97",
+      "baseMean": 556.621867413532,
+      "log2FoldChange": -0.5299965604551478,
+      "padj": 0.0009804233637045014
+    },
+    {
+      "gene_id": "ENSG00000249673",
+      "gene_name": "NOP14-AS1",
+      "baseMean": 273.73592685156234,
+      "log2FoldChange": 0.7882546489367153,
+      "padj": 0.0010003076105662327
+    },
+    {
+      "gene_id": "ENSG00000130270",
+      "gene_name": "ATP8B3",
+      "baseMean": 533.0985178512962,
+      "log2FoldChange": -0.7850688495611445,
+      "padj": 0.001022415324099859
+    },
+    {
+      "gene_id": "ENSG00000107738",
+      "gene_name": "VSIR",
+      "baseMean": 524.8690585260011,
+      "log2FoldChange": 0.6153745803301265,
+      "padj": 0.001069867026784905
+    },
+    {
+      "gene_id": "ENSG00000146072",
+      "gene_name": "TNFRSF21",
+      "baseMean": 2322.071672167227,
+      "log2FoldChange": 0.7082095391519911,
+      "padj": 0.00107983066347184
+    },
+    {
+      "gene_id": "ENSG00000105613",
+      "gene_name": "MAST1",
+      "baseMean": 787.0038804975735,
+      "log2FoldChange": -0.510086771775203,
+      "padj": 0.0010808670252848295
+    },
+    {
+      "gene_id": "ENSG00000169715",
+      "gene_name": "MT1E",
+      "baseMean": 3399.872788112812,
+      "log2FoldChange": 0.5376551906933638,
+      "padj": 0.0010954677106698781
+    },
+    {
+      "gene_id": "ENSG00000139625",
+      "gene_name": "MAP3K12",
+      "baseMean": 387.2157587103157,
+      "log2FoldChange": 0.6674935220848522,
+      "padj": 0.0011177501641036057
+    },
+    {
+      "gene_id": "ENSG00000213398",
+      "gene_name": "LCAT",
+      "baseMean": 258.61218484940355,
+      "log2FoldChange": 0.7243663678017399,
+      "padj": 0.0011350881625916355
+    },
+    {
+      "gene_id": "ENSG00000103064",
+      "gene_name": "SLC7A6",
+      "baseMean": 844.4258970178724,
+      "log2FoldChange": 0.6148529213853339,
+      "padj": 0.0011911225262212493
+    },
+    {
+      "gene_id": "ENSG00000101665",
+      "gene_name": "SMAD7",
+      "baseMean": 239.0329179007144,
+      "log2FoldChange": 0.7413655995066392,
+      "padj": 0.0011911225262212493
+    },
+    {
+      "gene_id": "ENSG00000105516",
+      "gene_name": "DBP",
+      "baseMean": 1226.0591342284242,
+      "log2FoldChange": -0.825265548211261,
+      "padj": 0.001201471007236636
+    },
+    {
+      "gene_id": "ENSG00000197191",
+      "gene_name": "CYSRT1",
+      "baseMean": 89.51920865710606,
+      "log2FoldChange": 1.0735159955198834,
+      "padj": 0.001216371711181428
+    },
+    {
+      "gene_id": "ENSG00000144320",
+      "gene_name": "LNPK",
+      "baseMean": 1112.0931193752033,
+      "log2FoldChange": -0.6141462311225113,
+      "padj": 0.0012422037394867044
+    },
+    {
+      "gene_id": "ENSG00000101236",
+      "gene_name": "RNF24",
+      "baseMean": 714.521886802297,
+      "log2FoldChange": -0.805748464611545,
+      "padj": 0.0012845461834863775
+    },
+    {
+      "gene_id": "ENSG00000171517",
+      "gene_name": "LPAR3",
+      "baseMean": 578.6042657252127,
+      "log2FoldChange": -0.5170357282479775,
+      "padj": 0.0013009354494925578
+    },
+    {
+      "gene_id": "ENSG00000127528",
+      "gene_name": "KLF2",
+      "baseMean": 944.8001796935463,
+      "log2FoldChange": -0.5495779975737152,
+      "padj": 0.0013139468953706924
+    },
+    {
+      "gene_id": "ENSG00000114423",
+      "gene_name": "CBLB",
+      "baseMean": 349.0404984331885,
+      "log2FoldChange": -0.6666152488793881,
+      "padj": 0.0013912336399295613
+    },
+    {
+      "gene_id": "ENSG00000048028",
+      "gene_name": "USP28",
+      "baseMean": 739.2198248534928,
+      "log2FoldChange": -0.5174538481969493,
+      "padj": 0.001407936575347736
+    },
+    {
+      "gene_id": "ENSG00000198546",
+      "gene_name": "ZNF511",
+      "baseMean": 416.9557170604949,
+      "log2FoldChange": -0.612348851095216,
+      "padj": 0.001407936575347736
+    },
+    {
+      "gene_id": "ENSG00000222009",
+      "gene_name": "BTBD19",
+      "baseMean": 705.1876841959808,
+      "log2FoldChange": 0.7018348399691887,
+      "padj": 0.0014270068505574148
+    },
+    {
+      "gene_id": "ENSG00000272734",
+      "gene_name": "ADIRF-AS1",
+      "baseMean": 658.4625579117545,
+      "log2FoldChange": -0.7426228621649583,
+      "padj": 0.0014270898415954894
+    },
+    {
+      "gene_id": "ENSG00000171435",
+      "gene_name": "KSR2",
+      "baseMean": 1615.961384226829,
+      "log2FoldChange": -0.6136806154780318,
+      "padj": 0.0014452571279649112
+    },
+    {
+      "gene_id": "ENSG00000114999",
+      "gene_name": "TTL",
+      "baseMean": 1008.4570063142359,
+      "log2FoldChange": 0.5038684704667709,
+      "padj": 0.0014535378567022733
+    },
+    {
+      "gene_id": "ENSG00000134504",
+      "gene_name": "KCTD1",
+      "baseMean": 399.9610353958671,
+      "log2FoldChange": 0.5334676510735723,
+      "padj": 0.0015355272013531443
+    },
+    {
+      "gene_id": "ENSG00000109099",
+      "gene_name": "PMP22",
+      "baseMean": 672.0969095428198,
+      "log2FoldChange": -0.5498202259585087,
+      "padj": 0.0015355272013531443
+    },
+    {
+      "gene_id": "ENSG00000169035",
+      "gene_name": "KLK7",
+      "baseMean": 857.9340095828875,
+      "log2FoldChange": 0.8537482823047969,
+      "padj": 0.0016025556339176465
+    },
+    {
+      "gene_id": "ENSG00000010072",
+      "gene_name": "SPRTN",
+      "baseMean": 284.7944824835565,
+      "log2FoldChange": 0.6729853332909851,
+      "padj": 0.0016301447993398719
+    },
+    {
+      "gene_id": "ENSG00000136048",
+      "gene_name": "DRAM1",
+      "baseMean": 702.4813132407376,
+      "log2FoldChange": 0.6122469364714916,
+      "padj": 0.0016301447993398719
+    },
+    {
+      "gene_id": "ENSG00000135766",
+      "gene_name": "EGLN1",
+      "baseMean": 2676.398136939712,
+      "log2FoldChange": -0.5309472564143607,
+      "padj": 0.0017899871538289017
+    },
+    {
+      "gene_id": "ENSG00000158062",
+      "gene_name": "UBXN11",
+      "baseMean": 389.3833458493744,
+      "log2FoldChange": 0.5872245811542377,
+      "padj": 0.0018562798310361802
+    },
+    {
+      "gene_id": "ENSG00000206417",
+      "gene_name": "H1-10-AS1",
+      "baseMean": 199.52188776729892,
+      "log2FoldChange": -0.6970644746322573,
+      "padj": 0.0018611054849393873
+    },
+    {
+      "gene_id": "ENSG00000260565",
+      "gene_name": "ERVK13-1",
+      "baseMean": 121.04574848624854,
+      "log2FoldChange": 0.8782834034654963,
+      "padj": 0.0018611054849393873
+    },
+    {
+      "gene_id": "ENSG00000127419",
+      "gene_name": "TMEM175",
+      "baseMean": 234.03711266093106,
+      "log2FoldChange": 0.6385041677588852,
+      "padj": 0.0018611054849393873
+    },
+    {
+      "gene_id": "ENSG00000182473",
+      "gene_name": "EXOC7",
+      "baseMean": 2864.4547846674545,
+      "log2FoldChange": 0.5726597436855809,
+      "padj": 0.0018934026619950115
+    },
+    {
+      "gene_id": "ENSG00000138193",
+      "gene_name": "PLCE1",
+      "baseMean": 108.31759327144823,
+      "log2FoldChange": -1.0224064115387317,
+      "padj": 0.0019083292554898097
+    },
+    {
+      "gene_id": "ENSG00000221869",
+      "gene_name": "CEBPD",
+      "baseMean": 370.0447240369617,
+      "log2FoldChange": 1.015829846605576,
+      "padj": 0.002061791510195497
+    },
+    {
+      "gene_id": "ENSG00000104450",
+      "gene_name": "SPAG1",
+      "baseMean": 166.49333985277187,
+      "log2FoldChange": 0.7747151984053784,
+      "padj": 0.0020662284523318645
+    },
+    {
+      "gene_id": "ENSG00000164045",
+      "gene_name": "CDC25A",
+      "baseMean": 454.01072076023587,
+      "log2FoldChange": 0.5341517636669079,
+      "padj": 0.0020662284523318645
+    },
+    {
+      "gene_id": "ENSG00000165030",
+      "gene_name": "NFIL3",
+      "baseMean": 439.92554551480845,
+      "log2FoldChange": -0.5462228885441813,
+      "padj": 0.002147578283082111
+    },
+    {
+      "gene_id": "ENSG00000198890",
+      "gene_name": "PRMT6",
+      "baseMean": 101.67275207607038,
+      "log2FoldChange": 0.8667733520490896,
+      "padj": 0.002167157572733338
+    },
+    {
+      "gene_id": "ENSG00000213347",
+      "gene_name": "MXD3",
+      "baseMean": 698.0429710936922,
+      "log2FoldChange": -0.5058902849524909,
+      "padj": 0.002167157572733338
+    },
+    {
+      "gene_id": "ENSG00000076554",
+      "gene_name": "TPD52",
+      "baseMean": 2790.4453873008792,
+      "log2FoldChange": -0.5580134753306975,
+      "padj": 0.002175028251154611
+    },
+    {
+      "gene_id": "ENSG00000197982",
+      "gene_name": "C1orf122",
+      "baseMean": 404.8223847290971,
+      "log2FoldChange": 0.7825543108835299,
+      "padj": 0.002259260891501621
+    },
+    {
+      "gene_id": "ENSG00000196584",
+      "gene_name": "XRCC2",
+      "baseMean": 391.99160856316894,
+      "log2FoldChange": 0.5717778763604972,
+      "padj": 0.0022993027457499644
+    },
+    {
+      "gene_id": "ENSG00000154065",
+      "gene_name": "ANKRD29",
+      "baseMean": 213.63726026117047,
+      "log2FoldChange": 0.8168431826347804,
+      "padj": 0.002330396927782569
+    },
+    {
+      "gene_id": "ENSG00000023839",
+      "gene_name": "ABCC2",
+      "baseMean": 1205.4478887229507,
+      "log2FoldChange": 0.6783400133623619,
+      "padj": 0.002353196147649385
+    },
+    {
+      "gene_id": "ENSG00000225339",
+      "gene_name": "SMIM29-AS1",
+      "baseMean": 49.12687261089757,
+      "log2FoldChange": 1.4479912243345934,
+      "padj": 0.0023758321268585853
+    },
+    {
+      "gene_id": "ENSG00000254470",
+      "gene_name": "AP5B1",
+      "baseMean": 490.46719197928877,
+      "log2FoldChange": 0.6112506907701273,
+      "padj": 0.0023758321268585853
+    },
+    {
+      "gene_id": "ENSG00000147509",
+      "gene_name": "RGS20",
+      "baseMean": 103.80568454208402,
+      "log2FoldChange": 0.8465849735669767,
+      "padj": 0.0024374534665507403
+    },
+    {
+      "gene_id": "ENSG00000100299",
+      "gene_name": "ARSA",
+      "baseMean": 334.81486071957806,
+      "log2FoldChange": 0.6283730638097147,
+      "padj": 0.002495447712428576
+    },
+    {
+      "gene_id": "ENSG00000104142",
+      "gene_name": "VPS18",
+      "baseMean": 539.3428658099126,
+      "log2FoldChange": 0.5030359526395443,
+      "padj": 0.002536709603655828
+    },
+    {
+      "gene_id": "ENSG00000244041",
+      "gene_name": "LINC01011",
+      "baseMean": 101.36449322121443,
+      "log2FoldChange": -1.0418054394249676,
+      "padj": 0.0025545541700689634
+    },
+    {
+      "gene_id": "ENSG00000059728",
+      "gene_name": "MXD1",
+      "baseMean": 582.9909615921775,
+      "log2FoldChange": -0.5993514748416683,
+      "padj": 0.002596302825006998
+    },
+    {
+      "gene_id": "ENSG00000164603",
+      "gene_name": "SAMTOR",
+      "baseMean": 222.1466133775584,
+      "log2FoldChange": -0.6922366698756056,
+      "padj": 0.002596302825006998
+    },
+    {
+      "gene_id": "ENSG00000157379",
+      "gene_name": "DHRS1",
+      "baseMean": 310.7613033177413,
+      "log2FoldChange": 0.5679662923190016,
+      "padj": 0.002860712657573902
+    },
+    {
+      "gene_id": "ENSG00000176396",
+      "gene_name": "EID2",
+      "baseMean": 221.51106771286996,
+      "log2FoldChange": 0.6809969672848124,
+      "padj": 0.0028978163206154176
+    },
+    {
+      "gene_id": "ENSG00000198948",
+      "gene_name": "MFAP3L",
+      "baseMean": 280.15160307337027,
+      "log2FoldChange": 0.5602806276994899,
+      "padj": 0.0029032379294842638
+    },
+    {
+      "gene_id": "ENSG00000102678",
+      "gene_name": "FGF9",
+      "baseMean": 131.16369201497125,
+      "log2FoldChange": 0.8097173190684906,
+      "padj": 0.003020737933628086
+    },
+    {
+      "gene_id": "ENSG00000267128",
+      "gene_name": "RNF157-AS1",
+      "baseMean": 36.841820846064984,
+      "log2FoldChange": 1.7931383296353522,
+      "padj": 0.003156228415055345
+    },
+    {
+      "gene_id": "ENSG00000164142",
+      "gene_name": "FHIP1A",
+      "baseMean": 595.1597240801565,
+      "log2FoldChange": -0.6948086488559116,
+      "padj": 0.003156228415055345
+    },
+    {
+      "gene_id": "ENSG00000141574",
+      "gene_name": "SECTM1",
+      "baseMean": 120.88049286883665,
+      "log2FoldChange": 1.1537903825448272,
+      "padj": 0.003156228415055345
+    },
+    {
+      "gene_id": "ENSG00000198576",
+      "gene_name": "ARC",
+      "baseMean": 278.93095164246085,
+      "log2FoldChange": 0.5729811984320858,
+      "padj": 0.0031935184001064794
+    },
+    {
+      "gene_id": "ENSG00000163516",
+      "gene_name": "ANKZF1",
+      "baseMean": 1865.7841934724383,
+      "log2FoldChange": -0.5261138401020521,
+      "padj": 0.0036105791111803683
+    },
+    {
+      "gene_id": "ENSG00000176022",
+      "gene_name": "B3GALT6",
+      "baseMean": 345.49901235978876,
+      "log2FoldChange": 0.6073060632302049,
+      "padj": 0.003614909636845507
+    },
+    {
+      "gene_id": "ENSG00000272720",
+      "gene_name": "ENSG00000272720",
+      "baseMean": 82.30149517395097,
+      "log2FoldChange": 0.9361801612224647,
+      "padj": 0.003614909636845507
+    },
+    {
+      "gene_id": "ENSG00000213390",
+      "gene_name": "ARHGAP19",
+      "baseMean": 1059.8723119312665,
+      "log2FoldChange": -0.5931053766898047,
+      "padj": 0.0036702301559714406
+    },
+    {
+      "gene_id": "ENSG00000197444",
+      "gene_name": "OGDHL",
+      "baseMean": 291.6099117955495,
+      "log2FoldChange": -0.6960119609258422,
+      "padj": 0.0037659518819975254
+    },
+    {
+      "gene_id": "ENSG00000095370",
+      "gene_name": "SH2D3C",
+      "baseMean": 38.45231243676591,
+      "log2FoldChange": -1.3191378990623512,
+      "padj": 0.0037716943567787397
+    },
+    {
+      "gene_id": "ENSG00000088836",
+      "gene_name": "SLC4A11",
+      "baseMean": 478.1077906310818,
+      "log2FoldChange": 0.5419293662619363,
+      "padj": 0.0037744548253111094
+    },
+    {
+      "gene_id": "ENSG00000127081",
+      "gene_name": "ZNF484",
+      "baseMean": 228.73990377314553,
+      "log2FoldChange": -0.6368307665044713,
+      "padj": 0.003819956750770048
+    },
+    {
+      "gene_id": "ENSG00000169710",
+      "gene_name": "FASN",
+      "baseMean": 36424.02403962328,
+      "log2FoldChange": -0.5404984284532404,
+      "padj": 0.0038558194185397705
+    },
+    {
+      "gene_id": "ENSG00000136003",
+      "gene_name": "ISCU",
+      "baseMean": 1166.882967785905,
+      "log2FoldChange": 0.5204210017545523,
+      "padj": 0.0038558194185397705
+    },
+    {
+      "gene_id": "ENSG00000065357",
+      "gene_name": "DGKA",
+      "baseMean": 1317.944298669889,
+      "log2FoldChange": 0.527216270465833,
+      "padj": 0.004084343575765868
+    },
+    {
+      "gene_id": "ENSG00000206712",
+      "gene_name": "RNU6-26P",
+      "baseMean": 41.373611259517865,
+      "log2FoldChange": 1.4026528545098478,
+      "padj": 0.004084343575765868
+    },
+    {
+      "gene_id": "ENSG00000099250",
+      "gene_name": "NRP1",
+      "baseMean": 290.6555209222979,
+      "log2FoldChange": 0.9050185681241067,
+      "padj": 0.004090530654119744
+    },
+    {
+      "gene_id": "ENSG00000148219",
+      "gene_name": "ASTN2",
+      "baseMean": 137.11697635420433,
+      "log2FoldChange": 0.7898742295482508,
+      "padj": 0.004118601305307165
+    },
+    {
+      "gene_id": "ENSG00000152763",
+      "gene_name": "DNAI4",
+      "baseMean": 44.498939961500106,
+      "log2FoldChange": 1.3757143904542575,
+      "padj": 0.004232100027165453
+    },
+    {
+      "gene_id": "ENSG00000175305",
+      "gene_name": "CCNE2",
+      "baseMean": 195.5160276016245,
+      "log2FoldChange": 0.6484651700294992,
+      "padj": 0.004329716177636006
+    },
+    {
+      "gene_id": "ENSG00000172059",
+      "gene_name": "KLF11",
+      "baseMean": 353.20495886598246,
+      "log2FoldChange": -0.5521752918204099,
+      "padj": 0.0046010258648310366
+    },
+    {
+      "gene_id": "ENSG00000109063",
+      "gene_name": "MYH3",
+      "baseMean": 86.51831049820298,
+      "log2FoldChange": 0.9718660079239121,
+      "padj": 0.004608043343065687
+    },
+    {
+      "gene_id": "ENSG00000008735",
+      "gene_name": "MAPK8IP2",
+      "baseMean": 141.41372290284116,
+      "log2FoldChange": 0.7724394233682039,
+      "padj": 0.004637858076655325
+    },
+    {
+      "gene_id": "ENSG00000106688",
+      "gene_name": "SLC1A1",
+      "baseMean": 501.1489081763113,
+      "log2FoldChange": -0.5353338951724335,
+      "padj": 0.004673348584586482
+    },
+    {
+      "gene_id": "ENSG00000161509",
+      "gene_name": "GRIN2C",
+      "baseMean": 218.12591828372194,
+      "log2FoldChange": 0.8510370251807886,
+      "padj": 0.004673348584586482
+    },
+    {
+      "gene_id": "ENSG00000270172",
+      "gene_name": null,
+      "baseMean": 192.61725986304916,
+      "log2FoldChange": 0.6484798033992811,
+      "padj": 0.0047673405205301365
+    },
+    {
+      "gene_id": "ENSG00000127415",
+      "gene_name": "IDUA",
+      "baseMean": 725.0524596077256,
+      "log2FoldChange": 0.6442628764726799,
+      "padj": 0.004974980468065084
+    },
+    {
+      "gene_id": "ENSG00000137825",
+      "gene_name": "ITPKA",
+      "baseMean": 261.56436652185096,
+      "log2FoldChange": -0.655035877973288,
+      "padj": 0.00507698313216371
+    },
+    {
+      "gene_id": "ENSG00000029534",
+      "gene_name": "ANK1",
+      "baseMean": 50.894873727448434,
+      "log2FoldChange": 1.732488324019015,
+      "padj": 0.005179467241835241
+    },
+    {
+      "gene_id": "ENSG00000116260",
+      "gene_name": "QSOX1",
+      "baseMean": 6120.714192963875,
+      "log2FoldChange": -0.6578917768027833,
+      "padj": 0.005193205589685233
+    },
+    {
+      "gene_id": "ENSG00000176438",
+      "gene_name": "SYNE3",
+      "baseMean": 107.96909490960552,
+      "log2FoldChange": -0.9025030350457101,
+      "padj": 0.0052637938312278245
+    },
+    {
+      "gene_id": "ENSG00000239653",
+      "gene_name": "PSMD6-AS2",
+      "baseMean": 96.22129534088721,
+      "log2FoldChange": -0.802416990512248,
+      "padj": 0.005275217951607888
+    },
+    {
+      "gene_id": "ENSG00000248019",
+      "gene_name": "FAM13A-AS1",
+      "baseMean": 105.74857463173045,
+      "log2FoldChange": -1.170196752946659,
+      "padj": 0.0053234894260123025
+    },
+    {
+      "gene_id": "ENSG00000165434",
+      "gene_name": "PGM2L1",
+      "baseMean": 425.6722709484156,
+      "log2FoldChange": -0.6180018301531004,
+      "padj": 0.005394842628050112
+    },
+    {
+      "gene_id": "ENSG00000089486",
+      "gene_name": "CDIP1",
+      "baseMean": 195.5554039031731,
+      "log2FoldChange": 0.6121093798930647,
+      "padj": 0.005432666371937955
+    },
+    {
+      "gene_id": "ENSG00000135245",
+      "gene_name": "HILPDA",
+      "baseMean": 411.01060268326177,
+      "log2FoldChange": -0.8302206476879388,
+      "padj": 0.005477892673404321
+    },
+    {
+      "gene_id": "ENSG00000228705",
+      "gene_name": "LINC00659",
+      "baseMean": 53.059472210031856,
+      "log2FoldChange": -1.0982973822950988,
+      "padj": 0.005697118026175925
+    },
+    {
+      "gene_id": "ENSG00000179163",
+      "gene_name": "FUCA1",
+      "baseMean": 647.9623673948998,
+      "log2FoldChange": 0.6769878888086941,
+      "padj": 0.005834686668988286
+    },
+    {
+      "gene_id": "ENSG00000163644",
+      "gene_name": "PPM1K",
+      "baseMean": 162.66949858548864,
+      "log2FoldChange": -0.6522595519530291,
+      "padj": 0.005932333084841186
+    },
+    {
+      "gene_id": "ENSG00000178896",
+      "gene_name": "EXOSC4",
+      "baseMean": 378.5758983581398,
+      "log2FoldChange": 0.5097545336656424,
+      "padj": 0.0061127259853876485
+    },
+    {
+      "gene_id": "ENSG00000203306",
+      "gene_name": null,
+      "baseMean": 64.40280526026417,
+      "log2FoldChange": 1.2625636068306634,
+      "padj": 0.006208160710420386
+    },
+    {
+      "gene_id": "ENSG00000134668",
+      "gene_name": "SPOCD1",
+      "baseMean": 284.3431378745887,
+      "log2FoldChange": 0.9013083561306506,
+      "padj": 0.006228032253925713
+    },
+    {
+      "gene_id": "ENSG00000183760",
+      "gene_name": "ACP7",
+      "baseMean": 129.65053380257277,
+      "log2FoldChange": 0.9664752841561186,
+      "padj": 0.0062904831618123686
+    },
+    {
+      "gene_id": "ENSG00000156515",
+      "gene_name": "HK1",
+      "baseMean": 2295.973280577196,
+      "log2FoldChange": -0.5389542475303792,
+      "padj": 0.0062904831618123686
+    },
+    {
+      "gene_id": "ENSG00000186567",
+      "gene_name": "CEACAM19",
+      "baseMean": 217.4021687079527,
+      "log2FoldChange": 0.748845168090417,
+      "padj": 0.006530778251099165
+    },
+    {
+      "gene_id": "ENSG00000198551",
+      "gene_name": "ZNF627",
+      "baseMean": 334.1028661835937,
+      "log2FoldChange": -0.5049416055799616,
+      "padj": 0.0065333794167956
+    },
+    {
+      "gene_id": "ENSG00000069696",
+      "gene_name": "DRD4",
+      "baseMean": 161.7278786024768,
+      "log2FoldChange": -0.8360915445449373,
+      "padj": 0.006619489768376835
+    },
+    {
+      "gene_id": "ENSG00000233559",
+      "gene_name": "LINC00513",
+      "baseMean": 176.92595071305325,
+      "log2FoldChange": 0.6122630906361871,
+      "padj": 0.0068447376577325586
+    },
+    {
+      "gene_id": "ENSG00000104812",
+      "gene_name": "GYS1",
+      "baseMean": 2289.3077921387626,
+      "log2FoldChange": -0.5750352732077495,
+      "padj": 0.007239605379264284
+    },
+    {
+      "gene_id": "ENSG00000146070",
+      "gene_name": "PLA2G7",
+      "baseMean": 107.93048722521762,
+      "log2FoldChange": 1.0726835207951486,
+      "padj": 0.0073055604018589775
+    },
+    {
+      "gene_id": "ENSG00000173221",
+      "gene_name": "GLRX",
+      "baseMean": 625.6285134700437,
+      "log2FoldChange": -0.5015345693210939,
+      "padj": 0.0073311136445826175
+    },
+    {
+      "gene_id": "ENSG00000065457",
+      "gene_name": "ADAT1",
+      "baseMean": 303.8545167117244,
+      "log2FoldChange": 0.6255932114437616,
+      "padj": 0.0074238742369646315
+    },
+    {
+      "gene_id": "ENSG00000104953",
+      "gene_name": "TLE6",
+      "baseMean": 203.5379212758792,
+      "log2FoldChange": -0.5943809734509319,
+      "padj": 0.007516043014508
+    },
+    {
+      "gene_id": "ENSG00000138617",
+      "gene_name": "PARP16",
+      "baseMean": 267.99298276876056,
+      "log2FoldChange": -0.5945969635895421,
+      "padj": 0.0075323253321404335
+    },
+    {
+      "gene_id": "ENSG00000114480",
+      "gene_name": "GBE1",
+      "baseMean": 1446.5508433520833,
+      "log2FoldChange": -0.6561302015894817,
+      "padj": 0.007573722870424473
+    },
+    {
+      "gene_id": "ENSG00000168016",
+      "gene_name": "TRANK1",
+      "baseMean": 36.74345669563573,
+      "log2FoldChange": 1.4600559702920388,
+      "padj": 0.007687220781190562
+    },
+    {
+      "gene_id": "ENSG00000224870",
+      "gene_name": "MRPL20-AS1",
+      "baseMean": 321.1763742105672,
+      "log2FoldChange": 0.5054486659195848,
+      "padj": 0.007690354716292207
+    },
+    {
+      "gene_id": "ENSG00000186314",
+      "gene_name": "PRELID2",
+      "baseMean": 264.32160740575466,
+      "log2FoldChange": -0.6637063961995697,
+      "padj": 0.00795873056747634
+    },
+    {
+      "gene_id": "ENSG00000204175",
+      "gene_name": "GPRIN2",
+      "baseMean": 132.01540326035945,
+      "log2FoldChange": 0.7010125655565737,
+      "padj": 0.008153903240098754
+    },
+    {
+      "gene_id": "ENSG00000059804",
+      "gene_name": "SLC2A3",
+      "baseMean": 313.6470936535249,
+      "log2FoldChange": -0.68005101348678,
+      "padj": 0.008290271914536719
+    },
+    {
+      "gene_id": "ENSG00000162775",
+      "gene_name": "RBM15",
+      "baseMean": 1428.4570221144631,
+      "log2FoldChange": -0.5878735279884992,
+      "padj": 0.008333292907826759
+    },
+    {
+      "gene_id": "ENSG00000103042",
+      "gene_name": "SLC38A7",
+      "baseMean": 287.935132746249,
+      "log2FoldChange": 0.5216541725294449,
+      "padj": 0.008377287985129513
+    },
+    {
+      "gene_id": "ENSG00000151640",
+      "gene_name": "DPYSL4",
+      "baseMean": 187.55680063255056,
+      "log2FoldChange": -0.9436123231500315,
+      "padj": 0.008499773221648478
+    },
+    {
+      "gene_id": "ENSG00000165617",
+      "gene_name": "DACT1",
+      "baseMean": 54.22153378641226,
+      "log2FoldChange": -1.0911518379310745,
+      "padj": 0.008525138954197134
+    },
+    {
+      "gene_id": "ENSG00000023572",
+      "gene_name": "GLRX2",
+      "baseMean": 129.4895900228532,
+      "log2FoldChange": 0.7504936777372008,
+      "padj": 0.008525138954197134
+    },
+    {
+      "gene_id": "ENSG00000166016",
+      "gene_name": "ABTB2",
+      "baseMean": 395.50503779379886,
+      "log2FoldChange": 0.5435881766359579,
+      "padj": 0.00861132452063636
+    },
+    {
+      "gene_id": "ENSG00000182372",
+      "gene_name": "CLN8",
+      "baseMean": 912.483301400557,
+      "log2FoldChange": 0.5203796335268246,
+      "padj": 0.008627994985617123
+    },
+    {
+      "gene_id": "ENSG00000140853",
+      "gene_name": "NLRC5",
+      "baseMean": 194.34432812444183,
+      "log2FoldChange": 0.8393445610063671,
+      "padj": 0.008680798982018706
+    },
+    {
+      "gene_id": "ENSG00000138623",
+      "gene_name": "SEMA7A",
+      "baseMean": 1170.450783747018,
+      "log2FoldChange": 1.2947250165704944,
+      "padj": 0.00872279625897942
+    },
+    {
+      "gene_id": "ENSG00000007541",
+      "gene_name": "PIGQ",
+      "baseMean": 232.18028193089756,
+      "log2FoldChange": 0.6343823586510048,
+      "padj": 0.009066124517655216
+    },
+    {
+      "gene_id": "ENSG00000219891",
+      "gene_name": "ZSCAN12P1",
+      "baseMean": 40.87824748116807,
+      "log2FoldChange": -1.3212652817223824,
+      "padj": 0.00914297316832212
+    },
+    {
+      "gene_id": "ENSG00000262160",
+      "gene_name": "ENSG00000262160",
+      "baseMean": 294.8234343257022,
+      "log2FoldChange": 0.5104892878109942,
+      "padj": 0.009783188558592079
+    },
+    {
+      "gene_id": "ENSG00000234546",
+      "gene_name": "LNCTAM34A",
+      "baseMean": 30.21030514632666,
+      "log2FoldChange": 1.3168521781026794,
+      "padj": 0.009783188558592079
+    },
+    {
+      "gene_id": "ENSG00000183696",
+      "gene_name": "UPP1",
+      "baseMean": 387.4343197000569,
+      "log2FoldChange": -0.559846083627998,
+      "padj": 0.009869045164639515
+    },
+    {
+      "gene_id": "ENSG00000173156",
+      "gene_name": "RHOD",
+      "baseMean": 527.3733375853313,
+      "log2FoldChange": 0.5156696159325656,
+      "padj": 0.009889254977632128
+    },
+    {
+      "gene_id": "ENSG00000072682",
+      "gene_name": "P4HA2",
+      "baseMean": 1649.3967840172375,
+      "log2FoldChange": -0.682355857784767,
+      "padj": 0.009980674544892671
+    },
+    {
+      "gene_id": "ENSG00000178826",
+      "gene_name": "TMEM139",
+      "baseMean": 98.88503014612043,
+      "log2FoldChange": 0.7463099115164726,
+      "padj": 0.0100535336265855
+    },
+    {
+      "gene_id": "ENSG00000234975",
+      "gene_name": "FTH1P2",
+      "baseMean": 229.13270047191364,
+      "log2FoldChange": 0.7254063822070026,
+      "padj": 0.010075287309260383
+    },
+    {
+      "gene_id": "ENSG00000232187",
+      "gene_name": "FTH1P7",
+      "baseMean": 363.3694820891246,
+      "log2FoldChange": 0.5536822127104708,
+      "padj": 0.01009914352497917
+    },
+    {
+      "gene_id": "ENSG00000115998",
+      "gene_name": "C2orf42",
+      "baseMean": 185.76154470585598,
+      "log2FoldChange": 0.6075926889268061,
+      "padj": 0.01009914352497917
+    },
+    {
+      "gene_id": "ENSG00000173890",
+      "gene_name": "GPR160",
+      "baseMean": 262.5252897214878,
+      "log2FoldChange": -0.62618212849799,
+      "padj": 0.010159207614875515
+    },
+    {
+      "gene_id": "ENSG00000057019",
+      "gene_name": "DCBLD2",
+      "baseMean": 18784.372179486367,
+      "log2FoldChange": 0.6082966792617237,
+      "padj": 0.010311604550324151
+    },
+    {
+      "gene_id": "ENSG00000127311",
+      "gene_name": "HELB",
+      "baseMean": 181.07180263816795,
+      "log2FoldChange": -0.7813012717143017,
+      "padj": 0.010326203512193348
+    },
+    {
+      "gene_id": "ENSG00000144134",
+      "gene_name": "RABL2A",
+      "baseMean": 177.31890051604174,
+      "log2FoldChange": 0.6677374966031784,
+      "padj": 0.010414424069258448
+    },
+    {
+      "gene_id": "ENSG00000154743",
+      "gene_name": "TSEN2",
+      "baseMean": 341.31319052470116,
+      "log2FoldChange": 0.5016836385485263,
+      "padj": 0.010474293223278126
+    },
+    {
+      "gene_id": "ENSG00000166922",
+      "gene_name": "SCG5",
+      "baseMean": 40.69484262318751,
+      "log2FoldChange": -1.1798541899821704,
+      "padj": 0.010569055535193491
+    },
+    {
+      "gene_id": "ENSG00000236333",
+      "gene_name": "TRHDE-AS1",
+      "baseMean": 173.50975040263066,
+      "log2FoldChange": 0.6965452654943993,
+      "padj": 0.01061640890944824
+    },
+    {
+      "gene_id": "ENSG00000161091",
+      "gene_name": "MFSD12",
+      "baseMean": 2251.2503256785026,
+      "log2FoldChange": 0.5376260871762639,
+      "padj": 0.010686239080303537
+    },
+    {
+      "gene_id": "ENSG00000205592",
+      "gene_name": "MUC19",
+      "baseMean": 41.759884390985356,
+      "log2FoldChange": 1.3645914841911306,
+      "padj": 0.01069009909575936
+    },
+    {
+      "gene_id": "ENSG00000141622",
+      "gene_name": "ARK2C",
+      "baseMean": 184.1088347766481,
+      "log2FoldChange": -0.8570348229675075,
+      "padj": 0.010861139633442825
+    },
+    {
+      "gene_id": "ENSG00000121039",
+      "gene_name": "RDH10",
+      "baseMean": 427.09256435995735,
+      "log2FoldChange": 0.6301340680242342,
+      "padj": 0.010981022867223748
+    },
+    {
+      "gene_id": "ENSG00000067191",
+      "gene_name": "CACNB1",
+      "baseMean": 246.07000673859739,
+      "log2FoldChange": 0.5416827824587818,
+      "padj": 0.010982080435466434
+    },
+    {
+      "gene_id": "ENSG00000129534",
+      "gene_name": "MIS18BP1",
+      "baseMean": 1093.8501741086995,
+      "log2FoldChange": -0.5411432498026079,
+      "padj": 0.010982080435466434
+    },
+    {
+      "gene_id": "ENSG00000132773",
+      "gene_name": "TOE1",
+      "baseMean": 306.9241452200253,
+      "log2FoldChange": 0.525354694536913,
+      "padj": 0.010982080435466434
+    },
+    {
+      "gene_id": "ENSG00000125637",
+      "gene_name": "PSD4",
+      "baseMean": 479.7506536066121,
+      "log2FoldChange": 0.6285983752938062,
+      "padj": 0.01120753047222643
+    },
+    {
+      "gene_id": "ENSG00000127220",
+      "gene_name": "ABHD8",
+      "baseMean": 169.38287984562714,
+      "log2FoldChange": 0.596573713002091,
+      "padj": 0.01121323195007211
+    },
+    {
+      "gene_id": "ENSG00000166979",
+      "gene_name": "EVA1C",
+      "baseMean": 244.30845279973832,
+      "log2FoldChange": 0.6574171457379346,
+      "padj": 0.01121323195007211
+    },
+    {
+      "gene_id": "ENSG00000175283",
+      "gene_name": "DOLK",
+      "baseMean": 213.4520817273755,
+      "log2FoldChange": 0.6478941044054857,
+      "padj": 0.011382974836897026
+    },
+    {
+      "gene_id": "ENSG00000250899",
+      "gene_name": "ENSG00000250899",
+      "baseMean": 121.68730578500593,
+      "log2FoldChange": 0.7921463840489664,
+      "padj": 0.01146183217617702
+    },
+    {
+      "gene_id": "ENSG00000198246",
+      "gene_name": "SLC29A3",
+      "baseMean": 150.73124306211474,
+      "log2FoldChange": 0.6231161114324717,
+      "padj": 0.011594885669437269
+    },
+    {
+      "gene_id": "ENSG00000233589",
+      "gene_name": "DEPDC1-AS2",
+      "baseMean": 192.41472094214055,
+      "log2FoldChange": 0.794453820983957,
+      "padj": 0.011614001259926848
+    },
+    {
+      "gene_id": "ENSG00000242612",
+      "gene_name": "DECR2",
+      "baseMean": 190.13158439489527,
+      "log2FoldChange": 0.6021767828899195,
+      "padj": 0.011695714600104943
+    },
+    {
+      "gene_id": "ENSG00000111640",
+      "gene_name": "GAPDH",
+      "baseMean": 110621.35625275118,
+      "log2FoldChange": -0.5974427561899235,
+      "padj": 0.011709800504291684
+    },
+    {
+      "gene_id": "ENSG00000184319",
+      "gene_name": "RPL23AP82",
+      "baseMean": 218.7942605508972,
+      "log2FoldChange": 0.5571159601970057,
+      "padj": 0.012189899921403706
+    },
+    {
+      "gene_id": "ENSG00000117461",
+      "gene_name": "PIK3R3",
+      "baseMean": 66.90380689160287,
+      "log2FoldChange": 1.0133614646773195,
+      "padj": 0.012788787438989702
+    },
+    {
+      "gene_id": "ENSG00000230606",
+      "gene_name": "APPAT",
+      "baseMean": 90.47305252691736,
+      "log2FoldChange": 0.8864165937894631,
+      "padj": 0.012817950463141036
+    },
+    {
+      "gene_id": "ENSG00000069998",
+      "gene_name": "HDHD5",
+      "baseMean": 1286.8164450747201,
+      "log2FoldChange": -0.5099320325324395,
+      "padj": 0.012856987877658717
+    },
+    {
+      "gene_id": "ENSG00000270127",
+      "gene_name": "ENSG00000270127",
+      "baseMean": 31.59105370156986,
+      "log2FoldChange": 1.619448634177961,
+      "padj": 0.013186280892742375
+    },
+    {
+      "gene_id": "ENSG00000180535",
+      "gene_name": "BHLHA15",
+      "baseMean": 87.08231322002239,
+      "log2FoldChange": 0.9494672082808965,
+      "padj": 0.013186280892742375
+    },
+    {
+      "gene_id": "ENSG00000163406",
+      "gene_name": "SLC15A2",
+      "baseMean": 49.666431692221096,
+      "log2FoldChange": -1.3321480491227595,
+      "padj": 0.013203863889575717
+    },
+    {
+      "gene_id": "ENSG00000213672",
+      "gene_name": "NCKIPSD",
+      "baseMean": 1518.9384178824782,
+      "log2FoldChange": -0.5533804539351115,
+      "padj": 0.013285453272498885
+    },
+    {
+      "gene_id": "ENSG00000164983",
+      "gene_name": "TMEM65",
+      "baseMean": 477.2051462211893,
+      "log2FoldChange": -0.5281997911984812,
+      "padj": 0.013305243358529345
+    },
+    {
+      "gene_id": "ENSG00000198121",
+      "gene_name": "LPAR1",
+      "baseMean": 287.4470442753548,
+      "log2FoldChange": 0.6843204716364196,
+      "padj": 0.013433881799869565
+    },
+    {
+      "gene_id": "ENSG00000138685",
+      "gene_name": "FGF2",
+      "baseMean": 91.26013469003827,
+      "log2FoldChange": 0.807270828590912,
+      "padj": 0.013548970351089616
+    },
+    {
+      "gene_id": "ENSG00000260912",
+      "gene_name": "ENSG00000260912",
+      "baseMean": 130.5269031354635,
+      "log2FoldChange": 0.6988748667768488,
+      "padj": 0.013684237245931631
+    },
+    {
+      "gene_id": "ENSG00000189433",
+      "gene_name": "GJB4",
+      "baseMean": 163.794108507116,
+      "log2FoldChange": 0.703326722256505,
+      "padj": 0.013981254099051422
+    },
+    {
+      "gene_id": "ENSG00000103489",
+      "gene_name": "XYLT1",
+      "baseMean": 292.5119096288812,
+      "log2FoldChange": -0.5330865128161958,
+      "padj": 0.013981254099051422
+    },
+    {
+      "gene_id": "ENSG00000089356",
+      "gene_name": "FXYD3",
+      "baseMean": 169.38959851990987,
+      "log2FoldChange": 0.815684140077156,
+      "padj": 0.014153026061557678
+    },
+    {
+      "gene_id": "ENSG00000162069",
+      "gene_name": "BICDL2",
+      "baseMean": 601.23958235038,
+      "log2FoldChange": 0.6569393022356464,
+      "padj": 0.014621679205288176
+    },
+    {
+      "gene_id": "ENSG00000243364",
+      "gene_name": "EFNA4",
+      "baseMean": 85.95188788831625,
+      "log2FoldChange": -0.7699771695096919,
+      "padj": 0.014848615418057334
+    },
+    {
+      "gene_id": "ENSG00000123643",
+      "gene_name": "SLC36A1",
+      "baseMean": 229.35162556500805,
+      "log2FoldChange": 0.5624283131637123,
+      "padj": 0.015308165927865193
+    },
+    {
+      "gene_id": "ENSG00000162636",
+      "gene_name": "EEIG2",
+      "baseMean": 860.0515737075942,
+      "log2FoldChange": -0.6301101650370948,
+      "padj": 0.015308165927865193
+    },
+    {
+      "gene_id": "ENSG00000158079",
+      "gene_name": "PTPDC1",
+      "baseMean": 373.19000379838934,
+      "log2FoldChange": -0.5559311656655603,
+      "padj": 0.015409231395171094
+    },
+    {
+      "gene_id": "ENSG00000197362",
+      "gene_name": "ZNF786",
+      "baseMean": 234.43979520456114,
+      "log2FoldChange": 0.5518217934641741,
+      "padj": 0.015496867201824032
+    },
+    {
+      "gene_id": "ENSG00000196421",
+      "gene_name": "C20orf204",
+      "baseMean": 69.7609344550195,
+      "log2FoldChange": -0.8581996142200329,
+      "padj": 0.015579745315702066
+    },
+    {
+      "gene_id": "ENSG00000106333",
+      "gene_name": "PCOLCE",
+      "baseMean": 132.19358287709323,
+      "log2FoldChange": -0.7062967975489777,
+      "padj": 0.015579745315702066
+    },
+    {
+      "gene_id": "ENSG00000187325",
+      "gene_name": "TAF9B",
+      "baseMean": 160.26526306776856,
+      "log2FoldChange": 0.8132523399323791,
+      "padj": 0.015579745315702066
+    },
+    {
+      "gene_id": "ENSG00000188613",
+      "gene_name": "NANOS1",
+      "baseMean": 33.384953783081556,
+      "log2FoldChange": 1.2451936950732039,
+      "padj": 0.01573552357478619
+    },
+    {
+      "gene_id": "ENSG00000087095",
+      "gene_name": "NLK",
+      "baseMean": 265.26207567960046,
+      "log2FoldChange": 0.5188264546951766,
+      "padj": 0.016046406583064967
+    },
+    {
+      "gene_id": "ENSG00000141837",
+      "gene_name": "CACNA1A",
+      "baseMean": 246.19259677180875,
+      "log2FoldChange": 0.5039355879120291,
+      "padj": 0.016183882760843944
+    },
+    {
+      "gene_id": "ENSG00000181638",
+      "gene_name": "ZFP41",
+      "baseMean": 239.70183338882438,
+      "log2FoldChange": 0.5281253785507274,
+      "padj": 0.016249389288679646
+    },
+    {
+      "gene_id": "ENSG00000137968",
+      "gene_name": "SLC44A5",
+      "baseMean": 196.18919189560123,
+      "log2FoldChange": 0.9050589127535007,
+      "padj": 0.016375042825823083
+    },
+    {
+      "gene_id": "ENSG00000147883",
+      "gene_name": "CDKN2B",
+      "baseMean": 338.25589122501873,
+      "log2FoldChange": 0.734924732813672,
+      "padj": 0.016458815872045594
+    },
+    {
+      "gene_id": "ENSG00000151093",
+      "gene_name": "OXSM",
+      "baseMean": 317.53454454812277,
+      "log2FoldChange": -0.5391431756719433,
+      "padj": 0.016458815872045594
+    },
+    {
+      "gene_id": "ENSG00000156398",
+      "gene_name": "SFXN2",
+      "baseMean": 255.8719141947815,
+      "log2FoldChange": 0.5153610982716634,
+      "padj": 0.016466334970408072
+    },
+    {
+      "gene_id": "ENSG00000169359",
+      "gene_name": "SLC33A1",
+      "baseMean": 955.7338659449757,
+      "log2FoldChange": 0.6927043372365059,
+      "padj": 0.01684442262599307
+    },
+    {
+      "gene_id": "ENSG00000172508",
+      "gene_name": "CARNS1",
+      "baseMean": 70.33031345710569,
+      "log2FoldChange": 0.9011444475503766,
+      "padj": 0.016913327241023228
+    },
+    {
+      "gene_id": "ENSG00000085117",
+      "gene_name": "CD82",
+      "baseMean": 244.03199107786557,
+      "log2FoldChange": 0.6810506630861601,
+      "padj": 0.01698477577239938
+    },
+    {
+      "gene_id": "ENSG00000188690",
+      "gene_name": "UROS",
+      "baseMean": 455.08635236070654,
+      "log2FoldChange": 0.5656819947288323,
+      "padj": 0.01712623568795045
+    },
+    {
+      "gene_id": "ENSG00000106031",
+      "gene_name": "HOXA13",
+      "baseMean": 166.18325492641182,
+      "log2FoldChange": -0.7804267148018561,
+      "padj": 0.017159593151705028
+    },
+    {
+      "gene_id": "ENSG00000134970",
+      "gene_name": "TMED7",
+      "baseMean": 1959.4421746640637,
+      "log2FoldChange": 0.6226473737095783,
+      "padj": 0.017176110147964187
+    },
+    {
+      "gene_id": "ENSG00000204822",
+      "gene_name": "MRPL53",
+      "baseMean": 32.93609870213752,
+      "log2FoldChange": 1.1890083407402037,
+      "padj": 0.017498192995292167
+    },
+    {
+      "gene_id": "ENSG00000260822",
+      "gene_name": null,
+      "baseMean": 413.04327454784624,
+      "log2FoldChange": -0.7384858941966035,
+      "padj": 0.01756286944606865
+    },
+    {
+      "gene_id": "ENSG00000109680",
+      "gene_name": "TBC1D19",
+      "baseMean": 257.72705880882364,
+      "log2FoldChange": 0.8617141033157678,
+      "padj": 0.017599993026525696
+    },
+    {
+      "gene_id": "ENSG00000160326",
+      "gene_name": "SLC2A6",
+      "baseMean": 183.7337997953896,
+      "log2FoldChange": 0.6557967490615263,
+      "padj": 0.01771519179274475
+    },
+    {
+      "gene_id": "ENSG00000075643",
+      "gene_name": "MOCOS",
+      "baseMean": 367.49707266678917,
+      "log2FoldChange": 0.6798194406667265,
+      "padj": 0.017724502331206652
+    },
+    {
+      "gene_id": "ENSG00000108852",
+      "gene_name": "MPP2",
+      "baseMean": 401.67944000499637,
+      "log2FoldChange": -0.5264836524494294,
+      "padj": 0.018111882614586218
+    },
+    {
+      "gene_id": "ENSG00000141854",
+      "gene_name": "MISP3",
+      "baseMean": 110.31183967156572,
+      "log2FoldChange": -0.7112501854376473,
+      "padj": 0.018118174119693724
+    },
+    {
+      "gene_id": "ENSG00000100197",
+      "gene_name": "CYP2D6",
+      "baseMean": 34.76965983115175,
+      "log2FoldChange": 1.2644701378505208,
+      "padj": 0.018199206655802998
+    },
+    {
+      "gene_id": "ENSG00000109066",
+      "gene_name": "TMEM104",
+      "baseMean": 360.35499896683564,
+      "log2FoldChange": 0.5254217278360054,
+      "padj": 0.01838630880504123
+    },
+    {
+      "gene_id": "ENSG00000100027",
+      "gene_name": "YPEL1",
+      "baseMean": 165.316963126454,
+      "log2FoldChange": -0.8159477677794642,
+      "padj": 0.0185477900673456
+    },
+    {
+      "gene_id": "ENSG00000151006",
+      "gene_name": "PRSS53",
+      "baseMean": 306.3454202810329,
+      "log2FoldChange": -0.7702903903053485,
+      "padj": 0.018582340244444148
+    },
+    {
+      "gene_id": "ENSG00000136542",
+      "gene_name": "GALNT5",
+      "baseMean": 2164.6724034870545,
+      "log2FoldChange": 1.055631004227286,
+      "padj": 0.019031154642727074
+    },
+    {
+      "gene_id": "ENSG00000099994",
+      "gene_name": "SUSD2",
+      "baseMean": 165.71874045750167,
+      "log2FoldChange": -1.6829273669424691,
+      "padj": 0.019079386589323948
+    },
+    {
+      "gene_id": "ENSG00000218537",
+      "gene_name": "MIF-AS1",
+      "baseMean": 71.7653846467835,
+      "log2FoldChange": -0.9266370237571953,
+      "padj": 0.01911626486803955
+    },
+    {
+      "gene_id": "ENSG00000176383",
+      "gene_name": "B3GNT4",
+      "baseMean": 139.31270313489537,
+      "log2FoldChange": -0.763056196563493,
+      "padj": 0.019183861238613566
+    },
+    {
+      "gene_id": "ENSG00000108244",
+      "gene_name": "KRT23",
+      "baseMean": 313.8212991671728,
+      "log2FoldChange": 0.789424093603599,
+      "padj": 0.019435442442756114
+    },
+    {
+      "gene_id": "ENSG00000171951",
+      "gene_name": "SCG2",
+      "baseMean": 845.2733487870101,
+      "log2FoldChange": -0.5317507073373505,
+      "padj": 0.019602318696933844
+    },
+    {
+      "gene_id": "ENSG00000162433",
+      "gene_name": "AK4",
+      "baseMean": 2204.207387793476,
+      "log2FoldChange": -0.5431475081098889,
+      "padj": 0.01968866434201162
+    },
+    {
+      "gene_id": "ENSG00000163389",
+      "gene_name": "POGLUT1",
+      "baseMean": 297.1220619384663,
+      "log2FoldChange": 0.5310324974810162,
+      "padj": 0.019837244999814752
+    },
+    {
+      "gene_id": "ENSG00000178409",
+      "gene_name": "BEND3",
+      "baseMean": 180.2106309466019,
+      "log2FoldChange": 0.6645925557965586,
+      "padj": 0.019868496002861124
+    },
+    {
+      "gene_id": "ENSG00000155034",
+      "gene_name": "FBXL18",
+      "baseMean": 471.8792717574472,
+      "log2FoldChange": 0.7263117119951988,
+      "padj": 0.02001478094584668
+    },
+    {
+      "gene_id": "ENSG00000233493",
+      "gene_name": "TMEM238",
+      "baseMean": 101.65599620433557,
+      "log2FoldChange": 0.8196338112855607,
+      "padj": 0.02009731122647163
+    },
+    {
+      "gene_id": "ENSG00000236017",
+      "gene_name": "ASMTL-AS1",
+      "baseMean": 48.50985960664599,
+      "log2FoldChange": 0.9660975292139675,
+      "padj": 0.020099914831318892
+    },
+    {
+      "gene_id": "ENSG00000196159",
+      "gene_name": "FAT4",
+      "baseMean": 190.71109122789616,
+      "log2FoldChange": -0.7114281389747533,
+      "padj": 0.020242022537825238
+    },
+    {
+      "gene_id": "ENSG00000242498",
+      "gene_name": "ARPIN",
+      "baseMean": 186.13809305572852,
+      "log2FoldChange": 0.5682685803338882,
+      "padj": 0.02034745948178526
+    },
+    {
+      "gene_id": "ENSG00000214922",
+      "gene_name": "HLA-F-AS1",
+      "baseMean": 144.3221848424429,
+      "log2FoldChange": -0.7190019676116913,
+      "padj": 0.020439023170423697
+    },
+    {
+      "gene_id": "ENSG00000091879",
+      "gene_name": "ANGPT2",
+      "baseMean": 81.09555503945677,
+      "log2FoldChange": 0.9181993393542756,
+      "padj": 0.020859457876969738
+    },
+    {
+      "gene_id": "ENSG00000145358",
+      "gene_name": "DDIT4L",
+      "baseMean": 145.4520291329748,
+      "log2FoldChange": -0.7564583111794468,
+      "padj": 0.021137471773979927
+    },
+    {
+      "gene_id": "ENSG00000143590",
+      "gene_name": "EFNA3",
+      "baseMean": 263.6784733879296,
+      "log2FoldChange": -0.6396327284290725,
+      "padj": 0.021145697381719793
+    },
+    {
+      "gene_id": "ENSG00000034510",
+      "gene_name": "TMSB10",
+      "baseMean": 21585.983986388324,
+      "log2FoldChange": -0.514316290715873,
+      "padj": 0.021145697381719793
+    },
+    {
+      "gene_id": "ENSG00000213901",
+      "gene_name": "SLC23A3",
+      "baseMean": 275.6204494622969,
+      "log2FoldChange": 0.5005117346162633,
+      "padj": 0.021258652121501215
+    },
+    {
+      "gene_id": "ENSG00000058262",
+      "gene_name": "SEC61A1",
+      "baseMean": 5921.718851045803,
+      "log2FoldChange": 0.5438930577894567,
+      "padj": 0.021292423488886724
+    },
+    {
+      "gene_id": "ENSG00000235706",
+      "gene_name": "DICER1-AS1",
+      "baseMean": 128.63651106450493,
+      "log2FoldChange": -0.6497073460923305,
+      "padj": 0.021292423488886724
+    },
+    {
+      "gene_id": "ENSG00000197558",
+      "gene_name": "SSPOP",
+      "baseMean": 157.40617119361758,
+      "log2FoldChange": 0.6865590577720624,
+      "padj": 0.021292423488886724
+    },
+    {
+      "gene_id": "ENSG00000165272",
+      "gene_name": "AQP3",
+      "baseMean": 110.05522794077235,
+      "log2FoldChange": 1.1126763616519812,
+      "padj": 0.021651951715407965
+    },
+    {
+      "gene_id": "ENSG00000108932",
+      "gene_name": "SLC16A6",
+      "baseMean": 98.86797775419014,
+      "log2FoldChange": 0.767771097582031,
+      "padj": 0.021651951715407965
+    },
+    {
+      "gene_id": "ENSG00000198223",
+      "gene_name": "CSF2RA",
+      "baseMean": 52.273880680427375,
+      "log2FoldChange": 0.9912660394960902,
+      "padj": 0.021812852604617027
+    },
+    {
+      "gene_id": "ENSG00000158825",
+      "gene_name": "CDA",
+      "baseMean": 635.4825256370345,
+      "log2FoldChange": -0.5138530540484758,
+      "padj": 0.021828684823722227
+    },
+    {
+      "gene_id": "ENSG00000135406",
+      "gene_name": "PRPH",
+      "baseMean": 50.48041787543986,
+      "log2FoldChange": -0.9511170895833501,
+      "padj": 0.021857081217564252
+    },
+    {
+      "gene_id": "ENSG00000253187",
+      "gene_name": "HOXA10-AS",
+      "baseMean": 205.32346224874846,
+      "log2FoldChange": 0.5722747088410821,
+      "padj": 0.022378013214920816
+    },
+    {
+      "gene_id": "ENSG00000111845",
+      "gene_name": "PAK1IP1",
+      "baseMean": 344.9055053731807,
+      "log2FoldChange": 0.5234045335941304,
+      "padj": 0.022528884001286723
+    },
+    {
+      "gene_id": "ENSG00000204947",
+      "gene_name": "ZNF425",
+      "baseMean": 98.99853349717112,
+      "log2FoldChange": 0.705274871137738,
+      "padj": 0.022792033719180635
+    },
+    {
+      "gene_id": "ENSG00000164105",
+      "gene_name": "SAP30",
+      "baseMean": 277.43237653772803,
+      "log2FoldChange": -0.7484395338122714,
+      "padj": 0.022795825017740693
+    },
+    {
+      "gene_id": "ENSG00000124098",
+      "gene_name": "FAM210B",
+      "baseMean": 378.8475578896473,
+      "log2FoldChange": 0.6275783226402689,
+      "padj": 0.022798730595662973
+    },
+    {
+      "gene_id": "ENSG00000170379",
+      "gene_name": "TCAF2",
+      "baseMean": 59.88462308410164,
+      "log2FoldChange": -1.191569349504035,
+      "padj": 0.022856310178473793
+    },
+    {
+      "gene_id": "ENSG00000237172",
+      "gene_name": "B3GNT9",
+      "baseMean": 112.22741731224255,
+      "log2FoldChange": 0.688719076643074,
+      "padj": 0.023062089687548627
+    },
+    {
+      "gene_id": "ENSG00000242960",
+      "gene_name": "FTH1P23",
+      "baseMean": 102.9140994595428,
+      "log2FoldChange": 0.7020308682292639,
+      "padj": 0.02364364629430102
+    },
+    {
+      "gene_id": "ENSG00000100033",
+      "gene_name": "PRODH",
+      "baseMean": 106.42508745256589,
+      "log2FoldChange": 0.7177371923050717,
+      "padj": 0.023822949954929184
+    },
+    {
+      "gene_id": "ENSG00000166147",
+      "gene_name": "FBN1",
+      "baseMean": 107.95898567942247,
+      "log2FoldChange": -0.9101267039142362,
+      "padj": 0.023884363560456985
+    },
+    {
+      "gene_id": "ENSG00000229358",
+      "gene_name": "DPY19L1P1",
+      "baseMean": 83.44978933354027,
+      "log2FoldChange": -0.7298064600363089,
+      "padj": 0.023947825260505335
+    },
+    {
+      "gene_id": "ENSG00000061656",
+      "gene_name": "SPAG4",
+      "baseMean": 166.10216863439453,
+      "log2FoldChange": -0.9041248105516835,
+      "padj": 0.023999996929627513
+    },
+    {
+      "gene_id": "ENSG00000272909",
+      "gene_name": "ENSG00000272909",
+      "baseMean": 31.149685908215016,
+      "log2FoldChange": -1.287901964544227,
+      "padj": 0.024045798202439832
+    },
+    {
+      "gene_id": "ENSG00000184886",
+      "gene_name": null,
+      "baseMean": 236.3972506671117,
+      "log2FoldChange": 0.5390477753366684,
+      "padj": 0.024100731273089135
+    },
+    {
+      "gene_id": "ENSG00000174808",
+      "gene_name": "BTC",
+      "baseMean": 136.30169256268036,
+      "log2FoldChange": 0.9068763376794536,
+      "padj": 0.024163935117578462
+    },
+    {
+      "gene_id": "ENSG00000064042",
+      "gene_name": "LIMCH1",
+      "baseMean": 325.5074873141596,
+      "log2FoldChange": -0.6118245789142701,
+      "padj": 0.024226217739606575
+    },
+    {
+      "gene_id": "ENSG00000101265",
+      "gene_name": "RASSF2",
+      "baseMean": 339.1019624757201,
+      "log2FoldChange": -0.6323248418005778,
+      "padj": 0.024904703821607255
+    },
+    {
+      "gene_id": "ENSG00000138100",
+      "gene_name": "TRIM54",
+      "baseMean": 57.116016795758206,
+      "log2FoldChange": 0.9992806450492284,
+      "padj": 0.024904703821607255
+    },
+    {
+      "gene_id": "ENSG00000138641",
+      "gene_name": "HERC3",
+      "baseMean": 510.7660394209617,
+      "log2FoldChange": -0.7158878211473407,
+      "padj": 0.025318099353825955
+    },
+    {
+      "gene_id": "ENSG00000143643",
+      "gene_name": "TTC13",
+      "baseMean": 231.41925883292387,
+      "log2FoldChange": 0.5102466192535081,
+      "padj": 0.02574965252901654
+    },
+    {
+      "gene_id": "ENSG00000272216",
+      "gene_name": null,
+      "baseMean": 54.65934045642018,
+      "log2FoldChange": 1.5530062112627803,
+      "padj": 0.025912375481117626
+    },
+    {
+      "gene_id": "ENSG00000089116",
+      "gene_name": "LHX5",
+      "baseMean": 82.5102971438417,
+      "log2FoldChange": 0.7274582467171795,
+      "padj": 0.02591359531448199
+    },
+    {
+      "gene_id": "ENSG00000250588",
+      "gene_name": null,
+      "baseMean": 104.15886414246256,
+      "log2FoldChange": 0.8637339876162804,
+      "padj": 0.02591359531448199
+    },
+    {
+      "gene_id": "ENSG00000100505",
+      "gene_name": "TRIM9",
+      "baseMean": 182.88560834094446,
+      "log2FoldChange": -0.6395383559573153,
+      "padj": 0.026073411692710637
+    },
+    {
+      "gene_id": "ENSG00000135480",
+      "gene_name": "KRT7",
+      "baseMean": 702.8622907173909,
+      "log2FoldChange": 1.4084879528764924,
+      "padj": 0.02614906159547197
+    },
+    {
+      "gene_id": "ENSG00000223764",
+      "gene_name": "LINC02593",
+      "baseMean": 42.61322739337799,
+      "log2FoldChange": 1.238874983181781,
+      "padj": 0.02651533615834363
+    },
+    {
+      "gene_id": "ENSG00000105519",
+      "gene_name": "CAPS",
+      "baseMean": 96.38010424206743,
+      "log2FoldChange": 0.7884985783334962,
+      "padj": 0.026582510034456042
+    },
+    {
+      "gene_id": "ENSG00000197798",
+      "gene_name": "FAM118B",
+      "baseMean": 173.72316654375732,
+      "log2FoldChange": 0.7338923736480165,
+      "padj": 0.02674113105721362
+    },
+    {
+      "gene_id": "ENSG00000206195",
+      "gene_name": "DUXAP8",
+      "baseMean": 113.28510518910417,
+      "log2FoldChange": 0.7425842166865438,
+      "padj": 0.027138744738489335
+    },
+    {
+      "gene_id": "ENSG00000161980",
+      "gene_name": "POLR3K",
+      "baseMean": 138.03014079115087,
+      "log2FoldChange": 0.6694212830276902,
+      "padj": 0.027138744738489335
+    },
+    {
+      "gene_id": "ENSG00000116990",
+      "gene_name": "MYCL",
+      "baseMean": 128.95695203102647,
+      "log2FoldChange": -0.761822136771816,
+      "padj": 0.027347621665813688
+    },
+    {
+      "gene_id": "ENSG00000100298",
+      "gene_name": "APOBEC3H",
+      "baseMean": 37.97124399519896,
+      "log2FoldChange": 1.1057798443324114,
+      "padj": 0.027347621665813688
+    },
+    {
+      "gene_id": "ENSG00000197782",
+      "gene_name": "ZNF780A",
+      "baseMean": 255.71021551968911,
+      "log2FoldChange": 0.5158559388570879,
+      "padj": 0.027983556607321394
+    },
+    {
+      "gene_id": "ENSG00000171574",
+      "gene_name": "ZNF584",
+      "baseMean": 198.02954832265686,
+      "log2FoldChange": 0.5668724619024795,
+      "padj": 0.02830459935271163
+    },
+    {
+      "gene_id": "ENSG00000102760",
+      "gene_name": "RGCC",
+      "baseMean": 55.56693066423788,
+      "log2FoldChange": 0.8660045856156481,
+      "padj": 0.028865531642681904
+    },
+    {
+      "gene_id": "ENSG00000250562",
+      "gene_name": "RPL38P4",
+      "baseMean": 38.59699739637394,
+      "log2FoldChange": 1.1852771375672093,
+      "padj": 0.0291096859625376
+    },
+    {
+      "gene_id": "ENSG00000172183",
+      "gene_name": "ISG20",
+      "baseMean": 96.68666788083038,
+      "log2FoldChange": -0.7082407366064573,
+      "padj": 0.029662952623084233
+    },
+    {
+      "gene_id": "ENSG00000168000",
+      "gene_name": "BSCL2",
+      "baseMean": 211.7504798156158,
+      "log2FoldChange": -0.519016476851229,
+      "padj": 0.029823369923437943
+    },
+    {
+      "gene_id": "ENSG00000169087",
+      "gene_name": "HSPBAP1",
+      "baseMean": 139.27153891030628,
+      "log2FoldChange": 0.6441967503827114,
+      "padj": 0.029865355618490283
+    },
+    {
+      "gene_id": "ENSG00000162409",
+      "gene_name": "PRKAA2",
+      "baseMean": 167.7900157040975,
+      "log2FoldChange": -0.5896573374559541,
+      "padj": 0.03022233111754659
+    },
+    {
+      "gene_id": "ENSG00000128805",
+      "gene_name": "ARHGAP22",
+      "baseMean": 145.4675385626067,
+      "log2FoldChange": -0.6857223205384381,
+      "padj": 0.03022233111754659
+    },
+    {
+      "gene_id": "ENSG00000196110",
+      "gene_name": "ZNF699",
+      "baseMean": 226.08315939232253,
+      "log2FoldChange": -0.5191732505440376,
+      "padj": 0.03022233111754659
+    },
+    {
+      "gene_id": "ENSG00000146674",
+      "gene_name": "IGFBP3",
+      "baseMean": 55.259452305966306,
+      "log2FoldChange": -1.091781094167497,
+      "padj": 0.030341978980364784
+    },
+    {
+      "gene_id": "ENSG00000230487",
+      "gene_name": "PSMG3-AS1",
+      "baseMean": 40.092297763216905,
+      "log2FoldChange": 1.2078360394067005,
+      "padj": 0.030617665628257355
+    },
+    {
+      "gene_id": "ENSG00000161048",
+      "gene_name": "NAPEPLD",
+      "baseMean": 146.5750917550068,
+      "log2FoldChange": 0.5555227459289006,
+      "padj": 0.03087422304851019
+    },
+    {
+      "gene_id": "ENSG00000142279",
+      "gene_name": "WTIP",
+      "baseMean": 348.57367798129985,
+      "log2FoldChange": 0.5274942804057744,
+      "padj": 0.03130240490512468
+    },
+    {
+      "gene_id": "ENSG00000112305",
+      "gene_name": "SMAP1",
+      "baseMean": 144.07765370738687,
+      "log2FoldChange": -0.5621917001038234,
+      "padj": 0.03145484042492134
+    },
+    {
+      "gene_id": "ENSG00000109501",
+      "gene_name": "WFS1",
+      "baseMean": 689.0635863216021,
+      "log2FoldChange": 0.5236535342629978,
+      "padj": 0.031534694946922764
+    },
+    {
+      "gene_id": "ENSG00000156869",
+      "gene_name": "FRRS1",
+      "baseMean": 418.4640725655025,
+      "log2FoldChange": -0.5334425052371793,
+      "padj": 0.03186143304251614
+    },
+    {
+      "gene_id": "ENSG00000181938",
+      "gene_name": "GINS3",
+      "baseMean": 233.32210722909312,
+      "log2FoldChange": 0.5241488653668148,
+      "padj": 0.032048717055647734
+    },
+    {
+      "gene_id": "ENSG00000153037",
+      "gene_name": "SRP19",
+      "baseMean": 197.28484659646972,
+      "log2FoldChange": 0.6746590464828607,
+      "padj": 0.032572311548245095
+    },
+    {
+      "gene_id": "ENSG00000167207",
+      "gene_name": "NOD2",
+      "baseMean": 252.06955059734096,
+      "log2FoldChange": -0.6935540379712818,
+      "padj": 0.03269370245048282
+    },
+    {
+      "gene_id": "ENSG00000105928",
+      "gene_name": "GSDME",
+      "baseMean": 172.07226706433332,
+      "log2FoldChange": 0.5894896536451354,
+      "padj": 0.032849266290525925
+    },
+    {
+      "gene_id": "ENSG00000167397",
+      "gene_name": "VKORC1",
+      "baseMean": 373.49351941441586,
+      "log2FoldChange": -0.6217901865554921,
+      "padj": 0.033376989943204045
+    },
+    {
+      "gene_id": "ENSG00000100916",
+      "gene_name": "BRMS1L",
+      "baseMean": 151.74718493754722,
+      "log2FoldChange": 0.5873237547891628,
+      "padj": 0.03374497748706232
+    },
+    {
+      "gene_id": "ENSG00000165025",
+      "gene_name": "SYK",
+      "baseMean": 197.36631828873237,
+      "log2FoldChange": 0.5976043312643604,
+      "padj": 0.033876637794544154
+    },
+    {
+      "gene_id": "ENSG00000137801",
+      "gene_name": "THBS1",
+      "baseMean": 1054.7535811890848,
+      "log2FoldChange": 2.653673872531449,
+      "padj": 0.03388615868499746
+    },
+    {
+      "gene_id": "ENSG00000261490",
+      "gene_name": null,
+      "baseMean": 322.0330482855941,
+      "log2FoldChange": 0.5359479112228334,
+      "padj": 0.03466488426106417
+    },
+    {
+      "gene_id": "ENSG00000267106",
+      "gene_name": "ZNF561-AS1",
+      "baseMean": 49.40203405225646,
+      "log2FoldChange": 0.9781668252266588,
+      "padj": 0.03466488426106417
+    },
+    {
+      "gene_id": "ENSG00000182389",
+      "gene_name": "CACNB4",
+      "baseMean": 90.34081395000543,
+      "log2FoldChange": -0.7725199639043147,
+      "padj": 0.03610624089150619
+    },
+    {
+      "gene_id": "ENSG00000024526",
+      "gene_name": "DEPDC1",
+      "baseMean": 2039.7745323272327,
+      "log2FoldChange": -0.5054070363855828,
+      "padj": 0.036879322703280634
+    },
+    {
+      "gene_id": "ENSG00000267858",
+      "gene_name": "MZF1-AS1",
+      "baseMean": 39.95607099550996,
+      "log2FoldChange": 1.1288229523445057,
+      "padj": 0.036879322703280634
+    },
+    {
+      "gene_id": "ENSG00000168575",
+      "gene_name": "SLC20A2",
+      "baseMean": 1029.0920724280961,
+      "log2FoldChange": 0.5736057329043974,
+      "padj": 0.03698249858227687
+    },
+    {
+      "gene_id": "ENSG00000100060",
+      "gene_name": "MFNG",
+      "baseMean": 108.69030886383017,
+      "log2FoldChange": 0.6466050176973921,
+      "padj": 0.03706248972730945
+    },
+    {
+      "gene_id": "ENSG00000119737",
+      "gene_name": "GPR75",
+      "baseMean": 64.70920861742188,
+      "log2FoldChange": 0.7845852161149063,
+      "padj": 0.037187030360936416
+    },
+    {
+      "gene_id": "ENSG00000184857",
+      "gene_name": "TMEM186",
+      "baseMean": 164.00738803190956,
+      "log2FoldChange": 0.5488440407995077,
+      "padj": 0.037819324880997894
+    },
+    {
+      "gene_id": "ENSG00000180801",
+      "gene_name": "ARSJ",
+      "baseMean": 52.09713854759156,
+      "log2FoldChange": -0.8899234824995778,
+      "padj": 0.03903132350321606
+    },
+    {
+      "gene_id": "ENSG00000160606",
+      "gene_name": "TLCD1",
+      "baseMean": 154.08476619917514,
+      "log2FoldChange": 0.5449436237801433,
+      "padj": 0.03948132849526423
+    },
+    {
+      "gene_id": "ENSG00000258301",
+      "gene_name": null,
+      "baseMean": 138.4613922423886,
+      "log2FoldChange": 0.5754953727184444,
+      "padj": 0.040777079992105565
+    },
+    {
+      "gene_id": "ENSG00000272870",
+      "gene_name": "SAP30-DT",
+      "baseMean": 36.06070664620744,
+      "log2FoldChange": -1.4166820433247,
+      "padj": 0.04128877341146198
+    },
+    {
+      "gene_id": "ENSG00000226180",
+      "gene_name": "ENSG00000226180",
+      "baseMean": 44.249479005846325,
+      "log2FoldChange": 0.9247444702083437,
+      "padj": 0.04135406794375309
+    },
+    {
+      "gene_id": "ENSG00000115295",
+      "gene_name": "CLIP4",
+      "baseMean": 868.7100895641665,
+      "log2FoldChange": 0.5026504870790119,
+      "padj": 0.04176122087388578
+    },
+    {
+      "gene_id": "ENSG00000164849",
+      "gene_name": "GPR146",
+      "baseMean": 66.67461806037208,
+      "log2FoldChange": -0.9773078046283341,
+      "padj": 0.041886985047187957
+    },
+    {
+      "gene_id": "ENSG00000196998",
+      "gene_name": "WDR45",
+      "baseMean": 350.46283672546,
+      "log2FoldChange": 0.5041542346799105,
+      "padj": 0.04201102580989636
+    },
+    {
+      "gene_id": "ENSG00000203867",
+      "gene_name": "RBM20",
+      "baseMean": 139.75591049268658,
+      "log2FoldChange": -0.6139933295692197,
+      "padj": 0.04317587296270421
+    },
+    {
+      "gene_id": "ENSG00000163964",
+      "gene_name": "PIGX",
+      "baseMean": 273.843977742375,
+      "log2FoldChange": 0.5221950587834986,
+      "padj": 0.04328267617823904
+    },
+    {
+      "gene_id": "ENSG00000197261",
+      "gene_name": "C6orf141",
+      "baseMean": 442.0767985224185,
+      "log2FoldChange": 0.6281767101631183,
+      "padj": 0.04329176993550606
+    },
+    {
+      "gene_id": "ENSG00000118894",
+      "gene_name": "EEF2KMT",
+      "baseMean": 236.4460554902332,
+      "log2FoldChange": 0.5536325891176233,
+      "padj": 0.04430945853720876
+    },
+    {
+      "gene_id": "ENSG00000244045",
+      "gene_name": "VMA12",
+      "baseMean": 147.32957215109548,
+      "log2FoldChange": 0.5738983487012022,
+      "padj": 0.0446336180742316
+    },
+    {
+      "gene_id": "ENSG00000108797",
+      "gene_name": "CNTNAP1",
+      "baseMean": 478.52025926912467,
+      "log2FoldChange": -0.5166657888708737,
+      "padj": 0.04489018435339044
+    },
+    {
+      "gene_id": "ENSG00000067992",
+      "gene_name": "PDK3",
+      "baseMean": 385.9350645269644,
+      "log2FoldChange": -0.6844401717174236,
+      "padj": 0.0449011203883232
+    },
+    {
+      "gene_id": "ENSG00000269657",
+      "gene_name": null,
+      "baseMean": 68.16626814376059,
+      "log2FoldChange": -0.7591900931049229,
+      "padj": 0.04519882543472481
+    },
+    {
+      "gene_id": "ENSG00000204876",
+      "gene_name": "ENSG00000204876",
+      "baseMean": 112.77287662838783,
+      "log2FoldChange": 1.042333265721041,
+      "padj": 0.045215496161204634
+    },
+    {
+      "gene_id": "ENSG00000163872",
+      "gene_name": "YEATS2",
+      "baseMean": 2907.1435340168664,
+      "log2FoldChange": -0.8846288769219466,
+      "padj": 0.045215496161204634
+    },
+    {
+      "gene_id": "ENSG00000141933",
+      "gene_name": "TPGS1",
+      "baseMean": 219.92153945352894,
+      "log2FoldChange": 0.5066465639241599,
+      "padj": 0.045628071265031586
+    },
+    {
+      "gene_id": "ENSG00000181982",
+      "gene_name": "CCDC149",
+      "baseMean": 209.15920386743164,
+      "log2FoldChange": 0.5442753994869511,
+      "padj": 0.04568893077614398
+    },
+    {
+      "gene_id": "ENSG00000185100",
+      "gene_name": "ADSS1",
+      "baseMean": 190.02837730976907,
+      "log2FoldChange": 0.5491700510424649,
+      "padj": 0.04568893077614398
+    },
+    {
+      "gene_id": "ENSG00000100167",
+      "gene_name": "SEPTIN3",
+      "baseMean": 332.51701429391204,
+      "log2FoldChange": -0.5248412869826449,
+      "padj": 0.04648582637261129
+    },
+    {
+      "gene_id": "ENSG00000186153",
+      "gene_name": "WWOX",
+      "baseMean": 114.90828544309397,
+      "log2FoldChange": -0.6130123402140455,
+      "padj": 0.046947029844412166
+    },
+    {
+      "gene_id": "ENSG00000167355",
+      "gene_name": "OR51B5",
+      "baseMean": 571.1273641701533,
+      "log2FoldChange": -0.5096529240501673,
+      "padj": 0.047721712084306034
+    },
+    {
+      "gene_id": "ENSG00000267598",
+      "gene_name": "IER2-AS1",
+      "baseMean": 43.78617251419583,
+      "log2FoldChange": -0.910006901282812,
+      "padj": 0.047751030362357234
+    },
+    {
+      "gene_id": "ENSG00000153814",
+      "gene_name": "JAZF1",
+      "baseMean": 83.15616672872324,
+      "log2FoldChange": -0.7996036429985707,
+      "padj": 0.048056844976605756
+    },
+    {
+      "gene_id": "ENSG00000074410",
+      "gene_name": "CA12",
+      "baseMean": 106.5208240418519,
+      "log2FoldChange": -0.7649165693168092,
+      "padj": 0.049166649276447365
+    },
+    {
+      "gene_id": "ENSG00000049246",
+      "gene_name": "PER3",
+      "baseMean": 267.4967090739613,
+      "log2FoldChange": 0.5006098265611062,
+      "padj": 0.04924656904417516
+    },
+    {
+      "gene_id": "ENSG00000145103",
+      "gene_name": "ILDR1",
+      "baseMean": 111.51608292829665,
+      "log2FoldChange": -0.632515600385954,
+      "padj": 0.049633469964079
+    }
+  ]
+}
