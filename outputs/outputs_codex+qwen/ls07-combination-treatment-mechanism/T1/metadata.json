@@ -1,0 +1,22 @@
+{
+  "task_id": "ls07-combination-treatment-mechanism",
+  "condition": "T1",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "go_term_analysis",
+    "string-ppi-enrichment"
+  ],
+  "whitelist_total": 143,
+  "status": "completed",
+  "started_at": "2026-08-29T17:12:23.222529+00:00",
+  "usage": {
+    "input_tokens": 1894094,
+    "cached_input_tokens": 1782400,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 44575,
+    "reasoning_output_tokens": 21430
+  },
+  "finished_at": "2026-08-29T17:34:17.677248+00:00",
+  "return_code": 0
+}

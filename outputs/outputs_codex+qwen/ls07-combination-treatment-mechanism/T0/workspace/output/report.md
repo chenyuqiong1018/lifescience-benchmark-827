@@ -1,0 +1,15 @@
+# LS07 Combination-Treatment Mechanism: DE and Pathway Enrichment Report
+
+**Contrast.** Cisplatin_IC50_CBD_IC50 (samples 9-1..9-3) versus DMSO (3-1..3-3), from the frozen BixBench bix-43 raw counts.
+
+**Differential expression.** ENSG IDs were mapped to HGNC symbols with the supplied `ensg_to_gene_name.tsv` (counts of duplicate symbols summed; 50,746 symbols retained). DESeq2 was run via PyDESeq2 0.5.0 (`~condition`, treatment vs DMSO contrast, Cooks outlier refit). Of 50,746 tested genes, 84 were differentially expressed at padj<0.05 and |log2FC|>=1 (59 up, 25 down), including CYP1A1, CYP1B1 and AHRR among the top up-regulated genes. Full statistics are in `deseq2_results.csv` (supplementary).
+
+**Enrichment.** Over-representation analysis used GSEApy 1.1.4 `enrichr` in local mode against the frozen `Reactome_2022.gmt` (1,818 terms; sha256 verified against the supplied manifest) with the supplied background universe `Reactome_2022.background.txt` (10,489 genes). No library was downloaded or substituted and no external identifier mapping was applied. Statistics: one-sided hypergeometric (Fisher) test with Benjamini-Hochberg correction. 40 of 84 DEGs fell inside the supplied universe; 278 of 1,818 tested terms had >=1 overlapping gene and are reported in `pathway_enrichment.csv`.
+
+**Results.** No term reached BH-adjusted p<0.05. The top-ranked terms were "Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET)" (adjusted p=0.070; CYP1B1, CYP1A1), "Synthesis Of (16-20)-Hydroxyeicosatetraenoic Acids (HETE)", "Cytochrome P450 - Arranged By Substrate Type", "Xenobiotics", "Endogenous Sterols", "Phase I - Functionalization Of Compounds", and PPARalpha-driven lipid metabolism. Xenobiotic/drug-metabolism themes accounted for 6 of the top 15 ranked terms.
+
+**Mechanism call.** The best-supported primary cellular mechanism is induction of cytochrome P450-mediated xenobiotic/drug metabolism, consistent with aryl-hydrocarbon-receptor (AhR) pathway activation (canonical AhR targets CYP1A1, CYP1B1 and AHRR are up-regulated), as a transcriptional response to the cisplatin+CBD combination. Secondary, weaker signals involve lipid metabolism (PPARalpha) and TP53-regulated cell-death genes.
+
+**Enrichment is not causation.** These enrichments are statistical associations: annotated Reactome gene sets are over-represented among differentially expressed genes. They do not demonstrate that the identified pathways causally mediate the drug response, metabolize the drugs, or drive cytotoxicity, and the single combined-treatment contrast cannot separate the causal contributions of cisplatin versus CBD. Because no term passed the multiple-testing threshold, the call reflects the strongest ranked enrichment evidence and is exploratory.
+
+**Validation.** All 278 reported hypergeometric p-values and BH-adjusted p-values were independently recomputed from the frozen GMT and universe with SciPy and matched `pathway_enrichment.csv` exactly; GMT/background/mapping sha256 values match the supplied manifest.

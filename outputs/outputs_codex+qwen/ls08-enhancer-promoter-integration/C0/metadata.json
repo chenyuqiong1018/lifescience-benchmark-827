@@ -1,0 +1,9 @@
+{
+  "task_id": "ls08-enhancer-promoter-integration",
+  "condition": "C0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [],
+  "whitelist_total": 143,
+  "status": "prepared"
+}

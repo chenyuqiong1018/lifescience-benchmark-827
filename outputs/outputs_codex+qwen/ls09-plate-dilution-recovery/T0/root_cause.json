@@ -1,0 +1,15 @@
+{
+  "failed_well": "B2",
+  "failure_mode": "tip pickup failed before aspiration",
+  "liquid_moved": false,
+  "completed_wells": [
+    "A1",
+    "A2",
+    "A3",
+    "B1"
+  ],
+  "recovery_wells": [
+    "B2",
+    "B3"
+  ]
+}

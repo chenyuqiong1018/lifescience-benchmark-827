@@ -1,0 +1,121 @@
+{
+  "task": "ls07-combination-treatment-mechanism",
+  "comparison": {
+    "treatment": "Cisplatin_IC50_CBD_IC50",
+    "control": "DMSO",
+    "n_treatment": 3,
+    "n_control": 3
+  },
+  "method": {
+    "differential_expression": "pydeseq2 0.5.0 (DESeq2 model, ~condition)",
+    "enrichment": "GSEApy 1.1.4 enrichr, offline one-sided Fisher exact test against a frozen GMT with the supplied background universe",
+    "library": "Reactome_2022 (frozen, byte-locked GMT; 1818 terms)",
+    "background_universe": "Reactome_2022.background.txt (10489 genes)",
+    "significance_criteria": "padj < 0.05 and |log2FC| >= 1.0"
+  },
+  "primary_mechanism": {
+    "name": "Induction of aryl hydrocarbon receptor (AhR)-associated xenobiotic and eicosanoid metabolism",
+    "description": "Combination treatment upregulates the canonical AhR/xenobiotic response program: AHRR, CYP1A1 and CYP1B1 are strongly induced, driving enrichment of cytochrome P450, xenobiotic/Phase-I metabolism and arachidonic-acid-derived eicosanoid (EET/DHET, HETE) synthesis pathways.",
+    "keyword_evidence": [
+      "cytochrome p450",
+      "xenobiotic",
+      "eicosatrienoic",
+      "hydroxyeicosatetraenoic",
+      "phase i",
+      "endogenous sterols"
+    ],
+    "top_pathway": {
+      "term": "Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET) R-HSA-2142670",
+      "reactome_id": "R-HSA-2142670",
+      "p_value": 0.0003913426488318,
+      "adjusted_p_value": 0.0697698072478822,
+      "overlap": "2/8",
+      "genes": [
+        "CYP1A1",
+        "CYP1B1"
+      ]
+    },
+    "supporting_pathways": [
+      {
+        "term": "Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET) R-HSA-2142670",
+        "reactome_id": "R-HSA-2142670",
+        "p_value": 0.0003913426488318,
+        "adjusted_p_value": 0.0697698072478822,
+        "overlap": "2/8",
+        "genes": [
+          "CYP1A1",
+          "CYP1B1"
+        ]
+      },
+      {
+        "term": "Synthesis Of (16-20)-Hydroxyeicosatetraenoic Acids (HETE) R-HSA-2142816",
+        "reactome_id": "R-HSA-2142816",
+        "p_value": 0.0005019410593372,
+        "adjusted_p_value": 0.0697698072478822,
+        "overlap": "2/9",
+        "genes": [
+          "CYP1A1",
+          "CYP1B1"
+        ]
+      },
+      {
+        "term": "Cytochrome P450 - Arranged By Substrate Type R-HSA-211897",
+        "reactome_id": "R-HSA-211897",
+        "p_value": 0.0019054056269682,
+        "adjusted_p_value": 0.1765675880990624,
+        "overlap": "3/65",
+        "genes": [
+          "AHRR",
+          "CYP1A1",
+          "CYP1B1"
+        ]
+      },
+      {
+        "term": "Xenobiotics R-HSA-211981",
+        "reactome_id": "R-HSA-211981",
+        "p_value": 0.0037115465238214,
+        "adjusted_p_value": 0.2579524834055922,
+        "overlap": "2/24",
+        "genes": [
+          "AHRR",
+          "CYP1A1"
+        ]
+      },
+      {
+        "term": "Endogenous Sterols R-HSA-211976",
+        "reactome_id": "R-HSA-211976",
+        "p_value": 0.0046861776219159,
+        "adjusted_p_value": 0.2605514757785276,
+        "overlap": "2/27",
+        "genes": [
+          "AHRR",
+          "CYP1B1"
+        ]
+      }
+    ],
+    "marker_genes": [
+      {
+        "symbol": "AHRR",
+        "log2FoldChange": 2.1279281106734,
+        "padj": 9.75908065462643e-26
+      },
+      {
+        "symbol": "CYP1A1",
+        "log2FoldChange": 2.031840453106045,
+        "padj": 1.1469369725275286e-19
+      },
+      {
+        "symbol": "CYP1B1",
+        "log2FoldChange": 1.122330547402038,
+        "padj": 5.202623858263297e-06
+      }
+    ]
+  },
+  "de_summary": {
+    "n_up": 59,
+    "n_down": 25,
+    "n_significant_used_for_enrichment": 84
+  },
+  "evidence_strength": "Moderate: the top-ranked pathway set (min Adjusted P-value ~0.07) does not survive BH correction at 0.05 over 278 overlapping terms, but the same three markers (AHRR, CYP1A1, CYP1B1) recur across six independent top pathways and are among the most strongly induced individual genes (padj <= 1e-19 for AHRR and CYP1A1).",
+  "causation_caveat": "Pathway enrichment is a statistical association between a DE gene list and curated pathway annotations. It does not demonstrate that this mechanism causes the treatment response; functional validation would require perturbation experiments."
+}

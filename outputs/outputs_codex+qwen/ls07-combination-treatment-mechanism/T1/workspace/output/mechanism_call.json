@@ -1,0 +1,178 @@
+{
+  "task": "ls07-combination-treatment-mechanism",
+  "comparison": "Cisplatin_IC50_CBD_IC50 vs DMSO",
+  "primary_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism",
+  "primary_mechanism_detail": "Arachidonic acid / eicosanoid metabolism",
+  "mechanism_evidence": {
+    "n_de_genes": 82,
+    "n_up": 56,
+    "n_down": 26,
+    "de_criteria": {
+      "padj_cutoff": 0.05,
+      "abs_log2fc_cutoff": 1.0
+    },
+    "query_genes_in_background": 38,
+    "background_gene_count": 10489,
+    "library_term_count": 1818,
+    "terms_tested_with_overlap": 275,
+    "n_pathways_fdr_lt_0.05": 0,
+    "min_raw_p_value": 0.0003529795564931231,
+    "min_adjusted_p_value": 0.06225911859079153,
+    "significant_meta_family_counts": {}
+  },
+  "top_pathways": [
+    {
+      "term": "Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET) R-HSA-2142670",
+      "overlap": "2/8",
+      "p_value": 0.0003529795564931231,
+      "adjusted_p_value": 0.06225911859079153,
+      "odds_ratio": 110.06849315068493,
+      "combined_score": 874.9455047284025,
+      "genes": [
+        "CYP1A1",
+        "CYP1B1"
+      ],
+      "family": "Arachidonic acid / eicosanoid metabolism",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "Synthesis Of (16-20)-Hydroxyeicosatetraenoic Acids (HETE) R-HSA-2142816",
+      "overlap": "2/9",
+      "p_value": 0.00045279358975121114,
+      "adjusted_p_value": 0.06225911859079153,
+      "odds_ratio": 95.38356164383562,
+      "combined_score": 734.4605009813494,
+      "genes": [
+        "CYP1A1",
+        "CYP1B1"
+      ],
+      "family": "Arachidonic acid / eicosanoid metabolism",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "Cytochrome P450 - Arranged By Substrate Type R-HSA-211897",
+      "overlap": "3/65",
+      "p_value": 0.001641330794178181,
+      "adjusted_p_value": 0.15045532279966659,
+      "odds_ratio": 16.389070422535212,
+      "combined_score": 105.09078250370851,
+      "genes": [
+        "CYP1A1",
+        "AHRR",
+        "CYP1B1"
+      ],
+      "family": "Xenobiotic/drug metabolism (cytochrome P450)",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "Xenobiotics R-HSA-211981",
+      "overlap": "2/24",
+      "p_value": 0.003354490570422867,
+      "adjusted_p_value": 0.2306212267165721,
+      "odds_ratio": 31.748858447488583,
+      "combined_score": 180.88770379865534,
+      "genes": [
+        "CYP1A1",
+        "AHRR"
+      ],
+      "family": "Xenobiotic/drug metabolism (cytochrome P450)",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "Endogenous Sterols R-HSA-211976",
+      "overlap": "2/27",
+      "p_value": 0.00423696079045196,
+      "adjusted_p_value": 0.23303284347485778,
+      "odds_ratio": 28.005640612409348,
+      "combined_score": 153.02027351422382,
+      "genes": [
+        "AHRR",
+        "CYP1B1"
+      ],
+      "family": "Lipid metabolism / PPAR signaling",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "Phase I - Functionalization Of Compounds R-HSA-211945",
+      "overlap": "3/104",
+      "p_value": 0.006210317447155287,
+      "adjusted_p_value": 0.2639513421149247,
+      "odds_ratio": 10.053909664885866,
+      "combined_score": 51.089376950940725,
+      "genes": [
+        "CYP1A1",
+        "AHRR",
+        "CYP1B1"
+      ],
+      "family": "Xenobiotic/drug metabolism (cytochrome P450)",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "O-linked Glycosylation R-HSA-5173105",
+      "overlap": "3/107",
+      "p_value": 0.00671876143565263,
+      "adjusted_p_value": 0.2639513421149247,
+      "odds_ratio": 9.762450299885437,
+      "combined_score": 48.84008865400377,
+      "genes": [
+        "GALNT5",
+        "MUC19",
+        "THBS1"
+      ],
+      "family": "Other",
+      "meta_mechanism": "Other"
+    },
+    {
+      "term": "PPARA Activates Gene Expression R-HSA-1989781",
+      "overlap": "3/116",
+      "p_value": 0.008390326946200552,
+      "adjusted_p_value": 0.2686468420022657,
+      "odds_ratio": 8.980517466029658,
+      "combined_score": 42.932942437846044,
+      "genes": [
+        "CYP1A1",
+        "AHRR",
+        "NR1D1"
+      ],
+      "family": "Lipid metabolism / PPAR signaling",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "Regulation Of Lipid Metabolism By PPARalpha R-HSA-400206",
+      "overlap": "3/118",
+      "p_value": 0.008792078465528695,
+      "adjusted_p_value": 0.2686468420022657,
+      "odds_ratio": 8.823303457106274,
+      "combined_score": 41.76867273998382,
+      "genes": [
+        "CYP1A1",
+        "AHRR",
+        "NR1D1"
+      ],
+      "family": "Lipid metabolism / PPAR signaling",
+      "meta_mechanism": "Cytochrome P450-mediated xenobiotic/drug and lipid metabolism"
+    },
+    {
+      "term": "TP53 Regulates Transcription Of Cell Death Genes R-HSA-5633008",
+      "overlap": "2/44",
+      "p_value": 0.010986137975512155,
+      "adjusted_p_value": 0.28466608797510295,
+      "odds_ratio": 16.775987107171638,
+      "combined_score": 75.67850748203925,
+      "genes": [
+        "TP53I3",
+        "IGFBP3"
+      ],
+      "family": "Apoptosis / p53-mediated cell death",
+      "meta_mechanism": "Apoptosis and p53-mediated cell death"
+    }
+  ],
+  "method": {
+    "de": "pydeseq2 0.5.4 (DESeq2-style negative-binomial GLM), contrast condition [Cisplatin_IC50_CBD_IC50 vs DMSO], genes with total counts >= 10 across the 6 samples tested, padj < 0.05 and |log2FC| >= 1 called DE",
+    "enrichment": "gseapy 1.1.4 enrichr, local offline mode; one-sided hypergeometric/Fisher exact test against the supplied background universe; Enrichr odds ratio and combined score; Benjamini-Hochberg FDR",
+    "gene_set_library": "Reactome_2022 (frozen GMT)",
+    "background_universe": "Reactome_2022.background.txt (10489 genes)"
+  },
+  "causation_note": "Pathway enrichment identifies over-represented annotated gene sets among differentially expressed genes. It is associative statistical evidence about transcriptional state and does not by itself demonstrate a causal mechanism.",
+  "generated_at": "2026-08-29T17:30:43+00:00"
+}

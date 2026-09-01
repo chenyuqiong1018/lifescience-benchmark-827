@@ -1,0 +1,129 @@
+{
+  "task": "ls07-combination-treatment-mechanism",
+  "comparison": "Cisplatin_IC50_CBD_IC50 vs DMSO",
+  "differential_expression": {
+    "method": "DESeq2 via PyDESeq2 0.5.0 (Wald test, BH adjustment, Cooks outlier refit)",
+    "design": "~condition",
+    "contrast": [
+      "condition",
+      "Cisplatin_IC50_CBD_IC50",
+      "DMSO"
+    ],
+    "samples": {
+      "control": [
+        "3-1",
+        "3-2",
+        "3-3"
+      ],
+      "treatment": [
+        "9-1",
+        "9-2",
+        "9-3"
+      ]
+    },
+    "gene_id_mapping": "provided ensg_to_gene_name.tsv (counts of duplicate symbols summed)",
+    "tested_genes": 50746,
+    "selection_rule": "padj<0.05 and |log2FC|>=1.0",
+    "n_degs": 84,
+    "n_up": 59,
+    "n_down": 25
+  },
+  "enrichment": {
+    "method": "Over-representation analysis via GSEApy 1.1.4 enrichr (local GMT, one-sided hypergeometric/Fisher, Benjamini-Hochberg)",
+    "library": "frozen Reactome_2022 GMT (1818 terms); not downloaded or substituted",
+    "background_universe": "provided Reactome_2022.background.txt (10489 genes)",
+    "terms_tested": 1818,
+    "terms_with_overlap_reported": 278,
+    "terms_significant_BH_lt_0.05": 0
+  },
+  "primary_mechanism": "Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET) R-HSA-2142670",
+  "primary_mechanism_theme": "Xenobiotic / drug metabolism (CYP450, Phase I/II)",
+  "evidence_basis": "no term reached BH<0.05; call based on top-ranked terms (best: adjusted p=6.977e-02)",
+  "mechanism_description": "Best-supported primary cellular mechanism: 'Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET) R-HSA-2142670' (BH-adjusted p=6.977e-02; no term reached BH<0.05; call based on top-ranked terms (best: adjusted p=6.977e-02)). Dominant theme among the top 15 ranked terms: 'Xenobiotic / drug metabolism (CYP450, Phase I/II)' (6/15).",
+  "top_pathways": [
+    {
+      "term": "Synthesis Of Epoxy (EET) And Dihydroxyeicosatrienoic Acids (DHET) R-HSA-2142670",
+      "adjusted_p_value": 0.06976980724788226,
+      "p_value": 0.0003913426488318364,
+      "overlap": "2/8",
+      "genes": "CYP1B1;CYP1A1"
+    },
+    {
+      "term": "Synthesis Of (16-20)-Hydroxyeicosatetraenoic Acids (HETE) R-HSA-2142816",
+      "adjusted_p_value": 0.06976980724788226,
+      "p_value": 0.0005019410593372825,
+      "overlap": "2/9",
+      "genes": "CYP1B1;CYP1A1"
+    },
+    {
+      "term": "Cytochrome P450 - Arranged By Substrate Type R-HSA-211897",
+      "adjusted_p_value": 0.1765675880990624,
+      "p_value": 0.0019054056269682993,
+      "overlap": "3/65",
+      "genes": "CYP1B1;AHRR;CYP1A1"
+    },
+    {
+      "term": "Xenobiotics R-HSA-211981",
+      "adjusted_p_value": 0.2579524834055922,
+      "p_value": 0.0037115465238214706,
+      "overlap": "2/24",
+      "genes": "AHRR;CYP1A1"
+    },
+    {
+      "term": "Endogenous Sterols R-HSA-211976",
+      "adjusted_p_value": 0.2605514757785276,
+      "p_value": 0.004686177621915964,
+      "overlap": "2/27",
+      "genes": "CYP1B1;AHRR"
+    },
+    {
+      "term": "Phase I - Functionalization Of Compounds R-HSA-211945",
+      "adjusted_p_value": 0.26945184921586474,
+      "p_value": 0.007170216432731397,
+      "overlap": "3/104",
+      "genes": "CYP1B1;AHRR;CYP1A1"
+    },
+    {
+      "term": "Interleukin-4 And Interleukin-13 Signaling R-HSA-6785807",
+      "adjusted_p_value": 0.26945184921586474,
+      "p_value": 0.007754010049377404,
+      "overlap": "3/107",
+      "genes": "FOS;CEBPD;CDKN1A"
+    },
+    {
+      "term": "O-linked Glycosylation R-HSA-5173105",
+      "adjusted_p_value": 0.26945184921586474,
+      "p_value": 0.007754010049377404,
+      "overlap": "3/107",
+      "genes": "MUC19;THBS1;GALNT5"
+    },
+    {
+      "term": "PPARA Activates Gene Expression R-HSA-1989781",
+      "adjusted_p_value": 0.28165024493927865,
+      "p_value": 0.009671038221334256,
+      "overlap": "3/116",
+      "genes": "NR1D1;AHRR;CYP1A1"
+    },
+    {
+      "term": "Regulation Of Lipid Metabolism By PPARalpha R-HSA-400206",
+      "adjusted_p_value": 0.28165024493927865,
+      "p_value": 0.010131303774794195,
+      "overlap": "3/118",
+      "genes": "NR1D1;AHRR;CYP1A1"
+    }
+  ],
+  "top_ranked_theme_counts": {
+    "Xenobiotic / drug metabolism (CYP450, Phase I/II)": 6,
+    "Lipid / general metabolism": 3,
+    "Immune / signal transduction": 2,
+    "Protein homeostasis / trafficking / glycosylation": 2,
+    "DNA damage response / DNA repair": 1,
+    "Cell cycle / mitosis": 1
+  },
+  "significant_theme_counts": {},
+  "caveats": [
+    "Pathway enrichment identifies annotated gene sets over-represented among DE genes; it is statistical association, not demonstrated causation.",
+    "No Reactome term passed BH<0.05 in this contrast; the mechanism call reflects the strongest ranked enrichment evidence and is exploratory.",
+    "The contrast measures the combined treatment's transcriptomic response vs DMSO; it does not separate the causal contribution of each drug."
+  ]
+}

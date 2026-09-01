@@ -1,0 +1,26 @@
+{
+  "outcome": "Efficacy",
+  "outcome_coding": {
+    "PR": 1,
+    "SD": 0,
+    "PD": 0
+  },
+  "gender_reference_level": "Female",
+  "gender_contrast": "Male vs Female",
+  "predictors": [
+    "BMI",
+    "Age",
+    "Gender"
+  ],
+  "complete_case_variables": [
+    "Efficacy",
+    "Age",
+    "Gender",
+    "BMI"
+  ],
+  "n_input_rows": 121,
+  "n_complete_cases": 80,
+  "n_response_1": 41,
+  "n_response_0": 39,
+  "model": "binary logistic regression (maximum likelihood)"
+}

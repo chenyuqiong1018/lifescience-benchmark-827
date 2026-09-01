@@ -1,0 +1,31 @@
+{
+  "resource_name": "Reactome_2022",
+  "source_manifest": "inputs/Reactome_2022.manifest.json",
+  "gmt_file": "inputs/Reactome_2022.gmt",
+  "gmt_sha256": "cfe1adc75aa3137ba74c1b35a3098e88ea1708b204e5edfd788092b7ef5c08f8",
+  "gmt_sha256_matches_input_manifest": true,
+  "background_file": "inputs/Reactome_2022.background.txt",
+  "background_sha256": "1ef29c29901cdc2e1efdfd378141ea6811f49e2d70b35e63be2a4b0e9c41c0cc",
+  "background_sha256_matches_input_manifest": true,
+  "mapping_file": "inputs/ensg_to_gene_name.tsv",
+  "mapping_sha256": "bcee755a136bec21e8e60886acbbb841751633b67ba786f61e52857295cc9c17",
+  "mapping_sha256_matches_input_manifest": true,
+  "term_count_in_gmt": 1818,
+  "background_gene_count_observed": 10489,
+  "background_used_as_tested_universe": true,
+  "tool": {
+    "name": "gseapy",
+    "version": "1.1.4",
+    "entry_point": "gseapy.enrichr",
+    "statistics": "one-sided hypergeometric (Fisher) test with Benjamini-Hochberg adjustment"
+  },
+  "environment": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "pandas": "3.0.5",
+    "scipy": "1.15.3"
+  },
+  "compatibility_note": "anndata>=0.13 reshapes 1-D varm arrays to (n,1); analysis.py applies a documented shim preserving 1-D masks for PyDESeq2 0.5.0 (no effect on statistics).",
+  "policy_compliance": "No pathway library downloaded or substituted; only the frozen input GMT/background/mapping were used, per input manifest run_policy.",
+  "run_date": "2026-08-30"
+}

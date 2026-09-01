@@ -1,0 +1,12 @@
+{
+  "task_id": "ls08-enhancer-promoter-integration",
+  "condition": "T0",
+  "model": "qwen3.8-max",
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "installed_skills": [
+    "regulatory_region_analysis",
+    "region-gene-elements"
+  ],
+  "whitelist_total": 143,
+  "status": "prepared"
+}

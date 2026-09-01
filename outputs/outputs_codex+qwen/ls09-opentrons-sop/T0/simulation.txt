@@ -1,0 +1,3 @@
+C:\Python314\python.exe: Error while finding module specification for 'opentrons.simulate' (ModuleNotFoundError: No module named 'opentrons')
+
+exit code: 1
